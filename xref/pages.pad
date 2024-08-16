@@ -1,0 +1,15 @@
+<blockquote>
+
+  {block}
+
+    {go}
+
+      <a href="@pad@xref/go{?go}{?type}{?item}">{$go}</a> 
+
+      <br>
+
+    {/go}
+
+  {/block}
+
+</blockquote>
