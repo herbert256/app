@@ -17,3 +17,4 @@ sequence/random
 sequence/step_multiple
 sequence/syntax
 sequence/trim
+sequence/new

@@ -3,11 +3,11 @@
     <td>
 
 <p>
-PAD parses on the fly, on demand, it searches for the first <b>}</b>, then it takes the first </b>{</b> before it, and analyses it to see if it is a PAD tag of PAD variable.
+PAD parses on the fly (on demand) it searches for the first <b>}</b>, then it takes the first <b>{</b> before it, and analyses it to see if it is a PAD tag of PAD variable.
 </p>
 
 <p>
-In below example, the <code style="color: #000000"><b>{<font color="green"><font color="red">$</font>myVar</font>}</b></code> part is parsed first and executed, lets assume <code style="color: #000000"><b>{<font color="green"><font color="red">$</font>myVar</font>}</b></code> has the value ABC.
+In below example, the <code style="color: #000000"><b>{<font color="green"><font color="red">$</font>myVar</font>}</b></code> part is parsed first and executed.
 </p>
 
 
@@ -27,7 +27,7 @@ In below example, the <code style="color: #000000"><b>{<font color="green"><font
       <tr>
         
         
-          <td style="vertical-align:top"><pre><code style="color: #000000"><b>{<font color="blue">pad </font><font color="red">myOption=<font color="black">'</font><b><font color="black">{</font><font color="green"><font color="red"><font color="red">$</font></font>myVar</font><font color="black">}</font></b><font color="black">'</font></font>}</b><br>   ....<br><b>{/<font color="blue">pad</font><font color="red"></font>}</b></code></pre></td>
+          <td style="vertical-align:top"><pre><code style="color: #000000"><b>{<font color="blue">pad </font><font color="red">myOption=<font color="black">'</font><b><font color="black">{</font><font color="green"><font color="red"><font color="red">$</font></font>myVar</font><font color="black">}</font></b><font color="black">'</font><font color="black">,</font> <font color="red">$</font>xyz=789</font>}</b><br>   ....<br><b>{/<font color="blue">pad</font><font color="red"></font>}</b></code></pre></td>
         
         
       </tr>
@@ -43,7 +43,7 @@ In below example, the <code style="color: #000000"><b>{<font color="green"><font
 
 
 <p>
-The result is that then below is parsed, and now it will be the <b>{</b><b>pad</b><b>}</b> tag that is executed.
+Lets assume <code style="color: #000000"><b>{<font color="green"><font color="red">$</font>myVar</font>}</b></code> has the value ABC, then the result will be below, and now the <b>{</b><b>pad</b><b>}</b> tag will be processed.
 </p>
 
 
@@ -63,7 +63,7 @@ The result is that then below is parsed, and now it will be the <b>{</b><b>pad</
       <tr>
         
         
-          <td style="vertical-align:top"><pre><code style="color: #000000"><b>{<font color="blue">pad </font><font color="red">myOption=<font color="black">'</font>ABC<font color="black">'</font></font>}</b><br>   ....<br><b>{/<font color="blue">pad</font><font color="red"></font>}</b></code></pre></td>
+          <td style="vertical-align:top"><pre><code style="color: #000000"><b>{<font color="blue">pad </font><font color="red">myOption=<font color="black">'</font>ABC<font color="black">'</font><font color="black">,</font> <font color="red">$</font>xyz=789</font>}</b><br>   ....<br><b>{/<font color="blue">pad</font><font color="red"></font>}</b></code></pre></td>
         
         
       </tr>
@@ -99,7 +99,7 @@ If you do not put quotes around <code style="color: #000000"><b>{<font color="gr
       <tr>
         
         
-          <td style="vertical-align:top"><pre><code style="color: #000000"><b>{<font color="blue">pad </font><font color="red">myOption=ABC</font>}</b><br>   ....<br><b>{/<font color="blue">pad</font><font color="red"></font>}</b></code></pre></td>
+          <td style="vertical-align:top"><pre><code style="color: #000000"><b>{<font color="blue">pad </font><font color="red">myOption=ABC<font color="black">,</font> <font color="red">$</font>xyz=789</font>}</b><br>   ....<br><b>{/<font color="blue">pad</font><font color="red"></font>}</b></code></pre></td>
         
         
       </tr>

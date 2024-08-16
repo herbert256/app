@@ -1,0 +1,4 @@
+xref/index
+xref/go
+xref/dir
+xref/pages
