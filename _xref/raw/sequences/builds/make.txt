@@ -1,4 +1,0 @@
-sequence/even_odd
-sequence/other
-sequence/prime_or_not
-xref/go

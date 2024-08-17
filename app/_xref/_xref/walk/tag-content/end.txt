@@ -1,0 +1,4 @@
+content/2
+content/2
+manual/the_content_tag
+manual/the_content_tag

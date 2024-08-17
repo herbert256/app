@@ -37,6 +37,7 @@ sequence/loop_source
 sequence/make
 sequence/make_keep_remove
 sequence/named
+sequence/new
 sequence/other
 sequence/prime_or_not
 sequence/print
@@ -59,4 +60,3 @@ vars/at/4
 vars/at/6
 walk/1
 walk/2
-sequence/new

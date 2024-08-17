@@ -13,3 +13,5 @@ properties/doc1
 properties/doc2
 properties/doc3
 properties/doc4
+tag_return_values/2
+vars/at/10

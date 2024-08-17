@@ -1,0 +1,2 @@
+manual/tags
+manual/tags
