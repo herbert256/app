@@ -1,7 +1,8 @@
 <?php
 
-  $tagClose = ( padTagParm ('close') ) ? '/' : '';
+  $tagClose  = ( padTagParm ('close')  ) ? '/' : '';
+  $tagSingle = ( padTagParm ('single') ) ? '/' : '';
 
-  return '<b>&open;</b><b>' . $tagClose . $padParm . '</b><b>&close;</b>';
+  return "<b>&open;$tagClose$padParm$tagSingle&close;</b>";
 
 ?>
