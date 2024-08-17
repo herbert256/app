@@ -1,3 +1,0 @@
-manual/name
-manual/parse
-manual/properties

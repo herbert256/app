@@ -1,6 +1,0 @@
-content/5
-content/7
-manual/the_content_tag
-manual/the_pad_tag
-miscellaneous/local
-miscellaneous/pad

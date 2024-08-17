@@ -1,3 +1,0 @@
-xref/dir
-xref/index
-xref/pages

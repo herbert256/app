@@ -1,5 +1,0 @@
-sequence/figurate
-sequence/intersection
-sequence/loop
-sequence/random
-sequence/syntax

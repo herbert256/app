@@ -1,1 +1,0 @@
-manual/options_variables_parameters
