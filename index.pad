@@ -23,8 +23,6 @@
       <p>{example 'hello/hello', skipNames}
     </blockquote>
   
-    {trace} 123 {true} 456 {/true} 789 {/trace}
-
     <h3>Don't call us</h3>
 
     <blockquote>

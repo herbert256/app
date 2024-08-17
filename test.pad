@@ -1,0 +1,15 @@
+aaa
+{sequence rows=10}
+  111
+  {true}{true}{true}
+    222
+    {trace}
+      {true}{true}{true}
+         klm
+      {/true}{/true}{/true}
+    {/trace}
+    888
+  {/true}{/true}{/true}
+  999
+{/sequence}
+zzz
