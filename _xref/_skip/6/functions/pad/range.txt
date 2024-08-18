@@ -1,9 +1,0 @@
-functions/between
-functions/range
-seq/first_last
-seq/other
-seq/random
-seq/shift_pop
-seq/slice_splice
-seq/store
-seq/store2

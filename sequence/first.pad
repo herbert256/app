@@ -2,28 +2,28 @@
 
 {table}
 
-{demo}{sequence range='11..30'}
-  {$range}
+{demo}{sequence '11..30'}
+  {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence range='11..30', first}
-  {$range}
+{demo}{sequence '11..30', first}
+  {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence range='11..30', first=10}
-  {$range}
+{demo}{sequence '11..30', first=10}
+  {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence range='11..30', last}
-  {$range}
+{demo}{sequence '11..30', last}
+  {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence range='11..30', last=10}
-  {$range}
+{demo}{sequence '11..30', last=10}
+  {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence range='11..30', reverse, last=10}
-  {$range}
+{demo}{sequence '11..30', reverse, last=10}
+  {$sequence}
 {/sequence}{/demo}
 
 {/table}

@@ -1,1 +1,1 @@
-seq/trim
+sequence/trim

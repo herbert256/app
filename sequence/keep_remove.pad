@@ -5,21 +5,21 @@
 {/demo}
 
 {demo}
-{keep 'mySeq' , even}
-  {$keep}
-{/keep}
+{sequence mySeq, keep, even}
+  {$sequence}
+{/sequence}
 {/demo}
 
 {demo}
-{keep 'mySeq', multiple=5}
-  {$keep}
-{/keep}
+{sequence mySeq, keep, multiple=5}
+  {$sequence}
+{/sequence}
 {/demo}
 
 {demo}
-{keep 'mySeq', even, multiple=5}
-  {$keep}
-{/keep}
+{sequence mySeq, keep, even, multiple=5}
+  {$sequence}
+{/sequence}
 {/demo}
 
 {/table}{table}
@@ -29,21 +29,21 @@
 {/demo}
 
 {demo}
-{remove 'mySeq' , even}
-  {$remove}
-{/remove}
+{sequence mySeq, remove , even}
+  {$sequence}
+{/sequence}
 {/demo}
 
 {demo}
-{remove 'mySeq', multiple=5}
-  {$remove}
-{/remove}
+{sequence mySeq, remove, multiple=5}
+  {$sequence}
+{/sequence}
 {/demo}
 
 {demo}
-{remove 'mySeq', even, multiple=5}
-  {$remove}
-{/remove}
+{sequence mySeq, remove, even, multiple=5}
+  {$sequence}
+{/sequence}
 {/demo}
 
 {/table}

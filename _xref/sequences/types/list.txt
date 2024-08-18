@@ -1,6 +1,1 @@
-sequence/combine
-sequence/other
-sequence/pull
-seq/combine
-seq/other
-seq/pull
+sequence/loop_source

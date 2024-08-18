@@ -1,3 +1,0 @@
-seq/combine
-seq/other
-seq/pull

@@ -1,3 +1,0 @@
-sequence/figurate
-xref/go
-seq/figurate

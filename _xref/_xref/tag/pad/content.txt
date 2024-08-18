@@ -36,4 +36,3 @@ tag_return_values/2
 vars/at/10
 walk/1
 walk/2
-xref/go

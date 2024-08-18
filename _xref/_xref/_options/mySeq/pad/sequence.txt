@@ -1,0 +1,13 @@
+sequence/first_last
+sequence/shift_pop
+sequence/slice_splice
+sequence/dedup
+sequence/make
+sequence/make_keep_remove
+sequence/new
+sequence/trim
+sequence/store
+sequence/floor_round_ceil
+sequence/loop_source
+sequence/keep_remove
+test

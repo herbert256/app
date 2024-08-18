@@ -1,2 +1,1 @@
-sequence/random
-seq/dedup
+sequence/dedup

@@ -1,3 +1,0 @@
-sequence/new
-xref/go
-seq/new

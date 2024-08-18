@@ -1,5 +1,0 @@
-sequence/figurate
-sequence/named
-xref/go
-seq/figurate
-seq/named

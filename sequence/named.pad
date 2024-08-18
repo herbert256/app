@@ -1,95 +1,95 @@
 {table}
 
 {demo}{sequence harshad, rows=15}
-  {$harshad} 
+  {$sequence} 
 {/sequence}{/demo}   
 
 {demo}{sequence kaprekar, rows=15}
-  {$kaprekar} 
+  {$sequence} 
 {/sequence}{/demo}   
 
 {demo}{sequence pronic, rows=15}
-  {$pronic} 
+  {$sequence} 
 {/sequence}{/demo}    
 
 {demo}{sequence gould, rows=15}
-  {$gould} 
+  {$sequence} 
 {/sequence}{/demo}    
 
 {demo}{sequence polite, rows=15}
-  {$polite} 
+  {$sequence} 
 {/sequence}{/demo}    
 
 {demo}{sequence sylvester, rows=10}
-  {$sylvester} 
+  {$sequence} 
 {/sequence}{/demo}    
 
 {demo}{sequence catalan, rows=15}
-  {$catalan} 
+  {$sequence} 
 {/sequence}{/demo}    
 
 {demo}{sequence cullen, rows=15}
-  {$cullen} 
+  {$sequence} 
 {/sequence}{/demo} 
 
 {demo}{sequence kolakoski, rows=15}
-  {$kolakoski} 
+  {$sequence} 
 {/sequence}{/demo}  
 
 {demo}{sequence lucas, rows=15}
-  {$lucas} 
+  {$sequence} 
 {/sequence}{/demo}          
 
 {demo}{sequence pell, rows=15}
-  {$pell} 
+  {$sequence} 
 {/sequence}{/demo}        
 
 {demo}{sequence perrin, rows=15}
-  {$perrin} 
+  {$sequence} 
 {/sequence}{/demo}     
 
 {demo}{sequence recaman, rows=15}
-  {$recaman} 
+  {$sequence} 
 {/sequence}{/demo}  
 
 {demo}{sequence fibonacci, rows=15}
-  {$fibonacci} 
+  {$sequence} 
 {/sequence}{/demo}  
 
 {demo}{sequence kynea, rows=10}
-  {$kynea} 
+  {$sequence} 
 {/sequence}{/demo}     
 
 {demo}{sequence moserdebruijn, rows=15}
-  {$moserdebruijn} 
+  {$sequence} 
 {/sequence}{/demo}
 
 {demo}{sequence xpadovan, rows=15}
-  {$xpadovan} 
+  {$sequence} 
 {/sequence}{/demo}
 
 {demo}{sequence bell, rows=15}
-  {$bell} 
+  {$sequence} 
 {/sequence}{/demo}
 
 {demo}{sequence golomb, rows=15}
-  {$golomb} 
+  {$sequence} 
 {/sequence}{/demo}     
 
 {demo}{sequence tribonacci, rows=15}
-  {$tribonacci} 
+  {$sequence} 
 {/sequence}{/demo}
 
 {demo}{sequence caterer, rows=15}
-  {$caterer} 
+  {$sequence} 
 {/sequence}{/demo}
 
 {demo}{sequence juggler=9}
-  {$juggler} 
+  {$sequence} 
 {/sequence}{/demo}
 
 {demo}{sequence newmanConway, rows=15}
-  {$newmanConway} 
+  {$sequence} 
 {/sequence}{/demo}
 
 {/table}

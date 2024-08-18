@@ -1,46 +1,46 @@
 {table}
+ 
+{demo}{sequence '5;10;15;20',  name='one'}{/demo}
+{demo}{sequence '15;20;25;30', name='two'}{/demo}
 
-{demo}{sequence list='5;10;15;20',  name='one'}{/demo}
-{demo}{sequence list='15;20;25;30', name='two'}{/demo}
+{demo}{sequence one}
+  {$sequence}
+{/sequence}{/demo}
 
-{demo}{one}
-  {$one}
-{/one}{/demo}
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
 
-{demo}{two}
-  {$two}
-{/two}{/demo}
+{demo}{sequence one, append='two'}
+  {$sequence}
+{/sequence}{/demo}
 
-{demo}{one append='two'}
-  {$one}
-{/one}{/demo}
+{demo}{sequence one, prepend='two'}
+  {$sequence}
+{/sequence}{/demo}
 
-{demo}{one prepend='two'}
-  {$one}
-{/one}{/demo}
+{demo}{sequence one, combine='two'}
+  {$sequence}
+{/sequence}{/demo}
 
-{demo}{one combine='two'}
-  {$one}
-{/one}{/demo}
+{demo}{sequence one, merge='two'}
+  {$sequence}
+{/sequence}{/demo}
 
-{demo}{one merge='two'}
-  {$one}
-{/one}{/demo}
+{demo}{sequence one, difference='two'}
+  {$sequence}
+{/sequence}{/demo}
 
-{demo}{one difference='two'}
-  {$one}
-{/one}{/demo}
+{demo}{sequence one, intersection='two'}
+  {$sequence}
+{/sequence}{/demo}
 
-{demo}{one intersection='two'}
-  {$one}
-{/one}{/demo}
+{demo}{sequence one, onlyMe='two'}
+  {$sequence}
+{/sequence}{/demo}
 
-{demo}{one onlyMe='two'}
-  {$one}
-{/one}{/demo}
-
-{demo}{one onlyOther='two'}
-  {$one}
-{/one}{/demo}
+{demo}{sequence one, onlyOther='two'}
+  {$sequence}
+{/sequence}{/demo}
 
 {/table}

@@ -1,37 +1,37 @@
 {table}
 
-{demo}{floor 5, from=10, to=30}
-  {$floor}
-{/floor}{/demo}
+{demo}{sequence floor=5, from=10, to=30}
+  {$sequence}
+{/sequence}{/demo}
 
-{demo}{round 5, from=10, to=30}
-  {$round}
-{/round}{/demo}
+{demo}{sequence round=5, from=10, to=30}
+  {$sequence}
+{/sequence}{/demo}
 
-{demo}{ceil 5, from=10, to=30}
-  {$ceil}
-{/ceil}{/demo}
+{demo}{sequence ceil=5, from=10, to=30}
+  {$sequence}
+{/sequence}{/demo}
 
-{demo}{modulo 5, from=10, to=30}
-  {$modulo}
-{/modulo}{/demo}
+{demo}{sequence modulo=5, from=10, to=30}
+  {$sequence}
+{/sequence}{/demo}
 
-{demo}{range '10..30', store='mySeq'}{/demo}
+{demo}{sequence '10..30', name='mySeq'}{/demo}
 
-{demo}{mySeq floor=5}
-  {$mySeq}
-{/mySeq}{/demo}
+{demo}{sequence mySeq, floor=5}
+  {$sequence}
+{/sequence}{/demo}
 
-{demo}{mySeq round=5}
-  {$mySeq}
-{/mySeq}{/demo}
+{demo}{sequence mySeq, round=5}
+  {$sequence}
+{/sequence}{/demo}
 
-{demo}{mySeq ceil=5}
-  {$mySeq}
-{/mySeq}{/demo}
+{demo}{sequence mySeq, ceil=5}
+  {$sequence}
+{/sequence}{/demo}
 
-{demo}{mySeq modulo=5}
-  {$mySeq}
-{/mySeq}{/demo}
+{demo}{sequence mySeq, modulo=5}
+  {$sequence}
+{/sequence}{/demo}
 
 {/table}

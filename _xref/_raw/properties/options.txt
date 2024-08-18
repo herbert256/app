@@ -1,4 +1,0 @@
-manual/options_variables_parameters
-miscellaneous/options_variables_parameters
-vars/at/0
-xref/go

@@ -52,6 +52,6 @@
 
   }
 
-  padRestart ( 'develop/regression' );
+  padRedirect ( 'develop/regression' );
     
 ?>

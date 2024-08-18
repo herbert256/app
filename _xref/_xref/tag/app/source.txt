@@ -3,4 +3,3 @@ manual/parse
 manual/prefix
 manual/properties
 prefix/prefix
-xref/go

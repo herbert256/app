@@ -5,11 +5,9 @@ data/2
 data/3
 db/array
 db/array2
-manual/level_and_occurrence_variables
 manual/options_variables_parameters
 manual/properties
 manual/the_data_tag
-miscellaneous/level_and_occurrence_variables
 miscellaneous/options_variables_parameters
 miscellaneous/parms
 properties/doc1
@@ -22,4 +20,5 @@ vars/at/5
 vars/at/5a
 vars/at/6
 vars/at/9
-xref/go
+manual/level_and_occurrence_variables
+miscellaneous/level_and_occurrence_variables

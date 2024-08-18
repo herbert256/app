@@ -1,5 +1,5 @@
-hello/index
 hello/hello
+hello/index
 manual/tag_return_values
 miscellaneous/var
 php_and_html/z05

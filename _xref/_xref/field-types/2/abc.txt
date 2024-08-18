@@ -1,9 +1,7 @@
 content/2
-manual/level_and_occurrence_variables
 manual/options_variables_parameters
 manual/the_content_tag
 miscellaneous/assign
-miscellaneous/level_and_occurrence_variables
 miscellaneous/options_variables_parameters
 miscellaneous/other
 miscellaneous/set_1
@@ -130,4 +128,5 @@ tags/until_after
 tags/until_before
 tags/while_after
 tags/while_before
-xref/go
+manual/level_and_occurrence_variables
+miscellaneous/level_and_occurrence_variables

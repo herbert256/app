@@ -1,12 +1,12 @@
 {table}
 
-{demo}{multiple 2,  rows=50, store='mySequence1'}{/demo}
-{demo}{multiple 3,  rows=34, store='mySequence2'}{/demo}
-{demo}{multiple 5,  rows=20, store='mySequence3'}{/demo}
-{demo}{multiple 10, rows=10, store='mySequence4'}{/demo}
+{demo}{sequence multiple=2,  rows=50, name='mySeq1'}{/demo}
+{demo}{sequence multiple=3,  rows=34, name='mySeq2'}{/demo}
+{demo}{sequence multiple=5,  rows=20, name='mySeq3'}{/demo}
+{demo}{sequence multiple=10, rows=10, name='mySeq4'}{/demo}
 
-{demo}{range '1..100', intersection='mySequence1|mySequence2|mySequence3|mySequence4'}
-  {$range}
-{/range}{/demo}
+{demo}{sequence '1..100', intersection='mySeq1|mySeq2|mySeq3|mySeq4'}
+  {$sequence}
+{/sequence}{/demo}
 
 {/table}

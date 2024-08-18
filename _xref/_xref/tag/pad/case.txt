@@ -1,7 +1,3 @@
-deep/four
-deep/index
-deep/three
-deep/two
 index
 manual/callback
 manual/classicModels
@@ -14,4 +10,4 @@ manual/the_pad_tag
 tags/case_1
 tags/case_2
 xref/go
-develop/show/changed
+develop/show/index

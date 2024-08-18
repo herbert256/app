@@ -1,7 +1,7 @@
 lvl_occ/3
-lvl_occ/4
 lvl_occ/5
 lvl_occ/6
 tableFun/fun_3_a
 tableFun/fun_3_b
+lvl_occ/4
 tableFun/fun_5_b

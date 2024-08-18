@@ -1,68 +1,68 @@
 {table}
 
 {demo}{sequence random, rows=3}
-  {$random} 
+  {$sequence} 
 {/sequence}{/demo}
 
 {demo}{sequence random, max=100, rows=10}
-  {$random} 
+  {$sequence} 
 {/sequence}{/demo}
 
 {demo}{sequence random, min=11, max=13, rows=20}
-  {$random} 
+  {$sequence} 
 {/sequence}{/demo}
 
-{demo}{range '11..20', random, rows=10}
-  {$range} 
-{/range}{/demo}
+{demo}{sequence '11..20', random, rows=10}
+  {$sequence} 
+{/sequence}{/demo}
 
-{demo}{power 2, range='1..16', random, rows=10}
-  {$power} 
-{/power}{/demo}
+{demo}{sequence power 2, range='1..16', random, rows=10}
+  {$sequence} 
+{/sequence}{/demo}
 
-{demo}{prime to=5000, random, rows=10}
-  {$prime} 
-{/prime}{/demo}
+{demo}{sequence prime to=5000, random, rows=10}
+  {$sequence} 
+{/sequence}{/demo}
 
 {/table}
 
 <h3>Random vs shuffle</h3>
 {table}
 
-{demo}{range 'A..Z'}
-  {$range}
-{/range }{/demo}
+{demo}{sequence 'A..Z'}
+  {$sequence}
+{/sequence }{/demo}
 
-{demo}{range 'A..Z', shuffle}
-  {$range}
-{/range }{/demo}
+{demo}{sequence 'A..Z', shuffle}
+  {$sequence}
+{/sequence }{/demo}
 
-{demo}{range 'A..Z', shuffle, sort}
-  {$range}
-{/range }{/demo}
+{demo}{sequence 'A..Z', shuffle, sort}
+  {$sequence}
+{/sequence }{/demo}
 
-{demo}{range 'A..Z', random}
-  {$range}
-{/range }{/demo}
+{demo}{sequence 'A..Z', random}
+  {$sequence}
+{/sequence }{/demo}
 
-{demo}{range 'A..Z', random, sort}
-  {$range}
-{/range }{/demo}
+{demo}{sequence 'A..Z', random, sort}
+  {$sequence}
+{/sequence }{/demo}
 
-{demo}{range 'A..Z', random, unique, sort}
-  {$range}
-{/range }{/demo}
+{demo}{sequence 'A..Z', random, unique, sort}
+  {$sequence}
+{/sequence }{/demo}
 
-{demo}{range 'A..Z', random, dedup, sort}
-  {$range}
-{/range }{/demo}
+{demo}{sequence 'A..Z', random, dedup, sort}
+  {$sequence}
+{/sequence }{/demo}
 
-{demo}{range 'A..Z', reverse}
-  {$range}
-{/range}{/demo}
+{demo}{sequence 'A..Z', reverse}
+  {$sequence}
+{/sequence}{/demo}
 
-{demo}{range 'A..Z', reverse, sort}
-  {$range}
-{/range}{/demo}
+{demo}{sequence 'A..Z', reverse, sort}
+  {$sequence}
+{/sequence}{/demo}
 
 {/table}

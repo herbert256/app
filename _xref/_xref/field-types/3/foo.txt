@@ -1,3 +1,2 @@
 manual/prefix
 prefix/prefix
-xref/go

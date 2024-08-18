@@ -1,4 +1,2 @@
 sequence/figurate
 sequence/named
-seq/figurate
-seq/named

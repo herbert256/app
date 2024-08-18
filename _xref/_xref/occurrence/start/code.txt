@@ -1,14 +1,7 @@
 callback/before
 callback/demand
-deep/five
-deep/four
-deep/index
-deep/three
-deep/two
-manual/level_and_occurrence_variables
 manual/prefix
 manual/properties
-miscellaneous/level_and_occurrence_variables
 miscellaneous/local
 prefix/prefix
 properties/doc1
@@ -57,4 +50,5 @@ vars/at/7
 vars/at/8
 vars/at/9
 xref/index
-xref/go
+manual/level_and_occurrence_variables
+miscellaneous/level_and_occurrence_variables

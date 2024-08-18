@@ -1,4 +1,0 @@
-manual/prefix
-miscellaneous/flag
-prefix/prefix
-xref/go

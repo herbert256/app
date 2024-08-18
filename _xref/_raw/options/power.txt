@@ -1,4 +1,0 @@
-sequence/other
-sequence/store
-sequence/store2
-seq/other

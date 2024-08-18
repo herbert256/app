@@ -5,15 +5,15 @@
 {/demo}
 
 {demo}
-{mySeq}
-  {$mySeq}
-{/mySeq}
+{sequence mySeq}
+  {$sequence}
+{/sequence}
 {/demo}
 
 {demo}
-{mySeq make='even'}
-  {$mySeq}
-{/mySeq}
+{sequence mySeq, make='even'}
+  {$sequence}
+{/sequence}
 {/demo}
 {demo}
 

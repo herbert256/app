@@ -1,2 +1,2 @@
 sequence/figurate
-seq/figurate
+test

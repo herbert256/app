@@ -1,1 +1,2 @@
-seq/loop_source
+sequence/random
+sequence/loop_source

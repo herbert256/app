@@ -1,23 +1,23 @@
 {table}
 
 {demo}{sequence prime, rows=20}
-  {$prime} 
+  {$sequence} 
 {/sequence}{/demo}   
 
 {demo}{sequence emirp, rows=20}
-  {$emirp} 
+  {$sequence} 
 {/sequence}{/demo}   
 
 {demo}{sequence composite, rows=20}
-  {$composite} 
+  {$sequence} 
 {/sequence}{/demo}
 
 {demo}{sequence antiprime, rows=20}
-  {$antiprime} 
+  {$sequence} 
 {/sequence}{/demo}   
 
 {demo}{sequence semiprime, rows=20}
-  {$semiprime} 
+  {$sequence} 
 {/sequence}{/demo}   
 
 {/table}

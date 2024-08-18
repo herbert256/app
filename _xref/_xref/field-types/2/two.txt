@@ -1,3 +1,0 @@
-sequence/combine
-sequence/pull
-sequence/store2

@@ -1,3 +1,0 @@
-manual/properties
-manual/walking
-xref/go

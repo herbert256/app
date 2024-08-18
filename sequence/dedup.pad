@@ -1,15 +1,15 @@
 {table}
 
-{demo}{sequence random, min=11, max=13, rows=20, name='mySeq'}{/demo}
+{demo}{sequence random, min=11, max=13, rows=25, name='mySeq'}{/demo}
 
-{demo}{sequence 'mySeq'}
-  {$mySeq}  
+{demo}{sequence mySeq}
+  {$sequence}  
 {/sequence}{/demo}   
 
-{demo}{dedup 'mySeq'}{/demo}
+{demo}{sequence mySeq, dedup}{/demo}
 
-{demo}{sequence 'mySeq'}
-  {$mySeq}  
+{demo}{sequence mySeq}
+  {$sequence}  
 {/sequence}{/demo}   
 
 {/table}

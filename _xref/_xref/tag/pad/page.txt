@@ -2,7 +2,6 @@ develop/show/changed
 develop/show/demo
 develop/show/index
 manual/else
-manual/level_and_occurrence_variables
 manual/options_variables_parameters
 manual/prefix
 manual/properties
@@ -10,7 +9,6 @@ manual/tag_return_values
 manual/the_content_tag
 manual/the_data_tag
 manual/the_pad_tag
-manual/walking
 start/combi1/index
 start/combi1/page1
 start/combi1/page2
@@ -111,4 +109,5 @@ start/page/8/page6
 start/page/8/page7
 start/page/8/page8
 start/page/index
-xref/go
+manual/walking
+manual/level_and_occurrence_variables

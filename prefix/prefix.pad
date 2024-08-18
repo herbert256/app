@@ -29,12 +29,6 @@
   Flag 'foo' is false
 {/flag:foo}
 
-{/demo}{demo}<h3>From the sequence store</h3>
-
-{store:foo}
-  {$foo}
-{/store:foo}
-
 {/demo}{demo}<h3>From a PHP array</h3>
 
 {array:foo}

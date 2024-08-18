@@ -1,8 +1,5 @@
 sequence/combine
-sequence/intro
+sequence/store
 sequence/other
-sequence/pull
-seq/combine
-seq/intro
-seq/other
-seq/pull
+sequence/intro
+sequence/loop_source

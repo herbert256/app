@@ -1,3 +1,0 @@
-sequence/named
-xref/go
-seq/named

@@ -1,4 +1,0 @@
-xref/dir
-xref/go
-xref/index
-xref/pages

@@ -1,10 +1,8 @@
 classicModels/orders
 content/2
-lvl_occ/4
 lvl_occ/5
 manual/level_and_occurrence_variables
 manual/the_content_tag
-manual/walking
 miscellaneous/assign
 miscellaneous/level_and_occurrence_variables
 miscellaneous/other
@@ -62,3 +60,5 @@ tags/until_before
 tags/while_after
 tags/while_before
 walk/2
+manual/walking
+lvl_occ/4

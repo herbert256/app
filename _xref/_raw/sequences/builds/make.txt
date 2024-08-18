@@ -1,6 +1,0 @@
-sequence/even_odd
-sequence/other
-sequence/prime_or_not
-seq/even_odd
-seq/other
-seq/prime_or_not

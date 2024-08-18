@@ -1,6 +1,0 @@
-sequence/named
-sequence/other
-sequence/prime_or_not
-seq/named
-seq/other
-seq/prime_or_not

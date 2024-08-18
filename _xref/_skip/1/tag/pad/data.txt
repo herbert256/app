@@ -1,6 +1,0 @@
-manual/else
-manual/prefix
-manual/tag_return_values
-manual/the_data_tag
-manual/the_pad_tag
-xref/go

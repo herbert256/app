@@ -1,24 +1,29 @@
-<table border=1>
+{table}
 
-{getDir '/app/_xref/_xref/_options'}
+{demo}
+{sequence from=10, to=20, name='mySeq'}
+{/demo}
 
-<tr>
+{demo}
+{sequence mySeq}
+  {$sequence}
+{/sequence}
+{/demo}
 
-  <td rowspan=2> {$item} </td>
+{demo}
+{sequence mySeq, make, even}
+  {$sequence}
+{/sequence}
+{/demo}
+{demo}
 
-    {getDir '{$base}/{$item}'}
+{sequence mySeq, keep, even}
+  {$sequence}
+{/sequence}
+{/demo}
 
-      <td> {$item} </td>
-    
-      <td>
-        {getDir '{$base}/{$item}'}
-          {$item}   
-        {/getDir}
-      </td>
+{demo}{sequence mySeq, remove, even}
+  {$sequence}
+{/sequence}{/demo}
 
-</tr>
-
-    {/getDir}
-
-
-{/getDir}
+{/table}
