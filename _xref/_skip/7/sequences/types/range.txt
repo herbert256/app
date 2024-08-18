@@ -4,3 +4,4 @@ sequence/intro
 tableFun/fun_5_a
 tableFun/fun_5_b
 walk/1
+seq/intro

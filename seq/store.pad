@@ -1,0 +1,17 @@
+{table}
+
+{demo}{seq range '4..16', name='myRange'}{/demo}
+
+{demo}{seq 'myRange', power=2}
+  {$myRange}  
+{/seq}{/demo}   
+
+{demo}{seq power 2, seq='myRange'}
+  {$seq}  
+{/seq}{/demo}   
+
+{demo}{myRange power=2}
+  {$myRange}  
+{/myRange}{/demo}   
+
+{/table}

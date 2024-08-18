@@ -13,3 +13,8 @@ sequence/slice_splice
 sequence/store
 sequence/store2
 sequence/trim
+xref/go
+seq/dedup
+seq/print
+seq/trim
+sequence/intersection

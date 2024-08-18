@@ -8,3 +8,4 @@ properties/doc3
 sequence/print
 walk/1
 walk/2
+seq/print

@@ -12,3 +12,6 @@ sequence/slice_splice
 sequence/store
 sequence/store2
 vars/at/3
+seq/first
+seq/other
+seq/print

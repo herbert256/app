@@ -14,3 +14,4 @@ sequence/step_multiple
 sequence/syntax
 sequence/trim
 test
+xref/go

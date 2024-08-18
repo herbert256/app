@@ -1,2 +1,3 @@
 deep/index
 deep/two
+xref/go

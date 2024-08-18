@@ -5,3 +5,8 @@ sequence/loop
 sequence/loop_source
 sequence/make
 sequence/make_keep_remove
+seq/intro
+seq/keep_remove
+seq/loop_source
+seq/make
+seq/make_keep_remove

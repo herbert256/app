@@ -22,3 +22,7 @@ tableFun/fun_5_b
 vars/at/3
 walk/1
 xref/index
+seq/first
+seq/intro
+seq/other
+seq/print

@@ -1,0 +1,33 @@
+{table}
+
+{demo}{seq rows=25, store='mySeq'}{/demo}
+
+{demo}{mySeq}
+  {$seq}  
+{/mySeq}{/demo}
+
+{demo}{seq trim = 'mySeq'}
+  {$seq}  
+{/seq}{/demo}
+
+{demo}{seq trim = 'mySeq', both=5}
+  {$seq}  
+{/seq}{/demo}
+
+{demo}{seq trim = 'mySeq', left=5}
+  {$seq}  
+{/seq}{/demo}
+
+{demo}{seq trim = 'mySeq', right=5}
+  {$seq}  
+{/seq}{/demo}
+
+{demo}{seq trim = 'mySeq', left=10, right=5}
+  {$seq}  
+{/seq}{/demo}
+
+{demo}{seq trim = 'mySeq', both=5, left=2, right=3}
+  {$seq}  
+{/seq}{/demo}
+
+{/table}

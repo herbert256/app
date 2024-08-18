@@ -11,3 +11,4 @@ manual/table_fun
 manual/tag_return_values
 manual/the_pad_tag
 xref/go
+develop/show/changed

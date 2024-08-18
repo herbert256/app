@@ -1,2 +1,4 @@
 sequence/make
 sequence/make_keep_remove
+seq/make
+seq/make_keep_remove

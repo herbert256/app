@@ -69,3 +69,17 @@ vars/at/4
 vars/at/6
 walk/1
 walk/2
+xref/go
+seq/dedup
+seq/eval
+seq/even_odd
+seq/first
+seq/increment
+seq/intro
+seq/make
+seq/named
+seq/new
+seq/prime_or_not
+seq/print
+seq/step_multiple
+seq/trim

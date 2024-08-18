@@ -11,3 +11,4 @@ sequence/store
 sequence/store2
 vars/at/3
 xref/index
+seq/print

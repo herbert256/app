@@ -1,2 +1,3 @@
 sequence/intersection
 sequence/step_multiple
+seq/intersection

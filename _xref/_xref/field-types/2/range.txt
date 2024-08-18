@@ -5,3 +5,4 @@ sequence/intersection
 sequence/other
 sequence/print
 sequence/random
+seq/print

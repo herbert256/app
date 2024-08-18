@@ -111,3 +111,4 @@ start/page/8/page6
 start/page/8/page7
 start/page/8/page8
 start/page/index
+xref/go

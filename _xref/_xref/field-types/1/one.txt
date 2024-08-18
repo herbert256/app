@@ -5,3 +5,4 @@ develop/show/one
 sequence/combine
 sequence/pull
 sequence/store2
+seq/combine

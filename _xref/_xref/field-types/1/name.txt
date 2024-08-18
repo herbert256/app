@@ -22,3 +22,4 @@ vars/at/5
 vars/at/5a
 vars/at/6
 vars/at/9
+xref/go

@@ -1,0 +1,14 @@
+{table}
+
+{demo}{seq list='5;10;15;20',  name='one'}{/demo}
+{demo}{seq list='15;20;25;30', name='two'}{/demo}
+
+{demo}{seq pull 'one'}
+  {$one}
+{/seq}{/demo}
+
+{demo}{seq pull 'two'}
+  {$two}
+{/seq}{/demo}
+
+{/table}

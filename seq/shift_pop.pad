@@ -1,0 +1,61 @@
+{table}
+
+{demo}{seq range '11..40', store='mySeq'}{/demo}
+
+{demo}{mySeq}
+  {$seq}
+{/mySeq}{/demo}
+
+{demo}{mySeq shift}
+  {$seq}
+{/mySeq}{/demo}
+
+{demo}{mySeq shift=2}
+  {$seq}
+{/mySeq}{/demo}
+
+{demo}{mySeq shift=3}
+  {$seq}
+{/mySeq}{/demo}
+
+{demo}{seq shift = 'mySeq'}
+  {$seq}
+{/seq}{/demo}
+
+{demo}{seq shift = 'mySeq', count=2}
+  {$seq}
+{/seq}{/demo}
+
+{demo}{seq shift = 'mySeq', count=3}
+  {$seq}
+{/seq}{/demo}
+
+{demo}{mySeq pop}
+  {$seq}
+{/mySeq}{/demo}
+
+{demo}{mySeq pop=2}
+  {$seq}
+{/mySeq}{/demo}
+
+{demo}{mySeq pop=3}
+  {$seq}
+{/mySeq}{/demo}
+
+{demo}{seq pop = 'mySeq'}
+  {$seq}
+{/seq}{/demo}
+
+{demo}{seq pop = 'mySeq', count=2}
+  {$seq}
+{/seq}{/demo}
+
+{demo}{seq pop = 'mySeq', count=3}
+  {$seq}
+{/seq}{/demo}
+
+{demo}{mySeq}
+  {$seq}
+{/mySeq}{/demo}
+
+{/table}

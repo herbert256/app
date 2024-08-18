@@ -7,3 +7,9 @@ sequence/loop_source
 sequence/make
 sequence/make_keep_remove
 sequence/random
+seq/increment
+seq/intro
+seq/keep_remove
+seq/loop_source
+seq/make
+seq/make_keep_remove

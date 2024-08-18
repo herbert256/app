@@ -8,3 +8,4 @@ manual/the_content_tag
 manual/the_data_tag
 manual/the_pad_tag
 manual/walking
+xref/go

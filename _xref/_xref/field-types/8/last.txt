@@ -5,3 +5,4 @@ properties/doc1
 sequence/print
 walk/1
 walk/2
+seq/print

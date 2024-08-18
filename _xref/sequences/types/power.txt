@@ -3,3 +3,4 @@ sequence/other
 sequence/random
 sequence/store
 sequence/store2
+seq/other

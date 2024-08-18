@@ -17,3 +17,10 @@ tag_return_values/return_5
 vars/at/3
 vars/at/5
 vars/at/5a
+seq/dedup
+seq/combine
+seq/keep_remove
+seq/loop_source
+seq/make
+seq/make_keep_remove
+seq/pull

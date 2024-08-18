@@ -18,3 +18,7 @@ tableFun/fun_5_a
 tableFun/fun_5_b
 vars/at/3
 walk/1
+seq/first
+seq/intro
+seq/other
+seq/print

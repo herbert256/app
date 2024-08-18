@@ -1,2 +1,3 @@
 sequence/dedup
 sequence/random
+seq/dedup

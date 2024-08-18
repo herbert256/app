@@ -27,3 +27,12 @@ tableFun/fun_5_a
 tableFun/fun_5_b
 vars/at/3
 walk/1
+seq/combine
+seq/dedup
+seq/first
+seq/increment
+seq/intro
+seq/other
+seq/print
+seq/pull
+seq/trim

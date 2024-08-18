@@ -5,3 +5,4 @@ sequence/print
 vars/at/10
 walk/1
 walk/2
+seq/print

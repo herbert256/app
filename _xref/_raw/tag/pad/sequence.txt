@@ -34,3 +34,4 @@ tableFun/fun_5_a
 tableFun/fun_5_b
 test
 walk/1
+xref/go

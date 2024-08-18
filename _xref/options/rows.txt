@@ -15,3 +15,15 @@ sequence/step_multiple
 sequence/syntax
 sequence/trim
 test
+seq/dedup
+seq/eval
+seq/even_odd
+seq/figurate
+seq/named
+seq/new
+seq/other
+seq/prime_or_not
+seq/random
+seq/step_multiple
+seq/trim
+seq/intro

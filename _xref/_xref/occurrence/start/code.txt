@@ -57,3 +57,4 @@ vars/at/7
 vars/at/8
 vars/at/9
 xref/index
+xref/go

@@ -1,0 +1,21 @@
+{table}
+
+{demo}{seq from=4, to=8, name='mySeq'}{/demo}
+
+{demo}{seq power 2, from=1, to=16, increment=2}
+  {$seq} 
+{/seq}{/demo}
+
+{demo}{seq power 2, seq='mySeq'}
+  {$seq} 
+{/seq}{/demo}
+
+{demo}{seq power 2, range='9..16'}
+  {$seq} 
+{/seq}{/demo}
+
+{demo}{seq power 2, list='8;4;16;2'}
+  {$seq} 
+{/seq}{/demo}
+
+{/table}

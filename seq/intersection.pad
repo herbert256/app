@@ -1,0 +1,12 @@
+{table}
+
+{demo}{seq multiple 2,  rows=50, store='mySeq1'}{/demo}
+{demo}{seq multiple 3,  rows=34, store='mySeq2'}{/demo}
+{demo}{seq multiple 5,  rows=20, store='mySeq3'}{/demo}
+{demo}{seq multiple 10, rows=10, store='mySeq4'}{/demo}
+
+{demo}{seq range '1..100', intersection='mySeq1|mySeq2|mySeq3|mySeq4'}
+  {$seq}
+{/seq}{/demo}
+
+{/table}

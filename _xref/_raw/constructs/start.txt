@@ -10,3 +10,4 @@ php_and_html/z99
 prefix/prefix
 tag_return_values/3
 vars/at/7
+xref/go

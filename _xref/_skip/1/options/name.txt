@@ -1,2 +1,3 @@
 manual/options_variables_parameters
 manual/prefix
+xref/go

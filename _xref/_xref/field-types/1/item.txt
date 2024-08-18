@@ -5,3 +5,5 @@ develop/show/index
 xref/dir
 xref/index
 xref/pages
+test
+develop/regressionGo

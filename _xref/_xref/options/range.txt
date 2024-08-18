@@ -6,3 +6,6 @@ sequence/loop_source
 sequence/other
 sequence/print
 sequence/random
+seq/first
+seq/print
+seq/other

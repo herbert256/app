@@ -1,2 +1,3 @@
 manual/tags
 sequence/print
+seq/print

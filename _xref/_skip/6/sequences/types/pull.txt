@@ -12,3 +12,7 @@ sequence/slice_splice
 sequence/store
 sequence/store2
 sequence/trim
+seq/dedup
+seq/print
+seq/trim
+sequence/intersection

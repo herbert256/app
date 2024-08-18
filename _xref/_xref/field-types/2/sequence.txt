@@ -2,3 +2,4 @@ sequence/increment
 sequence/intro
 sequence/new
 sequence/other
+xref/go

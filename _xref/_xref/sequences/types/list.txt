@@ -2,3 +2,7 @@ sequence/combine
 sequence/intro
 sequence/other
 sequence/pull
+seq/combine
+seq/intro
+seq/other
+seq/pull

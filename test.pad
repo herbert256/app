@@ -1,15 +1,24 @@
-aaa
-{sequence rows=10}
-  111
-  {true}{true}{true}
-    222
-    {trace}
-      {true}{true}{true}
-         klm
-      {/true}{/true}{/true}
-    {/trace}
-    888
-  {/true}{/true}{/true}
-  999
-{/sequence}
-zzz
+<table border=1>
+
+{getDir '/app/_xref/_xref/_options'}
+
+<tr>
+
+  <td rowspan=2> {$item} </td>
+
+    {getDir '{$base}/{$item}'}
+
+      <td> {$item} </td>
+    
+      <td>
+        {getDir '{$base}/{$item}'}
+          {$item}   
+        {/getDir}
+      </td>
+
+</tr>
+
+    {/getDir}
+
+
+{/getDir}

@@ -1,0 +1,27 @@
+{table}
+
+{demo}
+  {seq range='a..k', print}
+{/demo}
+
+{demo}
+  {seq range='a..k', print, open='(', close=')'}
+{/demo}
+
+{demo}
+  {seq range='a..k', print, glue=','}
+{/demo}
+
+{demo}
+  {seq range='a..k', print, open='(', glue=',', close=')'}
+{/demo}
+
+{demo}
+  {seq range='a..k', print, glue=',', quote="'"}
+{/demo}
+
+{demo}
+  {seq range='a..k', print, open='(', glue=',', quote="'", close=')'}
+{/demo}
+
+{/table}
