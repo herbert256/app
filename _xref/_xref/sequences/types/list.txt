@@ -1,5 +1,0 @@
-sequence/combine
-sequence/store
-sequence/other
-sequence/intro
-sequence/loop_source

@@ -72,6 +72,3 @@ start/page/8/page6
 start/page/8/page7
 start/page/8/page8
 start/page/8/page9
-tableFun/fun_8
-tableFun/fun_9
-tags/until_before

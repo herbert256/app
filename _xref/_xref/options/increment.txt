@@ -1,6 +1,0 @@
-lvl_occ/4
-sequence/increment
-tableFun/fun_5_a
-tableFun/fun_5_b
-sequence/other
-sequence/loop_source

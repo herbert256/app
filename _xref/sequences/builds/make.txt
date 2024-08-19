@@ -1,6 +1,6 @@
 sequence/even_odd
+sequence/make
+sequence/make_keep_remove
 sequence/other
 sequence/prime_or_not
 test
-sequence/make
-sequence/make_keep_remove

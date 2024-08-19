@@ -1,6 +1,1 @@
-properties/doc1
-properties/doc2
-properties/doc3
-walk/2
-sequence/print
-walk/1
+vars/at/10

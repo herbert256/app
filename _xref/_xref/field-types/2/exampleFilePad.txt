@@ -1,8 +1,0 @@
-manual/callback
-manual/classicModels
-xref/go
-develop/show/index
-deep/four
-deep/index
-deep/three
-deep/two

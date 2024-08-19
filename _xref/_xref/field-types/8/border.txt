@@ -1,5 +1,0 @@
-manual/properties
-properties/doc1
-walk/2
-manual/walking
-walk/1

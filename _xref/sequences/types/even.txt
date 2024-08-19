@@ -1,4 +1,4 @@
 sequence/even_odd
-test
 sequence/make
 sequence/make_keep_remove
+test

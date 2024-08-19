@@ -1,4 +1,0 @@
-hello/index
-start/code/code
-start/page/index
-tags/if_2

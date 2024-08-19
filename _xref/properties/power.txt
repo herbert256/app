@@ -1,2 +1,0 @@
-sequence/random
-sequence/loop_source

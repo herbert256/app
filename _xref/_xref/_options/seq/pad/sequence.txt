@@ -1,2 +1,0 @@
-sequence/store
-sequence/loop_source

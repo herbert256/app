@@ -1,4 +1,4 @@
-sequence/other
-sequence/store
 sequence/loop_source
+sequence/other
 sequence/random
+sequence/store
