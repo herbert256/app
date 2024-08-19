@@ -14,7 +14,7 @@
   {$sequence} 
 {/sequence}{/demo}
 
-{demo}{sequence list='8;4;16;2', power=2, }
+{demo}{sequence list='8;4;16;2', power=2}
   {$sequence} 
 {/sequence}{/demo}
 

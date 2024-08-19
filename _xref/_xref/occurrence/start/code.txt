@@ -52,3 +52,8 @@ vars/at/9
 xref/index
 manual/level_and_occurrence_variables
 miscellaneous/level_and_occurrence_variables
+deep/five
+deep/four
+deep/index
+deep/three
+deep/two

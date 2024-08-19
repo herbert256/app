@@ -7,3 +7,7 @@ manual/table_fun
 manual/tag_return_values
 xref/go
 develop/show/index
+deep/four
+deep/index
+deep/three
+deep/two

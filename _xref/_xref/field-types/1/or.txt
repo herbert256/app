@@ -13,3 +13,8 @@ manual/tag_return_values
 manual/the_pad_tag
 miscellaneous/other
 xref/go
+deep/four
+deep/index
+deep/three
+deep/two
+manual/sequences

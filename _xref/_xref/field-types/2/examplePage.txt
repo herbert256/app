@@ -10,3 +10,8 @@ manual/php_and_html
 manual/table_fun
 manual/tag_return_values
 xref/go
+deep/four
+deep/index
+deep/three
+deep/two
+manual/sequences

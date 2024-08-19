@@ -34,3 +34,8 @@ start/combi3/page7
 start/combi3/page8
 start/combi3/page9
 start/nested
+deep/five
+deep/four
+deep/index
+deep/three
+deep/two

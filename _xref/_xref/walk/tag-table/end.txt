@@ -64,3 +64,7 @@ sequence/loop
 sequence/store
 sequence/floor_round_ceil
 sequence/loop_source
+test
+sequence/keep_remove
+sequence/random
+sequence/random2

@@ -11,18 +11,18 @@
 {/demo}
 
 {demo}
-{sequence mySeq, make='even'}
+{sequence mySeq, make, even}
   {$sequence}
 {/sequence}
 {/demo}
 {demo}
 
-{sequence mySeq, keep='even'}
+{sequence mySeq, keep, even}
   {$sequence}
 {/sequence}
 {/demo}
 
-{demo}{sequence mySeq, remove='even'}
+{demo}{sequence mySeq, remove, even}
   {$sequence}
 {/sequence}{/demo}
 

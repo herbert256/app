@@ -11,7 +11,7 @@
 {/demo}
 
 {demo}
-{sequence mySeq, make='even'}
+{sequence mySeq, make, even}
   {$sequence}
 {/sequence}
 {/demo}

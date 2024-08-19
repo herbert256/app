@@ -11,3 +11,7 @@ tags/case_1
 tags/case_2
 xref/go
 develop/show/index
+deep/four
+deep/index
+deep/three
+deep/two

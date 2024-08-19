@@ -10,3 +10,8 @@ vars/at/0
 vars/at/10
 vars/at/6
 xref/index
+error/error_1
+error/exception_1
+error/pad_1
+error/shutdown_1
+error/warning_1

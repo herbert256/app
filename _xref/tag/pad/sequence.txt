@@ -33,3 +33,4 @@ sequence/trim
 test
 sequence/loop
 sequence/floor_round_ceil
+sequence/random2

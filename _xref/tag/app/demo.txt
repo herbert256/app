@@ -56,3 +56,6 @@ vars/at/6
 walk/1
 walk/2
 test
+sequence/random2
+tags/redirect
+tags/restart

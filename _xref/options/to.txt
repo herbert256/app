@@ -7,3 +7,4 @@ sequence/intro
 sequence/loop
 sequence/floor_round_ceil
 test
+sequence/random

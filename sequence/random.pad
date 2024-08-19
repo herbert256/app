@@ -16,53 +16,12 @@
   {$sequence} 
 {/sequence}{/demo}
 
-{demo}{sequence power 2, range='1..16', random, rows=10}
+{demo}{sequence range='1..16', power=2, random, rows=10}
   {$sequence} 
 {/sequence}{/demo}
 
-{demo}{sequence prime to=5000, random, rows=10}
+{demo}{sequence prime, to=5000, random, rows=10}
   {$sequence} 
-{/sequence}{/demo}
-
-{/table}
-
-<h3>Random vs shuffle</h3>
-{table}
-
-{demo}{sequence 'A..Z'}
-  {$sequence}
-{/sequence }{/demo}
-
-{demo}{sequence 'A..Z', shuffle}
-  {$sequence}
-{/sequence }{/demo}
-
-{demo}{sequence 'A..Z', shuffle, sort}
-  {$sequence}
-{/sequence }{/demo}
-
-{demo}{sequence 'A..Z', random}
-  {$sequence}
-{/sequence }{/demo}
-
-{demo}{sequence 'A..Z', random, sort}
-  {$sequence}
-{/sequence }{/demo}
-
-{demo}{sequence 'A..Z', random, unique, sort}
-  {$sequence}
-{/sequence }{/demo}
-
-{demo}{sequence 'A..Z', random, dedup, sort}
-  {$sequence}
-{/sequence }{/demo}
-
-{demo}{sequence 'A..Z', reverse}
-  {$sequence}
-{/sequence}{/demo}
-
-{demo}{sequence 'A..Z', reverse, sort}
-  {$sequence}
 {/sequence}{/demo}
 
 {/table}

@@ -67,3 +67,4 @@ sequence/trim
 sequence/loop
 sequence/floor_round_ceil
 test
+sequence/random2

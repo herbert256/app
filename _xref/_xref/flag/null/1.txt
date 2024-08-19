@@ -52,3 +52,9 @@ tags/while_before
 vars/at/10
 walk/1
 walk/2
+deep/five
+deep/index
+deep/three
+deep/two
+manual/sequences
+tags/restart

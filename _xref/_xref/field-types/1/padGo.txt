@@ -3,3 +3,4 @@ develop/regression
 develop/show/changed
 manual/options_variables_parameters
 develop/show/demo
+error/index

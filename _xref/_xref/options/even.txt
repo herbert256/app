@@ -1,3 +1,5 @@
 sequence/even_odd
 sequence/keep_remove
 test
+sequence/make
+sequence/make_keep_remove

@@ -1,1 +1,3 @@
 sequence/make_keep_remove
+test
+sequence/keep_remove

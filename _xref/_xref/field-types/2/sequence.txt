@@ -25,3 +25,5 @@ sequence/loop
 sequence/store
 sequence/floor_round_ceil
 sequence/loop_source
+sequence/keep_remove
+sequence/random2
