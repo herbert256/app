@@ -1,3 +1,1 @@
-abc{future 'abc'}xyz
-<br>
-123{past 'abc'}*{/past}456
+{sequence}{$sequence}{/sequence}

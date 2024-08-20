@@ -20,4 +20,8 @@
   {$sequence} 
 {/sequence}{/demo}
 
+{demo}{sequence}
+  {$sequence} 
+{/sequence}{/demo}
+
 {/table}
