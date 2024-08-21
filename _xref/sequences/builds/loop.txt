@@ -15,8 +15,6 @@ sequence/new
 sequence/other
 sequence/prime_or_not
 sequence/random
-sequence/shift_pop
 sequence/step_multiple
-sequence/store
 sequence/trim
 test

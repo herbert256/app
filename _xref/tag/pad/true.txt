@@ -7,6 +7,7 @@ error/shutdown_1
 error/warning_1
 properties/doc2
 properties/doc3
+properties/doc4
 start/nested
 vars/at/0
 vars/at/10

@@ -1,6 +1,9 @@
 sequence/even_odd
-sequence/make
-sequence/make_keep_remove
+sequence/figurate
+sequence/floor_round_ceil
+sequence/loop_source
+sequence/named
+sequence/new
 sequence/other
 sequence/prime_or_not
-test
+sequence/store

@@ -18,18 +18,6 @@
   {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence shift = 'mySeq'}
-  {$sequence}
-{/sequence}{/demo}
-
-{demo}{sequence shift = 'mySeq', count=2}
-  {$sequence}
-{/sequence}{/demo}
-
-{demo}{sequence shift = 'mySeq', count=3}
-  {$sequence}
-{/sequence}{/demo}
-
 {demo}{sequence mySeq, pop}
   {$sequence}
 {/sequence}{/demo}
@@ -39,18 +27,6 @@
 {/sequence}{/demo}
 
 {demo}{sequence mySeq, pop=3}
-  {$sequence}
-{/sequence}{/demo}
-
-{demo}{sequence pop = 'mySeq'}
-  {$sequence}
-{/sequence}{/demo}
-
-{demo}{sequence pop = 'mySeq', count=2}
-  {$sequence}
-{/sequence}{/demo}
-
-{demo}{sequence pop = 'mySeq', count=3}
   {$sequence}
 {/sequence}{/demo}
 
