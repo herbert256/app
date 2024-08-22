@@ -1,0 +1,10 @@
+sequence/combine
+sequence/dedup
+sequence/first_last
+sequence/keep_remove
+sequence/make
+sequence/make_keep_remove
+sequence/shift_pop
+sequence/slice_splice
+sequence/store
+sequence/trim

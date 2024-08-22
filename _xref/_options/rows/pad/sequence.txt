@@ -3,7 +3,6 @@ sequence/eval
 sequence/even_odd
 sequence/figurate
 sequence/intersection
-sequence/intro
 sequence/loop
 sequence/named
 sequence/new
@@ -12,3 +11,4 @@ sequence/prime_or_not
 sequence/random
 sequence/step_multiple
 sequence/trim
+sequence/intro

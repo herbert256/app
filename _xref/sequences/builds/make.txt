@@ -1,9 +1,0 @@
-sequence/even_odd
-sequence/figurate
-sequence/floor_round_ceil
-sequence/loop_source
-sequence/named
-sequence/new
-sequence/other
-sequence/prime_or_not
-sequence/store

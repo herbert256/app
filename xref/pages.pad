@@ -2,14 +2,16 @@
 
   {block}
 
+<center>
     {go}
 
-      <a href="@pad@xref/go{?go}{?type}{?item}">{$go}</a> 
-
-      <br>
+      {example '{$go}', type='ajax' }
 
     {/go}
 
+</center>
+
   {/block}
+
 
 </blockquote>
