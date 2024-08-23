@@ -8,3 +8,5 @@ sequence/new
 sequence/trim
 sequence/increment
 test
+sequence/arithmetic
+sequence/logic

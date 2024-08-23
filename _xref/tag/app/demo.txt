@@ -60,3 +60,5 @@ walk/1
 walk/2
 test
 sequence/oeis
+sequence/arithmetic
+sequence/logic

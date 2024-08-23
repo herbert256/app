@@ -1,0 +1,76 @@
+{table}
+
+  {demo}{sequence}
+    {$sequence} 
+  {/sequence}{/demo}
+
+  {demo}{sequence add=5}
+    {$sequence} 
+  {/sequence}{/demo}
+
+{/table}
+
+{table}
+
+  {demo}{sequence}
+    {$sequence} 
+  {/sequence}{/demo}
+
+  {demo}{sequence substract=5}
+    {$sequence} 
+  {/sequence}{/demo}
+
+{/table}
+
+{table}
+
+  {demo}{sequence}
+    {$sequence} 
+  {/sequence}{/demo}
+
+  {demo}{sequence divide=5}
+    {$sequence} 
+  {/sequence}{/demo}
+
+{/table}
+
+{table}
+
+  {demo}{sequence}
+    {$sequence} 
+  {/sequence}{/demo}
+
+  {demo}{sequence multiply=5}
+    {$sequence} 
+  {/sequence}{/demo}
+
+{/table}
+
+{table}
+
+  {demo}{sequence}
+    {$sequence} 
+  {/sequence}{/demo}
+
+  {demo}{sequence exponentiation=5}
+    {$sequence} 
+  {/sequence}{/demo}
+
+{/table}
+
+
+{table}
+
+  {demo}{sequence}
+    {$sequence} 
+  {/sequence}{/demo}
+
+  {demo}{sequence identity, rows=25} 
+    {$sequence} 
+  {/sequence}{/demo}
+
+  {demo}{sequence negation, rows=25} 
+    {$sequence} 
+  {/sequence}{/demo}
+
+{/table}
