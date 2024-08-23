@@ -81,67 +81,67 @@
 
 {/demo}{demo}
 
-{sequence mySeq, add=5} 
+{sequence mySeq, add=5, noMain} 
   {$sequence} 
 {/sequence}
 
 {/demo}{demo}
 
-{sequence mySeq, substract=5} 
+{sequence mySeq, substract=5, noMain} 
   {$sequence} 
 {/sequence}
 
 {/demo}{demo}
 
-{sequence mySeq, divide=5} 
+{sequence mySeq, divide=5, noMain} 
   {$sequence} 
 {/sequence}
 
 {/demo}{demo}
 
-{sequence mySeq, multiply=2} 
+{sequence mySeq, multiply=2, noMain} 
   {$sequence} 
 {/sequence}
 
 {/demo}{demo}
 
-{sequence mySeq, and=5} 
+{sequence mySeq, and=5, noMain} 
   {$sequence} 
 {/sequence}
 
 {/demo}{demo}
 
-{sequence mySeq, or=85} 
+{sequence mySeq, or=85, noMain} 
   {$sequence} 
 {/sequence}
 
 {/demo}{demo}
 
-{sequence mySeq, xor=255} 
+{sequence mySeq, xor=255, noMain} 
   {$sequence} 
 {/sequence}
 
 {/demo}{demo}
 
-{sequence mySeq, not} 
+{sequence mySeq, not, noMain} 
   {$sequence} 
 {/sequence}
 
 {/demo}{demo}
 
-{sequence mySeq, exponentiation=2} 
+{sequence mySeq, exponentiation=2, noMain} 
   {$sequence} 
 {/sequence}
 
 {/demo}{demo}
 
-{sequence mySeq, identity} 
+{sequence mySeq, identity, noMain} 
   {$sequence} 
 {/sequence}
 
 {/demo}{demo}
 
-{sequence mySeq, negation} 
+{sequence mySeq, negation, noMain} 
   {$sequence} 
 {/sequence}
 

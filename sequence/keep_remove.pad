@@ -1,7 +1,7 @@
 {table}
 
 {demo}
-{sequence from=5, to=50, name='mySeq'}
+{sequence from=10, to=40, name='mySeq'}
 {/demo}
 
 {demo}
@@ -25,7 +25,7 @@
 {/table}{table}
 
 {demo}
-{sequence from=5, to=50, name='mySeq'}
+{sequence from=10, to=40, name='mySeq'}
 {/demo}
 
 {demo}

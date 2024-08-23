@@ -1,13 +1,5 @@
 {table}
 
-{demo}{sequence perfect}
-  {$sequence} 
-{/sequence}{/demo}
-
-{demo}{sequence mersenne}
-  {$sequence} 
-{/sequence}{/demo}
-
 {demo}{sequence oeis=81}
   {$sequence} 
 {/sequence}{/demo}

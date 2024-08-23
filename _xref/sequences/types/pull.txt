@@ -8,3 +8,4 @@ sequence/shift_pop
 sequence/slice_splice
 sequence/store
 sequence/trim
+sequence/new

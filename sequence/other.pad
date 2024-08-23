@@ -20,32 +20,8 @@
   {$sequence} 
 {/sequence}{/demo} 
 
-{demo}{sequence perfect, rows=5}
-  {$sequence} 
-{/sequence}{/demo}     
-
-{demo}{sequence power=2, rows=10}
-  {$sequence} 
-{/sequence}{/demo} 
-
-{demo}{sequence '11;15;33;23;7;123;65;3;123'}
-  {$sequence} 
-{/sequence}{/demo}
-
-{demo}{sequence 'F..Q'}
-  {$sequence} 
-{/sequence}{/demo}  
-
 {demo}{sequence '1..100', sum}
   {$sequence}
-{/sequence}{/demo}
-
-{demo}{sequence '1..100', slice='-30|-10'}
-  {$sequence}
-{/sequence}{/demo} 
-
-{demo}{sequence '10..20', increment=2}
-  {$sequence} 
 {/sequence}{/demo}
 
 {/table}

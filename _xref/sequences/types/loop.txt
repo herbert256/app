@@ -7,3 +7,4 @@ sequence/make_keep_remove
 sequence/new
 sequence/trim
 sequence/increment
+test

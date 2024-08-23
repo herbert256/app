@@ -5,7 +5,7 @@
 <center>
     {go}
 
-      {example '{$go}', type='ajax' }
+      {$go} <br> {example '{$go}', type='ajax' }
 
     {/go}
 
