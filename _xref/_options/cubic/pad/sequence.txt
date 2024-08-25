@@ -1,2 +1,3 @@
 operations/cubic
+sequence/cubic
 sequence/figurate

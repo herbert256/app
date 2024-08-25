@@ -2,7 +2,7 @@
   {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence rows=10, step}
+{demo}{sequence rows=10, step=5}
   {$sequence}
 {/sequence}{/demo}
 
@@ -10,7 +10,7 @@
   {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence rows=10, step=3, step}
+{demo}{sequence rows=10, step=3, step=5}
   {$sequence}
 {/sequence}{/demo}
 

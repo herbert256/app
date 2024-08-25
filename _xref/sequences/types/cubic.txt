@@ -1,3 +1,3 @@
 operations/cubic
+sequence/cubic
 sequence/figurate
-test

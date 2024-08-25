@@ -1,1 +1,2 @@
+sequence/lucas
 sequence/named

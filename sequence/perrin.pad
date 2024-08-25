@@ -1,0 +1,3 @@
+{table}{demo}{sequence perrin, rows=10}
+  {$sequence}
+{/sequence}{/demo}{/table}

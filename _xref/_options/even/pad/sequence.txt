@@ -1,4 +1,5 @@
 operations/even
+sequence/even
 sequence/even_odd
 sequence/keep_remove
 sequence/make

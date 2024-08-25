@@ -1,2 +1,3 @@
 operations/emirp
+sequence/emirp
 sequence/prime_or_not

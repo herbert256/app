@@ -1,2 +1,3 @@
 operations/floor
+sequence/floor
 sequence/floor_round_ceil

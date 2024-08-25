@@ -1,2 +1,3 @@
 operations/lucky
+sequence/lucky
 sequence/other

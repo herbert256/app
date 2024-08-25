@@ -1,2 +1,3 @@
 operations/decagonal
+sequence/decagonal
 sequence/figurate

@@ -1,0 +1,3 @@
+{table}{demo}{sequence gould, rows=10}
+  {$sequence}
+{/sequence}{/demo}{/table}

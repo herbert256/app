@@ -1,4 +1,5 @@
 sequence/combine
 sequence/intro
+sequence/list
 sequence/loop_source
 sequence/store

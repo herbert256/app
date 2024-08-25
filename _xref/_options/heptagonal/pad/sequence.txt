@@ -1,2 +1,3 @@
 operations/heptagonal
 sequence/figurate
+sequence/heptagonal
