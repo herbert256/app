@@ -1,8 +1,0 @@
-deep/four
-deep/four
-deep/index
-deep/index
-deep/three
-deep/three
-deep/two
-deep/two

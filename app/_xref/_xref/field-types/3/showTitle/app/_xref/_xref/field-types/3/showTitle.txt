@@ -1,5 +1,0 @@
-index
-develop/index
-develop/regression
-develop/regression
-develop/regressionGo

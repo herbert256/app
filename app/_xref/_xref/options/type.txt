@@ -1,4 +1,0 @@
-deep/index
-deep/index
-xref/go
-xref/go
