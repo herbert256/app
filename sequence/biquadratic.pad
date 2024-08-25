@@ -1,0 +1,3 @@
+{table}{demo}{sequence biquadratic, rows=10}
+  {$sequence}
+{/sequence}{/demo}{/table}

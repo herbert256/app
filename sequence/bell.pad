@@ -1,0 +1,3 @@
+{table}{demo}{sequence bell, rows=10}
+  {$sequence}
+{/sequence}{/demo}{/table}

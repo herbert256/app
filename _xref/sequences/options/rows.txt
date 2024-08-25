@@ -81,3 +81,4 @@ sequence/prime_or_not
 sequence/random
 sequence/step_multiple
 sequence/trim
+test

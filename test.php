@@ -1,5 +1,7 @@
 <?php
 
+  include_once '/pad/sequence/inits/_lib.php';
+
   $types  = glob ( '/pad/sequence/types/*' );
 
   foreach ( $types as $type ) {
@@ -32,7 +34,11 @@
     file_put_contents ( 
       "/app/sequence/$type.pad",
       "{table}{demo}{sequence $type$parm, rows=10}\n  {\$sequence}\n{/sequence}{/demo}{/table}"
+    );
  
   }
+
+  echo 'done';
+  
 
 ?>
