@@ -5,7 +5,6 @@ sequence/keep_remove
 sequence/loop_source
 sequence/make
 sequence/make_keep_remove
-sequence/new
 sequence/shift_pop
 sequence/slice_splice
 sequence/trim

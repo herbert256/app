@@ -1,2 +1,2 @@
-sequence/new
+operations/negation
 sequence/arithmetic

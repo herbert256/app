@@ -1,3 +1,2 @@
 sequence/first
-test
 sequence/first_last

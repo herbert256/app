@@ -1,1 +1,2 @@
+operations/newmanConway
 sequence/named

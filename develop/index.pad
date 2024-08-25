@@ -11,7 +11,12 @@
 
 <ul>
   <li><a href="{$padGo}develop/callAll&fromMenu=1">Call all (for XREF and so)</a></li>
+  <li><a href="{$padGo}develop/sequences&fromMenu=1">Build sequences</a></li>
   <li><a href="{$padGo}develop/nuts&fromMenu=1">Everything with ajax</a></li>
+</ul>
+
+<ul>
+  <li><a href="{$padGo}develop/build&fromMenu=1">Build all</a></li>
 </ul>
 
 {/block}

@@ -1,2 +1,2 @@
-test
+operations/nand
 sequence/logic

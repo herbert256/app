@@ -16,6 +16,10 @@
   {$sequence} 
 {/sequence}{/demo}
 
+{demo}{sequence powerful, rows=10}
+  {$sequence} 
+{/sequence}{/demo}
+
 {demo}{sequence palindrome, rows=10}
   {$sequence} 
 {/sequence}{/demo} 

@@ -1,3 +1,2 @@
-sequence/new
-test
+operations/or
 sequence/logic

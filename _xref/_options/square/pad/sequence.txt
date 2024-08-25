@@ -1,1 +1,2 @@
+operations/square
 sequence/figurate

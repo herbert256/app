@@ -3,14 +3,25 @@
   if ( ! isset ( $fromMenu ) )
     return NULL;
 
-  if ( file_exists ( '/app/'  . '_xref' ) ) 
-    padRemoveDirectory ( '/app/'  . '_xref' );
+  set_time_limit ( 300 );
 
-  set_time_limit ( 1000 );
+  delTree ( '/app/_regression');
+  delTree ( '/app/_xref' ); 
 
-  foreach ( padListFiltered () as $one )
-    padCurl ( "$padHost$padScript?" . $one ['item'] . '&padInclude' );
+  padPageGet ( 'develop/sequences',    '&fromMenu=1' );
+  padPageGet ( 'develop/callAll',      '&fromMenu=1' );
+  padPageGet ( 'develop/regressionGo', '&fromMenu=1' );
+  padPageGet ( 'develop/regressionGo', '&fromMenu=1' );
 
-  echo "done";
+  function delTree ( $dir ) {
+
+    foreach ( array_diff ( scandir ( $dir ), array ( '.', '..' ) ) as $file )
+      ( is_dir ( "$dir/$file" ) ) ? delTree ( "$dir/$file" ) : unlink ( "$dir/$file" );
+
+    return rmdir($dir);
+
+  }
+
+  padRedirect ( 'develop/regression' );
 
 ?>

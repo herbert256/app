@@ -1,0 +1,17 @@
+{table}{demo}{sequence rows=10}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence rows=10, composite}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence rows=10, step=3}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence rows=10, step=3, composite}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

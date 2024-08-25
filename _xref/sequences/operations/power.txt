@@ -1,2 +1,3 @@
+operations/power
 sequence/loop_source
 sequence/random

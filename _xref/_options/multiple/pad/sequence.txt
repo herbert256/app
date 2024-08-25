@@ -1,3 +1,4 @@
+operations/multiple
 sequence/intersection
 sequence/keep_remove
 sequence/step_multiple

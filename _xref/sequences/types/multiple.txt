@@ -1,2 +1,3 @@
+operations/multiple
 sequence/intersection
 sequence/step_multiple

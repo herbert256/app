@@ -2,6 +2,7 @@ lvl_occ/4
 sequence/combine
 sequence/dedup
 sequence/first_last
+sequence/floor_round_ceil
 sequence/intersection
 sequence/keep_remove
 sequence/loop_source
@@ -13,5 +14,3 @@ sequence/store
 sequence/trim
 tableFun/fun_5_b
 vars/at/3
-sequence/floor_round_ceil
-sequence/new

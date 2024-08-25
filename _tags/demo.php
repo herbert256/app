@@ -1,14 +1,16 @@
 <?php
 
+  $padTableIdx = padFindIdx ( 'table' );
+
   if ( $padWalk[$pad] == 'start' ) {
 
     $padWalk[$pad] = 'end';
 
-    $padSourcex = padColorsString (trim($padContent));
+    $padSourcex = padColorsString ( trim ( $padContent ) );
 
-    $padDemoCount[$pad-1]++;
+    $padDemoCount [$padTableIdx]++;
 
-    if ( $padDemoCount[$pad-1] > 1 )
+    if ( $padDemoCount [$padTableIdx] > 1 )
       $padDemoSourcePHP = '';
 
    return TRUE;

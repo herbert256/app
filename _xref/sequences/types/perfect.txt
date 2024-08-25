@@ -1,3 +1,2 @@
-sequence/other
-test
+operations/perfect
 sequence/prime_or_not

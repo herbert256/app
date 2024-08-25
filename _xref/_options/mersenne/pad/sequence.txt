@@ -1,2 +1,2 @@
-test
+operations/mersenne
 sequence/prime_or_not

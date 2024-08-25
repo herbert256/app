@@ -1,2 +1,2 @@
-test
+operations/xnor
 sequence/logic

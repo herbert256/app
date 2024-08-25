@@ -1,1 +1,2 @@
+operations/semiprime
 sequence/prime_or_not
