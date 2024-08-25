@@ -8,7 +8,7 @@
   delTree ( '/app/_regression');
   delTree ( '/app/_xref' ); 
 
-  padPageGet ( 'develop/sequences',    '&fromMenu=1' );
+  padPageGet ( 'develop/operations',    '&fromMenu=1' );
   padPageGet ( 'develop/callAll',      '&fromMenu=1' );
   padPageGet ( 'develop/regressionGo', '&fromMenu=1' );
   padPageGet ( 'develop/regressionGo', '&fromMenu=1' );

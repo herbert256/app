@@ -31,16 +31,15 @@
     if (   file_exists       ( "/pad/sequence/types/$type/make.php") )
       $d = file_get_contents ( "/pad/sequence/types/$type/make.php");
 
-    $e = TRUE;
-    if ( str_contains ( $c, "padSeqParm"         ) ) $e = FALSE;
-    if ( str_contains ( $c, padSeqname ( $type ) ) ) $e = FALSE;
-   
-                            $parm = 5;
-    if ( $type  == 'oeis' ) $parm = 87;
+    if     ( str_contains ( $c, "padSeqParm"         ) ) $e = FALSE;
+    elseif ( str_contains ( $c, padSeqname ( $type ) ) ) $e = FALSE;
+    elseif ( str_contains ( $d, "padSeqParm"         ) ) $e = FALSE;
+    elseif ( str_contains ( $d, padSeqname ( $type ) ) ) $e = FALSE;
+    else                                                 $e = TRUE;
 
-    if ( $e or $a == $b )   $parm = '';
-    else                    $parm = "=$parm";
-    if ( $type  == 'oeis' ) $parm = "=$parm";
+    if     ( $e or $a == $b )   $parm = '';
+    elseif ( $type  == 'oeis' ) $parm = "=87";
+    else                        $parm = "=5";
 
     if ($type == 'prime' ) $base = 'step=5';
     else                   $base = 'even';
@@ -58,15 +57,6 @@
 
     $source .= "<h3>$type</h3>$one";
 
-    if ( $type == 'random' ) $add = ', min=100, max=199';
-    else                     $add = '';
-
-    if ( ! file_exists ( "/app/sequence/$type.pad" ))
-      file_put_contents ( 
-        "/app/sequence/$type.pad",
-        "{table}{demo}{sequence rows=10, $type=$parm$add}\n  {\$sequence}\n{/sequence}{/demo}{/table}"
-     );
- 
   }
 
   return $source;
