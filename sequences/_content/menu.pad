@@ -1,0 +1,57 @@
+{if $padPage ne 'sequences/index'}
+  <a href="@pad@manual/sequences&go=index">Introduction</a>
+@else@
+  Introduction
+{/if}
+
+&nbsp; &nbsp;
+
+{if $padPage ne 'sequences/list'}
+  <a href="@pad@manual/sequences&go=list">Listed alphabetically</a>
+@else@
+  Listed alphabetically
+{/if}
+
+&nbsp; &nbsp;
+
+{if $padPage ne 'sequences/store'}
+  <a href="@pad@manual/sequences&go=store">Store</a>
+@else@
+  Store
+{/if}
+
+&nbsp; &nbsp;
+
+{if $padPage ne 'sequences/groups'}
+  <a href="@pad@manual/sequences&go=groups">Listed in groups</a>
+@else@
+  Listed in groups
+{/if}
+
+&nbsp; &nbsp;
+
+{if $padPage ne 'sequences/actions'}
+  <a href="@pad@manual/sequences&go=actions">Actions</a>
+@else@
+  Actions
+{/if}
+
+&nbsp; &nbsp;
+
+{if $padPage ne 'sequences/make_keep_remove'}
+  <a href="@pad@manual/sequences&go=make_keep_remove">Make, Keep & Remove</a>
+@else@
+  Make, Keep & Remove
+{/if}
+
+&nbsp; &nbsp;
+
+{if $padPage ne 'sequences/xref'}
+  <a href="@pad@manual/sequences&go=xref">References</a>
+@else@
+  References
+{/if}
+
+<br><br><hr >
+
+<!-- PAD: SKIP REGRESSION -->

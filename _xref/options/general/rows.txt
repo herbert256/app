@@ -72,6 +72,7 @@ sequence/add
 sequence/and
 sequence/antiprime
 sequence/arithmetic
+sequence/basic
 sequence/bell
 sequence/biquadratic
 sequence/catalan
@@ -102,7 +103,6 @@ sequence/heptagonal
 sequence/hexagonal
 sequence/identity
 sequence/intersection
-sequence/intro
 sequence/kaprekar
 sequence/kolakoski
 sequence/kynea
@@ -140,3 +140,4 @@ sequence/pronic
 sequence/random
 sequence/step_multiple
 sequence/trim
+sequences/index

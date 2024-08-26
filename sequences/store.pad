@@ -1,3 +1,5 @@
+{menu}
+
 {table}
 
 {demo}{sequence '5;10;15;20',  name='one'}{/demo}

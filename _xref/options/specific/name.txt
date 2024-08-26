@@ -5,14 +5,13 @@ sequence/dedup
 sequence/first_last
 sequence/floor_round_ceil
 sequence/intersection
-sequence/keep_remove
 sequence/loop_source
 sequence/make
-sequence/make_keep_remove
 sequence/shift_pop
 sequence/slice_splice
-sequence/store
 sequence/trim
+sequences/make_keep_remove
+sequences/store
 tableFun/fun_5_b
 tag_return_values/return_4
 tag_return_values/return_5

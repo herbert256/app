@@ -1,2 +1,3 @@
 operations/triangular
 sequence/figurate
+sequences/list

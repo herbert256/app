@@ -51,21 +51,21 @@ It's possible to put a PHP file in the directory '_callbacks' that is called bac
           <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table border=1&gt;<br><br>  &lt;tr&gt;<br>    &lt;th&gt;Name&lt;/th&gt;<br>    &lt;th&gt;Salary&lt;/th&gt;<br>    &lt;th&gt;Bonus&lt;/th&gt;<br>    &lt;th&gt;Total&lt;/th&gt;<br>  &lt;/tr&gt;<br>  <br>  <b>{<font color="blue">staff </font><font color="red">callback=<font color="black">'</font>before.php<font color="black">'</font><font color="black">,</font> before</font>}</b><br><br>    <b>{<font color="blue">first</font><font color="red"></font>}</b><br>      &lt;tr&gt;<br>        &lt;td&gt;Totals&lt;/td&gt;<br>        &lt;td&gt;<b>{<font color="green"><font color="red">$</font>salaryTotal %.2f</font>}</b>&lt;/td&gt;<br>        &lt;td&gt;<b>{<font color="green"><font color="red">$</font>bonusTotal  %.2f</font>}</b>&lt;/td&gt;<br>        &lt;td&gt;<b>{<font color="green"><font color="red">$</font>totalTotal  %.2f</font>}</b>&lt;/td&gt;<br>      &lt;/tr&gt;<br>    <b>{/<font color="blue">first</font><font color="red"></font>}</b><br><br>    &lt;tr align="right" <br>        bgcolor="<b>{<font color="blue">switch </font><font color="red"><font color="black">'</font>yellow<font color="black">'</font><font color="black">,</font> <font color="black">'</font>pink<font color="black">'</font></font>}</b>"&gt;<br>      &lt;td align="left"&gt;<b>{<font color="green"><font color="red">$</font>name capitalize</font>}</b>&lt;/td&gt;<br>      &lt;td&gt;<b>{<font color="green"><font color="red">$</font>salary %.2f</font>}</b>&lt;/td&gt;<br>      &lt;td&gt;<b>{<font color="green"><font color="red">$</font>bonus  %.2f</font>}</b>&lt;/td&gt;<br>      &lt;td&gt;<b>{<font color="green"><font color="red">$</font>total  %.2f</font>}</b>&lt;/td&gt;<br>    &lt;/tr&gt;<br><br>  <b>{/<font color="blue">staff</font><font color="red"></font>}</b><br> <br>&lt;/table&gt;</code></pre></td>
         
         
-          <td style="vertical-align:top"><div id="padAjaxcTI7DKS4"></div>
+          <td style="vertical-align:top"><div id="padAjaxMCTxRqp7"></div>
 
 <script>
-  padAjaxcTI7DKS4 = new XMLHttpRequest();
-  padAjaxcTI7DKS4.onreadystatechange=function() {
-    if (padAjaxcTI7DKS4.readyState === 4) {
-      if (padAjaxcTI7DKS4.status === 200) {
-        document.getElementById("padAjaxcTI7DKS4").innerHTML=padAjaxcTI7DKS4.responseText;
+  padAjaxMCTxRqp7 = new XMLHttpRequest();
+  padAjaxMCTxRqp7.onreadystatechange=function() {
+    if (padAjaxMCTxRqp7.readyState === 4) {
+      if (padAjaxMCTxRqp7.status === 200) {
+        document.getElementById("padAjaxMCTxRqp7").innerHTML=padAjaxMCTxRqp7.responseText;
       } else {
-        document.getElementById("padAjaxcTI7DKS4").innerHTML=padAjaxcTI7DKS4.statusText;
+        document.getElementById("padAjaxMCTxRqp7").innerHTML=padAjaxMCTxRqp7.statusText;
       }
     }
   }
-  padAjaxcTI7DKS4.open("GET","http://penguin.linux.test/?callback/before&padInclude&padSesID=DYXrxM31&padReqID=MJMDMXp8",true);
-  padAjaxcTI7DKS4.send();
+  padAjaxMCTxRqp7.open("GET","http://penguin.linux.test/?callback/before&padInclude&padSesID=DYXrxM31&padReqID=I0No6Iyy",true);
+  padAjaxMCTxRqp7.send();
 </script></td>
         
       </tr>
@@ -115,21 +115,21 @@ It's possible to put a PHP file in the directory '_callbacks' that is called bac
           <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table border=1&gt;<br><br>  &lt;tr&gt;<br>    &lt;th&gt;Name&lt;/th&gt;<br>    &lt;th&gt;Salary&lt;/th&gt;<br>    &lt;th&gt;Bonus&lt;/th&gt;<br>    &lt;th&gt;Total&lt;/th&gt;<br>  &lt;/tr&gt;<br>  <br>  <b>{<font color="blue">staff </font><font color="red">callback=<font color="black">'</font>demand.php<font color="black">'</font><font color="black">,</font> demand</font>}</b><br><br>    &lt;tr align="right" <br>        bgcolor="<b>{<font color="blue">switch </font><font color="red"><font color="black">'</font>yellow<font color="black">'</font><font color="black">,</font> <font color="black">'</font>pink<font color="black">'</font></font>}</b>"&gt;<br>      &lt;td align="left"&gt;<b>{<font color="green"><font color="red">$</font>name capitalize</font>}</b>&lt;/td&gt;<br>      &lt;td&gt;<b>{<font color="green"><font color="red">$</font>salary %.2f</font>}</b>&lt;/td&gt;<br>      &lt;td&gt;<b>{<font color="green"><font color="red">$</font>bonus  %.2f</font>}</b>&lt;/td&gt;<br>      &lt;td&gt;<b>{<font color="green"><font color="red">$</font>total  %.2f</font>}</b>&lt;/td&gt;<br>    &lt;/tr&gt;<br><br>  <b>{/<font color="blue">staff</font><font color="red"></font>}</b><br><br>  &lt;tr&gt;<br>    &lt;td&gt;Totals&lt;/td&gt;<br>    &lt;td&gt;<b>{<font color="green"><font color="red">$</font>salaryTotal %.2f</font>}</b>&lt;/td&gt;<br>    &lt;td&gt;<b>{<font color="green"><font color="red">$</font>bonusTotal  %.2f</font>}</b>&lt;/td&gt;<br>    &lt;td&gt;<b>{<font color="green"><font color="red">$</font>totalTotal  %.2f</font>}</b>&lt;/td&gt;<br>  &lt;/tr&gt;<br> <br>&lt;/table&gt;</code></pre></td>
         
         
-          <td style="vertical-align:top"><div id="padAjaxCvTelox1"></div>
+          <td style="vertical-align:top"><div id="padAjax1Munov2Q"></div>
 
 <script>
-  padAjaxCvTelox1 = new XMLHttpRequest();
-  padAjaxCvTelox1.onreadystatechange=function() {
-    if (padAjaxCvTelox1.readyState === 4) {
-      if (padAjaxCvTelox1.status === 200) {
-        document.getElementById("padAjaxCvTelox1").innerHTML=padAjaxCvTelox1.responseText;
+  padAjax1Munov2Q = new XMLHttpRequest();
+  padAjax1Munov2Q.onreadystatechange=function() {
+    if (padAjax1Munov2Q.readyState === 4) {
+      if (padAjax1Munov2Q.status === 200) {
+        document.getElementById("padAjax1Munov2Q").innerHTML=padAjax1Munov2Q.responseText;
       } else {
-        document.getElementById("padAjaxCvTelox1").innerHTML=padAjaxCvTelox1.statusText;
+        document.getElementById("padAjax1Munov2Q").innerHTML=padAjax1Munov2Q.statusText;
       }
     }
   }
-  padAjaxCvTelox1.open("GET","http://penguin.linux.test/?callback/demand&padInclude&padSesID=DYXrxM31&padReqID=MJMDMXp8",true);
-  padAjaxCvTelox1.send();
+  padAjax1Munov2Q.open("GET","http://penguin.linux.test/?callback/demand&padInclude&padSesID=DYXrxM31&padReqID=I0No6Iyy",true);
+  padAjax1Munov2Q.send();
 </script></td>
         
       </tr>

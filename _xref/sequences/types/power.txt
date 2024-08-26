@@ -1,4 +1,6 @@
 operations/power
 sequence/loop_source
 sequence/power
-sequence/store
+sequence/random
+sequences/list
+sequences/store

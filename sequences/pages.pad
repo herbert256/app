@@ -1,0 +1,19 @@
+{menu}
+
+<blockquote>
+
+  {block}
+
+<center>
+    {go}
+
+      {$go} <br> {example '{$go}', type='ajax' }
+
+    {/go}
+
+</center>
+
+  {/block}
+
+
+</blockquote>

@@ -1,3 +1,4 @@
 operations/nor
 sequence/logic
 sequence/nor
+sequences/list

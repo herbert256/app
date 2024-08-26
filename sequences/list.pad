@@ -1,0 +1,325 @@
+{menu}
+
+{table}
+
+{demo}{sequence 15}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, add=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, and=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, antiprime}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, bell}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, biquadratic}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, catalan}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, caterer}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, ceil=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, composite}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, cubic}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, cullen}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, decagonal}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, divide=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, emirp}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, enneadecagonal}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, eval='@ * 10 | @ - 1'}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, even}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, exponentiation=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, fibonacci}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, floor=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, gnomonic}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, golomb}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, gould}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, happy}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, harshad}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, heptadecagonal}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, heptagonal}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, hexagonal}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, identity}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, juggler=9}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, kaprekar}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, kolakoski}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, kynea}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence list='1;8;5;2;9;66'}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, loop}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, lucas}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, lucky}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, mersenne}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, modulo=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, moserdebruijn}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, multiple=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, multiply=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, nand}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, negation}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, newmanConway}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, nor}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, not}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, octagonal}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, octahedral}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, odd}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, oeis=87}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, or=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, palindrome}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, pell}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, pentagonal}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, perfect}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, perrin}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, polite}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, power=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, powerful}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, prime}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, pronic}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, random, min=100, max=199}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence range='1..10'}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, recaman}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, repeat=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, round=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, semiprime}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, square}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, step=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, strong}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, substract=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, sylvester}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, tetrahedral}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, triangular}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, tribonacci}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, xnor}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, xor=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, xpadovan}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

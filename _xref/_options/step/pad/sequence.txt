@@ -68,3 +68,4 @@ operations/triangular
 operations/xnor
 operations/xor
 sequence/step_multiple
+sequences/list

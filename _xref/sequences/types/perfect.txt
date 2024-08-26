@@ -1,3 +1,4 @@
 operations/perfect
 sequence/perfect
 sequence/prime_or_not
+sequences/list

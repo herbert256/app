@@ -1,3 +1,4 @@
 operations/decagonal
 sequence/decagonal
 sequence/figurate
+sequences/list

@@ -1,0 +1,6 @@
+[
+  { "type": "Sequences",           "lvl": 1, "dir": "types"      }, 
+  { "type": "Sequence actions",    "lvl": 2, "dir": "actions"    },
+  { "type": "Sequence options",    "lvl": 2, "dir": "options"    },
+  { "type": "Sequence operations", "lvl": 2, "dir": "operations" }
+]

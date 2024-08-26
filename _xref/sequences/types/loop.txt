@@ -68,12 +68,13 @@ operations/triangular
 operations/xnor
 operations/xor
 sequence/arithmetic
+sequence/basic
 sequence/increment
-sequence/intro
-sequence/keep_remove
 sequence/logic
 sequence/loop
 sequence/loop_source
 sequence/make
-sequence/make_keep_remove
 sequence/trim
+sequences/index
+sequences/list
+sequences/make_keep_remove

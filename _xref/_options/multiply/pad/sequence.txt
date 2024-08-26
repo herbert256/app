@@ -1,3 +1,4 @@
 operations/multiply
 sequence/arithmetic
 sequence/multiply
+sequences/list

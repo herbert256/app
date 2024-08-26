@@ -25,25 +25,19 @@
     $a = padCode ( "{sequence rows=10, $type}{\$sequence}{/sequence}"   );
     $b = padCode ( "{sequence rows=10, $type=5}{\$sequence}{/sequence}" );
 
-    $c = $d = '';
-    if (   file_exists       ( "/pad/sequence/types/$type/loop.php") )
-      $c = file_get_contents ( "/pad/sequence/types/$type/loop.php");
-    if (   file_exists       ( "/pad/sequence/types/$type/make.php") )
-      $d = file_get_contents ( "/pad/sequence/types/$type/make.php");
-
-    if     ( str_contains ( $c, "padSeqParm"         ) ) $e = FALSE;
-    elseif ( str_contains ( $c, padSeqname ( $type ) ) ) $e = FALSE;
-    elseif ( str_contains ( $d, "padSeqParm"         ) ) $e = FALSE;
-    elseif ( str_contains ( $d, padSeqname ( $type ) ) ) $e = FALSE;
-    else                                                 $e = TRUE;
+    $e = TRUE;
+    foreach ( ['loop','make'] as $check ) 
+      if (   file_exists       ( "/pad/sequence/types/$type/$check.php") ) {
+        $c = file_get_contents ( "/pad/sequence/types/$type/$check.php");
+        if ( str_contains ( $c, "padSeqParm"         ) ) $e = FALSE;
+        if ( str_contains ( $c, padSeqname ( $type ) ) ) $e = FALSE;
+      }
 
     if     ( $e or $a == $b )   $parm = '';
     elseif ( $type  == 'oeis' ) $parm = "=87";
     else                        $parm = "=5";
 
-    if ($type == 'prime' ) $base = 'step=5';
-    else                   $base = 'even';
-                           $base = 'step=3';
+    $base = 'step=3';
 
     $one = '{table}';
 

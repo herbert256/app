@@ -1,3 +1,4 @@
 operations/octahedral
 sequence/figurate
 sequence/octahedral
+sequences/list

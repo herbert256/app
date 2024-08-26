@@ -1,3 +1,4 @@
 operations/nand
 sequence/logic
 sequence/nand
+sequences/list

@@ -1,3 +1,4 @@
 operations/negation
 sequence/arithmetic
 sequence/negation
+sequences/list

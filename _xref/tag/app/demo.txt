@@ -93,6 +93,7 @@ sequence/add
 sequence/and
 sequence/antiprime
 sequence/arithmetic
+sequence/basic
 sequence/bell
 sequence/biquadratic
 sequence/catalan
@@ -128,10 +129,8 @@ sequence/hexagonal
 sequence/identity
 sequence/increment
 sequence/intersection
-sequence/intro
 sequence/juggler
 sequence/kaprekar
-sequence/keep_remove
 sequence/kolakoski
 sequence/kynea
 sequence/list
@@ -141,7 +140,6 @@ sequence/loop_source
 sequence/lucas
 sequence/lucky
 sequence/make
-sequence/make_keep_remove
 sequence/mersenne
 sequence/modulo
 sequence/moserdebruijn
@@ -176,8 +174,11 @@ sequence/random2
 sequence/shift_pop
 sequence/slice_splice
 sequence/step_multiple
-sequence/store
 sequence/trim
+sequences/index
+sequences/list
+sequences/make_keep_remove
+sequences/store
 tag_return_values/2
 tag_return_values/3
 tags/redirect

@@ -1,6 +1,6 @@
 operations/even
 sequence/even
 sequence/even_odd
-sequence/keep_remove
 sequence/make
-sequence/make_keep_remove
+sequences/list
+sequences/make_keep_remove

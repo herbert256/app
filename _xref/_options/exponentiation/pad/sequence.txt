@@ -1,3 +1,4 @@
 operations/exponentiation
 sequence/arithmetic
 sequence/exponentiation
+sequences/list

@@ -1,3 +1,4 @@
 operations/palindrome
 sequence/other
 sequence/palindrome
+sequences/list

@@ -1,2 +1,3 @@
 operations/semiprime
 sequence/prime_or_not
+sequences/list
