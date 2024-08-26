@@ -6,18 +6,18 @@
 
 &nbsp; &nbsp;
 
-{if $padPage ne 'sequences/list'}
-  <a href="@pad@manual/sequences&go=list">Listed alphabetically</a>
-@else@
-  Listed alphabetically
-{/if}
-
-&nbsp; &nbsp;
-
 {if $padPage ne 'sequences/store'}
   <a href="@pad@manual/sequences&go=store">Store</a>
 @else@
   Store
+{/if}
+
+&nbsp; &nbsp;
+
+{if $padPage ne 'sequences/list'}
+  <a href="@pad@manual/sequences&go=list">Listed alphabetically</a>
+@else@
+  Listed alphabetically
 {/if}
 
 &nbsp; &nbsp;
@@ -51,7 +51,3 @@
 @else@
   References
 {/if}
-
-<br><br><hr >
-
-<!-- PAD: SKIP REGRESSION -->

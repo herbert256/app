@@ -1,4 +1,4 @@
-{menu}
+{menu}<hr>
 
 {data 'list'}
   ('even_odd','step_multiple','print','eval','random','prime_or_not','loop_source','figurate','named','other')
@@ -21,3 +21,5 @@
       <br><hr>
   {/list}
 </center>
+
+<hr>{menu}

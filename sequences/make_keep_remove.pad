@@ -1,5 +1,4 @@
-{menu}
-
+{menu}<hr>
 {table}
 
 {demo}
@@ -80,3 +79,5 @@
 {/demo}
 
 {/table}
+
+<hr>{menu}

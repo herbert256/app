@@ -1,7 +1,7 @@
 {block}
 
 {if $padPage <> 'manual/index'}
-  <br><hr>
+  <hr>
 {/if}
 
 <table valign="top" align="center">

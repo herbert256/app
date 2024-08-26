@@ -1,4 +1,4 @@
-{menu}
+{menu}<hr>
 
 <blockquote>
 
@@ -30,3 +30,5 @@
 {/block}
 
 </blockquote>
+
+<hr>{menu}

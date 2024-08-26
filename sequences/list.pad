@@ -1,4 +1,4 @@
-{menu}
+{menu}<hr>
 
 {table}
 
@@ -323,3 +323,5 @@
 {/sequence}{/demo}
 
 {/table}
+
+<hr>{menu}
