@@ -1,3 +1,2 @@
 operations/loop
 sequence/loop
-sequences/list

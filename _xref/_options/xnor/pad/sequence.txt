@@ -1,3 +1,2 @@
 operations/xnor
 sequence/logic
-sequences/list

@@ -75,6 +75,3 @@ sequence/loop
 sequence/loop_source
 sequence/make
 sequence/trim
-sequences/index
-sequences/list
-sequences/make_keep_remove

@@ -1,4 +1,3 @@
 operations/happy
 sequence/happy
 sequence/other
-sequences/list

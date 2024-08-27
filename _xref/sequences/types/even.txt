@@ -2,5 +2,3 @@ operations/even
 sequence/even
 sequence/even_odd
 sequence/make
-sequences/list
-sequences/make_keep_remove

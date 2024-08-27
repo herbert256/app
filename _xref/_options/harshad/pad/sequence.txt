@@ -1,4 +1,3 @@
 operations/harshad
 sequence/harshad
 sequence/named
-sequences/list

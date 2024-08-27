@@ -1,2 +1,1 @@
 operations/multiple
-sequences/make_keep_remove

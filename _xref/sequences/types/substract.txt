@@ -1,3 +1,2 @@
 operations/substract
 sequence/arithmetic
-sequences/list

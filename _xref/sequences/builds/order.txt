@@ -1,0 +1,5 @@
+sequence/fibonacci
+sequence/golomb
+sequence/lucas
+sequence/named
+sequence/perrin

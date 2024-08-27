@@ -1,3 +1,2 @@
 sequence/fibonacci
 sequence/named
-sequences/list

@@ -1,4 +1,3 @@
 operations/gnomonic
 sequence/figurate
 sequence/gnomonic
-sequences/list

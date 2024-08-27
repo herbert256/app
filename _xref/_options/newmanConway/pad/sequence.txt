@@ -1,4 +1,3 @@
 operations/newmanConway
 sequence/named
 sequence/newmanConway
-sequences/list

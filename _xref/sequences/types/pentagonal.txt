@@ -1,4 +1,3 @@
 operations/pentagonal
 sequence/figurate
 sequence/pentagonal
-sequences/list

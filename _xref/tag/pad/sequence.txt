@@ -156,11 +156,8 @@ sequence/shift_pop
 sequence/slice_splice
 sequence/step_multiple
 sequence/trim
-sequences/index
-sequences/list
-sequences/make_keep_remove
-sequences/store
 tableFun/fun_5_a
 tableFun/fun_5_b
+test
 vars/at/3
 walk/1

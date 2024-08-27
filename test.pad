@@ -1,0 +1,7 @@
+{sequence '1..25', name='myStore'}
+
+{sequence myStore, first=5, storeAppend}
+
+{sequence myStore}
+  {$sequence}
+{/sequence}

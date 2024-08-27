@@ -1,3 +1,2 @@
 sequence/lucas
 sequence/named
-sequences/list

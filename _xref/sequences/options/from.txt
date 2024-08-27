@@ -3,5 +3,3 @@ sequence/floor_round_ceil
 sequence/loop
 sequence/loop_source
 sequence/make
-sequences/index
-sequences/make_keep_remove

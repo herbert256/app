@@ -1,4 +1,3 @@
 operations/antiprime
 sequence/antiprime
 sequence/prime_or_not
-sequences/list

@@ -1,0 +1,35 @@
+<center>
+
+<a href="#append">append</a>&nbsp; 
+<a href="#combine">combine</a>&nbsp; 
+<a href="#dedup">dedup</a>&nbsp; 
+<a href="#difference">difference</a>&nbsp; 
+<a href="#first">first</a>&nbsp; 
+<a href="#intersection">intersection</a>&nbsp; 
+<a href="#last">last</a>&nbsp; 
+<a href="#merge">merge</a> &nbsp; 
+<a href="#onlyMe">onlyMe</a> &nbsp; 
+<a href="#onlyOther">onlyOther</a> &nbsp; 
+<a href="#pop">pop</a> &nbsp; 
+<a href="#prepend">prepend</a> &nbsp; 
+<a href="#reverse">reverse</a> &nbsp; 
+<a href="#shift">shift</a> &nbsp; 
+<a href="#shuffle">shuffle</a> &nbsp; 
+<a href="#slice">slice</a> &nbsp; 
+<a href="#sort">sort</a> &nbsp; 
+<a href="#splice">splice</a> &nbsp; 
+<a href="#sum">sum</a> &nbsp; 
+<a href="#trim">trim</a>
+
+{data 'list'}
+  ('first_last','shift_pop','slice_splice','trim','combine','intersection')
+{/data}
+
+{list}
+    <h3><a id="{$list}">{$list}</a></h3>  
+    {example 'sequence/{$list}', onlyResult, include}
+    <font size="-1"> <a href="#top">top</a></font>
+    <br><hr>
+{/list}
+
+</center>

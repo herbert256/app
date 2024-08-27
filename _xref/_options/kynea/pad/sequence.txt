@@ -1,4 +1,3 @@
 operations/kynea
 sequence/kynea
 sequence/named
-sequences/list

@@ -2,5 +2,3 @@ operations/power
 sequence/loop_source
 sequence/power
 sequence/random
-sequences/list
-sequences/store

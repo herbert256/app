@@ -1,4 +1,3 @@
 operations/kaprekar
 sequence/kaprekar
 sequence/named
-sequences/list

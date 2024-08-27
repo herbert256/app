@@ -1,4 +1,3 @@
 operations/biquadratic
 sequence/biquadratic
 sequence/figurate
-sequences/list

@@ -1,3 +1,2 @@
 operations/strong
 sequence/other
-sequences/list

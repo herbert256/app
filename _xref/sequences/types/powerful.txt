@@ -1,4 +1,3 @@
 operations/powerful
 sequence/other
 sequence/powerful
-sequences/list

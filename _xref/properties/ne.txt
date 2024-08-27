@@ -1,3 +1,0 @@
-sequences/actions
-sequences/list
-sequences/store

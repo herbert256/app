@@ -1,3 +1,2 @@
 operations/square
 sequence/figurate
-sequences/list

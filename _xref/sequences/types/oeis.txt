@@ -1,3 +1,2 @@
 operations/oeis
 sequence/oeis
-sequences/list

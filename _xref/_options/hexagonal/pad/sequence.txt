@@ -1,4 +1,3 @@
 operations/hexagonal
 sequence/figurate
 sequence/hexagonal
-sequences/list

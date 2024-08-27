@@ -1,4 +1,3 @@
 operations/catalan
 sequence/catalan
 sequence/named
-sequences/list

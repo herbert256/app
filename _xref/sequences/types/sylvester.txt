@@ -1,3 +1,2 @@
 operations/sylvester
 sequence/named
-sequences/list

@@ -139,4 +139,3 @@ sequence/pronic
 sequence/random
 sequence/step_multiple
 sequence/trim
-sequences/index

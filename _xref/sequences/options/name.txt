@@ -9,7 +9,6 @@ sequence/make
 sequence/shift_pop
 sequence/slice_splice
 sequence/trim
-sequences/make_keep_remove
-sequences/store
 tableFun/fun_5_b
+test
 vars/at/3

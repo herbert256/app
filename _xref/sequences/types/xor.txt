@@ -1,3 +1,2 @@
 operations/xor
 sequence/logic
-sequences/list

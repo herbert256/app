@@ -1,0 +1,11 @@
+operations/enneadecagonal
+operations/gould
+operations/heptadecagonal
+operations/polite
+operations/sylvester
+sequence/enneadecagonal
+sequence/figurate
+sequence/gould
+sequence/heptadecagonal
+sequence/named
+sequence/polite

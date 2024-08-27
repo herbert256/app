@@ -2,4 +2,3 @@ operations/multiple
 sequence/intersection
 sequence/multiple
 sequence/step_multiple
-sequences/list

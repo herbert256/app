@@ -1,4 +1,3 @@
 operations/enneadecagonal
 sequence/enneadecagonal
 sequence/figurate
-sequences/list

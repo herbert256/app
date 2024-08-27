@@ -1,4 +1,3 @@
 operations/cullen
 sequence/cullen
 sequence/named
-sequences/list

@@ -1,4 +1,3 @@
 operations/kolakoski
 sequence/kolakoski
 sequence/named
-sequences/list

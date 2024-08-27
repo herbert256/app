@@ -1,4 +1,3 @@
 operations/pronic
 sequence/named
 sequence/pronic
-sequences/list

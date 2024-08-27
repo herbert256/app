@@ -1,4 +1,3 @@
 operations/bell
 sequence/bell
 sequence/named
-sequences/list

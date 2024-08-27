@@ -1,3 +1,2 @@
 operations/tetrahedral
 sequence/figurate
-sequences/list

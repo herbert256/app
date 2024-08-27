@@ -1,4 +1,3 @@
 operations/pell
 sequence/named
 sequence/pell
-sequences/list

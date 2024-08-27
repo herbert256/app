@@ -1,3 +1,2 @@
 operations/recaman
 sequence/named
-sequences/list

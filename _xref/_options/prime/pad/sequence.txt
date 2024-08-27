@@ -2,4 +2,3 @@ operations/prime
 sequence/prime
 sequence/prime_or_not
 sequence/random
-sequences/list

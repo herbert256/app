@@ -1,4 +1,2 @@
 deep/index
 deep/two
-sequences/actions
-sequences/groups

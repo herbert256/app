@@ -1,4 +1,3 @@
 operations/polite
 sequence/named
 sequence/polite
-sequences/list

@@ -1,6 +1,3 @@
 sequence/basic
 sequence/combine
 sequence/list
-sequences/index
-sequences/list
-sequences/store
