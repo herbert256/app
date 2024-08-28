@@ -1,3 +1,0 @@
-{table}{demo}{sequence multiply=5, rows=10}
-  {$sequence}
-{/sequence}{/demo}{/table}
