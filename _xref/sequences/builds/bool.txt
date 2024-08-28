@@ -1,9 +1,15 @@
 operations/antiprime
+operations/composite
+operations/even
 operations/happy
 operations/harshad
 operations/kaprekar
 operations/lucky
+operations/multiple
+operations/odd
+operations/palindrome
 operations/powerful
+operations/prime
 operations/pronic
 operations/semiprime
 operations/strong

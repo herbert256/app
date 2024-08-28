@@ -252,10 +252,6 @@
   {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence 15, random, min=100, max=199}
-  {$sequence}
-{/sequence}{/demo}
-
 {demo}{sequence range='1..10'}
   {$sequence}
 {/sequence}{/demo}

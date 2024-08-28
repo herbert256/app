@@ -1,47 +1,54 @@
 <?php
+ 
+  if ( ! isset ( $fromMenu ) )
+    return NULL;
 
-return;
+  include_once '/pad/sequence/inits/_lib.php';
 
-  $source = "{table}{demo}{sequence 10}\n  {\$sequence}\n{/sequence}{/demo}\n\n";
-  
-  $list = glob ( '/pad/sequence/types/*' );
-  sort ($list);
+  foreach ( glob ( '/app/sequence/*.pad' ) as $file )
+    unlink($file);
 
-  foreach ( $list as $type ) {
+  $source = "";
+  $types  = glob ( '/pad/sequence/types/*' );
+
+  foreach ( $types as $type ) {
 
     $type = str_replace ( '/pad/sequence/types/', '', $type );
 
-    if ( $type == 'pull' ) 
+    $build = padSeqBuild ( $type );
+
+    if ( $type  == 'juggler' or $type == 'random' or $type  == 'pull' or 
+         $build == 'fixed' or $build == 'order'   ) {
+      $source .= include '/app/develop/sequencesSpecial.php';
       continue;
-
-    if     ( $type == 'oeis'    ) $go = "15, oeis=87";
-    elseif ( $type == 'juggler' ) $go = "15, juggler=9";
-    elseif ( $type == 'list'    ) $go = "list='1;8;5;2;9;66'";
-    elseif ( $type == 'range'   ) $go = "range='1..10'";
-    elseif ( $type == 'eval'    ) $go = "15, eval='@ * 10 | @ - 1'";
-    elseif ( $type == 'random'  ) $go = '15, random, min=100, max=199';
-    else {
-
-      $a = padCode ( "{sequence 15, $type}{\$sequence}{/sequence}"   );
-      $b = padCode ( "{sequence 15, $type=5}{\$sequence}{/sequence}" );
-
-      $e = TRUE;
-      foreach ( ['loop','make'] as $check ) 
-        if (   file_exists       ( "/pad/sequence/types/$type/$check.php") ) {
-          $c = file_get_contents ( "/pad/sequence/types/$type/$check.php");
-          if ( str_contains ( $c, "padSeqParm"         ) ) $e = FALSE;
-          if ( str_contains ( $c, padSeqname ( $type ) ) ) $e = FALSE;
-        }
-
-      if ( $e or $a == $b ) $go = "15, $type";
-      else                  $go = "15, $type=5";
 
     }
 
-    $source .= "{demo}{sequence $go}\n  {\$sequence}\n{/sequence}{/demo}\n\n";
+    include '/app/develop/sequencesCheck.php';
+
+    if     ( $type  == 'oeis' ) $parm = "=87";
+    elseif ( $e or $a == $b )   $parm = '';
+    else                        $parm = "=4";
+
+    $one = "{table}\n\n"
+         . "{demo}{sequence 10}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
+         . "{demo}{sequence 10, $type}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
+         . "{/table}{table}\n\n"
+         . "{demo}{sequence loop, from=1, to=10}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
+         . "{demo}{sequence loop, from=1, to=10, make, $type$parm}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
+         . "{demo}{sequence loop, from=1, to=10, keep, $type$parm}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
+         . "{demo}{sequence loop, from=1, to=10, remove, $type$parm}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
+         . "{/table}{table}\n\n"
+         . "{demo}{sequence 10, step=3}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
+         . "{demo}{sequence 10, step=3, $type$parm}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
+         . "{/table}";
+
+    file_put_contents ( "/app/sequence/$type.pad", $one );
+
+    $source .= "<h3>$type</h3>$one";
 
   }
 
-  file_put_contents ( '/app/temp', "$source{/table}" );
+  return $source;
 
 ?>

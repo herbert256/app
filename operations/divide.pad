@@ -1,16 +1,32 @@
-{table}{demo}{sequence rows=10}
+{table}{demo}{sequence 10}
   {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence rows=10, divide=5}
+{demo}{sequence 10, divide}
   {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence rows=10, step=3}
+{/table}{table}{demo}{sequence loop, from=1, to=10}
   {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence rows=10, step=3, divide=5}
+{demo}{sequence loop, from=1, to=10, make, divide=4}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence loop, from=1, to=10, keep, divide=4}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence loop, from=1, to=10, remove, divide=4}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}{table}{demo}{sequence 10, step=3}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, step=3, divide=4}
   {$sequence}
 {/sequence}{/demo}
 

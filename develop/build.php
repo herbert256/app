@@ -5,7 +5,7 @@
 
   set_time_limit ( 300 );
 
-  padPageGet ( 'develop/operations',   '&fromMenu=1' );
+  padPageGet ( 'develop/sequences',    '&fromMenu=1' );
   
   delTree ( '/app/_xref' ); 
   padPageGet ( 'develop/callAll',      '&fromMenu=1' );

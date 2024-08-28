@@ -1,0 +1,3 @@
+{table}{demo}{sequence 15, tribonacci}
+  {$sequence}
+{/sequence}{/demo}{/table}

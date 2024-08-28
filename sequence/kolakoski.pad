@@ -1,3 +1,39 @@
-{table}{demo}{sequence kolakoski, rows=10}
+{table}
+
+{demo}{sequence 10}
   {$sequence}
-{/sequence}{/demo}{/table}
+{/sequence}{/demo}
+
+{demo}{sequence 10, kolakoski}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}{table}
+
+{demo}{sequence loop, from=1, to=10}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence loop, from=1, to=10, make, kolakoski}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence loop, from=1, to=10, keep, kolakoski}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence loop, from=1, to=10, remove, kolakoski}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}{table}
+
+{demo}{sequence 10, step=3}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, step=3, kolakoski}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

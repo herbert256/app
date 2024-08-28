@@ -1,0 +1,15 @@
+{table}
+
+{demo}{sequence oeis=81}
+  {$sequence} 
+{/sequence}{/demo}
+
+{demo}{sequence oeis=257360}
+  {$sequence} 
+{/sequence}{/demo}
+
+{demo}{sequence oeis=375610}
+  {$sequence} 
+{/sequence}{/demo}
+
+{/table}

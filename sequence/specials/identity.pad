@@ -1,0 +1,3 @@
+{table}{demo}{sequence identity, rows=10}
+  {$sequence}
+{/sequence}{/demo}{/table}

@@ -7,7 +7,7 @@
       <th bgcolor="#dddddd">HTML</th>
       <th bgcolor="#dddddd">RESULT</th>
     </tr>
-    <tr><td style="vertical-align:top"><!-- START DEMO SOURCE --><pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red">rows=10</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE --></td><td style="vertical-align:top"><code><span style="color: #000000"><!-- START DEMO RESULT -->1
+    <tr><td style="vertical-align:top"><!-- START DEMO SOURCE --><pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red">10</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE --></td><td style="vertical-align:top"><code><span style="color: #000000"><!-- START DEMO RESULT -->1
 
   2
 
@@ -27,27 +27,117 @@
 
   10<!-- END DEMO RESULT --></span></code></td></tr>
 
-<tr><td style="vertical-align:top"><!-- START DEMO SOURCE --><pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red">rows=10<font color="black">,</font> power=5</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE --></td><td style="vertical-align:top"><code><span style="color: #000000"><!-- START DEMO RESULT -->5
+<tr><td style="vertical-align:top"><!-- START DEMO SOURCE --><pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red">10<font color="black">,</font> power</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE --></td><td style="vertical-align:top"><code><span style="color: #000000"><!-- START DEMO RESULT -->1
 
-  25
+  1
 
-  125
+  1
 
-  625
+  1
 
-  3125
+  1
 
-  15625
+  1
 
-  78125
+  1
 
-  390625
+  1
 
-  1953125
+  1
 
-  9765625<!-- END DEMO RESULT --></span></code></td></tr>
+  1<!-- END DEMO RESULT --></span></code></td></tr>
 
-<tr><td style="vertical-align:top"><!-- START DEMO SOURCE --><pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red">rows=10<font color="black">,</font> step=3</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE --></td><td style="vertical-align:top"><code><span style="color: #000000"><!-- START DEMO RESULT -->1
+
+  </table>
+</p><p> 
+  <table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+      
+      
+      
+      <th bgcolor="#dddddd">HTML</th>
+      <th bgcolor="#dddddd">RESULT</th>
+    </tr>
+    <tr><td style="vertical-align:top"><!-- START DEMO SOURCE --><pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red">loop<font color="black">,</font> from=10<font color="black">,</font> to=20</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE --></td><td style="vertical-align:top"><code><span style="color: #000000"><!-- START DEMO RESULT -->10
+
+  11
+
+  12
+
+  13
+
+  14
+
+  15
+
+  16
+
+  17
+
+  18
+
+  19
+
+  20<!-- END DEMO RESULT --></span></code></td></tr>
+
+<tr><td style="vertical-align:top"><!-- START DEMO SOURCE --><pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red">loop<font color="black">,</font> from=10<font color="black">,</font> to=20<font color="black">,</font> make<font color="black">,</font> power=4</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE --></td><td style="vertical-align:top"><code><span style="color: #000000"><!-- START DEMO RESULT -->1048576
+
+  4194304
+
+  16777216
+
+  67108864
+
+  268435456
+
+  1073741824
+
+  4294967296
+
+  17179869184
+
+  68719476736
+
+  274877906944
+
+  1099511627776<!-- END DEMO RESULT --></span></code></td></tr>
+
+<tr><td style="vertical-align:top"><!-- START DEMO SOURCE --><pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red">loop<font color="black">,</font> from=10<font color="black">,</font> to=20<font color="black">,</font> keep<font color="black">,</font> power=4</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE --></td><td style="vertical-align:top"><code><span style="color: #000000"><!-- START DEMO RESULT --><!-- END DEMO RESULT --></span></code></td></tr>
+
+<tr><td style="vertical-align:top"><!-- START DEMO SOURCE --><pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red">loop<font color="black">,</font> from=10<font color="black">,</font> to=20<font color="black">,</font> remove<font color="black">,</font> power=4</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE --></td><td style="vertical-align:top"><code><span style="color: #000000"><!-- START DEMO RESULT -->10
+
+  11
+
+  12
+
+  13
+
+  14
+
+  15
+
+  16
+
+  17
+
+  18
+
+  19
+
+  20<!-- END DEMO RESULT --></span></code></td></tr>
+
+
+  </table>
+</p><p> 
+  <table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+      
+      
+      
+      <th bgcolor="#dddddd">HTML</th>
+      <th bgcolor="#dddddd">RESULT</th>
+    </tr>
+    <tr><td style="vertical-align:top"><!-- START DEMO SOURCE --><pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red">10<font color="black">,</font> step=3</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE --></td><td style="vertical-align:top"><code><span style="color: #000000"><!-- START DEMO RESULT -->1
 
   4
 
@@ -67,23 +157,25 @@
 
   28<!-- END DEMO RESULT --></span></code></td></tr>
 
-<tr><td style="vertical-align:top"><!-- START DEMO SOURCE --><pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red">rows=10<font color="black">,</font> step=3<font color="black">,</font> power=5</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE --></td><td style="vertical-align:top"><code><span style="color: #000000"><!-- START DEMO RESULT -->5
+<tr><td style="vertical-align:top"><!-- START DEMO SOURCE --><pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red">10<font color="black">,</font> step=3<font color="black">,</font> power=4</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE --></td><td style="vertical-align:top"><code><span style="color: #000000"><!-- START DEMO RESULT -->4
 
-  625
+  256
 
-  78125
+  16384
 
-  9765625
+  1048576
 
-  1220703125
+  67108864
 
-  152587890625
+  4294967296
 
-  19073486328125
+  274877906944
 
-  2384185791015625
+  17592186044416
 
-  298023223876953125<!-- END DEMO RESULT --></span></code></td></tr>
+  1125899906842624
+
+  72057594037927936<!-- END DEMO RESULT --></span></code></td></tr>
 
 
   </table>

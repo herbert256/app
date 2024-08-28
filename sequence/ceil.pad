@@ -1,3 +1,39 @@
-{table}{demo}{sequence ceil=5, rows=10}
+{table}
+
+{demo}{sequence 10}
   {$sequence}
-{/sequence}{/demo}{/table}
+{/sequence}{/demo}
+
+{demo}{sequence 10, ceil}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}{table}
+
+{demo}{sequence loop, from=1, to=10}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence loop, from=1, to=10, make, ceil=4}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence loop, from=1, to=10, keep, ceil=4}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence loop, from=1, to=10, remove, ceil=4}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}{table}
+
+{demo}{sequence 10, step=3}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, step=3, ceil=4}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

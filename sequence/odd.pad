@@ -1,3 +1,39 @@
-{table}{demo}{sequence odd, rows=10}
+{table}
+
+{demo}{sequence 10}
   {$sequence}
-{/sequence}{/demo}{/table}
+{/sequence}{/demo}
+
+{demo}{sequence 10, odd}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}{table}
+
+{demo}{sequence loop, from=1, to=10}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence loop, from=1, to=10, make, odd}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence loop, from=1, to=10, keep, odd}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence loop, from=1, to=10, remove, odd}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}{table}
+
+{demo}{sequence 10, step=3}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, step=3, odd}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

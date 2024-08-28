@@ -1,0 +1,3 @@
+{table}{demo}{sequence nor, rows=10}
+  {$sequence}
+{/sequence}{/demo}{/table}

@@ -1,0 +1,3 @@
+{table}{demo}{sequence moserdebruijn, rows=10}
+  {$sequence}
+{/sequence}{/demo}{/table}

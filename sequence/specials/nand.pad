@@ -1,0 +1,3 @@
+{table}{demo}{sequence nand, rows=10}
+  {$sequence}
+{/sequence}{/demo}{/table}
