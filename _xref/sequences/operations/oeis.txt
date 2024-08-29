@@ -1,1 +1,1 @@
-operations/oeis
+sequence/oeis

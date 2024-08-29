@@ -1,8 +1,8 @@
-sequence/dedup
-sequence/first_last
-sequence/floor_round_ceil
-sequence/loop_source
-sequence/make
-sequence/shift_pop
-sequence/slice_splice
-sequence/trim
+sequence/specials/dedup
+sequence/specials/first_last
+sequence/specials/floor_round_ceil
+sequence/specials/loop_source
+sequence/specials/make
+sequence/specials/shift_pop
+sequence/specials/slice_splice
+sequence/specials/trim

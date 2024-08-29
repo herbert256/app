@@ -1,1 +1,1 @@
-sequence/slice_splice
+sequence/specials/slice_splice

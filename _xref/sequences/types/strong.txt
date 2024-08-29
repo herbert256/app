@@ -1,2 +1,2 @@
-operations/strong
-sequence/other
+sequence/specials/other
+sequence/strong

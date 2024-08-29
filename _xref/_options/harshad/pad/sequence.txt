@@ -1,3 +1,2 @@
-operations/harshad
 sequence/harshad
-sequence/named
+sequence/specials/named

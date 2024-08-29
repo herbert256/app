@@ -1,1 +1,1 @@
-operations/sylvester
+sequence/sylvester

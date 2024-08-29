@@ -1,2 +1,2 @@
-sequence/dedup
-sequence/random2
+sequence/specials/dedup
+sequence/specials/random2

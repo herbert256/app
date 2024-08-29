@@ -4,7 +4,7 @@
   {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence 10, substract}
+{demo}{sequence 10, substract=4}
   {$sequence}
 {/sequence}{/demo}
 

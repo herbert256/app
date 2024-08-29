@@ -1,3 +1,2 @@
-operations/heptadecagonal
-sequence/figurate
 sequence/heptadecagonal
+sequence/specials/figurate

@@ -1,3 +1,2 @@
-operations/nand
-sequence/logic
 sequence/nand
+sequence/specials/logic

@@ -1,1 +1,1 @@
-operations/hexagonal
+sequence/hexagonal

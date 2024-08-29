@@ -1,1 +1,1 @@
-operations/lucky
+sequence/lucky

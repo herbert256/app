@@ -1,2 +1,2 @@
-operations/repeat
-sequence/other
+sequence/repeat
+sequence/specials/other

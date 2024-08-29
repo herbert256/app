@@ -1,1 +1,1 @@
-operations/pell
+sequence/pell

@@ -1,1 +1,1 @@
-operations/cubic
+sequence/cubic

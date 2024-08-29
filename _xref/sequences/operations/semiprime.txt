@@ -1,1 +1,1 @@
-operations/semiprime
+sequence/semiprime

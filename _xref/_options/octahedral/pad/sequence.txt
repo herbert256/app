@@ -1,3 +1,2 @@
-operations/octahedral
-sequence/figurate
 sequence/octahedral
+sequence/specials/figurate

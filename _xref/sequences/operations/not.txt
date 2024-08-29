@@ -1,2 +1,2 @@
-operations/not
-sequence/logic
+sequence/not
+sequence/specials/logic

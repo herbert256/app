@@ -1,3 +1,2 @@
-operations/modulo
-sequence/floor_round_ceil
 sequence/modulo
+sequence/specials/floor_round_ceil

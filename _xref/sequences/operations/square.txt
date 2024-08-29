@@ -1,1 +1,1 @@
-operations/square
+sequence/square

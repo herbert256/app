@@ -1,3 +1,2 @@
-operations/and
 sequence/and
-sequence/logic
+sequence/specials/logic

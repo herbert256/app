@@ -1,1 +1,1 @@
-operations/kaprekar
+sequence/kaprekar

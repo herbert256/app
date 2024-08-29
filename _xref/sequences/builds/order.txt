@@ -1,5 +1,7 @@
 sequence/fibonacci
 sequence/golomb
 sequence/lucas
-sequence/named
 sequence/perrin
+sequence/specials/named
+sequence/tribonacci
+sequence/xpadovan

@@ -1,3 +1,2 @@
-operations/powerful
-sequence/other
 sequence/powerful
+sequence/specials/other

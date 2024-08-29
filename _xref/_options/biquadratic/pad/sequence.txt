@@ -1,3 +1,2 @@
-operations/biquadratic
 sequence/biquadratic
-sequence/figurate
+sequence/specials/figurate

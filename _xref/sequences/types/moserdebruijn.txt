@@ -1,3 +1,2 @@
-operations/moserdebruijn
 sequence/moserdebruijn
-sequence/named
+sequence/specials/named

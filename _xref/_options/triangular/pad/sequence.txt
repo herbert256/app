@@ -1,2 +1,2 @@
-operations/triangular
-sequence/figurate
+sequence/specials/figurate
+sequence/triangular

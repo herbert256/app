@@ -1,3 +1,2 @@
-operations/bell
 sequence/bell
-sequence/named
+sequence/specials/named

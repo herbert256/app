@@ -1,2 +1,2 @@
-operations/square
-sequence/figurate
+sequence/specials/figurate
+sequence/square

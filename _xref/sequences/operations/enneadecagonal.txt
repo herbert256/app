@@ -1,1 +1,1 @@
-operations/enneadecagonal
+sequence/enneadecagonal

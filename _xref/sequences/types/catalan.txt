@@ -1,3 +1,2 @@
-operations/catalan
 sequence/catalan
-sequence/named
+sequence/specials/named

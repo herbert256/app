@@ -1,3 +1,2 @@
-operations/newmanConway
-sequence/named
 sequence/newmanConway
+sequence/specials/named

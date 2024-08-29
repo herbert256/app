@@ -1,2 +1,2 @@
-sequence/named
 sequence/perrin
+sequence/specials/named

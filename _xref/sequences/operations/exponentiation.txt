@@ -1,1 +1,1 @@
-operations/exponentiation
+sequence/exponentiation

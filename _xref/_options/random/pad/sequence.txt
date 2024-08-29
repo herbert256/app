@@ -1,3 +1,4 @@
-sequence/dedup
 sequence/random
-sequence/random2
+sequence/specials/dedup
+sequence/specials/random
+sequence/specials/random2

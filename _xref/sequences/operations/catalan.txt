@@ -1,1 +1,1 @@
-operations/catalan
+sequence/catalan

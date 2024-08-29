@@ -4,30 +4,27 @@
   <b> <font color="{$myColor}"> Hallo Wereld </font> </b> <br>
 {/pad}
 
-{/demo}{demo}
+{/demo}{/table}
 
-{data 'myColor'}
+{block}
+  <p>Below example gives a sneak preview of {manual 'the_content_tag'} and {manual 'the_data_tag'}, 
+     2 powerfull PAD tags.
+{/block}
+
+{table}{demo}
+
+{data 'myData'}
   ( "red", "green", "blue" ) 
 {/data}
 
 {/demo}{demo}
 
-{pad data='myColor'}
-  <b> <font color="{$myColor}"> Hallo Wereld </font> </b> <br>
-{/pad}
-
-{/demo}{demo}
-
 {content 'myContent'}
-  <b> <font color="{$myColor}"> Hello World </font> </b> <br>
+  <b> <font color="{$myData}"> Hello World </font> </b> <br>
 {/content}
 
 {/demo}{demo}
 
-{pad content='myContent', $myColor='purple'}
-
-{/demo}{demo}
-
-{pad content='myContent', data='myColor'}
+{pad data='myData', content='myContent'}
 
 {/demo}{/table}

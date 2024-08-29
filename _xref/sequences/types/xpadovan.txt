@@ -1,1 +1,2 @@
-sequence/named
+sequence/specials/named
+sequence/xpadovan

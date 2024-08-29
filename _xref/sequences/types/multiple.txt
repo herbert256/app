@@ -1,4 +1,3 @@
-operations/multiple
-sequence/intersection
 sequence/multiple
-sequence/step_multiple
+sequence/specials/intersection
+sequence/specials/step_multiple

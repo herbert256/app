@@ -1,3 +1,2 @@
-operations/hexagonal
-sequence/figurate
 sequence/hexagonal
+sequence/specials/figurate

@@ -1,3 +1,2 @@
-operations/kaprekar
 sequence/kaprekar
-sequence/named
+sequence/specials/named

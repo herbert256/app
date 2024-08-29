@@ -1,3 +1,2 @@
-operations/pronic
-sequence/named
 sequence/pronic
+sequence/specials/named

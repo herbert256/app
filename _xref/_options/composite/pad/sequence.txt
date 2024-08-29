@@ -1,3 +1,2 @@
-operations/composite
 sequence/composite
-sequence/prime_or_not
+sequence/specials/prime_or_not

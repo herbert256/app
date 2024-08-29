@@ -1,2 +1,2 @@
-operations/xnor
-sequence/logic
+sequence/specials/logic
+sequence/xnor

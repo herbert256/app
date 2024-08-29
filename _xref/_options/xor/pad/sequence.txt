@@ -1,2 +1,2 @@
-operations/xor
-sequence/logic
+sequence/specials/logic
+sequence/xor

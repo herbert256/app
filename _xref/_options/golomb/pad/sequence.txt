@@ -1,2 +1,2 @@
 sequence/golomb
-sequence/named
+sequence/specials/named

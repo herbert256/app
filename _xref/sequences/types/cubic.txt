@@ -1,3 +1,2 @@
-operations/cubic
 sequence/cubic
-sequence/figurate
+sequence/specials/figurate

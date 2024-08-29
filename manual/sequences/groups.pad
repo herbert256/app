@@ -1,5 +1,5 @@
 {data 'list'}
-  ('even_odd','step_multiple','print','eval','random','prime_or_not','loop_source','figurate','named','other')
+  ('even_odd','step_multiple','print','eval','random','prime_or_not','loop_source','figurate','logic','arithmetic','named','other')
 {/data}
 
 <center>
@@ -7,6 +7,7 @@
       <a href="#{$list}">{$list}</a>
       &nbsp;
   {/list}
+  <br><br>
 </center>
 
 <hr>
@@ -14,7 +15,7 @@
 <center>
   {list}
       <h3><a id="{$list}">{$list}</a></h3>  
-      {example 'sequence/{$list}', onlyResult, include}
+      {example 'sequence/specials/{$list}', onlyResult, include}
       <font size="-1"> <a href="#top">top</a></font>
       <br><hr>
   {/list}

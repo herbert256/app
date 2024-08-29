@@ -1,3 +1,2 @@
-operations/pell
-sequence/named
 sequence/pell
+sequence/specials/named

@@ -1,2 +1,2 @@
 sequence/lucas
-sequence/named
+sequence/specials/named

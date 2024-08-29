@@ -1,1 +1,1 @@
-operations/decagonal
+sequence/decagonal

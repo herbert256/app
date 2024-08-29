@@ -1,2 +1,2 @@
-operations/tetrahedral
-sequence/figurate
+sequence/specials/figurate
+sequence/tetrahedral

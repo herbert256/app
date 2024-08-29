@@ -7,7 +7,7 @@ miscellaneous/other
 properties/doc1
 properties/doc2
 properties/doc3
-sequence/combine
-sequence/shift_pop
+sequence/specials/combine
+sequence/specials/shift_pop
 tags/if_1
 tags/if_2

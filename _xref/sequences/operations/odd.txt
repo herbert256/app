@@ -1,1 +1,1 @@
-operations/odd
+sequence/odd

@@ -32,7 +32,7 @@
 
     $one = "{table}\n\n"
          . "{demo}{sequence 10}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
-         . "{demo}{sequence 10, $type}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
+         . "{demo}{sequence 10, $type$parm}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
          . "{/table}{table}\n\n"
          . "{demo}{sequence loop, from=1, to=10}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
          . "{demo}{sequence loop, from=1, to=10, make, $type$parm}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
@@ -42,6 +42,8 @@
          . "{demo}{sequence 10, step=3}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
          . "{demo}{sequence 10, step=3, $type$parm}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
          . "{/table}";
+
+    padCode ( $one );
 
     file_put_contents ( "/app/sequence/$type.pad", $one );
 

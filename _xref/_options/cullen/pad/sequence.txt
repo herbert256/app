@@ -1,3 +1,2 @@
-operations/cullen
 sequence/cullen
-sequence/named
+sequence/specials/named

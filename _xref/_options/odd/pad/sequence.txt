@@ -1,3 +1,2 @@
-operations/odd
-sequence/even_odd
 sequence/odd
+sequence/specials/even_odd

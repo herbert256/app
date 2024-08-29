@@ -1,3 +1,2 @@
-operations/gnomonic
-sequence/figurate
 sequence/gnomonic
+sequence/specials/figurate

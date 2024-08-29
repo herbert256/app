@@ -1,3 +1,2 @@
-operations/kolakoski
 sequence/kolakoski
-sequence/named
+sequence/specials/named

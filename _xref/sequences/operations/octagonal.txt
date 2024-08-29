@@ -1,1 +1,1 @@
-operations/octagonal
+sequence/octagonal

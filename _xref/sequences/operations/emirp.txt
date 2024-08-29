@@ -1,1 +1,1 @@
-operations/emirp
+sequence/emirp

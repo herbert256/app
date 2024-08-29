@@ -1,4 +1,3 @@
-operations/prime
 sequence/prime
-sequence/prime_or_not
-sequence/random
+sequence/specials/prime_or_not
+sequence/specials/random

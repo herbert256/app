@@ -1,3 +1,2 @@
-operations/kynea
 sequence/kynea
-sequence/named
+sequence/specials/named

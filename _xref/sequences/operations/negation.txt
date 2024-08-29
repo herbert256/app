@@ -1,1 +1,1 @@
-operations/negation
+sequence/negation

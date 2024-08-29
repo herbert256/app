@@ -11,14 +11,14 @@
 <h3 align=center>Basic Concepts</h3>
 
 <ul>
-  <li>{manual 'tags'}         </li>
-  <li>{manual 'levels_and_occurrences'} </li>
-  <li>{manual 'the_pad_tag' } </li>
-  <li>{manual 'the_content_tag'}                </li>
-  <li>{manual 'the_data_tag'}                   </li>
-  <li>{manual 'php_and_html'}                   </li>
-  <li>{manual 'else'}                           </li>
-  <li>{manual 'parse'}                          </li>
+  <li>{manual 'tags'}                         </li>
+  <li>{manual 'examples_used_in_this_manual'} </li>
+  <li>{manual 'levels_and_occurrences'}       </li>
+  <li>{manual 'the_content_tag'}              </li>
+  <li>{manual 'the_data_tag'}                 </li>
+  <li>{manual 'php_and_html'}                 </li>
+  <li>{manual 'else'}                         </li>
+  <li>{manual 'parse'}                        </li>
 </ul>
 
 </td><td>&nbsp;&nbsp;</td><td valign="top">
@@ -39,10 +39,10 @@
 
 <h3 align=center>Miscellaneous</h3>
 <ul>
+  <li>{manual 'sequences'}              </li>
   <li>{manual 'table_fun'}              </li>
   <li>{manual '3_ways_to_make_a_table'} </li>
   <li>{manual 'classicModels'}          </li>
-  <li>{manual 'sequences'}              </li>
 </ul>
 
 </td></tr>

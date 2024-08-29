@@ -1,1 +1,1 @@
-operations/mersenne
+sequence/mersenne

@@ -21,13 +21,15 @@
 <a href="#sum">sum</a> &nbsp; 
 <a href="#trim">trim</a>
 
+<br><br><hr>
+
 {data 'list'}
   ('first_last','shift_pop','slice_splice','trim','combine','intersection')
 {/data}
 
 {list}
     <h3><a id="{$list}">{$list}</a></h3>  
-    {example 'sequence/{$list}', onlyResult, include}
+    {example 'sequence/specials/{$list}', onlyResult, include}
     <font size="-1"> <a href="#top">top</a></font>
     <br><hr>
 {/list}

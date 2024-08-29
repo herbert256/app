@@ -1,1 +1,1 @@
-operations/kolakoski
+sequence/kolakoski

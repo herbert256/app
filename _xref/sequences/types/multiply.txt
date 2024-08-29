@@ -1,3 +1,2 @@
-operations/multiply
-sequence/arithmetic
 sequence/multiply
+sequence/specials/arithmetic

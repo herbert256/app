@@ -1,2 +1,2 @@
-operations/substract
-sequence/arithmetic
+sequence/specials/arithmetic
+sequence/substract

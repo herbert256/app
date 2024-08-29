@@ -1,1 +1,1 @@
-operations/heptadecagonal
+sequence/heptadecagonal

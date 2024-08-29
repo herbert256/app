@@ -1,3 +1,2 @@
-operations/pentagonal
-sequence/figurate
 sequence/pentagonal
+sequence/specials/figurate

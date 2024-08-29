@@ -1,1 +1,1 @@
-operations/gnomonic
+sequence/gnomonic
