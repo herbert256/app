@@ -49,7 +49,6 @@ sequence/heptadecagonal
 sequence/heptagonal
 sequence/hexagonal
 sequence/identity
-sequence/juggler
 sequence/kaprekar
 sequence/kolakoski
 sequence/kynea

@@ -1,2 +1,3 @@
+a
 sequence/kaprekar
 sequence/specials/named

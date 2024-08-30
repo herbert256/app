@@ -5,7 +5,6 @@
 
   if     ( $type == 'pull'    ) return '';
   elseif ( $type == 'oeis'    ) $go = "15, oeis=87";
-  elseif ( $type == 'juggler' ) $go = "15, juggler=9";
   elseif ( $type == 'list'    ) $go = "list='1;8;5;2;9;66'";
   elseif ( $type == 'range'   ) $go = "range='1..10'";
   elseif ( $type == 'eval'    ) $go = "15, eval='@ * 10 | @ - 1'";

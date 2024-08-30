@@ -1,3 +1,5 @@
+a
+b
 sequence/add
 sequence/and
 sequence/antiprime
@@ -74,3 +76,4 @@ sequence/tetrahedral
 sequence/triangular
 sequence/xnor
 sequence/xor
+test

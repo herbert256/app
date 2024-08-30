@@ -9,10 +9,8 @@
       &nbsp;
   {/list}
 
-  <br><br><hr>
+  <br><br><hr><h2>{$go}</h2>
 
-{if $go}
   {example 'sequence/{$go}', onlyResult, include}
-{/if}
 
 </center>

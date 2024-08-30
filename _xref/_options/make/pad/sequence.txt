@@ -68,3 +68,4 @@ sequence/tetrahedral
 sequence/triangular
 sequence/xnor
 sequence/xor
+test

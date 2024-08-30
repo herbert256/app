@@ -1,6 +1,6 @@
 <?php
 
-  $list = array_diff ( scandir ( '/pad/sequence/types' ), [ '.', '..' ] ) ;
+  $list = array_diff ( scandir ( '/pad/sequence/types' ), [ '.','..','pull' ] ) ;
 
   sort ( $list );
 

@@ -1,2 +1,0 @@
-sequence/juggler
-sequence/specials/named

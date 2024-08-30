@@ -7,11 +7,6 @@
 <ul>
   <li><a href="{$padGo}develop/allright&fromMenu=1">All 'ok' from regression test</a></li>
   <li><a href="{$padGo}develop/manual&fromMenu=1">All manual pages</a></li>
-</ul>
-
-<ul>
-  <li><a href="{$padGo}develop/callAll&fromMenu=1">Call all (for XREF and so)</a></li>
-  <li><a href="{$padGo}develop/sequences&fromMenu=1">Build /app/sequence</a></li>
   <li><a href="{$padGo}develop/nuts&fromMenu=1">Everything with ajax</a></li>
 </ul>
 

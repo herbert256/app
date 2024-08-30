@@ -18,11 +18,10 @@
 
     $build = padSeqBuild ( $type );
 
-    if ( $type  == 'juggler' or $type == 'random' or $type  == 'pull' or 
+    if ( $type == 'random' or $type  == 'pull' or 
          $build == 'fixed' or $build == 'order' ) {
-      $source .= include '/app/develop/sequencesSpecial.php';
+      include '/app/develop/sequencesSpecial.php';
       continue;
-
     }
 
     include '/app/develop/sequencesCheck.php';

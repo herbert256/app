@@ -84,10 +84,6 @@
   {$sequence} 
 {/sequence}{/demo}
 
-{demo}{sequence juggler=9}
-  {$sequence} 
-{/sequence}{/demo}
-
 {demo}{sequence newmanConway, rows=15}
   {$sequence} 
 {/sequence}{/demo}

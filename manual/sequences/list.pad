@@ -120,10 +120,6 @@
   {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence 15, juggler=9}
-  {$sequence}
-{/sequence}{/demo}
-
 {demo}{sequence 15, kaprekar}
   {$sequence}
 {/sequence}{/demo}

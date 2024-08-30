@@ -1,2 +1,3 @@
+a
 sequence/hexagonal
 sequence/specials/figurate
