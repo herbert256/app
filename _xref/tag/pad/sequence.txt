@@ -98,6 +98,8 @@ sequence/specials/step_multiple
 sequence/specials/trim
 sequence/square
 sequence/step
+sequence/stores/combine
+sequence/stores/splice
 sequence/strong
 sequence/substract
 sequence/sylvester
@@ -109,6 +111,5 @@ sequence/xor
 sequence/xpadovan
 tableFun/fun_5_a
 tableFun/fun_5_b
-test
 vars/at/3
 walk/1

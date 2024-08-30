@@ -9,5 +9,6 @@ properties/doc2
 properties/doc3
 sequence/specials/combine
 sequence/specials/shift_pop
+sequence/stores/combine
 tags/if_1
 tags/if_2

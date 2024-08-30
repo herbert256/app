@@ -6,10 +6,6 @@
   {$sequence}  
 {/sequence}{/demo}
 
-{demo}{sequence mySeq, trim}
-  {$sequence}  
-{/sequence}{/demo}
-
 {demo}{sequence mySeq, trim, both=5}
   {$sequence}  
 {/sequence}{/demo}

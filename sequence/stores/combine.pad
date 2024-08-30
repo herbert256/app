@@ -1,0 +1,174 @@
+{table}
+ 
+{demo}{sequence '5;10;15;20',  name='one'}{/demo}
+{demo}{sequence '15;20;25;30', name='two'}{/demo}
+
+{demo}{sequence one}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence one, store='two', storeAppend}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}
+
+
+{table}
+ 
+{demo}{sequence '5;10;15;20',  name='one'}{/demo}
+{demo}{sequence '15;20;25;30', name='two'}{/demo}
+
+{demo}{sequence one}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence one, store='two', storePrepend}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}
+
+
+{table}
+ 
+{demo}{sequence '5;10;15;20',  name='one'}{/demo}
+{demo}{sequence '15;20;25;30', name='two'}{/demo}
+
+{demo}{sequence one}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence one, store='two', storeCombine}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}
+
+
+{table}
+ 
+{demo}{sequence '5;10;15;20',  name='one'}{/demo}
+{demo}{sequence '15;20;25;30', name='two'}{/demo}
+
+{demo}{sequence one}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence one, store='two', storeMerge}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}
+
+
+{table}
+ 
+{demo}{sequence '5;10;15;20',  name='one'}{/demo}
+{demo}{sequence '15;20;25;30', name='two'}{/demo}
+
+{demo}{sequence one}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence one, store='two', storeDifference}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}
+
+
+{table}
+ 
+{demo}{sequence '5;10;15;20',  name='one'}{/demo}
+{demo}{sequence '15;20;25;30', name='two'}{/demo}
+
+{demo}{sequence one}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence one, store='two', storeIntersection}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}
+
+
+{table}
+ 
+{demo}{sequence '5;10;15;20',  name='one'}{/demo}
+{demo}{sequence '15;20;25;30', name='two'}{/demo}
+
+{demo}{sequence one}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence one, store='two', storeOnlyNow}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}
+
+
+{table}
+ 
+{demo}{sequence '5;10;15;20',  name='one'}{/demo}
+{demo}{sequence '15;20;25;30', name='two'}{/demo}
+
+{demo}{sequence one}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence one, store='two', storeOnlyStore}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

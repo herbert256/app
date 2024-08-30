@@ -10,10 +10,11 @@ sequence/specials/make
 sequence/specials/shift_pop
 sequence/specials/slice_splice
 sequence/specials/trim
+sequence/stores/combine
+sequence/stores/splice
 tableFun/fun_5_b
 tag_return_values/return_4
 tag_return_values/return_5
-test
 vars/at/3
 vars/at/5
 vars/at/5a

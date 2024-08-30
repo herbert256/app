@@ -117,6 +117,8 @@ sequence/specials/step_multiple
 sequence/specials/trim
 sequence/square
 sequence/step
+sequence/stores/combine
+sequence/stores/splice
 sequence/strong
 sequence/substract
 sequence/sylvester
@@ -136,4 +138,3 @@ vars/at/4
 vars/at/6
 walk/1
 walk/2
-test

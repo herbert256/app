@@ -14,8 +14,8 @@ sequence/specials/random
 sequence/specials/random2
 sequence/specials/shift_pop
 sequence/specials/slice_splice
+sequence/stores/splice
 tableFun/fun_5_a
 tableFun/fun_5_b
-test
 vars/at/3
 walk/1

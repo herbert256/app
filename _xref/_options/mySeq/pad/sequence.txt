@@ -6,4 +6,3 @@ sequence/specials/make
 sequence/specials/shift_pop
 sequence/specials/slice_splice
 sequence/specials/trim
-test
