@@ -2,3 +2,4 @@ sequence/list
 sequence/specials/basic
 sequence/specials/combine
 sequence/stores/combine
+test

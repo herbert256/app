@@ -35,11 +35,11 @@
   {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence one, onlyMe='two'}
+{demo}{sequence one, onlyNow='two'}
   {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence one, onlyOther='two'}
+{demo}{sequence one, onlyStore='two'}
   {$sequence}
 {/sequence}{/demo}
 

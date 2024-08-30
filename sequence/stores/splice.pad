@@ -4,7 +4,7 @@
 {sequence 'A..Z',  name='myStore1'}
 {sequence '1..20', name='myStore2'}
 
-{sequence myStore1, first=5, store='myStore2', storeSplice='10'}
+{sequence myStore1, first=5, storeSplice='10|myStore2'}
 
 {sequence myStore2}
   {$sequence}
@@ -16,7 +16,7 @@
 {sequence 'A..Z',  name='myStore1'}
 {sequence '1..20', name='myStore2'}
 
-{sequence myStore1, first=5, store='myStore2', storeSplice='-15'}
+{sequence myStore1, first=5, storeSplice='-15|myStore2'}
 
 {sequence myStore2}
   {$sequence}
@@ -28,7 +28,7 @@
 {sequence 'A..Z',  name='myStore1'}
 {sequence '1..20', name='myStore2'}
 
-{sequence myStore1, first=5, store='myStore2', storeSplice='0|3'}
+{sequence myStore1, first=5, storeSplice='0|3|myStore2'}
 
 {sequence myStore2}
   {$sequence}
@@ -39,7 +39,7 @@
 {sequence 'A..Z',  name='myStore1'}
 {sequence '1..20', name='myStore2'}
 
-{sequence myStore1, first=5, store='myStore2', storeSplice='10|3'}
+{sequence myStore1, first=5, storeSplice='10|3|myStore2'}
 
 {sequence myStore2}
   {$sequence}
@@ -50,7 +50,7 @@
 {sequence 'A..Z',  name='myStore1'}
 {sequence '1..20', name='myStore2'}
 
-{sequence myStore1, first=5, store='myStore2', storeSplice='10|-3'}
+{sequence myStore1, first=5, storeSplice='10|-3|myStore2'}
 
 {sequence myStore2}
   {$sequence}
@@ -61,7 +61,7 @@
 {sequence 'A..Z',  name='myStore1'}
 {sequence '1..20', name='myStore2'}
 
-{sequence myStore1, first=5, store='myStore2', storeSplice='-15|3'}
+{sequence myStore1, first=5, storeSplice='-15|3|myStore2'}
 
 {sequence myStore2}
   {$sequence}
@@ -72,7 +72,7 @@
 {sequence 'A..Z',  name='myStore1'}
 {sequence '1..20', name='myStore2'}
 
-{sequence myStore1, first=5, store='myStore2', storeSplice='-15|-3'}
+{sequence myStore1, first=5, storeSplice='-15|-3|myStore2'}
 
 {sequence myStore2}
   {$sequence}

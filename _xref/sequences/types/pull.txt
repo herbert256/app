@@ -7,3 +7,4 @@ sequence/specials/slice_splice
 sequence/specials/trim
 sequence/stores/combine
 sequence/stores/splice
+test
