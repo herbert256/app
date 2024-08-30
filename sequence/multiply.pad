@@ -28,12 +28,32 @@
 
 {/table}{table}
 
-{demo}{sequence 10, step=3}
+{demo}{sequence 5, step=3}
   {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence 10, step=3, multiply=4}
+{demo}{sequence 5, step=3, multiply=4}
   {$sequence}
 {/sequence}{/demo}
+
+{/table}{table}
+
+{demo}{sequence '2..5',  name='one'}{/demo}
+
+{demo}{sequence '11..14', name='two'}{/demo}
+
+{demo}{sequence one}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence one, storeMultiply='two'}{/demo}
+
+{demo}{sequence two}
+  {$sequence
+}{/sequence}{/demo}
 
 {/table}

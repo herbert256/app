@@ -21,10 +21,6 @@
 
   $one = "{table}{demo}{sequence $go}\n  {\$sequence}\n{/sequence}{/demo}{/table}";
 
-  padCode ( $one );
-
   file_put_contents ( "/app/sequence/$type.pad", $one );
-
-  return "<h3>$type</h3>$one";
 
 ?>

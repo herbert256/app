@@ -1,2 +1,0 @@
-sequence/stores/combine
-sequence/stores/splice

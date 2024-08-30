@@ -12,4 +12,3 @@ sequence/specials/shift_pop
 sequence/stores/combine
 tags/if_1
 tags/if_2
-test

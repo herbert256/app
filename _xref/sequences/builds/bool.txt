@@ -1,15 +1,9 @@
 sequence/antiprime
-sequence/composite
-sequence/even
 sequence/happy
 sequence/harshad
 sequence/kaprekar
 sequence/lucky
-sequence/multiple
-sequence/odd
-sequence/palindrome
 sequence/powerful
-sequence/prime
 sequence/pronic
 sequence/semiprime
 sequence/specials/named

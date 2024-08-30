@@ -5,10 +5,11 @@
 
   include_once '/pad/sequence/inits/_lib.php';
 
+  include_once '/app/develop/sequencesGenerate.php';
+
   foreach ( glob ( '/app/sequence/*.pad' ) as $file )
     unlink($file);
 
-  $source = "";
   $types  = glob ( '/pad/sequence/types/*' );
 
   foreach ( $types as $type ) {
@@ -18,7 +19,7 @@
     $build = padSeqBuild ( $type );
 
     if ( $type  == 'juggler' or $type == 'random' or $type  == 'pull' or 
-         $build == 'fixed' or $build == 'order'   ) {
+         $build == 'fixed' or $build == 'order' ) {
       $source .= include '/app/develop/sequencesSpecial.php';
       continue;
 
@@ -39,18 +40,29 @@
          . "{demo}{sequence loop, from=1, to=10, keep, $type$parm}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
          . "{demo}{sequence loop, from=1, to=10, remove, $type$parm}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
          . "{/table}{table}\n\n"
-         . "{demo}{sequence 10, step=3}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
-         . "{demo}{sequence 10, step=3, $type$parm}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
+         . "{demo}{sequence 5, step=3}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
+         . "{demo}{sequence 5, step=3, $type$parm}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
          . "{/table}";
 
-    padCode ( $one );
+    if ( $parm ) {
+
+      $sequence = ucfirst( $type );
+
+      $one .= "{table}\n\n"
+           . "{demo}{sequence '2..5',  name='one'}{/demo}\n\n"
+           . "{demo}{sequence '11..14', name='two'}{/demo}\n\n"
+           . "{demo}{sequence one}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
+           . "{demo}{sequence two}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
+           . "{demo}{sequence one, store$sequence='two'}{/demo}\n\n"
+           . "{demo}{sequence two}\n  {\$sequence\n}{/sequence}{/demo}\n\n"
+           . "{/table}";      
+
+    }
 
     file_put_contents ( "/app/sequence/$type.pad", $one );
 
-    $source .= "<h3>$type</h3>$one";
-
   }
 
-  return $source;
+  return TRUE;
 
 ?>

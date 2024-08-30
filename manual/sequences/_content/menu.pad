@@ -22,6 +22,14 @@
 
 &nbsp; &nbsp;
 
+{if $padPage ne 'manual/sequences/all'}
+  <a href="@pad@manual/sequences/all">All</a>
+@else@
+  All
+{/if}
+
+&nbsp; &nbsp;
+
 {if $padPage ne 'manual/sequences/groups'}
   <a href="@pad@manual/sequences/groups">Listed in groups</a>
 @else@

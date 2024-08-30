@@ -28,11 +28,11 @@
 
 {/table}{table}
 
-{demo}{sequence 10, step=3}
+{demo}{sequence 5, step=3}
   {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence 10, step=3, antiprime}
+{demo}{sequence 5, step=3, antiprime}
   {$sequence}
 {/sequence}{/demo}
 
