@@ -1,3 +1,2 @@
-a
 sequence/pronic
 sequence/specials/named

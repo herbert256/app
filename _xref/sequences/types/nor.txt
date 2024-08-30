@@ -1,3 +1,2 @@
-a
 sequence/nor
 sequence/specials/logic

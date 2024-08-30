@@ -1,4 +1,3 @@
-a
 sequence/add
 sequence/and
 sequence/antiprime
