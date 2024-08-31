@@ -1,1 +1,1 @@
-sequence/divide
+sequence/store/divide

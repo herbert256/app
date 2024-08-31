@@ -1,2 +1,2 @@
-sequence/pell
+sequence/basic/pell
 sequence/specials/named

@@ -1,6 +1,6 @@
 <center>
 
-<a href="#append">append</a>&nbsp; 
+<a href="#combine">append</a>&nbsp; 
 <a href="#combine">combine</a>&nbsp; 
 <a href="#dedup">dedup</a>&nbsp; 
 <a href="#difference">difference</a>&nbsp; 
@@ -11,7 +11,7 @@
 <a href="#onlyMe">onlyMe</a> &nbsp; 
 <a href="#onlyOther">onlyOther</a> &nbsp; 
 <a href="#pop">pop</a> &nbsp; 
-<a href="#prepend">prepend</a> &nbsp; 
+<a href="#combine">prepend</a> &nbsp; 
 <a href="#reverse">reverse</a> &nbsp; 
 <a href="#shift">shift</a> &nbsp; 
 <a href="#shuffle">shuffle</a> &nbsp; 

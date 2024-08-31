@@ -1,6 +1,13 @@
 <?php
 
 
+  function padTypes () {
+  
+    return array_diff ( scandir ( '/pad/sequence/types' ), [ '.', '..' ] ) ;
+
+  }
+  
+
   function padCut (&$content, $start, $end) {
 
     $cut = '';
@@ -44,11 +51,11 @@
 
       if ( strpos($path, '/_')             ) continue;
       if ( $ext <> 'pad' and $ext <> 'php' ) continue;
+      if ( strpos($path, 'develop')        ) continue;     
 
       if ( $filter ) {
         if ( strpos($path, 'error')    ) continue;      
         if ( strpos($path, 'test')     ) continue;      
-        if ( strpos($path, 'restart')  ) continue;      
         if ( strpos($path, 'redirect') ) continue;      
         if ( strpos($path, 'deep')     ) continue;  
       }    
@@ -88,13 +95,13 @@
   }
 
 
-  function padRemoveDirectory ( $dir ) {
+  function deleteDir ( $dir ) {
 
-    foreach ( glob ( "{$dir}/*" ) as $file ) 
-      if ( is_dir ( $file ) ) 
-        padRemoveDirectory ( $file );
-      else
-        unlink ( $file );
+    if ( ! file_exists ($dir) )
+      return;
+    
+    foreach ( array_diff ( scandir ( $dir ), [ '.', '..' ] ) as $file )
+      ( is_dir ( "$dir/$file" ) ) ? deleteDir ( "$dir/$file" ) : unlink ( "$dir/$file" );
 
     rmdir ( $dir );
 

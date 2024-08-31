@@ -1,0 +1,7 @@
+{table}
+
+{demo}{sequence 10, palindrome}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

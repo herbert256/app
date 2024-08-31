@@ -1,1 +1,2 @@
-sequence/perfect
+sequence/keepRemove/perfect
+sequence/operation/perfect

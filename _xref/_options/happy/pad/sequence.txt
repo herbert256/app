@@ -1,2 +1,4 @@
-sequence/happy
+sequence/basic/happy
+sequence/keepRemove/happy
+sequence/operation/happy
 sequence/specials/other

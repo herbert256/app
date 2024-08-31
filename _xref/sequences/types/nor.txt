@@ -1,2 +1,2 @@
-sequence/nor
+sequence/basic/nor
 sequence/specials/logic

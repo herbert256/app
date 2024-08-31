@@ -1,1 +1,2 @@
-sequence/composite
+sequence/keepRemove/composite
+sequence/operation/composite

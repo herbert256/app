@@ -1,2 +1,3 @@
-sequence/eval
+sequence/basic/eval
+sequence/operation/eval
 sequence/specials/eval

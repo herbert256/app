@@ -1,1 +1,1 @@
-sequence/negation
+sequence/basic/negation

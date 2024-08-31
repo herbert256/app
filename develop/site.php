@@ -1,8 +1,5 @@
 <?php
 
-  if ( ! isset ( $fromMenu ) )
-    return NULL;
-
   $work = padList ();
 
   foreach ( $work as $key => $one ) {

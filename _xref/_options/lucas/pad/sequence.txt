@@ -1,2 +1,2 @@
-sequence/lucas
+sequence/basic/lucas
 sequence/specials/named

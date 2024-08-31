@@ -1,2 +1,2 @@
-sequence/add
+sequence/basic/add
 sequence/specials/arithmetic

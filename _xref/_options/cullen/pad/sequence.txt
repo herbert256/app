@@ -1,2 +1,4 @@
-sequence/cullen
+sequence/basic/cullen
+sequence/keepRemove/cullen
+sequence/operation/cullen
 sequence/specials/named

@@ -1,1 +1,2 @@
-sequence/pell
+sequence/keepRemove/pell
+sequence/operation/pell

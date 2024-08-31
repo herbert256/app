@@ -1,2 +1,4 @@
-sequence/polite
+sequence/basic/polite
+sequence/keepRemove/polite
+sequence/operation/polite
 sequence/specials/named

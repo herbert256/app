@@ -1,7 +1,7 @@
-sequence/fibonacci
-sequence/golomb
-sequence/lucas
-sequence/perrin
+sequence/basic/fibonacci
+sequence/basic/golomb
+sequence/basic/lucas
+sequence/basic/perrin
+sequence/basic/tribonacci
+sequence/basic/xpadovan
 sequence/specials/named
-sequence/tribonacci
-sequence/xpadovan

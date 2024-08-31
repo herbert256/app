@@ -1,1 +1,2 @@
-sequence/kaprekar
+sequence/keepRemove/kaprekar
+sequence/operation/kaprekar

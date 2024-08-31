@@ -1,0 +1,7 @@
+{table}
+
+{demo}{sequence 10, newmanConway}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

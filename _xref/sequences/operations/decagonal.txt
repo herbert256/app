@@ -1,1 +1,2 @@
-sequence/decagonal
+sequence/keepRemove/decagonal
+sequence/operation/decagonal

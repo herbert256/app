@@ -11,6 +11,20 @@
 
   <br><br><hr><h2>{$go}</h2>
 
-  {example 'sequence/{$go}', onlyResult, include}
+  {exists '/app/sequence/basic/{$go}.pad'}
+    {example 'sequence/basic/{$go}', onlyResult, include}
+  {/exists}
+
+  {exists '/app/sequence/operation/{$go}.pad'}
+    {example 'sequence/operation/{$go}', onlyResult, include}
+  {/exists}
+
+  {exists '/app/sequence/keepRemove/{$go}.pad'}
+    {example 'sequence/keepRemove/{$go}', onlyResult, include}
+  {/exists}
+
+  {exists '/app/sequence/keepRemove/{$go}.pad'}
+    {example 'sequence/store/{$go}', onlyResult, include}
+  {/exists}
 
 </center>

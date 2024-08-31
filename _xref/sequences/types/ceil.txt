@@ -1,2 +1,2 @@
-sequence/ceil
+sequence/basic/ceil
 sequence/specials/floor_round_ceil

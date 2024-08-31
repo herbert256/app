@@ -1,4 +1,3 @@
-sequence/list
+sequence/basic/list
 sequence/specials/basic
 sequence/specials/combine
-sequence/stores/combine

@@ -1,1 +1,2 @@
-sequence/enneadecagonal
+sequence/keepRemove/enneadecagonal
+sequence/operation/enneadecagonal

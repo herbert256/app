@@ -1,2 +1,2 @@
-sequence/enneadecagonal
+sequence/basic/enneadecagonal
 sequence/specials/figurate

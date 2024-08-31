@@ -1,1 +1,2 @@
-sequence/identity
+sequence/keepRemove/identity
+sequence/operation/identity

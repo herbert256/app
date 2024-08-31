@@ -1,8 +1,5 @@
 <?php
 
-  if ( ! isset ( $fromMenu ) )
-    return NULL;
-
   $title = "Everything";
 
   foreach ( padList ( 0 ) as $one ) {

@@ -1,1 +1,1 @@
-sequence/oeis
+sequence/store/oeis

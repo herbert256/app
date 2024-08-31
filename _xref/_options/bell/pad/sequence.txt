@@ -1,2 +1,4 @@
-sequence/bell
+sequence/basic/bell
+sequence/keepRemove/bell
+sequence/operation/bell
 sequence/specials/named

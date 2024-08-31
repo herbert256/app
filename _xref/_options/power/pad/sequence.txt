@@ -1,3 +1,4 @@
-sequence/power
+sequence/basic/power
+sequence/operation/power
 sequence/specials/loop_source
 sequence/specials/random

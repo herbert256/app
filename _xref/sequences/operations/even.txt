@@ -1,1 +1,2 @@
-sequence/even
+sequence/keepRemove/even
+sequence/operation/even

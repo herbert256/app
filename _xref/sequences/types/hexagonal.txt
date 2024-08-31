@@ -1,2 +1,2 @@
-sequence/hexagonal
+sequence/basic/hexagonal
 sequence/specials/figurate

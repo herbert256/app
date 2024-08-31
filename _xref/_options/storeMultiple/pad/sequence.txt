@@ -1,1 +1,1 @@
-sequence/multiple
+sequence/store/multiple

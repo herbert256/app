@@ -1,2 +1,2 @@
-sequence/composite
+sequence/basic/composite
 sequence/specials/prime_or_not

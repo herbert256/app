@@ -1,1 +1,2 @@
-sequence/odd
+sequence/keepRemove/odd
+sequence/operation/odd

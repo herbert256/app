@@ -1,2 +1,4 @@
-sequence/emirp
+sequence/basic/emirp
+sequence/keepRemove/emirp
+sequence/operation/emirp
 sequence/specials/prime_or_not

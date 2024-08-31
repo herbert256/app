@@ -1,2 +1,3 @@
-sequence/divide
+sequence/basic/divide
+sequence/operation/divide
 sequence/specials/arithmetic

@@ -1,2 +1,3 @@
+sequence/basic/substract
+sequence/operation/substract
 sequence/specials/arithmetic
-sequence/substract

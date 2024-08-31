@@ -1,17 +1,16 @@
 {block}
 
 <ul>
-  <li><a href="{$padGo}develop/regression&fromMenu=1&type=curl">Show Regression test results</a></li>
+  <li><a href="{$padGo}develop/regression">Show Regression test results</a></li>
 </ul>
 
 <ul>
-  <li><a href="{$padGo}develop/allright&fromMenu=1">All 'ok' from regression test</a></li>
-  <li><a href="{$padGo}develop/manual&fromMenu=1">All manual pages</a></li>
-  <li><a href="{$padGo}develop/nuts&fromMenu=1">Everything with ajax</a></li>
+  <li><a href="{$padGo}develop/manual">All manual pages</a></li>
+  <li><a href="{$padGo}develop/nuts">Everything with ajax</a></li>
 </ul>
 
 <ul>
-  <li><a href="{$padGo}develop/build&fromMenu=1">Build all</a></li>
+  <li><a href="{$padGo}develop/build">Build all</a></li>
 </ul>
 
 {/block}

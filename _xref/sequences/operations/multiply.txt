@@ -1,1 +1,1 @@
-sequence/multiply
+sequence/operation/multiply

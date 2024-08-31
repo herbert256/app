@@ -1,1 +1,2 @@
-sequence/semiprime
+sequence/keepRemove/semiprime
+sequence/operation/semiprime

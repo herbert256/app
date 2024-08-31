@@ -1,1 +1,2 @@
-sequence/palindrome
+sequence/keepRemove/palindrome
+sequence/operation/palindrome

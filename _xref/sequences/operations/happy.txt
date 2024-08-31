@@ -1,1 +1,2 @@
-sequence/happy
+sequence/keepRemove/happy
+sequence/operation/happy

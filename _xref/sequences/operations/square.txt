@@ -1,1 +1,2 @@
-sequence/square
+sequence/keepRemove/square
+sequence/operation/square

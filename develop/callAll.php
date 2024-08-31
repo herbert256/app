@@ -1,4 +1,4 @@
-<?php
+        <?php
 
   if ( ! isset ( $fromMenu ) )
     return NULL;

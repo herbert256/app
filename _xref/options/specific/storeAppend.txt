@@ -1,1 +1,1 @@
-sequence/stores/combine
+sequence/specials/combine

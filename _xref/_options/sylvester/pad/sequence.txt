@@ -1,2 +1,4 @@
+sequence/basic/sylvester
+sequence/keepRemove/sylvester
+sequence/operation/sylvester
 sequence/specials/named
-sequence/sylvester

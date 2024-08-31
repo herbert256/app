@@ -1,2 +1,4 @@
-sequence/decagonal
+sequence/basic/decagonal
+sequence/keepRemove/decagonal
+sequence/operation/decagonal
 sequence/specials/figurate

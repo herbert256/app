@@ -1,2 +1,4 @@
-sequence/perfect
+sequence/basic/perfect
+sequence/keepRemove/perfect
+sequence/operation/perfect
 sequence/specials/prime_or_not

@@ -1,2 +1,3 @@
-sequence/add
+sequence/basic/add
+sequence/operation/add
 sequence/specials/arithmetic

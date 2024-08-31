@@ -1,1 +1,1 @@
-sequence/nor
+sequence/operation/nor

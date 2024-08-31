@@ -1,2 +1,4 @@
-sequence/caterer
+sequence/basic/caterer
+sequence/keepRemove/caterer
+sequence/operation/caterer
 sequence/specials/named

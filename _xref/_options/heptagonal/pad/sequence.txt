@@ -1,2 +1,4 @@
-sequence/heptagonal
+sequence/basic/heptagonal
+sequence/keepRemove/heptagonal
+sequence/operation/heptagonal
 sequence/specials/figurate

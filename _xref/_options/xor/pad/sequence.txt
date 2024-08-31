@@ -1,2 +1,3 @@
+sequence/basic/xor
+sequence/operation/xor
 sequence/specials/logic
-sequence/xor

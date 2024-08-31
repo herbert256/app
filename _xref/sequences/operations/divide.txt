@@ -1,1 +1,1 @@
-sequence/divide
+sequence/operation/divide

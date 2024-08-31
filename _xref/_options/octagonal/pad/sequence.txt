@@ -1,2 +1,4 @@
-sequence/octagonal
+sequence/basic/octagonal
+sequence/keepRemove/octagonal
+sequence/operation/octagonal
 sequence/specials/figurate

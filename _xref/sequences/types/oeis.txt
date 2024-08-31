@@ -1,2 +1,2 @@
-sequence/oeis
+sequence/basic/oeis
 sequence/specials/oeis

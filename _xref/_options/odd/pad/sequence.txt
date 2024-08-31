@@ -1,2 +1,5 @@
-sequence/odd
+sequence/basic/odd
+sequence/keepRemove/odd
+sequence/operation/even
+sequence/operation/odd
 sequence/specials/even_odd

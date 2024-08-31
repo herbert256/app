@@ -1,2 +1,2 @@
-sequence/happy
+sequence/basic/happy
 sequence/specials/other

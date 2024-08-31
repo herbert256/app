@@ -1,0 +1,7 @@
+{table}
+
+{demo}{sequence 10, polite}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

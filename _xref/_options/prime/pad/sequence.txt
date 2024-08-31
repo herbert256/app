@@ -1,3 +1,5 @@
-sequence/prime
+sequence/basic/prime
+sequence/keepRemove/prime
+sequence/operation/prime
 sequence/specials/prime_or_not
 sequence/specials/random

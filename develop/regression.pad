@@ -1,11 +1,4 @@
-<!-- 
-<form action="{$padGo}develop/regressionGo&fromMenu=1">
-  <input type="hidden" value="dfds">
-  <input type="submit" value="TEST">
-</form>
--->
-
-<h2><a href="{$padGo}develop/regressionGo&fromMenu=1">TEST</a></h2>
+<h2><a href="{$padGo}develop/regressionGo">TEST</a></h2>
 
 {list}
 

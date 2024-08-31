@@ -1,2 +1,4 @@
+sequence/basic/triangular
+sequence/keepRemove/triangular
+sequence/operation/triangular
 sequence/specials/figurate
-sequence/triangular

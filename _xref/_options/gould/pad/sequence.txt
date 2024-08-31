@@ -1,2 +1,3 @@
-sequence/gould
+sequence/basic/gould
+sequence/operation/gould
 sequence/specials/named

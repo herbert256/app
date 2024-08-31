@@ -1,2 +1,2 @@
-sequence/kaprekar
+sequence/basic/kaprekar
 sequence/specials/named

@@ -1,0 +1,21 @@
+{table}
+
+{demo}{sequence '2..5',   name='one'}{/demo}
+
+{demo}{sequence '11..14', name='two'}{/demo}
+
+{demo}{sequence one}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence one, storeMultiply='two'}{/demo}
+
+{demo}{sequence two}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

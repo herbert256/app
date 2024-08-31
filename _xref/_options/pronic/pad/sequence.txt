@@ -1,2 +1,4 @@
-sequence/pronic
+sequence/basic/pronic
+sequence/keepRemove/pronic
+sequence/operation/pronic
 sequence/specials/named

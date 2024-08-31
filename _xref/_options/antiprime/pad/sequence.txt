@@ -1,2 +1,4 @@
-sequence/antiprime
+sequence/basic/antiprime
+sequence/keepRemove/antiprime
+sequence/operation/antiprime
 sequence/specials/prime_or_not

@@ -1,1 +1,2 @@
-sequence/emirp
+sequence/keepRemove/emirp
+sequence/operation/emirp

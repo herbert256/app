@@ -1,0 +1,7 @@
+{table}
+
+{demo}{sequence 10, kynea}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

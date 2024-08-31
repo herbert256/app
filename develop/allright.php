@@ -1,7 +1,4 @@
 <?php
-
-  if ( ! isset ( $fromMenu ) )
-    return NULL;
   
   $title = "All 'ok' from regression test";
 

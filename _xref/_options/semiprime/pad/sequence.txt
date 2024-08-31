@@ -1,2 +1,4 @@
-sequence/semiprime
+sequence/basic/semiprime
+sequence/keepRemove/semiprime
+sequence/operation/semiprime
 sequence/specials/prime_or_not
