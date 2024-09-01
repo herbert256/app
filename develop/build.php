@@ -9,8 +9,8 @@
 
   padPageGet ( 'develop/sequence/index' );  
   padPageGet ( 'develop/callAll'        );
-  padPageGet ( 'develop/regressionGo'   );
-  padPageGet ( 'develop/regressionGo'   );
+  padPageGet ( 'develop/regression/go'  );
+  padPageGet ( 'develop/regression/go'  );
 
   padRedirect ( 'develop/regression'    );
 
