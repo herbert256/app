@@ -1,0 +1,43 @@
+{table}
+
+{demo}{sequence 10, newmanConway, dedup}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, newmanConway, first}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, newmanConway, intersection}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, newmanConway, last}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, newmanConway, reverse}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, newmanConway, shuffle}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, newmanConway, slice}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, newmanConway, sort}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, newmanConway, sum}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, newmanConway, trim}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

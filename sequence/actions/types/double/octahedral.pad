@@ -1,0 +1,110 @@
+{table}
+{demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence 10, octahedral, append='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, octahedral, storeAppend='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{/table}
+
+{table}
+{demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence 10, octahedral, combine='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, octahedral, storeCombine='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{/table}
+
+{table}
+{demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence 10, octahedral, difference='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, octahedral, storeDifference='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{/table}
+
+{table}
+{demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence 10, octahedral, merge='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, octahedral, storeMerge='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{/table}
+
+{table}
+{demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence 10, octahedral, onlyNow='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, octahedral, storeOnlyNow='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{/table}
+
+{table}
+{demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence 10, octahedral, onlyStore='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, octahedral, storeOnlyStore='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{/table}
+
+{table}
+{demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence 10, octahedral, pop='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, octahedral, storePop='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{/table}
+
+{table}
+{demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence 10, octahedral, prepend='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, octahedral, storePrepend='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{/table}
+
+{table}
+{demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence 10, octahedral, shift='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, octahedral, storeShift='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{/table}
+
+{table}
+{demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence 10, octahedral, splice='2|myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, octahedral, storeSplice='2|myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{/table}
+

@@ -1,0 +1,43 @@
+{table}
+
+{demo}{sequence 10, perfect, dedup}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, perfect, first}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, perfect, intersection}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, perfect, last}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, perfect, reverse}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, perfect, shuffle}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, perfect, slice}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, perfect, sort}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, perfect, sum}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, perfect, trim}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

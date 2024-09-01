@@ -13,7 +13,7 @@
     <blockquote>
 
       {getXref '{!type}', '{$dir}'}
-        <a href="@pad@manual/sequences/pages{?pages}{?type}{?item}">{$item}</a>
+        <a href="@pad@manual/sequence/pages{?pages}{?type}{?item}">{$item}</a>
         &nbsp; 
       {/getXref}
             

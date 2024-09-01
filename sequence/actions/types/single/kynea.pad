@@ -1,0 +1,43 @@
+{table}
+
+{demo}{sequence 10, kynea, dedup}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, kynea, first}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, kynea, intersection}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, kynea, last}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, kynea, reverse}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, kynea, shuffle}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, kynea, slice}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, kynea, sort}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, kynea, sum}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, kynea, trim}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

@@ -4,7 +4,7 @@
       {if $go eq $list}
         {$list}
       @else@
-        <a href="@pad@manual/sequences/all&go={$list}">{$list}</a>
+        <a href="@pad@manual/sequence/all&go={$list}">{$list}</a>
       {/if}
       &nbsp;
   {/list}
@@ -18,7 +18,9 @@
       'operation/double',
       'keepRemove',
       'store/single',
-      'store/double'
+      'store/double',
+      'actions/types/single',
+      'actions/types/double'
     )
   {/data}
 

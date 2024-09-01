@@ -1,1 +1,3 @@
-{sequence loop, from=1, to=10, keep, antiprime}
+{sequence 10, substract=4}
+  {$sequence}
+{/sequence}

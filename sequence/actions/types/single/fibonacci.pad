@@ -1,0 +1,43 @@
+{table}
+
+{demo}{sequence 10, fibonacci, dedup}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, fibonacci, first}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, fibonacci, intersection}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, fibonacci, last}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, fibonacci, reverse}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, fibonacci, shuffle}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, fibonacci, slice}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, fibonacci, sort}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, fibonacci, sum}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, fibonacci, trim}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

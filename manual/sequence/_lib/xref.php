@@ -2,7 +2,7 @@
 
   function getXref ( $type, $dir ) {
     
-    $base = "/app/_xref/sequences/";
+    $base = "/app/_xref/sequence/";
 
     $directory = new DirectoryIterator ( "$base$dir" );
     $iterator  = new IteratorIterator  ( $directory );

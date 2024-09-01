@@ -1,0 +1,43 @@
+{table}
+
+{demo}{sequence 10, moserdebruijn, dedup}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, moserdebruijn, first}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, moserdebruijn, intersection}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, moserdebruijn, last}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, moserdebruijn, reverse}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, moserdebruijn, shuffle}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, moserdebruijn, slice}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, moserdebruijn, sort}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, moserdebruijn, sum}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, moserdebruijn, trim}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

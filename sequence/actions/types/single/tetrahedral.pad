@@ -1,0 +1,43 @@
+{table}
+
+{demo}{sequence 10, tetrahedral, dedup}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tetrahedral, first}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tetrahedral, intersection}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tetrahedral, last}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tetrahedral, reverse}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tetrahedral, shuffle}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tetrahedral, slice}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tetrahedral, sort}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tetrahedral, sum}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tetrahedral, trim}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

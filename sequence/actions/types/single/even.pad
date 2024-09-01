@@ -1,0 +1,43 @@
+{table}
+
+{demo}{sequence 10, even, dedup}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, even, first}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, even, intersection}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, even, last}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, even, reverse}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, even, shuffle}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, even, slice}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, even, sort}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, even, sum}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, even, trim}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

@@ -2,7 +2,7 @@
 
 {demo}{sequence '11..14', name='one'}{/demo}
 
-{demo}{sequence '2..5',   name='two'}{/demo}
+{demo}{sequence '5..2',   name='two'}{/demo}
 
 {demo}{sequence one}
   {$sequence}

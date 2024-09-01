@@ -8,7 +8,7 @@
   if ( $parm ) {
 
     $one = "{table}\n\n"
-         . "{demo}{sequence '2..5',   name='one'}{/demo}\n\n"
+         . "{demo}{sequence '5..2',   name='one'}{/demo}\n\n"
          . "{demo}{sequence '11..14', name='two'}{/demo}\n\n"
          . "{demo}{sequence one}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
          . "{demo}{sequence two}\n  {\$sequence}\n{/sequence}{/demo}\n\n"

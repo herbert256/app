@@ -6,7 +6,8 @@
   set_time_limit ( 300 );
 
   foreach ( padList ( 0 ) as $one ) {
-    getPage ( $one ['item'], 1, 0 );
+    if ( str_contains ( $one ['item'], 'sequence' ) )
+      continue;
     getPage ( $one ['item'], 1, 1 );
   }
 

@@ -1,6 +1,6 @@
 {table}
 
-{demo}{sequence '2..5',   name='one'}{/demo}
+{demo}{sequence '5..2',   name='one'}{/demo}
 
 {demo}{sequence '11..14', name='two'}{/demo}
 

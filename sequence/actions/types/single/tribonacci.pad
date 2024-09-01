@@ -1,0 +1,43 @@
+{table}
+
+{demo}{sequence 10, tribonacci, dedup}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tribonacci, first}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tribonacci, intersection}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tribonacci, last}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tribonacci, reverse}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tribonacci, shuffle}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tribonacci, slice}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tribonacci, sort}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tribonacci, sum}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, tribonacci, trim}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

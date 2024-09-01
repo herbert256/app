@@ -1,0 +1,43 @@
+{table}
+
+{demo}{sequence 10, mersenne, dedup}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, mersenne, first}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, mersenne, intersection}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, mersenne, last}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, mersenne, reverse}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, mersenne, shuffle}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, mersenne, slice}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, mersenne, sort}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, mersenne, sum}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, mersenne, trim}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

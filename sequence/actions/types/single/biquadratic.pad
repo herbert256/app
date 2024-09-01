@@ -1,0 +1,43 @@
+{table}
+
+{demo}{sequence 10, biquadratic, dedup}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, biquadratic, first}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, biquadratic, intersection}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, biquadratic, last}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, biquadratic, reverse}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, biquadratic, shuffle}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, biquadratic, slice}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, biquadratic, sort}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, biquadratic, sum}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 10, biquadratic, trim}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}
