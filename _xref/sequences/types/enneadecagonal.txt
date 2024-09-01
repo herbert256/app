@@ -1,2 +1,0 @@
-sequence/basic/enneadecagonal
-sequence/specials/figurate

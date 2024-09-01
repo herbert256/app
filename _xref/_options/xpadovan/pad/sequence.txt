@@ -1,2 +1,0 @@
-sequence/basic/xpadovan
-sequence/specials/named

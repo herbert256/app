@@ -1,4 +1,0 @@
-sequence/basic/octahedral
-sequence/keepRemove/octahedral
-sequence/operation/octahedral
-sequence/specials/figurate

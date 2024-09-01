@@ -1,2 +1,0 @@
-sequence/basic/multiply
-sequence/specials/arithmetic

@@ -1,4 +1,0 @@
-sequence/basic/not
-sequence/keepRemove/not
-sequence/operation/not
-sequence/specials/logic

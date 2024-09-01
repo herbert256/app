@@ -1,0 +1,7 @@
+<center>
+
+  {menu}
+  
+  @content@
+
+</center>

@@ -1,2 +1,0 @@
-sequence/keepRemove/even
-sequence/operation/even

@@ -1,0 +1,34 @@
+<center>
+
+  {list}
+      {if $go eq $list}
+        {$list}
+      @else@
+        <a href="@pad@manual/sequences/all&go={$list}">{$list}</a>
+      {/if}
+      &nbsp;
+  {/list}
+
+  <br><br><hr><h2>{$go}</h2>
+
+  {data 'examples'} 
+    (
+      'basic',
+      'operation/single',
+      'operation/double',
+      'keepRemove',
+      'store/single',
+      'store/double'
+    )
+  {/data}
+
+  {examples}
+
+    {exists '/app/sequence/{$examples}/{$go}.pad'}
+      <h4>{$examples}</h4>
+      {example 'sequence/{$examples}/{$go}', onlyResult, include}
+    {/exists}
+
+  {/examples}
+
+</center>

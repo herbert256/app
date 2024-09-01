@@ -1,4 +1,0 @@
-sequence/basic/cubic
-sequence/keepRemove/cubic
-sequence/operation/cubic
-sequence/specials/figurate

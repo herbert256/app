@@ -7,11 +7,11 @@
   deleteDir  ( '/app/_xref' ); 
   deleteDir  ( '/app/_regression');
 
-  padPageGet ( 'develop/sequences'    );  
-  padPageGet ( 'develop/callAll'      );
-  padPageGet ( 'develop/regressionGo' );
-  padPageGet ( 'develop/regressionGo' );
+  padPageGet ( 'develop/sequence/index' );  
+  padPageGet ( 'develop/callAll'        );
+  padPageGet ( 'develop/regressionGo'   );
+  padPageGet ( 'develop/regressionGo'   );
 
-  padRedirect ( 'develop/regression' );
+  padRedirect ( 'develop/regression'    );
 
 ?>

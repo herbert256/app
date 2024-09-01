@@ -1,4 +1,0 @@
-sequence/basic/composite
-sequence/keepRemove/composite
-sequence/operation/composite
-sequence/specials/prime_or_not

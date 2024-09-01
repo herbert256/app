@@ -1,3 +1,0 @@
-sequence/basic/step
-sequence/operation/step
-sequence/specials/step_multiple

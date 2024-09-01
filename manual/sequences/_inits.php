@@ -1,5 +1,0 @@
-<?php
-
-  $title = "Sequences - $title";
-
-?>

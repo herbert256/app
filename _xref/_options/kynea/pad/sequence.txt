@@ -1,4 +1,0 @@
-sequence/basic/kynea
-sequence/keepRemove/kynea
-sequence/operation/kynea
-sequence/specials/named

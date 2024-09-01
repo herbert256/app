@@ -1,3 +1,0 @@
-sequence/basic/list
-sequence/specials/basic
-sequence/specials/combine

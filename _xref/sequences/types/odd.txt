@@ -1,3 +1,0 @@
-sequence/basic/odd
-sequence/operation/even
-sequence/specials/even_odd

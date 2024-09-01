@@ -1,3 +1,0 @@
-sequence/basic/nor
-sequence/operation/nor
-sequence/specials/logic

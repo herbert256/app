@@ -1,4 +1,0 @@
-sequence/basic/recaman
-sequence/keepRemove/recaman
-sequence/operation/recaman
-sequence/specials/named

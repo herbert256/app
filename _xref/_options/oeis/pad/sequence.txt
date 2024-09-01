@@ -1,3 +1,0 @@
-sequence/basic/oeis
-sequence/operation/oeis
-sequence/specials/oeis

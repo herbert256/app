@@ -1,2 +1,0 @@
-sequence/basic/powerful
-sequence/specials/other

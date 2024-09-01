@@ -1,4 +1,0 @@
-sequence/basic/lucky
-sequence/keepRemove/lucky
-sequence/operation/lucky
-sequence/specials/other

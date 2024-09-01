@@ -1,4 +1,0 @@
-sequence/basic/strong
-sequence/keepRemove/strong
-sequence/operation/strong
-sequence/specials/other

@@ -1,2 +1,0 @@
-sequence/basic/moserdebruijn
-sequence/specials/named
