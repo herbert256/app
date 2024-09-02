@@ -28,9 +28,3 @@ vars/at/4
 vars/at/6
 walk/1
 walk/2
-sequence/basic/add
-sequence/operation/single/add
-sequence/actions/types/double/add
-sequence/operation/double/add
-sequence/actions/types/single/add
-sequence/store/double/add

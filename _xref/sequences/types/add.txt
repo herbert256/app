@@ -1,3 +1,0 @@
-sequence/basic/add
-sequence/actions/types/double/add
-sequence/actions/types/single/add
