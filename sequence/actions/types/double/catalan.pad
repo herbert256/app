@@ -1,6 +1,15 @@
 {table}
 {demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, catalan}
+  {$sequence}
+{/sequence}{/demo}
 {demo}{sequence 10, catalan, append='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence myStore}
   {$sequence}
 {/sequence}{/demo}
 {demo}{sequence 10, catalan, storeAppend='myStore'}{/demo}
@@ -11,7 +20,16 @@
 
 {table}
 {demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, catalan}
+  {$sequence}
+{/sequence}{/demo}
 {demo}{sequence 10, catalan, combine='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence myStore}
   {$sequence}
 {/sequence}{/demo}
 {demo}{sequence 10, catalan, storeCombine='myStore'}{/demo}
@@ -22,7 +40,16 @@
 
 {table}
 {demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, catalan}
+  {$sequence}
+{/sequence}{/demo}
 {demo}{sequence 10, catalan, difference='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence myStore}
   {$sequence}
 {/sequence}{/demo}
 {demo}{sequence 10, catalan, storeDifference='myStore'}{/demo}
@@ -33,7 +60,36 @@
 
 {table}
 {demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, catalan}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, catalan, intersection='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, catalan, storeIntersection='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{/table}
+
+{table}
+{demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, catalan}
+  {$sequence}
+{/sequence}{/demo}
 {demo}{sequence 10, catalan, merge='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence myStore}
   {$sequence}
 {/sequence}{/demo}
 {demo}{sequence 10, catalan, storeMerge='myStore'}{/demo}
@@ -44,7 +100,16 @@
 
 {table}
 {demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, catalan}
+  {$sequence}
+{/sequence}{/demo}
 {demo}{sequence 10, catalan, onlyNow='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence myStore}
   {$sequence}
 {/sequence}{/demo}
 {demo}{sequence 10, catalan, storeOnlyNow='myStore'}{/demo}
@@ -55,7 +120,16 @@
 
 {table}
 {demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, catalan}
+  {$sequence}
+{/sequence}{/demo}
 {demo}{sequence 10, catalan, onlyStore='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence myStore}
   {$sequence}
 {/sequence}{/demo}
 {demo}{sequence 10, catalan, storeOnlyStore='myStore'}{/demo}
@@ -66,7 +140,16 @@
 
 {table}
 {demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, catalan}
+  {$sequence}
+{/sequence}{/demo}
 {demo}{sequence 10, catalan, pop='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence myStore}
   {$sequence}
 {/sequence}{/demo}
 {demo}{sequence 10, catalan, storePop='myStore'}{/demo}
@@ -77,7 +160,16 @@
 
 {table}
 {demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, catalan}
+  {$sequence}
+{/sequence}{/demo}
 {demo}{sequence 10, catalan, prepend='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence myStore}
   {$sequence}
 {/sequence}{/demo}
 {demo}{sequence 10, catalan, storePrepend='myStore'}{/demo}
@@ -88,7 +180,16 @@
 
 {table}
 {demo}{sequence range='11..20', name='myStore'}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, catalan}
+  {$sequence}
+{/sequence}{/demo}
 {demo}{sequence 10, catalan, shift='myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence myStore}
   {$sequence}
 {/sequence}{/demo}
 {demo}{sequence 10, catalan, storeShift='myStore'}{/demo}
@@ -99,10 +200,19 @@
 
 {table}
 {demo}{sequence range='11..20', name='myStore'}{/demo}
-{demo}{sequence 10, catalan, splice='2|myStore'}
+{demo}{sequence myStore}
   {$sequence}
 {/sequence}{/demo}
-{demo}{sequence 10, catalan, storeSplice='2|myStore'}{/demo}
+{demo}{sequence 10, catalan}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, catalan, splice='5|2|myStore'}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence myStore}
+  {$sequence}
+{/sequence}{/demo}
+{demo}{sequence 10, catalan, storeSplice='5|2|myStore'}{/demo}
 {demo}{sequence myStore}
   {$sequence}
 {/sequence}{/demo}

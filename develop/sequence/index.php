@@ -14,7 +14,9 @@
   foreach ( glob ( '/app/sequence/store/double/*.pad'         ) as $file ) unlink($file);
   foreach ( glob ( '/app/sequence/actions/types/double/*.pad' ) as $file ) unlink($file);
   foreach ( glob ( '/app/sequence/actions/types/single/*.pad' ) as $file ) unlink($file);
- 
+  foreach ( glob ( '/pad/sequence/actions/single/*'           ) as $file ) unlink($file);
+  foreach ( glob ( '/pad/sequence/actions/double/*'           ) as $file ) unlink($file);
+
   include '/app/develop/sequence/actions.php';
  
   foreach ( padTypes () as $type ) {

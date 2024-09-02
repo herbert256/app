@@ -1,6 +1,10 @@
 {table}
 
-{demo}{sequence 10, octagonal}
+{demo}{sequence rows=10}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence octagonal, rows=10}
   {$sequence}
 {/sequence}{/demo}
 

@@ -1,0 +1,40 @@
+{data 'list'} 
+  (
+    'basic',
+    'operation/single',
+    'operation/double',
+    'keepRemove',
+    'store/single',
+    'store/double',
+    'actions/types/single',
+    'actions/types/double'
+  )
+{/data}
+
+<center>
+
+  {list}
+      {if $example eq $list}
+        {$list}
+      @else@
+        <a href="@pad@manual/sequence/examples&example={$list}&go={$go}">{$list}</a>
+      {/if}
+      &nbsp;
+  {/list}
+
+  <br><br><hr>
+
+  {examples}
+      {if $item eq $examples}
+        {$examples}
+      @else@
+        <a href="@pad@manual/sequence/examples&example={$example}&item={$examples}&go={$go}">{$examples}</a>
+      {/if}
+      &nbsp;
+  {/examples}
+
+  <br><br><hr>
+
+  {example 'sequence/{$example}/{$item}', onlyResult, include}
+
+</center>

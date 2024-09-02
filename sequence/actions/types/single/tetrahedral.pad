@@ -8,10 +8,6 @@
   {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence 10, tetrahedral, intersection}
-  {$sequence}
-{/sequence}{/demo}
-
 {demo}{sequence 10, tetrahedral, last}
   {$sequence}
 {/sequence}{/demo}

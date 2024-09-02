@@ -1,6 +1,10 @@
 {table}
 
-{demo}{sequence 10, newmanConway}
+{demo}{sequence rows=10}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence newmanConway, rows=10}
   {$sequence}
 {/sequence}{/demo}
 

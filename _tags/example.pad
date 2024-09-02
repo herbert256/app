@@ -8,7 +8,7 @@
 
 {if #onlyResult or $exampleOnlyResult} 
 
-  {ajax '{$examplePage}'}
+  {page '{$examplePage}', sandbox}
 
 @else@
 
@@ -132,7 +132,7 @@
           </tr>
         {/if}
         <tr>
-          <td style="vertical-align:top">{ajax '{$examplePage}'}</td>
+          <td style="vertical-align:top">{page '{$examplePage}', sandbox}</td>
         </tr>
       {/if}
 

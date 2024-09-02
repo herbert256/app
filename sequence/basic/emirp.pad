@@ -1,6 +1,10 @@
 {table}
 
-{demo}{sequence 10, emirp}
+{demo}{sequence rows=10}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence emirp, rows=10}
   {$sequence}
 {/sequence}{/demo}
 

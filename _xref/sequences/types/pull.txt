@@ -1,0 +1,3 @@
+sequence/operation/double/add
+sequence/store/double/add
+sequence/actions/types/double/add

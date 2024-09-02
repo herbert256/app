@@ -1,6 +1,10 @@
 {table}
 
-{demo}{sequence 10, not}
+{demo}{sequence rows=10}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence not, rows=10}
   {$sequence}
 {/sequence}{/demo}
 

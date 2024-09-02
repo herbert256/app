@@ -1,6 +1,10 @@
 {table}
 
-{demo}{sequence 10, powerful}
+{demo}{sequence rows=10}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence powerful, rows=10}
   {$sequence}
 {/sequence}{/demo}
 

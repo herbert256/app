@@ -1,6 +1,10 @@
 {table}
 
-{demo}{sequence 10, pronic}
+{demo}{sequence rows=10}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence pronic, rows=10}
   {$sequence}
 {/sequence}{/demo}
 

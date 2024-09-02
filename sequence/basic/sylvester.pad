@@ -1,6 +1,10 @@
 {table}
 
-{demo}{sequence 3, sylvester}
+{demo}{sequence rows=3}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence sylvester, rows=3}
   {$sequence}
 {/sequence}{/demo}
 

@@ -28,7 +28,7 @@
 
     {exists '/app/sequence/{$examples}/{$go}.pad'}
       <h4>{$examples}</h4>
-      {example 'sequence/{$examples}/{$go}', onlyResult, include}
+      {example 'sequence/{$examples}/{$go}', onlyResult}
     {/exists}
 
   {/examples}

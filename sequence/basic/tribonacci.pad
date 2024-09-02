@@ -1,3 +1,11 @@
-{table}{demo}{sequence 15, tribonacci}
+{table}
+
+{demo}{sequence rows=10}
   {$sequence}
-{/sequence}{/demo}{/table}
+{/sequence}{/demo}
+
+{demo}{sequence tribonacci, rows=10}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

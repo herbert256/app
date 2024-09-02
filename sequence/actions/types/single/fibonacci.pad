@@ -8,10 +8,6 @@
   {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence 10, fibonacci, intersection}
-  {$sequence}
-{/sequence}{/demo}
-
 {demo}{sequence 10, fibonacci, last}
   {$sequence}
 {/sequence}{/demo}
