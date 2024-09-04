@@ -206,13 +206,13 @@
 {demo}{sequence 10, palindrome}
   {$sequence}
 {/sequence}{/demo}
-{demo}{sequence 10, palindrome, splice='5|2|myStore'}
+{demo}{sequence 10, palindrome, splice='myStore|5|2'}
   {$sequence}
 {/sequence}{/demo}
 {demo}{sequence myStore}
   {$sequence}
 {/sequence}{/demo}
-{demo}{sequence 10, palindrome, storeSplice='5|2|myStore'}{/demo}
+{demo}{sequence 10, palindrome, storeSplice='myStore|5|2'}{/demo}
 {demo}{sequence myStore}
   {$sequence}
 {/sequence}{/demo}

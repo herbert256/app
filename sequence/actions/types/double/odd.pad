@@ -206,13 +206,13 @@
 {demo}{sequence 10, odd}
   {$sequence}
 {/sequence}{/demo}
-{demo}{sequence 10, odd, splice='5|2|myStore'}
+{demo}{sequence 10, odd, splice='myStore|5|2'}
   {$sequence}
 {/sequence}{/demo}
 {demo}{sequence myStore}
   {$sequence}
 {/sequence}{/demo}
-{demo}{sequence 10, odd, storeSplice='5|2|myStore'}{/demo}
+{demo}{sequence 10, odd, storeSplice='myStore|5|2'}{/demo}
 {demo}{sequence myStore}
   {$sequence}
 {/sequence}{/demo}

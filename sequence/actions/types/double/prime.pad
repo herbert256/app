@@ -206,13 +206,13 @@
 {demo}{sequence 10, prime}
   {$sequence}
 {/sequence}{/demo}
-{demo}{sequence 10, prime, splice='5|2|myStore'}
+{demo}{sequence 10, prime, splice='myStore|5|2'}
   {$sequence}
 {/sequence}{/demo}
 {demo}{sequence myStore}
   {$sequence}
 {/sequence}{/demo}
-{demo}{sequence 10, prime, storeSplice='5|2|myStore'}{/demo}
+{demo}{sequence 10, prime, storeSplice='myStore|5|2'}{/demo}
 {demo}{sequence myStore}
   {$sequence}
 {/sequence}{/demo}

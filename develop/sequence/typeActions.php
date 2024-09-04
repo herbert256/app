@@ -18,16 +18,16 @@
 
     $store = 'store' . ucfirst ($file);
 
-    if ( $file == 'splice' ) $extra = '5|2|';
+    if ( $file == 'splice' ) $extra = '|5|2';
     else                     $extra = '';
 
     $one .= "{table}\n";
     $one .= "{demo}{sequence range='11..20', name='myStore'}{/demo}\n";
     $one .= "{demo}{sequence myStore}\n  {\$sequence}\n{/sequence}{/demo}\n";
     $one .= "{demo}{sequence $count, $type$parm}\n  {\$sequence}\n{/sequence}{/demo}\n";
-    $one .= "{demo}{sequence $count, $type$parm, $file='$extra" . "myStore'}\n  {\$sequence}\n{/sequence}{/demo}\n";
+    $one .= "{demo}{sequence $count, $type$parm, $file='myStore$extra'}\n  {\$sequence}\n{/sequence}{/demo}\n";
     $one .= "{demo}{sequence myStore}\n  {\$sequence}\n{/sequence}{/demo}\n";
-    $one .= "{demo}{sequence $count, $type$parm, $store='$extra" . "myStore'}{/demo}\n";
+    $one .= "{demo}{sequence $count, $type$parm, $store='myStore$extra'}{/demo}\n";
     $one .= "{demo}{sequence myStore}\n  {\$sequence}\n{/sequence}{/demo}\n";
     $one .= "{/table}\n\n";
 

@@ -71,19 +71,19 @@
   {$sequence}
 {/sequence}{/demo} 
 
-{demo}{sequence mySeq, splice='0|5|mySplice'}
+{demo}{sequence mySeq, splice='mySplice|0|5'}
   {$sequence}
 {/sequence}{/demo} 
 
-{demo}{sequence mySeq, splice='-5|5|mySplice'}
+{demo}{sequence mySeq, splice='mySplice|-5|5'}
   {$sequence}
 {/sequence}{/demo} 
 
-{demo}{sequence mySeq, splice='-15|5|mySplice'}
+{demo}{sequence mySeq, splice='mySplice|-15|5'}
   {$sequence}
 {/sequence}{/demo} 
 
-{demo}{sequence mySeq, splice='-15|-5|mySplice'}
+{demo}{sequence mySeq, splice='mySplice|-15|-5'}
   {$sequence}
 {/sequence}{/demo} 
 
