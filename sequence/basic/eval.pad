@@ -1,3 +1,0 @@
-{table}{demo}{sequence 15, eval='@ * 10 | @ - 1'}
-  {$sequence}
-{/sequence}{/demo}{/table}
