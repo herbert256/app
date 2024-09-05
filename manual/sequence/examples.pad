@@ -1,13 +1,10 @@
 {data 'list'} 
   (
     'basic',
-    'operation/single',
-    'operation/double',
+    'operation',
+    'operation/store',
     'keepRemove',
-    'store/single',
-    'store/double',
-    'actions/types/single',
-    'actions/types/double'
+    'store'
   )
 {/data}
 
