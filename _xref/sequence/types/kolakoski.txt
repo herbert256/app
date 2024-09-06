@@ -1,0 +1,2 @@
+sequence/basic/kolakoski
+sequence/specials/named

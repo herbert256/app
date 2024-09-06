@@ -1,0 +1,4 @@
+sequence/basic/newmanConway
+sequence/keepRemove/newmanConway
+sequence/operation/single/newmanConway
+sequence/specials/named

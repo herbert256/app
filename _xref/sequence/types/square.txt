@@ -1,0 +1,2 @@
+sequence/basic/square
+sequence/specials/figurate

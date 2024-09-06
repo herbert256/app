@@ -1,0 +1,4 @@
+sequence/basic/biquadratic
+sequence/keepRemove/biquadratic
+sequence/operation/single/biquadratic
+sequence/specials/figurate

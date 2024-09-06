@@ -1,0 +1,4 @@
+sequence/basic/kolakoski
+sequence/keepRemove/kolakoski
+sequence/operation/single/kolakoski
+sequence/specials/named

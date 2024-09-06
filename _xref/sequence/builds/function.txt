@@ -1,0 +1,7 @@
+sequence/basic/enneadecagonal
+sequence/basic/gould
+sequence/basic/heptadecagonal
+sequence/basic/polite
+sequence/basic/sylvester
+sequence/specials/figurate
+sequence/specials/named

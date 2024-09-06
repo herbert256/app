@@ -1,8 +1,14 @@
 [
-  { "type": "sequence",           "lvl": 1, "dir": "types"      }, 
-  { "type": "Sequence actions",    "lvl": 2, "dir": "actions"    },
-  { "type": "Sequence options",    "lvl": 2, "dir": "options"    },
-  { "type": "Sequence operations", "lvl": 2, "dir": "operations" },
-  { "type": "Sequence stores",     "lvl": 2, "dir": "stores"     },
-  { "type": "Sequence builds",     "lvl": 2, "dir": "builds"     }
+  { "type": "Sequences",  "lvl": 1, "dir": "types"             }, 
+  { "type": "Options",    "lvl": 1, "dir": "options"           },
+  { "type": "Actions",    "lvl": 1, "dir": ""                  }, 
+  { "type": "Single",     "lvl": 2, "dir": "actions/single"    },
+  { "type": "Double",     "lvl": 2, "dir": "actions/double"    },
+  { "type": "Operations", "lvl": 1, "dir": ""                  }, 
+  { "type": "Single",     "lvl": 2, "dir": "operations/single" },
+  { "type": "Double ",    "lvl": 2, "dir": "operations/double" },
+  { "type": "Stores",     "lvl": 1, "dir": ""                  }, 
+  { "type": "Actions",    "lvl": 2, "dir": "store/actions"     },
+  { "type": "Operations", "lvl": 2, "dir": "store/operations"  },
+  { "type": "Builds",     "lvl": 1, "dir": "builds"            }
 ]

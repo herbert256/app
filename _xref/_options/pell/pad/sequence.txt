@@ -1,0 +1,4 @@
+sequence/basic/pell
+sequence/keepRemove/pell
+sequence/operation/single/pell
+sequence/specials/named

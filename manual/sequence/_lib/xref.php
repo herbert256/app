@@ -1,6 +1,9 @@
 <?php
 
   function getXref ( $type, $dir ) {
+
+    if ( ! $dir )
+      return [];
     
     $base = "/app/_xref/sequence/";
 

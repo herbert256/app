@@ -1,0 +1,4 @@
+sequence/basic/add
+sequence/operation/double/add
+sequence/operation/single/add
+sequence/specials/arithmetic

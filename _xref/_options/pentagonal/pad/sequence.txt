@@ -1,0 +1,4 @@
+sequence/basic/pentagonal
+sequence/keepRemove/pentagonal
+sequence/operation/single/pentagonal
+sequence/specials/figurate

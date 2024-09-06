@@ -1,0 +1,2 @@
+sequence/keepRemove/triangular
+sequence/operation/single/triangular

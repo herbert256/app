@@ -1,0 +1,525 @@
+<p>10 ways to show the same table</p>
+
+
+
+ 
+
+
+
+   
+    <table border="1" cellpadding="10" cellspacing="0">
+  
+
+  
+
+      
+          <tr>
+          
+            <th bgcolor="#dddddd">
+              PHP 
+            </th>
+          
+          
+            <th bgcolor="#dddddd">
+              HTML 
+            </th>
+          
+          
+            <th bgcolor="#dddddd">
+              Result
+            </th>
+          
+        </tr>
+      
+
+      <tr>
+        
+          <td style="vertical-align:top"> </td>
+        
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000"><b>{<font color="blue">content </font><font color="red"><font color="black">'</font>cell<font color="black">'</font></font>}</b> <br>  &lt;td <b>{<font color="blue">if </font><font color="red"><font color="red">$</font>cell EQ 23</font>}</b> bgcolor="red" <b>{/<font color="blue">if</font><font color="red"></font>}</b> &gt;<br>    <b>{<font color="green"><font color="red">$</font>cell</font>}</b><br>  &lt;/td&gt;<br><b>{/<font color="blue">content</font><font color="red"></font>}</b></code></pre></td>
+        
+        
+          <td style="vertical-align:top"><div id="padAjax1lC3IHXI"></div>
+
+<script>
+  padAjax1lC3IHXI = new XMLHttpRequest();
+  padAjax1lC3IHXI.onreadystatechange=function() {
+    if (padAjax1lC3IHXI.readyState === 4) {
+      if (padAjax1lC3IHXI.status === 200) {
+        document.getElementById("padAjax1lC3IHXI").innerHTML=padAjax1lC3IHXI.responseText;
+      } else {
+        document.getElementById("padAjax1lC3IHXI").innerHTML=padAjax1lC3IHXI.statusText;
+      }
+    }
+  }
+  padAjax1lC3IHXI.open("GET","http://penguin.linux.test/?tableFun/fun_0&padInclude&padSesID=DYXrxM31&padReqID=0nPF4puj",true);
+  padAjax1lC3IHXI.send();
+</script></td>
+        
+      </tr>
+
+    
+
+  
+
+
+
+
+
+
+ 
+
+
+
+  
+
+  
+
+      
+
+      <tr>
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000"><span style="color: #0000BB">&lt;?php<br><br>  </span><span style="color: #007700">for (</span><span style="color: #0000BB">$row </span><span style="color: #007700">= </span><span style="color: #0000BB">1</span><span style="color: #007700">; </span><span style="color: #0000BB">$row </span><span style="color: #007700">&lt;= </span><span style="color: #0000BB">3</span><span style="color: #007700">; </span><span style="color: #0000BB">$row</span><span style="color: #007700">++)<br>    for (</span><span style="color: #0000BB">$col </span><span style="color: #007700">= </span><span style="color: #0000BB">1</span><span style="color: #007700">; </span><span style="color: #0000BB">$col </span><span style="color: #007700">&lt;= </span><span style="color: #0000BB">5</span><span style="color: #007700">; </span><span style="color: #0000BB">$col</span><span style="color: #007700">++)     <br>      </span><span style="color: #0000BB">$rows </span><span style="color: #007700">[</span><span style="color: #0000BB">$row</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cols'</span><span style="color: #007700">] [</span><span style="color: #0000BB">$col</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cell'</span><span style="color: #007700">] = (</span><span style="color: #0000BB">$row</span><span style="color: #007700">*</span><span style="color: #0000BB">10</span><span style="color: #007700">) + </span><span style="color: #0000BB">$col</span><span style="color: #007700">;<br><br></span><span style="color: #0000BB">?&gt;</span></code></pre> </td>
+        
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table border='1'&gt;<br>  <b>{<font color="blue">rows</font><font color="red"></font>}</b><br>    &lt;tr&gt;<br>      <b>{<font color="blue">cols</font><font color="red"></font>}</b><br>        <b>{<font color="blue">cell</font><font color="red"></font>}</b>  <br>      <b>{/<font color="blue">cols</font><font color="red"></font>}</b><br>    &lt;/tr&gt;<br>  <b>{/<font color="blue">rows</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre></td>
+        
+        
+          <td style="vertical-align:top"><div id="padAjaxNzDqocoS"></div>
+
+<script>
+  padAjaxNzDqocoS = new XMLHttpRequest();
+  padAjaxNzDqocoS.onreadystatechange=function() {
+    if (padAjaxNzDqocoS.readyState === 4) {
+      if (padAjaxNzDqocoS.status === 200) {
+        document.getElementById("padAjaxNzDqocoS").innerHTML=padAjaxNzDqocoS.responseText;
+      } else {
+        document.getElementById("padAjaxNzDqocoS").innerHTML=padAjaxNzDqocoS.statusText;
+      }
+    }
+  }
+  padAjaxNzDqocoS.open("GET","http://penguin.linux.test/?tableFun/fun_1_a&padInclude&padSesID=DYXrxM31&padReqID=0nPF4puj",true);
+  padAjaxNzDqocoS.send();
+</script></td>
+        
+      </tr>
+
+    
+
+  
+
+
+
+
+
+
+ 
+
+
+
+  
+
+  
+
+      
+
+      <tr>
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000"><span style="color: #0000BB">&lt;?php<br><br>  $rows </span><span style="color: #007700">[</span><span style="color: #0000BB">1</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cols'</span><span style="color: #007700">] [</span><span style="color: #0000BB">1</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cell'</span><span style="color: #007700">] = </span><span style="color: #0000BB">11</span><span style="color: #007700">;<br>  </span><span style="color: #0000BB">$rows </span><span style="color: #007700">[</span><span style="color: #0000BB">1</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cols'</span><span style="color: #007700">] [</span><span style="color: #0000BB">2</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cell'</span><span style="color: #007700">] = </span><span style="color: #0000BB">12</span><span style="color: #007700">;<br>  </span><span style="color: #0000BB">$rows </span><span style="color: #007700">[</span><span style="color: #0000BB">1</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cols'</span><span style="color: #007700">] [</span><span style="color: #0000BB">3</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cell'</span><span style="color: #007700">] = </span><span style="color: #0000BB">13</span><span style="color: #007700">;<br>  </span><span style="color: #0000BB">$rows </span><span style="color: #007700">[</span><span style="color: #0000BB">1</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cols'</span><span style="color: #007700">] [</span><span style="color: #0000BB">4</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cell'</span><span style="color: #007700">] = </span><span style="color: #0000BB">14</span><span style="color: #007700">;<br>  </span><span style="color: #0000BB">$rows </span><span style="color: #007700">[</span><span style="color: #0000BB">1</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cols'</span><span style="color: #007700">] [</span><span style="color: #0000BB">5</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cell'</span><span style="color: #007700">] = </span><span style="color: #0000BB">15</span><span style="color: #007700">;<br><br>  </span><span style="color: #0000BB">$rows </span><span style="color: #007700">[</span><span style="color: #0000BB">2</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cols'</span><span style="color: #007700">] [</span><span style="color: #0000BB">1</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cell'</span><span style="color: #007700">] = </span><span style="color: #0000BB">21</span><span style="color: #007700">;<br>  </span><span style="color: #0000BB">$rows </span><span style="color: #007700">[</span><span style="color: #0000BB">2</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cols'</span><span style="color: #007700">] [</span><span style="color: #0000BB">2</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cell'</span><span style="color: #007700">] = </span><span style="color: #0000BB">22</span><span style="color: #007700">;<br>  </span><span style="color: #0000BB">$rows </span><span style="color: #007700">[</span><span style="color: #0000BB">2</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cols'</span><span style="color: #007700">] [</span><span style="color: #0000BB">3</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cell'</span><span style="color: #007700">] = </span><span style="color: #0000BB">23</span><span style="color: #007700">;<br>  </span><span style="color: #0000BB">$rows </span><span style="color: #007700">[</span><span style="color: #0000BB">2</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cols'</span><span style="color: #007700">] [</span><span style="color: #0000BB">4</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cell'</span><span style="color: #007700">] = </span><span style="color: #0000BB">24</span><span style="color: #007700">;<br>  </span><span style="color: #0000BB">$rows </span><span style="color: #007700">[</span><span style="color: #0000BB">2</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cols'</span><span style="color: #007700">] [</span><span style="color: #0000BB">5</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cell'</span><span style="color: #007700">] = </span><span style="color: #0000BB">25</span><span style="color: #007700">;<br>  <br>  </span><span style="color: #0000BB">$rows </span><span style="color: #007700">[</span><span style="color: #0000BB">3</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cols'</span><span style="color: #007700">] [</span><span style="color: #0000BB">1</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cell'</span><span style="color: #007700">] = </span><span style="color: #0000BB">31</span><span style="color: #007700">;<br>  </span><span style="color: #0000BB">$rows </span><span style="color: #007700">[</span><span style="color: #0000BB">3</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cols'</span><span style="color: #007700">] [</span><span style="color: #0000BB">2</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cell'</span><span style="color: #007700">] = </span><span style="color: #0000BB">32</span><span style="color: #007700">;<br>  </span><span style="color: #0000BB">$rows </span><span style="color: #007700">[</span><span style="color: #0000BB">3</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cols'</span><span style="color: #007700">] [</span><span style="color: #0000BB">3</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cell'</span><span style="color: #007700">] = </span><span style="color: #0000BB">33</span><span style="color: #007700">;<br>  </span><span style="color: #0000BB">$rows </span><span style="color: #007700">[</span><span style="color: #0000BB">3</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cols'</span><span style="color: #007700">] [</span><span style="color: #0000BB">4</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cell'</span><span style="color: #007700">] = </span><span style="color: #0000BB">34</span><span style="color: #007700">;<br>  </span><span style="color: #0000BB">$rows </span><span style="color: #007700">[</span><span style="color: #0000BB">3</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cols'</span><span style="color: #007700">] [</span><span style="color: #0000BB">5</span><span style="color: #007700">] [</span><span style="color: #DD0000">'cell'</span><span style="color: #007700">] = </span><span style="color: #0000BB">35</span><span style="color: #007700">;<br><br></span><span style="color: #0000BB">?&gt;</span></code></pre> </td>
+        
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table border='1'&gt;<br>  <b>{<font color="blue">rows</font><font color="red"></font>}</b><br>    &lt;tr&gt;<br>      <b>{<font color="blue">cols</font><font color="red"></font>}</b><br>        <b>{<font color="blue">cell</font><font color="red"></font>}</b>  <br>      <b>{/<font color="blue">cols</font><font color="red"></font>}</b><br>    &lt;/tr&gt;<br>  <b>{/<font color="blue">rows</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre></td>
+        
+        
+          <td style="vertical-align:top"><div id="padAjaxoNN3U9m0"></div>
+
+<script>
+  padAjaxoNN3U9m0 = new XMLHttpRequest();
+  padAjaxoNN3U9m0.onreadystatechange=function() {
+    if (padAjaxoNN3U9m0.readyState === 4) {
+      if (padAjaxoNN3U9m0.status === 200) {
+        document.getElementById("padAjaxoNN3U9m0").innerHTML=padAjaxoNN3U9m0.responseText;
+      } else {
+        document.getElementById("padAjaxoNN3U9m0").innerHTML=padAjaxoNN3U9m0.statusText;
+      }
+    }
+  }
+  padAjaxoNN3U9m0.open("GET","http://penguin.linux.test/?tableFun/fun_1_b&padInclude&padSesID=DYXrxM31&padReqID=0nPF4puj",true);
+  padAjaxoNN3U9m0.send();
+</script></td>
+        
+      </tr>
+
+    
+
+  
+
+
+
+
+
+
+ 
+
+
+
+  
+
+  
+
+      
+
+      <tr>
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000"><span style="color: #0000BB">&lt;?php<br><br>  $fun </span><span style="color: #007700">= [ [</span><span style="color: #0000BB">11</span><span style="color: #007700">,</span><span style="color: #0000BB">12</span><span style="color: #007700">,</span><span style="color: #0000BB">13</span><span style="color: #007700">,</span><span style="color: #0000BB">14</span><span style="color: #007700">,</span><span style="color: #0000BB">15</span><span style="color: #007700">],<br>           [</span><span style="color: #0000BB">21</span><span style="color: #007700">,</span><span style="color: #0000BB">22</span><span style="color: #007700">,</span><span style="color: #0000BB">23</span><span style="color: #007700">,</span><span style="color: #0000BB">24</span><span style="color: #007700">,</span><span style="color: #0000BB">25</span><span style="color: #007700">],<br>           [</span><span style="color: #0000BB">31</span><span style="color: #007700">,</span><span style="color: #0000BB">32</span><span style="color: #007700">,</span><span style="color: #0000BB">33</span><span style="color: #007700">,</span><span style="color: #0000BB">34</span><span style="color: #007700">,</span><span style="color: #0000BB">35</span><span style="color: #007700">] ];<br><br></span><span style="color: #0000BB">?&gt;</span></code></pre> </td>
+        
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table border='1'&gt; <br>  <b>{<font color="blue">fun</font><font color="red"></font>}</b><br>   &lt;tr&gt;<br>      <b>{<font color="blue">fun</font><font color="red"></font>}</b><br>        <b>{<font color="blue">cell </font><font color="red"><font color="red">$</font>fun</font>}</b>  <br>      <b>{/<font color="blue">fun</font><font color="red"></font>}</b><br>    &lt;/tr&gt;<br>  <b>{/<font color="blue">fun</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre></td>
+        
+        
+          <td style="vertical-align:top"><div id="padAjaxcjpFfQ3r"></div>
+
+<script>
+  padAjaxcjpFfQ3r = new XMLHttpRequest();
+  padAjaxcjpFfQ3r.onreadystatechange=function() {
+    if (padAjaxcjpFfQ3r.readyState === 4) {
+      if (padAjaxcjpFfQ3r.status === 200) {
+        document.getElementById("padAjaxcjpFfQ3r").innerHTML=padAjaxcjpFfQ3r.responseText;
+      } else {
+        document.getElementById("padAjaxcjpFfQ3r").innerHTML=padAjaxcjpFfQ3r.statusText;
+      }
+    }
+  }
+  padAjaxcjpFfQ3r.open("GET","http://penguin.linux.test/?tableFun/fun_2_a&padInclude&padSesID=DYXrxM31&padReqID=0nPF4puj",true);
+  padAjaxcjpFfQ3r.send();
+</script></td>
+        
+      </tr>
+
+    
+
+  
+
+
+
+
+
+
+ 
+
+
+
+  
+
+  
+
+      
+
+      <tr>
+        
+          <td style="vertical-align:top"> </td>
+        
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000"><b>{<font color="blue">data </font><font color="red"><font color="black">'</font>fun<font color="black">'</font></font>}</b><br>  [ [11,12,13,14,15],<br>    [21,22,23,24,25],<br>    [31,32,33,34,35] ]<br><b>{/<font color="blue">data</font><font color="red"></font>}</b><br><br>&lt;table border='1'&gt; <br>  <b>{<font color="blue">fun</font><font color="red"></font>}</b><br>   &lt;tr&gt;<br>      <b>{<font color="blue">fun</font><font color="red"></font>}</b><br>        <b>{<font color="blue">cell </font><font color="red"><font color="red">$</font>fun</font>}</b>   <br>      <b>{/<font color="blue">fun</font><font color="red"></font>}</b><br>    &lt;/tr&gt;<br>  <b>{/<font color="blue">fun</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre></td>
+        
+        
+          <td style="vertical-align:top"><div id="padAjaxO6Y4p7lp"></div>
+
+<script>
+  padAjaxO6Y4p7lp = new XMLHttpRequest();
+  padAjaxO6Y4p7lp.onreadystatechange=function() {
+    if (padAjaxO6Y4p7lp.readyState === 4) {
+      if (padAjaxO6Y4p7lp.status === 200) {
+        document.getElementById("padAjaxO6Y4p7lp").innerHTML=padAjaxO6Y4p7lp.responseText;
+      } else {
+        document.getElementById("padAjaxO6Y4p7lp").innerHTML=padAjaxO6Y4p7lp.statusText;
+      }
+    }
+  }
+  padAjaxO6Y4p7lp.open("GET","http://penguin.linux.test/?tableFun/fun_2_b&padInclude&padSesID=DYXrxM31&padReqID=0nPF4puj",true);
+  padAjaxO6Y4p7lp.send();
+</script></td>
+        
+      </tr>
+
+    
+
+  
+
+
+
+
+
+
+ 
+
+
+
+  
+
+  
+
+      
+
+      <tr>
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000"><span style="color: #0000BB">&lt;?php<br><br>  $row    </span><span style="color: #007700">= [</span><span style="color: #0000BB">1</span><span style="color: #007700">,</span><span style="color: #0000BB">2</span><span style="color: #007700">,</span><span style="color: #0000BB">3</span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$column </span><span style="color: #007700">= [</span><span style="color: #0000BB">1</span><span style="color: #007700">,</span><span style="color: #0000BB">2</span><span style="color: #007700">,</span><span style="color: #0000BB">3</span><span style="color: #007700">,</span><span style="color: #0000BB">4</span><span style="color: #007700">,</span><span style="color: #0000BB">5</span><span style="color: #007700">];<br><br></span><span style="color: #0000BB">?&gt;</span></code></pre> </td>
+        
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table border='1'&gt;<br>  <b>{<font color="blue">row</font><font color="red"></font>}</b><br>    &lt;tr&gt;<br>      <b>{<font color="blue">column</font><font color="red"></font>}</b><br>        <b>{<font color="blue">cell </font><font color="red">(<font color="red">$</font>row*10) + <font color="red">$</font>column</font>}</b> <br>      <b>{/<font color="blue">column</font><font color="red"></font>}</b><br>    &lt;/tr&gt;<br>  <b>{/<font color="blue">row</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre></td>
+        
+        
+          <td style="vertical-align:top"><div id="padAjax0Idg0uPS"></div>
+
+<script>
+  padAjax0Idg0uPS = new XMLHttpRequest();
+  padAjax0Idg0uPS.onreadystatechange=function() {
+    if (padAjax0Idg0uPS.readyState === 4) {
+      if (padAjax0Idg0uPS.status === 200) {
+        document.getElementById("padAjax0Idg0uPS").innerHTML=padAjax0Idg0uPS.responseText;
+      } else {
+        document.getElementById("padAjax0Idg0uPS").innerHTML=padAjax0Idg0uPS.statusText;
+      }
+    }
+  }
+  padAjax0Idg0uPS.open("GET","http://penguin.linux.test/?tableFun/fun_3_a&padInclude&padSesID=DYXrxM31&padReqID=0nPF4puj",true);
+  padAjax0Idg0uPS.send();
+</script></td>
+        
+      </tr>
+
+    
+
+  
+
+
+
+
+
+
+ 
+
+
+
+  
+
+  
+
+      
+
+      <tr>
+        
+          <td style="vertical-align:top"> </td>
+        
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000"><b>{<font color="blue">data </font><font color="red"><font color="black">'</font>row<font color="black">'</font>   </font>}</b> [1,2,3]     <b>{/<font color="blue">data</font><font color="red"></font>}</b><br><b>{<font color="blue">data </font><font color="red"><font color="black">'</font>column<font color="black">'</font></font>}</b> [1,2,3,4,5] <b>{/<font color="blue">data</font><font color="red"></font>}</b><br><br>&lt;table border='1'&gt;<br>  <b>{<font color="blue">row</font><font color="red"></font>}</b><br>    &lt;tr&gt;<br>      <b>{<font color="blue">column</font><font color="red"></font>}</b><br>        <b>{<font color="blue">cell </font><font color="red">(<font color="red">$</font>row*10) + <font color="red">$</font>column</font>}</b> <br>      <b>{/<font color="blue">column</font><font color="red"></font>}</b><br>    &lt;/tr&gt;<br>  <b>{/<font color="blue">row</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre></td>
+        
+        
+          <td style="vertical-align:top"><div id="padAjaxzlsfXLvN"></div>
+
+<script>
+  padAjaxzlsfXLvN = new XMLHttpRequest();
+  padAjaxzlsfXLvN.onreadystatechange=function() {
+    if (padAjaxzlsfXLvN.readyState === 4) {
+      if (padAjaxzlsfXLvN.status === 200) {
+        document.getElementById("padAjaxzlsfXLvN").innerHTML=padAjaxzlsfXLvN.responseText;
+      } else {
+        document.getElementById("padAjaxzlsfXLvN").innerHTML=padAjaxzlsfXLvN.statusText;
+      }
+    }
+  }
+  padAjaxzlsfXLvN.open("GET","http://penguin.linux.test/?tableFun/fun_3_b&padInclude&padSesID=DYXrxM31&padReqID=0nPF4puj",true);
+  padAjaxzlsfXLvN.send();
+</script></td>
+        
+      </tr>
+
+    
+
+  
+
+
+
+
+
+
+ 
+
+
+
+  
+
+  
+
+      
+
+      <tr>
+        
+          <td style="vertical-align:top"> </td>
+        
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table border='1'&gt;<br>  <b>{<font color="blue">sequence </font><font color="red"><font color="black">'</font>10..30<font color="black">'</font><font color="black">,</font> increment=10</font>}</b><br>    &lt;tr&gt;<br>      <b>{<font color="blue">sequence </font><font color="red"><font color="black">'</font>1..5<font color="black">'</font></font>}</b><br>        <b>{<font color="blue">cell </font><font color="red"><font color="red">$</font>-2 + <font color="red">$</font>-1</font>}</b><br>      <b>{/<font color="blue">sequence</font><font color="red"></font>}</b><br>    &lt;/tr&gt;<br>  <b>{/<font color="blue">sequence</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre></td>
+        
+        
+          <td style="vertical-align:top"><div id="padAjaxqsJhhA6H"></div>
+
+<script>
+  padAjaxqsJhhA6H = new XMLHttpRequest();
+  padAjaxqsJhhA6H.onreadystatechange=function() {
+    if (padAjaxqsJhhA6H.readyState === 4) {
+      if (padAjaxqsJhhA6H.status === 200) {
+        document.getElementById("padAjaxqsJhhA6H").innerHTML=padAjaxqsJhhA6H.responseText;
+      } else {
+        document.getElementById("padAjaxqsJhhA6H").innerHTML=padAjaxqsJhhA6H.statusText;
+      }
+    }
+  }
+  padAjaxqsJhhA6H.open("GET","http://penguin.linux.test/?tableFun/fun_5_a&padInclude&padSesID=DYXrxM31&padReqID=0nPF4puj",true);
+  padAjaxqsJhhA6H.send();
+</script></td>
+        
+      </tr>
+
+    
+
+  
+
+
+
+
+
+
+ 
+
+
+
+  
+
+  
+
+      
+
+      <tr>
+        
+          <td style="vertical-align:top"> </td>
+        
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table border='1'&gt;<br>  <b>{<font color="blue">sequence </font><font color="red"><font color="black">'</font>10..30<font color="black">'</font><font color="black">,</font> increment=10<font color="black">,</font> name=<font color="black">'</font>row<font color="black">'</font></font>}</b><br>    &lt;tr&gt;<br>      <b>{<font color="blue">sequence </font><font color="red"><font color="black">'</font>1..5<font color="black">'</font><font color="black">,</font> name=<font color="black">'</font>column<font color="black">'</font></font>}</b><br>        <b>{<font color="blue">cell </font><font color="red"><font color="red">$</font>row + <font color="red">$</font>column</font>}</b><br>      <b>{/<font color="blue">sequence</font><font color="red"></font>}</b><br>    &lt;/tr&gt;<br>  <b>{/<font color="blue">sequence</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre></td>
+        
+        
+          <td style="vertical-align:top"><div id="padAjaxqkzZlGr0"></div>
+
+<script>
+  padAjaxqkzZlGr0 = new XMLHttpRequest();
+  padAjaxqkzZlGr0.onreadystatechange=function() {
+    if (padAjaxqkzZlGr0.readyState === 4) {
+      if (padAjaxqkzZlGr0.status === 200) {
+        document.getElementById("padAjaxqkzZlGr0").innerHTML=padAjaxqkzZlGr0.responseText;
+      } else {
+        document.getElementById("padAjaxqkzZlGr0").innerHTML=padAjaxqkzZlGr0.statusText;
+      }
+    }
+  }
+  padAjaxqkzZlGr0.open("GET","http://penguin.linux.test/?tableFun/fun_5_b&padInclude&padSesID=DYXrxM31&padReqID=0nPF4puj",true);
+  padAjaxqkzZlGr0.send();
+</script></td>
+        
+      </tr>
+
+    
+
+  
+
+
+
+
+
+
+ 
+
+
+
+  
+
+  
+
+      
+
+      <tr>
+        
+          <td style="vertical-align:top"> </td>
+        
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table border='1'&gt;<br>  <b>{<font color="blue">set </font><font color="red"><font color="red">$</font>row = 10</font>}</b><br>  <b>{<font color="blue">while </font><font color="red"><font color="red">$</font>row LE 30</font>}</b><br>    &lt;tr&gt;<br>      <b>{<font color="blue">set </font><font color="red"><font color="red">$</font>col = 1</font>}</b><br>      <b>{<font color="blue">while </font><font color="red"><font color="red">$</font>col LE 5</font>}</b><br>        <b>{<font color="blue">cell </font><font color="red"><font color="red">$</font>row + <font color="red">$</font>col</font>}</b><br>        <b>{<font color="blue">increment </font><font color="red"><font color="red">$</font>col</font>}</b><br>      <b>{/<font color="blue">while</font><font color="red"></font>}</b><br>    &lt;/tr&gt;<br>    <b>{<font color="blue">set </font><font color="red"><font color="red">$</font>row = <font color="red">$</font>row + 10</font>}</b><br>  <b>{/<font color="blue">while</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre></td>
+        
+        
+          <td style="vertical-align:top"><div id="padAjaxTpKuHh0C"></div>
+
+<script>
+  padAjaxTpKuHh0C = new XMLHttpRequest();
+  padAjaxTpKuHh0C.onreadystatechange=function() {
+    if (padAjaxTpKuHh0C.readyState === 4) {
+      if (padAjaxTpKuHh0C.status === 200) {
+        document.getElementById("padAjaxTpKuHh0C").innerHTML=padAjaxTpKuHh0C.responseText;
+      } else {
+        document.getElementById("padAjaxTpKuHh0C").innerHTML=padAjaxTpKuHh0C.statusText;
+      }
+    }
+  }
+  padAjaxTpKuHh0C.open("GET","http://penguin.linux.test/?tableFun/fun_8&padInclude&padSesID=DYXrxM31&padReqID=0nPF4puj",true);
+  padAjaxTpKuHh0C.send();
+</script></td>
+        
+      </tr>
+
+    
+
+  
+
+
+
+
+
+
+ 
+
+
+
+  
+
+  
+
+      
+
+      <tr>
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000"><span style="color: #0000BB">&lt;?php<br><br>  $row </span><span style="color: #007700">= [</span><span style="color: #0000BB">10</span><span style="color: #007700">,</span><span style="color: #0000BB">20</span><span style="color: #007700">,</span><span style="color: #0000BB">30</span><span style="color: #007700">];<br><br></span><span style="color: #0000BB">?&gt;</span></code></pre> </td>
+        
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table border='1'&gt;<br>  <b>{<font color="blue">row</font><font color="red"></font>}</b><br>    &lt;tr&gt;<br>      <b>{<font color="blue">set </font><font color="red"><font color="red">$</font>col = 1</font>}</b><br>      <b>{<font color="blue">while </font><font color="red"><font color="red">$</font>col LE 5</font>}</b><br>        <b>{<font color="blue">cell </font><font color="red"><font color="red">$</font>row + <font color="red">$</font>col</font>}</b><br>        <b>{<font color="blue">increment </font><font color="red"><font color="red">$</font>col</font>}</b><br>      <b>{/<font color="blue">while</font><font color="red"></font>}</b><br>    &lt;/tr&gt;<br>  <b>{/<font color="blue">row</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre></td>
+        
+        
+          <td style="vertical-align:top"><div id="padAjaxGMyg4hUc"></div>
+
+<script>
+  padAjaxGMyg4hUc = new XMLHttpRequest();
+  padAjaxGMyg4hUc.onreadystatechange=function() {
+    if (padAjaxGMyg4hUc.readyState === 4) {
+      if (padAjaxGMyg4hUc.status === 200) {
+        document.getElementById("padAjaxGMyg4hUc").innerHTML=padAjaxGMyg4hUc.responseText;
+      } else {
+        document.getElementById("padAjaxGMyg4hUc").innerHTML=padAjaxGMyg4hUc.statusText;
+      }
+    }
+  }
+  padAjaxGMyg4hUc.open("GET","http://penguin.linux.test/?tableFun/fun_9&padInclude&padSesID=DYXrxM31&padReqID=0nPF4puj",true);
+  padAjaxGMyg4hUc.send();
+</script></td>
+        
+      </tr>
+
+    
+
+  
+    </table>

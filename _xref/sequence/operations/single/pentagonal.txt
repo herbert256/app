@@ -1,0 +1,2 @@
+sequence/keepRemove/pentagonal
+sequence/operation/single/pentagonal

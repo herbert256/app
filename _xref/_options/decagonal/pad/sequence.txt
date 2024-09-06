@@ -1,0 +1,4 @@
+sequence/basic/decagonal
+sequence/keepRemove/decagonal
+sequence/operation/single/decagonal
+sequence/specials/figurate

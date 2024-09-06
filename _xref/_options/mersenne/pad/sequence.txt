@@ -1,0 +1,4 @@
+sequence/basic/mersenne
+sequence/keepRemove/mersenne
+sequence/operation/single/mersenne
+sequence/specials/prime_or_not

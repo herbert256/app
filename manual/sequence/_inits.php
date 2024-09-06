@@ -18,6 +18,6 @@
   if ( ! isset ( $go ) or ! $go )
     $go = 'index';
 
-  $title .= ucwords ( " - $go" );
+  $title = 'Sequence - ' . $nows [$go] ['text']
 
 ?>

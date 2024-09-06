@@ -4,7 +4,7 @@
 
   foreach ( padList ( 0 ) as $one ) {
 
-    $item   = $one ['item'];
+    $item = $one ['item'];
 
     if ( str_contains ( $item, 'sequence' ) )
       continue;

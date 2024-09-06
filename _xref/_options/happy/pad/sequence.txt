@@ -1,0 +1,5 @@
+sequence/actions/single/sum
+sequence/basic/happy
+sequence/keepRemove/happy
+sequence/operation/single/happy
+sequence/specials/other

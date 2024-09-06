@@ -1,0 +1,4 @@
+sequence/basic/square
+sequence/keepRemove/square
+sequence/operation/single/square
+sequence/specials/figurate

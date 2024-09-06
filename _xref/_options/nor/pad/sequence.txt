@@ -1,0 +1,4 @@
+sequence/basic/nor
+sequence/operation/double/nor
+sequence/operation/single/nor
+sequence/specials/logic

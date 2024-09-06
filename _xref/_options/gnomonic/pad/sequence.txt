@@ -1,0 +1,4 @@
+sequence/basic/gnomonic
+sequence/keepRemove/gnomonic
+sequence/operation/single/gnomonic
+sequence/specials/figurate

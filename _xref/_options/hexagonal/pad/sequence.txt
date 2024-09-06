@@ -1,0 +1,4 @@
+sequence/basic/hexagonal
+sequence/keepRemove/hexagonal
+sequence/operation/single/hexagonal
+sequence/specials/figurate

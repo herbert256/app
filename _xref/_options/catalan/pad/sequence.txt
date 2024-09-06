@@ -1,0 +1,4 @@
+sequence/basic/catalan
+sequence/keepRemove/catalan
+sequence/operation/single/catalan
+sequence/specials/named

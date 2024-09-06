@@ -1,0 +1,13 @@
+sequence/actions/single/sum
+sequence/basic/antiprime
+sequence/basic/happy
+sequence/basic/harshad
+sequence/basic/kaprekar
+sequence/basic/lucky
+sequence/basic/powerful
+sequence/basic/pronic
+sequence/basic/semiprime
+sequence/basic/strong
+sequence/specials/named
+sequence/specials/other
+sequence/specials/prime_or_not

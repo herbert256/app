@@ -1,0 +1,4 @@
+sequence/basic/tetrahedral
+sequence/keepRemove/tetrahedral
+sequence/operation/single/tetrahedral
+sequence/specials/figurate

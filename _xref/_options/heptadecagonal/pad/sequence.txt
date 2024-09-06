@@ -1,0 +1,4 @@
+sequence/basic/heptadecagonal
+sequence/keepRemove/heptadecagonal
+sequence/operation/single/heptadecagonal
+sequence/specials/figurate

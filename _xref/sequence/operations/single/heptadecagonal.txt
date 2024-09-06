@@ -1,0 +1,2 @@
+sequence/keepRemove/heptadecagonal
+sequence/operation/single/heptadecagonal

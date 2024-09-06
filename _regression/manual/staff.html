@@ -1,0 +1,79 @@
+<p>In the _data directory there is the file staff.xml, it is often used in this manual.
+
+<p>
+
+ 
+
+
+
+   
+    <table border="1" cellpadding="10" cellspacing="0">
+  
+
+  
+
+      
+
+      <tr>
+        
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000">&lt;xml&gt;<br>  &lt;row name="joe"   salary="1000" bonus="500" phone="555-1111" /&gt;<br>  &lt;row name="jim"   salary="2000" bonus="400" phone="555-2222" /&gt;<br>  &lt;row name="john"  salary="3000" bonus="300" phone="555-3333" /&gt;<br>  &lt;row name="jack"  salary="4000" bonus="200" phone="555-4444" /&gt;<br>  &lt;row name="jerry" salary="5000" bonus="100" phone="555-5555" /&gt;<br>&lt;/xml&gt;</code></pre></td>
+        
+        
+      </tr>
+
+    
+
+  
+    </table>
+  
+
+
+
+
+
+<p>Files placed in the _data directory can be used as a PAD tag.
+
+<p>
+
+ 
+
+
+
+   
+    <table border="1" cellpadding="10" cellspacing="0">
+  
+
+  
+
+      
+
+      <tr>
+        
+        
+          <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table border=1 valign=center&gt;<br>  <b>{<font color="blue">staff</font><font color="red"></font>}</b><br>    &lt;tr&gt;<br>      &lt;td&gt; <b>{<font color="green"><font color="red">$</font>name</font>}</b> &lt;/td&gt;<br>      &lt;td&gt; <b>{<font color="green"><font color="red">$</font>phone</font>}</b> &lt;/td&gt;<br>    &lt;/tr&gt;<br>  <b>{/<font color="blue">staff</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre></td>
+        
+        
+          <td style="vertical-align:top"><div id="padAjaxM0HVdgal"></div>
+
+<script>
+  padAjaxM0HVdgal = new XMLHttpRequest();
+  padAjaxM0HVdgal.onreadystatechange=function() {
+    if (padAjaxM0HVdgal.readyState === 4) {
+      if (padAjaxM0HVdgal.status === 200) {
+        document.getElementById("padAjaxM0HVdgal").innerHTML=padAjaxM0HVdgal.responseText;
+      } else {
+        document.getElementById("padAjaxM0HVdgal").innerHTML=padAjaxM0HVdgal.statusText;
+      }
+    }
+  }
+  padAjaxM0HVdgal.open("GET","http://penguin.linux.test/?fragments/staff2&padInclude&padSesID=DYXrxM31&padReqID=uTMop1ld",true);
+  padAjaxM0HVdgal.send();
+</script></td>
+        
+      </tr>
+
+    
+
+  
+    </table>

@@ -1,0 +1,3 @@
+sequence/basic/gould
+sequence/operation/single/gould
+sequence/specials/named

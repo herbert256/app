@@ -1,0 +1,28 @@
+{table}
+
+  {demo}{sequence}
+    {$sequence} 
+  {/sequence}{/demo}
+
+  {demo}{sequence add=5}
+    {$sequence} 
+  {/sequence}{/demo}
+
+  {demo}{sequence substract=5}
+    {$sequence} 
+  {/sequence}{/demo}
+
+  {demo}{sequence divide=5}
+    {$sequence} 
+  {/sequence}{/demo}
+
+  {demo}{sequence multiply=5}
+    {$sequence} 
+  {/sequence}{/demo}
+
+  {demo}{sequence exponentiation=5, rows=10}
+    {$sequence} 
+  {/sequence}{/demo}
+
+
+{/table}

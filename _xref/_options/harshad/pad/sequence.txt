@@ -1,0 +1,4 @@
+sequence/basic/harshad
+sequence/keepRemove/harshad
+sequence/operation/single/harshad
+sequence/specials/named

@@ -1,0 +1,5 @@
+sequence/basic/odd
+sequence/keepRemove/odd
+sequence/operation/single/even
+sequence/operation/single/odd
+sequence/specials/even_odd

@@ -1,37 +1,52 @@
 {data 'list'} 
   (
-    'basic',
-    'operation',
-    'operation/store',
+    'sequences',
+    'actions/single',
+    'actions/double',
+    'operation/single',
+    'operation/double',
     'keepRemove',
-    'store'
+    'specials',
+    'store/actions',
+    'store/operations'
   )
 {/data}
 
 <center>
 
   {list}
-      {if $example eq $list}
-        {$list}
-      @else@
-        <a href="@pad@manual/sequence/examples&example={$list}&go={$go}">{$list}</a>
-      {/if}
-      &nbsp;
+    {if $example eq $list}
+      {$list}
+    @else@
+      <a href="@pad@manual/sequence/examples&example={$list}{?go}{?item}">{$list}</a>
+    {/if}
+    &nbsp;
   {/list}
 
   <br><br><hr>
 
   {examples}
-      {if $item eq $examples}
-        {$examples}
-      @else@
-        <a href="@pad@manual/sequence/examples&example={$example}&item={$examples}&go={$go}">{$examples}</a>
-      {/if}
-      &nbsp;
+    {if $item eq $examples}
+      {$examples}
+    @else@
+      <a href="@pad@manual/sequence/examples&example={$example}&item={$examples}{?go}">{$examples}</a>
+    {/if}
+    &nbsp;
   {/examples}
 
   <br><br><hr>
 
-  {example 'sequence/{$example}/{$item}', onlyResult, include}
+  {if $example eq 'sequences' }
+    <h4>{$item}</h4>
+    {list}
+      {exists '/app/sequence/{$list}/{$item}.pad'}
+        <h5>{$list}</h5>
+        {example 'sequence/{$list}/{$item}', onlyResult}
+      {/exists}
+    {/list}
+  @else@
+    <h4>{$example} - {$item}</h4>
+    {example 'sequence/{$example}/{$item}', onlyResult, include}
+  {/if}
 
 </center>

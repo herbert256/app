@@ -1,0 +1,5 @@
+sequence/actions/single/sum
+sequence/basic/palindrome
+sequence/keepRemove/palindrome
+sequence/operation/single/palindrome
+sequence/specials/other

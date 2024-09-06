@@ -1,0 +1,3 @@
+sequence/basic/identity
+sequence/keepRemove/identity
+sequence/operation/single/identity

@@ -1,0 +1,4 @@
+sequence/basic/xnor
+sequence/operation/double/xnor
+sequence/operation/single/xnor
+sequence/specials/logic

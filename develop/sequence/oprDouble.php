@@ -15,6 +15,6 @@
        . "{/table}";    
 
   file_put_contents ( "/pad/sequence/types/$type/flags/operationDouble", 1 );
-  file_put_contents ( "/app/sequence/operation/store/{$type}.pad", $one );
+  file_put_contents ( "/app/sequence/operation/double/{$type}.pad", $one );
 
 ?>
