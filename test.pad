@@ -1,3 +1,5 @@
-{sequence '40..60', action='max'}
-  {$sequence}
+x
+{sequence range='A..Z'}
+y  {$sequence}
 {/sequence}
+z

@@ -8,8 +8,10 @@
   deleteDir  ( '/app/_regression');
 
   padPageGet ( 'develop/sequence/index' );  
-  padPageGet ( 'develop/callAll'        );
-  padPageGet ( 'develop/regression/go'  );
+
+  foreach ( padList ( 0 ) as $one )
+    getPage ( $one ['item'], 1, 1 );
+  
   padPageGet ( 'develop/regression/go'  );
 
   padRedirect ( 'develop/regression'    );

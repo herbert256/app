@@ -6,10 +6,8 @@
 
     $item = $one ['item'];
 
-    if ( ! str_starts_with ( $item, 'sequence/' ) )
-      continue;
-
-    $list [$item] = file_get_contents ( "/app/$item.pad" );
+    if ( str_starts_with ( $item, 'sequence/' ) )
+      $list [$item] = file_get_contents ( "/app/$item.pad" );
 
   }
      

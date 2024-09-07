@@ -18,10 +18,10 @@
     $source = str_replace ( "\n",       '', $source );
 
     $start = hrtime ( TRUE );
-    padSandbox ( $source );
-    $end = hrtime ( TRUE ) - $start;
 
-    echo "$end - $item <br>";
+    padSandbox ( $source );
+
+    $bm [$item] - hrtime ( TRUE ) - $start;
 
   }
      

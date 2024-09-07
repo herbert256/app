@@ -45,7 +45,10 @@
 
     }
 
-    $store =  "/app/_regression/$item.txt";
+    if ( $status == 'new' )
+      $status = 'ok';
+
+    $store = "/app/_regression/$item.txt";
     padFileChkDir     ( $store );
     padFileChkFile    ( $store );
     file_put_contents ( $store, $status ) ;

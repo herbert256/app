@@ -1,9 +1,3 @@
-sequence/actions/double/difference
-sequence/actions/single/pop
-sequence/actions/single/shift
-sequence/specials/double
-sequence/specials/shift_pop
-sequence/store/actions/difference
 constructs/else_1
 constructs/else_3
 db/check
@@ -13,5 +7,11 @@ miscellaneous/other
 properties/doc1
 properties/doc2
 properties/doc3
+sequence/actions/double/difference
+sequence/actions/single/pop
+sequence/actions/single/shift
+sequence/specials/double
+sequence/specials/shift_pop
+sequence/store/actions/difference
 tags/if_1
 tags/if_2

@@ -4,10 +4,7 @@
   include_once '/app/develop/_lib/lib.php';
   
   include '/app/develop/sequence/clean.php';
-  include '/app/develop/sequence/specials.php';
   include '/app/develop/sequence/actions.php';
-  include '/app/develop/sequence/storeActions.php';
-  include '/app/develop/sequence/setStore.php';
   include '/app/develop/sequence/singles.php';
 
   foreach ( padTypes () as $type ) {
@@ -26,7 +23,5 @@
     include '/app/develop/sequence/store.php';
 
   }  
-
-  include '/app/develop/sequence/test.php';
 
 ?>

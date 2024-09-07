@@ -1,3 +1,4 @@
+miscellaneous/filter
 sequence/actions/double/splice
 sequence/actions/single/first
 sequence/actions/single/last
@@ -5,4 +6,3 @@ sequence/specials/first
 sequence/specials/first_last
 sequence/specials/splice
 sequence/store/actions/splice
-miscellaneous/filter

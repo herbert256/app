@@ -13,7 +13,7 @@
   $fixed = padCode ( "{sequence $type, rows=5000, try=5000}{\$sequence},{/sequence}" );
   $fixed = substr ($fixed, 0, -1);
   
-  $code =   "<?php const PAD$type=[$fixed]; ?>";  
+  $code = "<?php const PAD$type=[$fixed]; ?>";  
 
   file_put_contents ( "/pad/sequence/types/$type/generated.php", $code );
 
