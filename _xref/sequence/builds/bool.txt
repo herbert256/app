@@ -1,4 +1,3 @@
-sequence/actions/single/sum
 sequence/basic/antiprime
 sequence/basic/happy
 sequence/basic/harshad

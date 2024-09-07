@@ -6,9 +6,6 @@
 
     $item = $one ['item'];
 
-    if ( str_contains ( $item, 'sequence' ) )
-      continue;
-
     $store  = "/app/_regression/$item.html";
     $check  = "/app/$item.pad";
     $source = padFileGetContents($check);

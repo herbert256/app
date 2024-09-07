@@ -1,4 +1,3 @@
-sequence/actions/single/sum
 sequence/basic/powerful
 sequence/keepRemove/powerful
 sequence/operation/single/powerful

@@ -8,6 +8,7 @@
   include '/app/develop/sequence/actions.php';
   include '/app/develop/sequence/storeActions.php';
   include '/app/develop/sequence/setStore.php';
+  include '/app/develop/sequence/singles.php';
 
   foreach ( padTypes () as $type ) {
 

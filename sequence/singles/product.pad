@@ -1,0 +1,7 @@
+{table}
+
+{demo}{sequence '40..60', single='product'}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

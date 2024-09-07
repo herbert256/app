@@ -6,9 +6,6 @@
 
     $item  = $one ['item'];
 
-    if ( str_contains ( $item, 'sequence' ) )
-      continue;
-
     $store = "/app/_regression/$item.txt";
 
     $list [$item] ['item']   = $item;

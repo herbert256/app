@@ -1,3 +1,2 @@
-sequence/actions/single/sum
 sequence/basic/happy
 sequence/specials/other

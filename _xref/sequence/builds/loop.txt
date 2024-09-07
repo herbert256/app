@@ -1,6 +1,5 @@
 sequence/actions/double/intersection
 sequence/actions/single/dedup
-sequence/actions/single/sum
 sequence/actions/single/trim
 sequence/basic/add
 sequence/basic/and
@@ -132,6 +131,7 @@ sequence/specials/figurate
 sequence/specials/floor_round_ceil
 sequence/specials/increment
 sequence/specials/intersection
+sequence/specials/keepRemove
 sequence/specials/logic
 sequence/specials/loop
 sequence/specials/loop_source

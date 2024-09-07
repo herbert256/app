@@ -1,3 +1,2 @@
-sequence/actions/single/sum
 sequence/basic/palindrome
 sequence/specials/other

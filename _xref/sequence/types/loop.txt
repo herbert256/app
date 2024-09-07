@@ -122,6 +122,7 @@ sequence/keepRemove/triangular
 sequence/specials/arithmetic
 sequence/specials/basic
 sequence/specials/increment
+sequence/specials/keepRemove
 sequence/specials/logic
 sequence/specials/loop
 sequence/specials/loop_source

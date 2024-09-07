@@ -3,4 +3,5 @@ sequence/basic/multiple
 sequence/operation/double/multiple
 sequence/operation/single/multiple
 sequence/specials/intersection
+sequence/specials/keepRemove
 sequence/specials/step_multiple

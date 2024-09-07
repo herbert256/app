@@ -45,3 +45,4 @@ sequence/keepRemove/strong
 sequence/keepRemove/sylvester
 sequence/keepRemove/tetrahedral
 sequence/keepRemove/triangular
+sequence/specials/keepRemove

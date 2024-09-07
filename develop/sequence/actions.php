@@ -7,7 +7,7 @@
 
     copy ( "/app/manual/sequence/actions/double/$action.pad", "/app/sequence/actions/double/$action.pad" );
 
-    file_put_contents ( "/pad/sequence/actions/double/$action", 1 );
+    file_put_contents ( "/pad/sequence/after/actions/double/$action", 1 );
 
   }
 
@@ -18,7 +18,7 @@
 
     copy ( "/app/manual/sequence/actions/single/$action.pad", "/app/sequence/actions/single/$action.pad" );
 
-    file_put_contents ( "/pad/sequence/actions/single/$action", 1 );
+    file_put_contents ( "/pad/sequence/after/actions/single/$action", 1 );
 
   }
 
