@@ -17,6 +17,6 @@
   file_put_contents ( "/app/sequence/store/operations/$type.pad", $one );
  
   file_put_contents ( "/pad/sequence/types/$type/flags/storeDouble", 1 );
-  file_put_contents ( "/pad/sequence/after/store/operations/$type",  1 );
+  file_put_contents ( "/pad/sequence/store/operations/$type",  1 );
   
 ?>

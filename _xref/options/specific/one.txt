@@ -1,0 +1,13 @@
+sequence/one/average
+sequence/one/count
+sequence/one/distinct
+sequence/one/element
+sequence/one/first
+sequence/one/last
+sequence/one/max
+sequence/one/median
+sequence/one/min
+sequence/one/product
+sequence/one/random
+sequence/one/sum
+test

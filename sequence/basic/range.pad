@@ -1,3 +1,7 @@
-{table}{demo}{sequence range='1..10'}
+{table}
+
+{demo}{sequence range='1..10'}
   {$sequence}
-{/sequence}{/demo}{/table}
+{/sequence}{/demo}
+
+{/table}

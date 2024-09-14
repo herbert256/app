@@ -1,3 +1,4 @@
+actions
 sequence/actions/double/append
 sequence/actions/double/combine
 sequence/actions/double/difference
@@ -6,7 +7,6 @@ sequence/actions/double/onlyNow
 sequence/actions/double/onlyStore
 sequence/actions/double/prepend
 sequence/basic/list
-sequence/specials/basic
 sequence/specials/double
 sequence/specials/loop_source
 sequence/store/actions/append

@@ -1,2 +1,1 @@
 sequence/basic/exponentiation
-sequence/specials/arithmetic

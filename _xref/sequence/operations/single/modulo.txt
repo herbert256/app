@@ -1,2 +1,2 @@
 sequence/operation/single/modulo
-sequence/specials/floor_round_ceil
+sequence/specials/arithmetic

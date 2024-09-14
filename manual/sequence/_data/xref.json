@@ -10,6 +10,6 @@
   { "type": "Stores",     "lvl": 1, "dir": ""                  }, 
   { "type": "Actions",    "lvl": 2, "dir": "store/actions"     },
   { "type": "Operations", "lvl": 2, "dir": "store/operations"  },
-  { "type": "Singles",    "lvl": 1, "dir": "singles"           },
+  { "type": "One",     "lvl": 1, "dir": "one"           },
   { "type": "Builds",     "lvl": 1, "dir": "builds"            }
 ]

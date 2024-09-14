@@ -1,10 +1,10 @@
 {table}
 
-{demo}{sequence rows=10}
+{demo}{sequence 15}
   {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence multiply=4, rows=10}
+{demo}{sequence 15, multiply=4}
   {$sequence}
 {/sequence}{/demo}
 

@@ -1,28 +1,45 @@
 {table}
 
-  {demo}{sequence}
-    {$sequence} 
-  {/sequence}{/demo}
+{demo}{sequence '10..30', name='mySeq'}{/demo}
 
-  {demo}{sequence add=5}
-    {$sequence} 
-  {/sequence}{/demo}
+{demo}{sequence mySeq}
+  {$sequence}
+{/sequence}{/demo}
 
-  {demo}{sequence substract=5}
-    {$sequence} 
-  {/sequence}{/demo}
+{demo}{sequence mySeq, floor=5}
+  {$sequence}
+{/sequence}{/demo}
 
-  {demo}{sequence divide=5}
-    {$sequence} 
-  {/sequence}{/demo}
+{demo}{sequence mySeq, round=5}
+  {$sequence}
+{/sequence}{/demo}
 
-  {demo}{sequence multiply=5}
-    {$sequence} 
-  {/sequence}{/demo}
+{demo}{sequence mySeq, ceil=5}
+  {$sequence}
+{/sequence}{/demo}
 
-  {demo}{sequence exponentiation=5, rows=10}
-    {$sequence} 
-  {/sequence}{/demo}
+{demo}{sequence mySeq, modulo=5}
+  {$sequence}
+{/sequence}{/demo}
 
+{demo}{sequence mySeq, add=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence mySeq, substract=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence mySeq, divide=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence mySeq, multiply=5}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence mySeq, exponentiation=5, rows=10}
+  {$sequence}
+{/sequence}{/demo}
 
 {/table}

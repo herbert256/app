@@ -45,8 +45,6 @@ sequence/keepRemove/strong
 sequence/keepRemove/sylvester
 sequence/keepRemove/tetrahedral
 sequence/keepRemove/triangular
-sequence/specials/basic
-sequence/specials/floor_round_ceil
 sequence/specials/increment
 sequence/specials/keepRemove
 sequence/specials/loop

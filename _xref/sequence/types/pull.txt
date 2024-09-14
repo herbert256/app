@@ -1,3 +1,4 @@
+actions
 sequence/actions/double/append
 sequence/actions/double/combine
 sequence/actions/double/difference
@@ -35,14 +36,13 @@ sequence/operation/double/step
 sequence/operation/double/substract
 sequence/operation/double/xnor
 sequence/operation/double/xor
+sequence/specials/arithmetic
 sequence/specials/dedup
 sequence/specials/double
-sequence/specials/first_last
-sequence/specials/floor_round_ceil
+sequence/specials/first_last_vs_shift_pop
 sequence/specials/keepRemove
 sequence/specials/loop_source
 sequence/specials/make
-sequence/specials/shift_pop
 sequence/specials/slice_splice
 sequence/specials/splice
 sequence/specials/trim
@@ -102,3 +102,4 @@ sequence/store/operations/strong
 sequence/store/operations/sylvester
 sequence/store/operations/tetrahedral
 sequence/store/operations/triangular
+test

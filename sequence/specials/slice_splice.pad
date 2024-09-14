@@ -55,36 +55,4 @@
   {$sequence}
 {/sequence}{/demo} 
 
-{/table}{table}
-
-{demo}{sequence '1..25', name='mySeq'}
-{/demo} 
-
-{demo}{sequence 'A..J', name='mySplice'}
-{/demo} 
-
-{demo}{sequence mySeq}
-  {$sequence}
-{/sequence}{/demo} 
-
-{demo}{sequence mySplice}
-  {$sequence}
-{/sequence}{/demo} 
-
-{demo}{sequence mySeq, splice='mySplice|0|5'}
-  {$sequence}
-{/sequence}{/demo} 
-
-{demo}{sequence mySeq, splice='mySplice|-5|5'}
-  {$sequence}
-{/sequence}{/demo} 
-
-{demo}{sequence mySeq, splice='mySplice|-15|5'}
-  {$sequence}
-{/sequence}{/demo} 
-
-{demo}{sequence mySeq, splice='mySplice|-15|-5'}
-  {$sequence}
-{/sequence}{/demo} 
-
 {/table}

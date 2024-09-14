@@ -1,11 +1,10 @@
 <?php
  
-  include_once '/pad/sequence/inits/_lib.php';
-  include_once '/app/develop/_lib/lib.php';
+ # include_once '/app/develop/_lib/lib.php';
   
   include '/app/develop/sequence/clean.php';
   include '/app/develop/sequence/actions.php';
-  include '/app/develop/sequence/singles.php';
+  include '/app/develop/sequence/one.php';
 
   foreach ( padTypes () as $type ) {
 

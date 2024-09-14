@@ -1,9 +1,0 @@
-sequence/singles/average
-sequence/singles/count
-sequence/singles/first
-sequence/singles/last
-sequence/singles/max
-sequence/singles/min
-sequence/singles/product
-sequence/singles/random
-sequence/singles/sum

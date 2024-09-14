@@ -1,4 +1,4 @@
 sequence/basic/round
 sequence/operation/double/round
 sequence/operation/single/round
-sequence/specials/floor_round_ceil
+sequence/specials/arithmetic

@@ -9,7 +9,7 @@
     'specials',
     'store/actions',
     'store/operations',
-    'singles',
+    'one',
   )
 {/data}
 
@@ -39,6 +39,10 @@
 
   {if $example eq 'sequences' }
     <h4>{$item}</h4>
+        {exists '/app/sequence/basic/{$item}.pad'}
+        <h5>basic</h5>
+        {example 'sequence/basic/{$item}', onlyResult}
+      {/exists}
     {list}
       {exists '/app/sequence/{$list}/{$item}.pad'}
         <h5>{$list}</h5>

@@ -1,3 +1,4 @@
+actions
 lvl_occ/4
 miscellaneous/options_variables_parameters
 sequence/actions/double/append
@@ -38,15 +39,14 @@ sequence/operation/double/step
 sequence/operation/double/substract
 sequence/operation/double/xnor
 sequence/operation/double/xor
+sequence/specials/arithmetic
 sequence/specials/dedup
 sequence/specials/double
-sequence/specials/first_last
-sequence/specials/floor_round_ceil
+sequence/specials/first_last_vs_shift_pop
 sequence/specials/intersection
 sequence/specials/keepRemove
 sequence/specials/loop_source
 sequence/specials/make
-sequence/specials/shift_pop
 sequence/specials/slice_splice
 sequence/specials/splice
 sequence/specials/trim
@@ -109,6 +109,7 @@ sequence/store/operations/triangular
 tableFun/fun_5_b
 tag_return_values/return_4
 tag_return_values/return_5
+test
 vars/at/3
 vars/at/5
 vars/at/5a

@@ -1,7 +1,0 @@
-{table}
-
-{demo}{sequence '40..60', single='first'}
-  {$sequence}
-{/sequence}{/demo}
-
-{/table}

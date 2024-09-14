@@ -1,5 +1,26 @@
-x
-{sequence range='A..Z'}
-y  {$sequence}
-{/sequence}
-z
+{table}
+ 
+{demo}{sequence '10..20', name='abc'}{/demo}
+
+{demo}{abc one='max'}
+  {$sequence}
+{/abc}{/demo}
+
+{demo}{median abc}
+  {$abc}
+{/median}{/demo}
+
+{demo}{step 3}
+  {$sequence}
+{/step}{/demo}
+
+{demo}{prime}
+  {$sequence}
+{/prime}{/demo}
+
+{demo}{type:even}
+  {$even}
+{/type:even}{/demo}
+
+{/table}
+

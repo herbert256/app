@@ -1,7 +1,6 @@
 sequence/actions/double/splice
 sequence/actions/single/first
 sequence/actions/single/last
-sequence/specials/first
-sequence/specials/first_last
+sequence/specials/first_last_vs_shift_pop
 sequence/specials/splice
 sequence/store/actions/splice

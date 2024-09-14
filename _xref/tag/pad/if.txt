@@ -11,7 +11,7 @@ sequence/actions/double/difference
 sequence/actions/single/pop
 sequence/actions/single/shift
 sequence/specials/double
-sequence/specials/shift_pop
+sequence/specials/first_last_vs_shift_pop
 sequence/store/actions/difference
 tags/if_1
 tags/if_2
