@@ -7,15 +7,7 @@
   {$sequence}
 {/sequence}{/demo} 
 
-{demo}{sequence mySeq, slice='5'}
-  {$sequence}
-{/sequence}{/demo} 
-
 {demo}{sequence mySeq, splice='5'}
-  {$sequence}
-{/sequence}{/demo} 
-
-{demo}{sequence mySeq, slice='-5'}
   {$sequence}
 {/sequence}{/demo} 
 
@@ -23,15 +15,7 @@
   {$sequence}
 {/sequence}{/demo} 
 
-{demo}{sequence mySeq, slice='5|5'}
-  {$sequence}
-{/sequence}{/demo} 
-
 {demo}{sequence mySeq, splice='5|5'}
-  {$sequence}
-{/sequence}{/demo} 
-
-{demo}{sequence mySeq, slice='5|-5'}
   {$sequence}
 {/sequence}{/demo} 
 
@@ -39,15 +23,7 @@
   {$sequence}
 {/sequence}{/demo} 
 
-{demo}{sequence mySeq, slice='-15|5'}
-  {$sequence}
-{/sequence}{/demo} 
-
 {demo}{sequence mySeq, splice='-15|5'}
-  {$sequence}
-{/sequence}{/demo} 
-
-{demo}{sequence mySeq, slice='-15|-5'}
   {$sequence}
 {/sequence}{/demo} 
 

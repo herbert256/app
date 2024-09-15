@@ -1,3 +1,2 @@
-sequence/actions/single/slice
 sequence/actions/single/splice
 sequence/specials/slice_splice

@@ -1,5 +1,3 @@
-<h3>Random vs shuffle</h3>
-
 {table}
 
 {demo}{sequence 'A..Z'}
@@ -13,29 +11,5 @@
 {demo}{sequence 'A..Z', shuffle, sort}
   {$sequence}
 {/sequence }{/demo}
-
-{demo}{sequence 'A..Z', random}
-  {$sequence}
-{/sequence }{/demo}
-
-{demo}{sequence 'A..Z', random, sort}
-  {$sequence}
-{/sequence }{/demo}
-
-{demo}{sequence 'A..Z', random, unique, sort}
-  {$sequence}
-{/sequence }{/demo}
-
-{demo}{sequence 'A..Z', random, dedup, sort}
-  {$sequence}
-{/sequence }{/demo}
-
-{demo}{sequence 'A..Z', reverse}
-  {$sequence}
-{/sequence}{/demo}
-
-{demo}{sequence 'A..Z', reverse, sort}
-  {$sequence}
-{/sequence}{/demo}
 
 {/table}

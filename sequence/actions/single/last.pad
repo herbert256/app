@@ -6,14 +6,6 @@
   {$sequence}  
 {/sequence}{/demo}
 
-{demo}{sequence mySeq, first}
-  {$sequence}  
-{/sequence}{/demo}
-
-{demo}{sequence mySeq, first=3}
-  {$sequence}  
-{/sequence}{/demo}
-
 {demo}{sequence mySeq, last}
   {$sequence}  
 {/sequence}{/demo}

@@ -30,10 +30,6 @@
   {$sequence}
 {/sequence }{/demo}
 
-{demo}{sequence 'A..Z', reverse}
-  {$sequence}
-{/sequence}{/demo}
-
 {demo}{sequence 'A..Z', reverse, sort}
   {$sequence}
 {/sequence}{/demo}

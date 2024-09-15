@@ -41,11 +41,13 @@ sequence/operation/double/xor
 sequence/specials/arithmetic
 sequence/specials/dedup
 sequence/specials/double
+sequence/specials/element
 sequence/specials/first_last_vs_shift_pop
 sequence/specials/intersection
 sequence/specials/keepRemove
 sequence/specials/loop_source
 sequence/specials/make
+sequence/specials/names
 sequence/specials/slice_splice
 sequence/specials/splice
 sequence/specials/trim

@@ -1,0 +1,8 @@
+{table}
+
+{demo}{sequence '40..50', one='element|3', name='abc', store='klm', toData='xyz'}
+  {$sequence} {$range} {$one} {$element} {$abc} {$klm} {$xyz}
+{/sequence}{/demo}
+
+{/table}
+

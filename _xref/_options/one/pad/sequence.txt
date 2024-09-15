@@ -39,6 +39,8 @@ sequence/operation/double/substract
 sequence/operation/double/xnor
 sequence/operation/double/xor
 sequence/specials/double
+sequence/specials/element
+sequence/specials/names
 sequence/store/actions/append
 sequence/store/actions/combine
 sequence/store/actions/difference
@@ -94,3 +96,4 @@ sequence/store/operations/strong
 sequence/store/operations/sylvester
 sequence/store/operations/tetrahedral
 sequence/store/operations/triangular
+test

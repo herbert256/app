@@ -10,4 +10,6 @@ sequence/one/min
 sequence/one/product
 sequence/one/random
 sequence/one/sum
+sequence/specials/element
+sequence/specials/names
 test

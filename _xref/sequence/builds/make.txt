@@ -96,4 +96,3 @@ sequence/specials/named
 sequence/specials/oeis
 sequence/specials/other
 sequence/specials/prime_or_not
-test

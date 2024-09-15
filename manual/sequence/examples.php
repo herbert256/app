@@ -1,7 +1,7 @@
 <?php
 
   if ( ! isset ( $example ) or ! $example )
-    $example = 'sequences';
+    $example = 'specials';
 
   if ( $example == 'sequences')
     $examples = seqDir ( "/app/sequence/basic" ) ;

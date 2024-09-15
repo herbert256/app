@@ -1,1 +1,7 @@
+sequence/actions/single/dedup
+sequence/actions/single/sort
+sequence/basic/random
 sequence/one/random
+sequence/specials/dedup
+sequence/specials/random
+sequence/specials/random2

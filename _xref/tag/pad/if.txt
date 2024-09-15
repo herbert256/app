@@ -8,7 +8,6 @@ properties/doc1
 properties/doc2
 properties/doc3
 sequence/actions/double/difference
-sequence/actions/single/pop
 sequence/actions/single/shift
 sequence/specials/double
 sequence/specials/first_last_vs_shift_pop

@@ -252,6 +252,7 @@ sequence/operation/single/xor
 sequence/specials/arithmetic
 sequence/specials/dedup
 sequence/specials/double
+sequence/specials/element
 sequence/specials/eval
 sequence/specials/even_odd
 sequence/specials/figurate
@@ -264,6 +265,7 @@ sequence/specials/loop
 sequence/specials/loop_source
 sequence/specials/make
 sequence/specials/named
+sequence/specials/names
 sequence/specials/oeis
 sequence/specials/other
 sequence/specials/prime_or_not

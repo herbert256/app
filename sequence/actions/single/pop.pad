@@ -6,18 +6,6 @@
   {$sequence}
 {/sequence}{/demo}
 
-{demo}{sequence mySeq, shift}
-  {$sequence}
-{/sequence}{/demo}
-
-{demo}{sequence mySeq, shift=2}
-  {$sequence}
-{/sequence}{/demo}
-
-{demo}{sequence mySeq, shift=3}
-  {$sequence}
-{/sequence}{/demo}
-
 {demo}{sequence mySeq, pop}
   {$sequence}
 {/sequence}{/demo}

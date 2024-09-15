@@ -6,30 +6,6 @@
   {$sequence}
 {/sequence }{/demo}
 
-{demo}{sequence 'A..Z', shuffle}
-  {$sequence}
-{/sequence }{/demo}
-
-{demo}{sequence 'A..Z', shuffle, sort}
-  {$sequence}
-{/sequence }{/demo}
-
-{demo}{sequence 'A..Z', random}
-  {$sequence}
-{/sequence }{/demo}
-
-{demo}{sequence 'A..Z', random, sort}
-  {$sequence}
-{/sequence }{/demo}
-
-{demo}{sequence 'A..Z', random, unique, sort}
-  {$sequence}
-{/sequence }{/demo}
-
-{demo}{sequence 'A..Z', random, dedup, sort}
-  {$sequence}
-{/sequence }{/demo}
-
 {demo}{sequence 'A..Z', reverse}
   {$sequence}
 {/sequence}{/demo}

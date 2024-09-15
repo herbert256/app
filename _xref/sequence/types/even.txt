@@ -68,4 +68,3 @@ sequence/operation/single/triangular
 sequence/operation/single/xnor
 sequence/operation/single/xor
 sequence/specials/even_odd
-test

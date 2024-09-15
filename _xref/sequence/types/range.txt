@@ -48,10 +48,12 @@ sequence/operation/double/substract
 sequence/operation/double/xnor
 sequence/operation/double/xor
 sequence/specials/arithmetic
+sequence/specials/element
 sequence/specials/first_last_vs_shift_pop
 sequence/specials/increment
 sequence/specials/intersection
 sequence/specials/loop_source
+sequence/specials/names
 sequence/specials/other
 sequence/specials/print
 sequence/specials/random
