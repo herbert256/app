@@ -76,3 +76,6 @@ sequence/specials/loop
 sequence/specials/loop_source
 sequence/specials/make
 sequence/specials/trim
+sequence/specials/reverse
+test
+actions

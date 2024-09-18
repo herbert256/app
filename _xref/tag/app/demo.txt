@@ -363,3 +363,4 @@ vars/at/4
 vars/at/6
 walk/1
 walk/2
+sequence/specials/reverse

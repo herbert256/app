@@ -104,3 +104,4 @@ sequence/store/operations/sylvester
 sequence/store/operations/tetrahedral
 sequence/store/operations/triangular
 test
+sequence/specials/reverse
