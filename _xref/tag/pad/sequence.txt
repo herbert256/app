@@ -1,4 +1,3 @@
-actions
 lvl_occ/4
 miscellaneous/filter
 miscellaneous/level_and_occurrence_variables
@@ -101,6 +100,10 @@ sequence/basic/tribonacci
 sequence/basic/xnor
 sequence/basic/xor
 sequence/basic/xpadovan
+sequence/entry/actionDouble
+sequence/entry/actionSingle
+sequence/entry/actionSingleParm
+sequence/entry/store
 sequence/keepRemove/antiprime
 sequence/keepRemove/bell
 sequence/keepRemove/biquadratic
@@ -252,7 +255,6 @@ sequence/operation/single/xor
 sequence/specials/arithmetic
 sequence/specials/dedup
 sequence/specials/double
-sequence/specials/element
 sequence/specials/eval
 sequence/specials/even_odd
 sequence/specials/figurate
@@ -337,4 +339,3 @@ tableFun/fun_5_b
 test
 vars/at/3
 walk/1
-sequence/specials/reverse

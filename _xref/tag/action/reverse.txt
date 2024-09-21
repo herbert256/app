@@ -1,3 +1,1 @@
-actions
-test
-sequence/specials/reverse
+sequence/entry/actionSingle

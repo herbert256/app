@@ -3,3 +3,5 @@ sequence/basic/random
 sequence/one/max
 sequence/specials/dedup
 sequence/specials/random
+sequence/entry/store
+test

@@ -5,6 +5,7 @@ sequence/actions/double/merge
 sequence/actions/double/onlyNow
 sequence/actions/double/onlyStore
 sequence/actions/double/prepend
+sequence/entry/actionSingleParm
 sequence/one/average
 sequence/one/count
 sequence/one/distinct
@@ -39,7 +40,6 @@ sequence/operation/double/substract
 sequence/operation/double/xnor
 sequence/operation/double/xor
 sequence/specials/double
-sequence/specials/element
 sequence/specials/names
 sequence/store/actions/append
 sequence/store/actions/combine
@@ -96,4 +96,3 @@ sequence/store/operations/strong
 sequence/store/operations/sylvester
 sequence/store/operations/tetrahedral
 sequence/store/operations/triangular
-test

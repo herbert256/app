@@ -1,3 +1,4 @@
+sequence/entry/actionSingleParm
 sequence/one/average
 sequence/one/count
 sequence/one/distinct
@@ -10,6 +11,4 @@ sequence/one/min
 sequence/one/product
 sequence/one/random
 sequence/one/sum
-sequence/specials/element
 sequence/specials/names
-test

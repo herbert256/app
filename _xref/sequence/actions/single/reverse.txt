@@ -1,6 +1,4 @@
-actions
 sequence/actions/single/reverse
 sequence/actions/single/sort
+sequence/entry/actionSingle
 sequence/specials/random2
-test
-sequence/specials/reverse

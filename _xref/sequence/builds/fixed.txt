@@ -1,4 +1,3 @@
-actions
 lvl_occ/4
 miscellaneous/filter
 miscellaneous/level_and_occurrence_variables
@@ -25,6 +24,10 @@ sequence/actions/single/splice
 sequence/actions/single/trim
 sequence/basic/list
 sequence/basic/range
+sequence/entry/actionDouble
+sequence/entry/actionSingle
+sequence/entry/actionSingleParm
+sequence/entry/store
 sequence/one/average
 sequence/one/count
 sequence/one/distinct
@@ -60,7 +63,6 @@ sequence/operation/double/xor
 sequence/specials/arithmetic
 sequence/specials/dedup
 sequence/specials/double
-sequence/specials/element
 sequence/specials/first_last_vs_shift_pop
 sequence/specials/increment
 sequence/specials/intersection
@@ -136,4 +138,3 @@ tableFun/fun_5_b
 test
 vars/at/3
 walk/1
-sequence/specials/reverse

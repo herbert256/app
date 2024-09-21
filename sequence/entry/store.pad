@@ -1,0 +1,21 @@
+{table}
+
+{demo}{sequence '10..25', name='abc'}{/demo}
+
+{demo}{abc}
+  {$sequence}
+{/abc}{/demo}
+
+{demo}{store abc}
+  {$sequence}
+{/store}{/demo}
+
+{demo}{store 'abc'}
+  {$sequence}
+{/store}{/demo}
+
+{demo}{one max, 'abc'}
+  {$sequence}
+{/one}{/demo}
+
+{/table}

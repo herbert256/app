@@ -1,4 +1,3 @@
-actions
 sequence/actions/double/append
 sequence/actions/double/combine
 sequence/actions/double/difference
@@ -15,6 +14,10 @@ sequence/actions/single/shift
 sequence/actions/single/slice
 sequence/actions/single/splice
 sequence/actions/single/trim
+sequence/entry/actionDouble
+sequence/entry/actionSingle
+sequence/entry/actionSingleParm
+sequence/entry/store
 sequence/operation/double/add
 sequence/operation/double/and
 sequence/operation/double/ceil
@@ -39,7 +42,6 @@ sequence/operation/double/xor
 sequence/specials/arithmetic
 sequence/specials/dedup
 sequence/specials/double
-sequence/specials/element
 sequence/specials/first_last_vs_shift_pop
 sequence/specials/keepRemove
 sequence/specials/loop_source
@@ -104,4 +106,3 @@ sequence/store/operations/sylvester
 sequence/store/operations/tetrahedral
 sequence/store/operations/triangular
 test
-sequence/specials/reverse

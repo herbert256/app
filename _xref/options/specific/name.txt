@@ -1,4 +1,3 @@
-actions
 lvl_occ/4
 miscellaneous/options_variables_parameters
 sequence/actions/double/append
@@ -18,6 +17,10 @@ sequence/actions/single/shift
 sequence/actions/single/slice
 sequence/actions/single/splice
 sequence/actions/single/trim
+sequence/entry/actionDouble
+sequence/entry/actionSingle
+sequence/entry/actionSingleParm
+sequence/entry/store
 sequence/operation/double/add
 sequence/operation/double/and
 sequence/operation/double/ceil
@@ -42,7 +45,6 @@ sequence/operation/double/xor
 sequence/specials/arithmetic
 sequence/specials/dedup
 sequence/specials/double
-sequence/specials/element
 sequence/specials/first_last_vs_shift_pop
 sequence/specials/intersection
 sequence/specials/keepRemove
@@ -115,4 +117,3 @@ test
 vars/at/3
 vars/at/5
 vars/at/5a
-sequence/specials/reverse

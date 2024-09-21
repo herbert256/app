@@ -1,2 +1,1 @@
-sequence/specials/element
-test
+sequence/entry/actionSingleParm

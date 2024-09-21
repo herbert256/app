@@ -1,15 +1,16 @@
 {data 'list'} 
   (
     'sequences',
+    'specials',
     'actions/single',
     'actions/double',
     'operation/single',
     'operation/double',
     'keepRemove',
-    'specials',
     'store/actions',
     'store/operations',
     'one',
+    'entry',
   )
 {/data}
 

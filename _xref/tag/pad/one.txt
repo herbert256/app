@@ -1,2 +1,3 @@
-sequence/specials/element
+sequence/entry/actionSingleParm
+sequence/entry/store
 test
