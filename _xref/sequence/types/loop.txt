@@ -78,3 +78,4 @@ sequence/specials/make
 sequence/specials/trim
 sequence/entry/store
 test
+sequence/entry/actionDouble

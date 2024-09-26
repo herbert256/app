@@ -101,3 +101,4 @@ sequence/specials/step_multiple
 sequence/specials/trim
 sequence/entry/store
 test
+sequence/entry/actionDouble

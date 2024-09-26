@@ -1,2 +1,3 @@
 {sequence '10..25', name='abc'}
 {one max, 'abc'}{$max}{dump}{/one}
+{dump}
