@@ -3,4 +3,3 @@ sequence/basic/random
 sequence/specials/dedup
 sequence/specials/random
 test
-sequence/entry/store

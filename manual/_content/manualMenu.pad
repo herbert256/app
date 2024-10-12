@@ -26,7 +26,7 @@
 <h3 align=center>Advanced concepts</h3>
 <ul>
   <li>{manual 'prefix'}                         </li>
-  <li>{manual 'walking}                         </li>
+  <li>{manual 'walking'}                        </li>
   <li>{manual 'properties'}                     </li>
   <li>{manual 'options_variables_parameters'}   </li>
   <li>{manual 'callback'}                       </li>

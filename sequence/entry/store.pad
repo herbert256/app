@@ -14,8 +14,8 @@
   {$sequence}
 {/store}{/demo}
 
-{demo}{one max, 'abc'}
+{demo}{store:abc}
   {$sequence}
-{/one}{/demo}
+{/store:abc}{/demo}
 
 {/table}
