@@ -1,3 +1,2 @@
 sequence/entry/actionSingleParm
-sequence/entry/store
 test

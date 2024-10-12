@@ -105,4 +105,3 @@ sequence/store/operations/strong
 sequence/store/operations/sylvester
 sequence/store/operations/tetrahedral
 sequence/store/operations/triangular
-test
