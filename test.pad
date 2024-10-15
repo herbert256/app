@@ -1,3 +1,7 @@
-{sequence '10..25', name='abc'}
-{one max, 'abc'}{$max}{dump}{/one}
+{if 5 in [7,9,4,2,9,6]}
+  ok
+@else@
+  NOK
+{/if}
+
 {dump}
