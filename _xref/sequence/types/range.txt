@@ -113,6 +113,5 @@ sequence/store/operations/tetrahedral
 sequence/store/operations/triangular
 tableFun/fun_5_a
 tableFun/fun_5_b
-test
 vars/at/3
 walk/1

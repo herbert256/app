@@ -10,6 +10,7 @@ db/record
 db/record2
 functions/between
 functions/range
+miscellaneous/in
 miscellaneous/other
 php_and_html/z31
 php_and_html/z32

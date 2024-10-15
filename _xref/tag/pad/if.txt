@@ -3,6 +3,7 @@ constructs/else_3
 db/check
 functions/between
 functions/range
+miscellaneous/in
 miscellaneous/other
 properties/doc1
 properties/doc2
