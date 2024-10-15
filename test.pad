@@ -3,5 +3,3 @@
 @else@
   NOK
 {/if}
-
-{dump}
