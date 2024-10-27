@@ -36,6 +36,9 @@
     $secondFile .= '</td>';
   }
 
+  if ( padTagParm ('pre') )
+    $padContent = "<pre>$padContent</pre>";
+
   $padContent = 
     '<tr>' .
       $firstFile .

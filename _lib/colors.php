@@ -108,6 +108,43 @@ go: $end = strpos($source, '}');
   }
 
 
+  function padColorsFieldOptions ( &$source, $start, $end, $between, $options ) { 
+
+    $parts = padExplode ( $options [0], ':', 2);
+
+    if ( count ( $parts ) == 2 )
+      $field = '<font color="purple">' . $parts[0] . '</font>'
+             . '<font color="black">:</font>'
+             . '<font color="green">' . $parts[1] . '</font>';
+    else
+      $field = '<font color="green">' . $parts[0] . '</font>';
+
+    $rest = '';
+
+    for ($i=1; $i < count($options); $i++) {
+
+      $parts = padExplode ( $options [$i], ':', 2);
+
+      $rest .= ' <font color="black">|</font> '; 
+      
+      if ( count ( $parts ) == 2 )
+        $rest .= '<font color="purple">' . $parts[0] . '</font>'
+               . '<font color="black">:</font>'
+               . '<font color="blue">' . $parts[1] . '</font>';
+      else
+        $rest .= '<font color="blue">' . $parts[0] . '</font>';
+
+    }
+
+    $source = substr($source, 0, $start) 
+        . '<b>&open;' 
+        . $field
+        . $rest
+        . ' &close;</b>' 
+        . substr($source, $end+1);  
+
+  }
+
   function padColorsField ( &$source, $start, $end, $between ) { 
 
     $between = str_replace ('!', '<font color="red">!</font>', $between);
@@ -115,12 +152,13 @@ go: $end = strpos($source, '}');
     $between = str_replace ('$', '<font color="red">$</font>', $between);
     $between = str_replace ('!', '<font color="red">!</font>', $between);
     $between = str_replace ('#', '<font color="red">#</font>', $between);
-    $between = str_replace (':', '<font color="black">:</font>', $between);
     $between = str_replace ('&amp;', '<font color="red">&</font>', $between);
 
     $parts = padExplode ($between, '@', 2);
 
-    if ( count ( $parts ) == 2 )
+    if ( count ( $parts ) == 2 ) {
+
+       $between = str_replace (':', '<font color="black">:</font>', $between);
 
        $source = substr($source, 0, $start) 
                 . '<b>&open;<font color="green">' 
@@ -130,7 +168,14 @@ go: $end = strpos($source, '}');
                 . '</font>&close;</b>' 
                 . substr($source, $end+1);      
 
-    else { 
+    } else { 
+ 
+      $options = padExplode($between, '|' );
+
+      if ( count ( $options ) > 1  )
+        return padColorsFieldOptions ( $source, $start, $end, $between, $options );
+
+      $between = str_replace (':', '<font color="black">:</font>', $between);
 
       $parts = padExplode ($between, ':', 3);
 

@@ -1,0 +1,8 @@
+{table}
+
+{demo}{set $abc = 'abc'}{/demo}
+
+{demo pre}
+{$abc | pad:substr (1, 1) }
+{/demo}
+{/table}
