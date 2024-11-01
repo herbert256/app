@@ -1,2 +1,2 @@
 sequence/entry/actionSingleParm
-sequence/specials/names
+sequence/one/element

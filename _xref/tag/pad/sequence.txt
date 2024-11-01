@@ -154,6 +154,7 @@ sequence/keepRemove/triangular
 sequence/one/average
 sequence/one/count
 sequence/one/distinct
+sequence/one/element
 sequence/one/first
 sequence/one/last
 sequence/one/max

@@ -15,4 +15,3 @@ sequence/specials/first_last_vs_shift_pop
 sequence/store/actions/difference
 tags/if_1
 tags/if_2
-test

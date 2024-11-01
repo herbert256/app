@@ -1,7 +1,7 @@
 {table}
 
-{demo}{sequence '40..50', one='element|3', name='abc', store='klm', toData='xyz'}
-  {$sequence} {$range} {$one} {$element} {$abc} {$klm} {$xyz}
+{demo}{sequence '40..50', one='sum', name='abc', store='klm', toData='xyz'}
+  {$sequence} {$range} {$one} {$sum} {$abc} {$klm} {$xyz}
 {/sequence}{/demo}
 
 {/table}

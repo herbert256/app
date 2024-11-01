@@ -9,7 +9,7 @@
 <hr>
 
 {set $abc = '1234567890'}
-{$abc | $$ . ' after' | 'before ' . $$}
+{$abc | @ . ' after' | 'before ' . @}
 
 <hr>
 

@@ -90,21 +90,21 @@
           <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table&gt;<br>  &lt;tr&gt;<br>    &lt;td&gt;<br>      <br>      &lt;table border=1&gt;<br>        <b>{<font color="blue">offices </font><font color="red">sort</font>}</b><br>          <b>{<font color="blue">employees</font><font color="red"></font>}</b><br>            &lt;tr&gt;<br>              &lt;td&gt; <b>{<font color="green"><font color="red">$</font>city</font>}</b> &lt;/td&gt;<br>              &lt;td&gt; <b>{<font color="green"><font color="red">$</font>lastName</font>}</b>, <b>{<font color="green"><font color="red">$</font>firstName</font>}</b> &lt;/td&gt;<br>            &lt;/tr<br>&gt;          <b>{/<font color="blue">employees</font><font color="red"></font>}</b><br>        <b>{/<font color="blue">offices</font><font color="red"></font>}</b><br>      &lt;/table&gt;<br>      <br>    &lt;/td&gt; &lt;td&gt; &amp;nbsp; &lt;/td&gt; &lt;td&gt;<br><br>      &lt;table border=1&gt;<br>        <b>{<font color="blue">employees</font><font color="red"></font>}</b><br>          <b>{<font color="blue">offices</font><font color="red"></font>}</b><br>            &lt;tr&gt;<br>              &lt;td&gt; <b>{<font color="green"><font color="red">$</font>lastName</font>}</b>, <b>{<font color="green"><font color="red">$</font>firstName</font>}</b> &lt;/td&gt;<br>              &lt;td&gt; <b>{<font color="green"><font color="red">$</font>city</font>}</b> &lt;/td&gt;<br>            &lt;/tr&gt;<br>          <b>{/<font color="blue">offices</font><font color="red"></font>}</b><br>        <b>{/<font color="blue">employees</font><font color="red"></font>}</b><br>      &lt;/table&gt;<br><br>    &lt;/td&gt;<br>  &lt;/tr&gt;<br>&lt;/table&gt;</code></pre></td>
         
         
-          <td style="vertical-align:top"><div id="padAjax7Q8cG117"></div>
+          <td style="vertical-align:top"><div id="padAjaxywS2keaN"></div>
 
 <script>
-  padAjax7Q8cG117 = new XMLHttpRequest();
-  padAjax7Q8cG117.onreadystatechange=function() {
-    if (padAjax7Q8cG117.readyState === 4) {
-      if (padAjax7Q8cG117.status === 200) {
-        document.getElementById("padAjax7Q8cG117").innerHTML=padAjax7Q8cG117.responseText;
+  padAjaxywS2keaN = new XMLHttpRequest();
+  padAjaxywS2keaN.onreadystatechange=function() {
+    if (padAjaxywS2keaN.readyState === 4) {
+      if (padAjaxywS2keaN.status === 200) {
+        document.getElementById("padAjaxywS2keaN").innerHTML=padAjaxywS2keaN.responseText;
       } else {
-        document.getElementById("padAjax7Q8cG117").innerHTML=padAjax7Q8cG117.statusText;
+        document.getElementById("padAjaxywS2keaN").innerHTML=padAjaxywS2keaN.statusText;
       }
     }
   }
-  padAjax7Q8cG117.open("GET","http://penguin.linux.test/?classicModels/offices&padInclude&padSesID=DYXrxM31&padReqID=R6YCje8O",true);
-  padAjax7Q8cG117.send();
+  padAjaxywS2keaN.open("GET","http://penguin.linux.test/?classicModels/offices&padInclude&padSesID=DYXrxM31&padReqID=isqmAK7Z",true);
+  padAjaxywS2keaN.send();
 </script></td>
         
       </tr>
@@ -157,24 +157,24 @@
           <td style="vertical-align:top"> </td>
         
         
-          <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table border=1&gt;<br>  &lt;tr&gt; <br>    &lt;td&gt; employee &lt;/td&gt;<br>    &lt;td&gt; manager &lt;/td&gt;<br>    &lt;td&gt; boss &lt;/td&gt;<br>  &lt;/tr&gt;<br>  <b>{<font color="blue">employees</font><font color="red"></font>}</b> <br>    &lt;tr&gt;<br>      &lt;td&gt; <b>{<font color="purple"><font color="red">$</font>employees<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>lastName</font>}</b>, <br>           <b>{<font color="purple"><font color="red">$</font>employees<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>firstName</font>}</b>  <br>           (<b>{<font color="purple"><font color="red">$</font>employees<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>employeeNumber</font>}</b>) <br>      &lt;/td&gt;<br>      &lt;td&gt; <b>{<font color="purple"><font color="red">$</font>managers<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>lastName | optional</font>}</b>,  <br>           <b>{<font color="purple"><font color="red">$</font>managers<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>firstName | optional</font>}</b>   <br>           (<b>{<font color="purple"><font color="red">$</font>managers<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>employeeNumber | optional</font>}</b>)  <br>      &lt;/td&gt;<br>      &lt;td&gt; <b>{<font color="purple"><font color="red">$</font>bosses<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>lastName | optional</font>}</b>,    <br>           <b>{<font color="purple"><font color="red">$</font>bosses<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>firstName | optional</font>}</b>     <br>           (<b>{<font color="purple"><font color="red">$</font>bosses<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>employeeNumber | optional</font>}</b>)   <br>     &lt;/td&gt;<br>    &lt;/tr&gt;<br>  <b>{/<font color="blue">employees</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre></td>
+          <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table border=1&gt;<br>  &lt;tr&gt; <br>    &lt;td&gt; employee &lt;/td&gt;<br>    &lt;td&gt; manager &lt;/td&gt;<br>    &lt;td&gt; boss &lt;/td&gt;<br>  &lt;/tr&gt;<br>  <b>{<font color="blue">employees</font><font color="red"></font>}</b> <br>    &lt;tr&gt;<br>      &lt;td&gt; <b>{<font color="purple"><font color="red">$</font>employees<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>lastName</font>}</b>, <br>           <b>{<font color="purple"><font color="red">$</font>employees<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>firstName</font>}</b>  <br>           (<b>{<font color="purple"><font color="red">$</font>employees<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>employeeNumber</font>}</b>) <br>      &lt;/td&gt;<br>      &lt;td&gt; <b>{<font color="purple">$managers</font><font color="black">:</font><font color="green">lastName</font> <font color="black">|</font> <font color="blue">optional</font>}</b>,  <br>           <b>{<font color="purple">$managers</font><font color="black">:</font><font color="green">firstName</font> <font color="black">|</font> <font color="blue">optional</font>}</b>   <br>           (<b>{<font color="purple">$managers</font><font color="black">:</font><font color="green">employeeNumber</font> <font color="black">|</font> <font color="blue">optional</font>}</b>)  <br>      &lt;/td&gt;<br>      &lt;td&gt; <b>{<font color="purple">$bosses</font><font color="black">:</font><font color="green">lastName</font> <font color="black">|</font> <font color="blue">optional</font>}</b>,    <br>           <b>{<font color="purple">$bosses</font><font color="black">:</font><font color="green">firstName</font> <font color="black">|</font> <font color="blue">optional</font>}</b>     <br>           (<b>{<font color="purple">$bosses</font><font color="black">:</font><font color="green">employeeNumber</font> <font color="black">|</font> <font color="blue">optional</font>}</b>)   <br>     &lt;/td&gt;<br>    &lt;/tr&gt;<br>  <b>{/<font color="blue">employees</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre></td>
         
         
-          <td style="vertical-align:top"><div id="padAjaxVUP3IK2D"></div>
+          <td style="vertical-align:top"><div id="padAjaxTAJ7Wccs"></div>
 
 <script>
-  padAjaxVUP3IK2D = new XMLHttpRequest();
-  padAjaxVUP3IK2D.onreadystatechange=function() {
-    if (padAjaxVUP3IK2D.readyState === 4) {
-      if (padAjaxVUP3IK2D.status === 200) {
-        document.getElementById("padAjaxVUP3IK2D").innerHTML=padAjaxVUP3IK2D.responseText;
+  padAjaxTAJ7Wccs = new XMLHttpRequest();
+  padAjaxTAJ7Wccs.onreadystatechange=function() {
+    if (padAjaxTAJ7Wccs.readyState === 4) {
+      if (padAjaxTAJ7Wccs.status === 200) {
+        document.getElementById("padAjaxTAJ7Wccs").innerHTML=padAjaxTAJ7Wccs.responseText;
       } else {
-        document.getElementById("padAjaxVUP3IK2D").innerHTML=padAjaxVUP3IK2D.statusText;
+        document.getElementById("padAjaxTAJ7Wccs").innerHTML=padAjaxTAJ7Wccs.statusText;
       }
     }
   }
-  padAjaxVUP3IK2D.open("GET","http://penguin.linux.test/?classicModels/employees_1&padInclude&padSesID=DYXrxM31&padReqID=R6YCje8O",true);
-  padAjaxVUP3IK2D.send();
+  padAjaxTAJ7Wccs.open("GET","http://penguin.linux.test/?classicModels/employees_1&padInclude&padSesID=DYXrxM31&padReqID=isqmAK7Z",true);
+  padAjaxTAJ7Wccs.send();
 </script></td>
         
       </tr>
@@ -230,21 +230,21 @@
           <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table border=1&gt; <br>  &lt;tr&gt;<br>    &lt;td&gt; employee &lt;/td&gt;<br>    &lt;td&gt; manager &lt;/td&gt;<br>    &lt;td&gt; boss &lt;/td&gt;<br>  &lt;/tr&gt;<br>  <b>{<font color="blue">employees</font><font color="red"></font>}</b><br>    &lt;tr&gt;<br>      &lt;td&gt; <b>{<font color="green"><font color="red">$</font>lastName</font>}</b>, <b>{<font color="green"><font color="red">$</font>firstName</font>}</b> (<b>{<font color="green"><font color="red">$</font>employeeNumber</font>}</b>) &lt;/td&gt;<br>      <b>{<font color="blue">managers</font><font color="red"></font>}</b><br>        &lt;td&gt; <b>{<font color="green"><font color="red">$</font>lastName</font>}</b>, <b>{<font color="green"><font color="red">$</font>firstName</font>}</b> (<b>{<font color="green"><font color="red">$</font>employeeNumber</font>}</b>) &lt;/td&gt;<br>          <b>{<font color="blue">bosses</font><font color="red"></font>}</b><br>            &lt;td&gt; <b>{<font color="green"><font color="red">$</font>lastName</font>}</b>, <b>{<font color="green"><font color="red">$</font>firstName</font>}</b> (<b>{<font color="green"><font color="red">$</font>employeeNumber</font>}</b>) &lt;/td&gt;<br>          <b>{/<font color="blue">bosses</font><font color="red"></font>}</b><br>      <b>{/<font color="blue">managers</font><font color="red"></font>}</b><br>    &lt;/tr&gt;<br>  <b>{/<font color="blue">employees</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre></td>
         
         
-          <td style="vertical-align:top"><div id="padAjaxxaJhzSCQ"></div>
+          <td style="vertical-align:top"><div id="padAjaxpoJ7s4EQ"></div>
 
 <script>
-  padAjaxxaJhzSCQ = new XMLHttpRequest();
-  padAjaxxaJhzSCQ.onreadystatechange=function() {
-    if (padAjaxxaJhzSCQ.readyState === 4) {
-      if (padAjaxxaJhzSCQ.status === 200) {
-        document.getElementById("padAjaxxaJhzSCQ").innerHTML=padAjaxxaJhzSCQ.responseText;
+  padAjaxpoJ7s4EQ = new XMLHttpRequest();
+  padAjaxpoJ7s4EQ.onreadystatechange=function() {
+    if (padAjaxpoJ7s4EQ.readyState === 4) {
+      if (padAjaxpoJ7s4EQ.status === 200) {
+        document.getElementById("padAjaxpoJ7s4EQ").innerHTML=padAjaxpoJ7s4EQ.responseText;
       } else {
-        document.getElementById("padAjaxxaJhzSCQ").innerHTML=padAjaxxaJhzSCQ.statusText;
+        document.getElementById("padAjaxpoJ7s4EQ").innerHTML=padAjaxpoJ7s4EQ.statusText;
       }
     }
   }
-  padAjaxxaJhzSCQ.open("GET","http://penguin.linux.test/?classicModels/employees_2&padInclude&padSesID=DYXrxM31&padReqID=R6YCje8O",true);
-  padAjaxxaJhzSCQ.send();
+  padAjaxpoJ7s4EQ.open("GET","http://penguin.linux.test/?classicModels/employees_2&padInclude&padSesID=DYXrxM31&padReqID=isqmAK7Z",true);
+  padAjaxpoJ7s4EQ.send();
 </script></td>
         
       </tr>
@@ -300,21 +300,21 @@
           <td style="vertical-align:top"><pre><code style="color: #000000"><b>{<font color="blue">set </font><font color="red"><font color="red">$</font>customerNumber = 495</font>}</b><br><br>&lt;table border=1&gt;<br> <br>  <b>{<font color="blue">customers</font><font color="red"></font>}</b><br><br>    <b>{<font color="blue">orders</font><font color="red"></font>}</b><br><br>        <b>{<font color="blue">details</font><font color="red"></font>}</b><br>    <br>          <b>{<font color="blue">products</font><font color="red"></font>}</b><br>    <br>            <b>{<font color="blue">lines</font><font color="red"></font>}</b><br><br>              &lt;tr&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>customerNumber</font>}</b>  &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>customerName</font>}</b>    &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>orderNumber</font>}</b>     &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>orderDate</font>}</b>       &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>orderLineNumber</font>}</b> &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>productName</font>}</b>     &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>productLine</font>}</b>     &lt;/td&gt;<br>              &lt;/tr&gt;<br>    <br>            <b>{/<font color="blue">lines</font><font color="red"></font>}</b><br>          <br>          <b>{/<font color="blue">products</font><font color="red"></font>}</b><br>    <br>        <b>{/<font color="blue">details</font><font color="red"></font>}</b><br>        <br>    <b>{/<font color="blue">orders</font><font color="red"></font>}</b><br>    <br>  <b>{/<font color="blue">customers</font><font color="red"></font>}</b><br><br>&lt;/table&gt;</code></pre></td>
         
         
-          <td style="vertical-align:top"><div id="padAjaxwMV9ySvt"></div>
+          <td style="vertical-align:top"><div id="padAjax3QbTbHdC"></div>
 
 <script>
-  padAjaxwMV9ySvt = new XMLHttpRequest();
-  padAjaxwMV9ySvt.onreadystatechange=function() {
-    if (padAjaxwMV9ySvt.readyState === 4) {
-      if (padAjaxwMV9ySvt.status === 200) {
-        document.getElementById("padAjaxwMV9ySvt").innerHTML=padAjaxwMV9ySvt.responseText;
+  padAjax3QbTbHdC = new XMLHttpRequest();
+  padAjax3QbTbHdC.onreadystatechange=function() {
+    if (padAjax3QbTbHdC.readyState === 4) {
+      if (padAjax3QbTbHdC.status === 200) {
+        document.getElementById("padAjax3QbTbHdC").innerHTML=padAjax3QbTbHdC.responseText;
       } else {
-        document.getElementById("padAjaxwMV9ySvt").innerHTML=padAjaxwMV9ySvt.statusText;
+        document.getElementById("padAjax3QbTbHdC").innerHTML=padAjax3QbTbHdC.statusText;
       }
     }
   }
-  padAjaxwMV9ySvt.open("GET","http://penguin.linux.test/?classicModels/orders&padInclude&padSesID=DYXrxM31&padReqID=R6YCje8O",true);
-  padAjaxwMV9ySvt.send();
+  padAjax3QbTbHdC.open("GET","http://penguin.linux.test/?classicModels/orders&padInclude&padSesID=DYXrxM31&padReqID=isqmAK7Z",true);
+  padAjax3QbTbHdC.send();
 </script></td>
         
       </tr>
