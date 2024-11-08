@@ -1,3 +1,2 @@
-sequence/keepRemove/not
 sequence/operation/single/not
 sequence/specials/logic

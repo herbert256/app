@@ -126,13 +126,11 @@ sequence/keepRemove/identity
 sequence/keepRemove/kaprekar
 sequence/keepRemove/kolakoski
 sequence/keepRemove/kynea
-sequence/keepRemove/loop
 sequence/keepRemove/lucky
 sequence/keepRemove/mersenne
 sequence/keepRemove/moserdebruijn
 sequence/keepRemove/negation
 sequence/keepRemove/newmanConway
-sequence/keepRemove/not
 sequence/keepRemove/octagonal
 sequence/keepRemove/octahedral
 sequence/keepRemove/odd

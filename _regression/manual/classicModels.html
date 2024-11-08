@@ -1,332 +1,186 @@
 <center>
-
-<p>Some PAD pages based on the Classic Models database as found on <a href="https://www.mysqltutorial.org/mysql-sample-database.aspx">http://www.mysqltutorial.org</a>
-
-<p>To demonstrate the PAD Table functionality
-
-
-
-
+  <p>
+    Some PAD pages based on the Classic Models database as found on <a href="https://www.mysqltutorial.org/mysql-sample-database.aspx">http://www.mysqltutorial.org</a>
+  </p>
+  <p>
+    To demonstrate the PAD Table functionality
+  </p>
   <h3></h3>
- 
-
-
-
-   
-    <table border="1" cellpadding="10" cellspacing="0">
-  
-
-  
-
-      
-          <tr>
-          
-            <th bgcolor="#dddddd">
-              PHP <br><font size="-2">classicModels/_inits.php</font>
-            </th>
-          
-          
-          
-        </tr>
-      
-
-      <tr>
-        
-          <td style="vertical-align:top"><pre><code style="color: #000000"><span style="color: #0000BB">&lt;?php<br>  <br>  $padTables </span><span style="color: #007700">[</span><span style="color: #DD0000">'customers'</span><span style="color: #007700">] = [ </span><span style="color: #DD0000">'db' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'customers'</span><span style="color: #007700">,    </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'customerNumber'</span><span style="color: #007700">, </span><span style="color: #DD0000">'order' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'customerName'</span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padTables </span><span style="color: #007700">[</span><span style="color: #DD0000">'employees'</span><span style="color: #007700">] = [ </span><span style="color: #DD0000">'db' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'employees'</span><span style="color: #007700">,    </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'employeeNumber'</span><span style="color: #007700">, </span><span style="color: #DD0000">'order' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'lastName,firstName'</span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padTables </span><span style="color: #007700">[</span><span style="color: #DD0000">'offices'</span><span style="color: #007700">]   = [ </span><span style="color: #DD0000">'db' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'offices'</span><span style="color: #007700">,      </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'officeCode'</span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padTables </span><span style="color: #007700">[</span><span style="color: #DD0000">'details'</span><span style="color: #007700">]   = [ </span><span style="color: #DD0000">'db' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'orderdetails'</span><span style="color: #007700">, </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'orderNumber,productCode'</span><span style="color: #007700">, </span><span style="color: #DD0000">'order' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'orderLineNumber'</span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padTables </span><span style="color: #007700">[</span><span style="color: #DD0000">'orders'</span><span style="color: #007700">]    = [ </span><span style="color: #DD0000">'db' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'orders'</span><span style="color: #007700">,       </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'orderNumber'</span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padTables </span><span style="color: #007700">[</span><span style="color: #DD0000">'payments'</span><span style="color: #007700">]  = [ </span><span style="color: #DD0000">'db' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'payments'</span><span style="color: #007700">,     </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'customerNumber,checkNumber'</span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padTables </span><span style="color: #007700">[</span><span style="color: #DD0000">'lines'</span><span style="color: #007700">]     = [ </span><span style="color: #DD0000">'db' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'productlines'</span><span style="color: #007700">, </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'productLine'</span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padTables </span><span style="color: #007700">[</span><span style="color: #DD0000">'products'</span><span style="color: #007700">]  = [ </span><span style="color: #DD0000">'db' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'products'</span><span style="color: #007700">,     </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'productCode'</span><span style="color: #007700">];<br><br>  </span><span style="color: #FF8000">// Relations between PAD tables, the key of *relation* must be in $padTables<br>  // $padRelations [*base*]  [*relation*]    = [];<br><br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'products'</span><span style="color: #007700">]  [</span><span style="color: #DD0000">'lines'</span><span style="color: #007700">]      = [];<br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'payments'</span><span style="color: #007700">]  [</span><span style="color: #DD0000">'customers'</span><span style="color: #007700">]  = [];<br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'orders'</span><span style="color: #007700">]    [</span><span style="color: #DD0000">'customers'</span><span style="color: #007700">]  = [];<br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'details'</span><span style="color: #007700">]   [</span><span style="color: #DD0000">'orders'</span><span style="color: #007700">]     = [];<br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'details'</span><span style="color: #007700">]   [</span><span style="color: #DD0000">'products'</span><span style="color: #007700">]   = [];<br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'employees'</span><span style="color: #007700">] [</span><span style="color: #DD0000">'offices'</span><span style="color: #007700">]    = [];<br><br>  </span><span style="color: #FF8000">// Relations between PAD tables, the key of *relation* is an other field in *base*<br>  // $padRelations [*base*]  [*relation*] = [ 'key' =&gt; *keyField*];<br>  //<br>  // All keys of *relation* must be given, use 'n/a' if it does not exists in *base* for a partly relation<br><br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'customers'</span><span style="color: #007700">] [</span><span style="color: #DD0000">'employees'</span><span style="color: #007700">]  = [ </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'salesRepEmployeeNumber'</span><span style="color: #007700">];<br>  <br>  </span><span style="color: #FF8000">// Virtual tables<br>  <br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'customers'</span><span style="color: #007700">] [</span><span style="color: #DD0000">'sales'</span><span style="color: #007700">]      = [ </span><span style="color: #DD0000">'table' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'employees'</span><span style="color: #007700">, </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'salesRepEmployeeNumber' </span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'employees'</span><span style="color: #007700">] [</span><span style="color: #DD0000">'managers'</span><span style="color: #007700">]   = [ </span><span style="color: #DD0000">'table' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'employees'</span><span style="color: #007700">, </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'reportsTo'              </span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'managers'</span><span style="color: #007700">]  [</span><span style="color: #DD0000">'bosses'</span><span style="color: #007700">]     = [ </span><span style="color: #DD0000">'table' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'employees'</span><span style="color: #007700">, </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'reportsTo'              </span><span style="color: #007700">];<br> <br> </span><span style="color: #0000BB">?&gt;</span></code></pre> </td>
-        
-        
-        
-      </tr>
-
-    
-
-  
-    </table>
-  
-
-
-
-
-
-
-
-
-  <h3>offices</h3>
- 
-
-
-
-   
-    <table border="1" cellpadding="10" cellspacing="0">
-  
-
-  
-
-      
-          <tr>
-          
-            <th bgcolor="#dddddd">
-              PHP <br><font size="-2"></font>
-            </th>
-          
-          
-            <th bgcolor="#dddddd">
-              HTML <br><font size="-2">classicModels/offices.pad</font>
-            </th>
-          
-          
-            <th bgcolor="#dddddd">
-              Result
-            </th>
-          
-        </tr>
-      
-
-      <tr>
-        
-          <td style="vertical-align:top"> </td>
-        
-        
-          <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table&gt;<br>  &lt;tr&gt;<br>    &lt;td&gt;<br>      <br>      &lt;table border=1&gt;<br>        <b>{<font color="blue">offices </font><font color="red">sort</font>}</b><br>          <b>{<font color="blue">employees</font><font color="red"></font>}</b><br>            &lt;tr&gt;<br>              &lt;td&gt; <b>{<font color="green"><font color="red">$</font>city</font>}</b> &lt;/td&gt;<br>              &lt;td&gt; <b>{<font color="green"><font color="red">$</font>lastName</font>}</b>, <b>{<font color="green"><font color="red">$</font>firstName</font>}</b> &lt;/td&gt;<br>            &lt;/tr<br>&gt;          <b>{/<font color="blue">employees</font><font color="red"></font>}</b><br>        <b>{/<font color="blue">offices</font><font color="red"></font>}</b><br>      &lt;/table&gt;<br>      <br>    &lt;/td&gt; &lt;td&gt; &amp;nbsp; &lt;/td&gt; &lt;td&gt;<br><br>      &lt;table border=1&gt;<br>        <b>{<font color="blue">employees</font><font color="red"></font>}</b><br>          <b>{<font color="blue">offices</font><font color="red"></font>}</b><br>            &lt;tr&gt;<br>              &lt;td&gt; <b>{<font color="green"><font color="red">$</font>lastName</font>}</b>, <b>{<font color="green"><font color="red">$</font>firstName</font>}</b> &lt;/td&gt;<br>              &lt;td&gt; <b>{<font color="green"><font color="red">$</font>city</font>}</b> &lt;/td&gt;<br>            &lt;/tr&gt;<br>          <b>{/<font color="blue">offices</font><font color="red"></font>}</b><br>        <b>{/<font color="blue">employees</font><font color="red"></font>}</b><br>      &lt;/table&gt;<br><br>    &lt;/td&gt;<br>  &lt;/tr&gt;<br>&lt;/table&gt;</code></pre></td>
-        
-        
-          <td style="vertical-align:top"><div id="padAjax0MIy346u"></div>
-
-<script>
-  padAjax0MIy346u = new XMLHttpRequest();
-  padAjax0MIy346u.onreadystatechange=function() {
-    if (padAjax0MIy346u.readyState === 4) {
-      if (padAjax0MIy346u.status === 200) {
-        document.getElementById("padAjax0MIy346u").innerHTML=padAjax0MIy346u.responseText;
-      } else {
-        document.getElementById("padAjax0MIy346u").innerHTML=padAjax0MIy346u.statusText;
-      }
-    }
-  }
-  padAjax0MIy346u.open("GET","http://penguin.linux.test/?classicModels/offices&padInclude&padSesID=DYXrxM31&padReqID=E7ZPSx1P",true);
-  padAjax0MIy346u.send();
-</script></td>
-        
-      </tr>
-
-    
-
-  
-    </table>
-  
-
-
-
-
-
-
-
-  <h3>employees_1</h3>
- 
-
-
-
-   
-    <table border="1" cellpadding="10" cellspacing="0">
-  
-
-  
-
-      
-          <tr>
-          
-            <th bgcolor="#dddddd">
-              PHP <br><font size="-2"></font>
-            </th>
-          
-          
-            <th bgcolor="#dddddd">
-              HTML <br><font size="-2">classicModels/employees_1.pad</font>
-            </th>
-          
-          
-            <th bgcolor="#dddddd">
-              Result
-            </th>
-          
-        </tr>
-      
-
-      <tr>
-        
-          <td style="vertical-align:top"> </td>
-        
-        
-          <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table border=1&gt;<br>  &lt;tr&gt; <br>    &lt;td&gt; employee &lt;/td&gt;<br>    &lt;td&gt; manager &lt;/td&gt;<br>    &lt;td&gt; boss &lt;/td&gt;<br>  &lt;/tr&gt;<br>  <b>{<font color="blue">employees</font><font color="red"></font>}</b> <br>    &lt;tr&gt;<br>      &lt;td&gt; <b>{<font color="purple"><font color="red">$</font>employees<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>lastName</font>}</b>, <br>           <b>{<font color="purple"><font color="red">$</font>employees<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>firstName</font>}</b>  <br>           (<b>{<font color="purple"><font color="red">$</font>employees<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>employeeNumber</font>}</b>) <br>      &lt;/td&gt;<br>      &lt;td&gt; <b>{<font color="purple">$managers</font><font color="black">:</font><font color="green">lastName</font> <font color="black">|</font> <font color="blue">optional</font>}</b>,  <br>           <b>{<font color="purple">$managers</font><font color="black">:</font><font color="green">firstName</font> <font color="black">|</font> <font color="blue">optional</font>}</b>   <br>           (<b>{<font color="purple">$managers</font><font color="black">:</font><font color="green">employeeNumber</font> <font color="black">|</font> <font color="blue">optional</font>}</b>)  <br>      &lt;/td&gt;<br>      &lt;td&gt; <b>{<font color="purple">$bosses</font><font color="black">:</font><font color="green">lastName</font> <font color="black">|</font> <font color="blue">optional</font>}</b>,    <br>           <b>{<font color="purple">$bosses</font><font color="black">:</font><font color="green">firstName</font> <font color="black">|</font> <font color="blue">optional</font>}</b>     <br>           (<b>{<font color="purple">$bosses</font><font color="black">:</font><font color="green">employeeNumber</font> <font color="black">|</font> <font color="blue">optional</font>}</b>)   <br>     &lt;/td&gt;<br>    &lt;/tr&gt;<br>  <b>{/<font color="blue">employees</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre></td>
-        
-        
-          <td style="vertical-align:top"><div id="padAjaxv4q6v7Qy"></div>
-
-<script>
-  padAjaxv4q6v7Qy = new XMLHttpRequest();
-  padAjaxv4q6v7Qy.onreadystatechange=function() {
-    if (padAjaxv4q6v7Qy.readyState === 4) {
-      if (padAjaxv4q6v7Qy.status === 200) {
-        document.getElementById("padAjaxv4q6v7Qy").innerHTML=padAjaxv4q6v7Qy.responseText;
-      } else {
-        document.getElementById("padAjaxv4q6v7Qy").innerHTML=padAjaxv4q6v7Qy.statusText;
-      }
-    }
-  }
-  padAjaxv4q6v7Qy.open("GET","http://penguin.linux.test/?classicModels/employees_1&padInclude&padSesID=DYXrxM31&padReqID=E7ZPSx1P",true);
-  padAjaxv4q6v7Qy.send();
-</script></td>
-        
-      </tr>
-
-    
-
-  
-    </table>
-  
-
-
-
-
-
-
-
-  <h3>employees_2</h3>
- 
-
-
-
-   
-    <table border="1" cellpadding="10" cellspacing="0">
-  
-
-  
-
-      
-          <tr>
-          
-            <th bgcolor="#dddddd">
-              PHP <br><font size="-2"></font>
-            </th>
-          
-          
-            <th bgcolor="#dddddd">
-              HTML <br><font size="-2">classicModels/employees_2.pad</font>
-            </th>
-          
-          
-            <th bgcolor="#dddddd">
-              Result
-            </th>
-          
-        </tr>
-      
-
-      <tr>
-        
-          <td style="vertical-align:top"> </td>
-        
-        
-          <td style="vertical-align:top"><pre><code style="color: #000000">&lt;table border=1&gt; <br>  &lt;tr&gt;<br>    &lt;td&gt; employee &lt;/td&gt;<br>    &lt;td&gt; manager &lt;/td&gt;<br>    &lt;td&gt; boss &lt;/td&gt;<br>  &lt;/tr&gt;<br>  <b>{<font color="blue">employees</font><font color="red"></font>}</b><br>    &lt;tr&gt;<br>      &lt;td&gt; <b>{<font color="green"><font color="red">$</font>lastName</font>}</b>, <b>{<font color="green"><font color="red">$</font>firstName</font>}</b> (<b>{<font color="green"><font color="red">$</font>employeeNumber</font>}</b>) &lt;/td&gt;<br>      <b>{<font color="blue">managers</font><font color="red"></font>}</b><br>        &lt;td&gt; <b>{<font color="green"><font color="red">$</font>lastName</font>}</b>, <b>{<font color="green"><font color="red">$</font>firstName</font>}</b> (<b>{<font color="green"><font color="red">$</font>employeeNumber</font>}</b>) &lt;/td&gt;<br>          <b>{<font color="blue">bosses</font><font color="red"></font>}</b><br>            &lt;td&gt; <b>{<font color="green"><font color="red">$</font>lastName</font>}</b>, <b>{<font color="green"><font color="red">$</font>firstName</font>}</b> (<b>{<font color="green"><font color="red">$</font>employeeNumber</font>}</b>) &lt;/td&gt;<br>          <b>{/<font color="blue">bosses</font><font color="red"></font>}</b><br>      <b>{/<font color="blue">managers</font><font color="red"></font>}</b><br>    &lt;/tr&gt;<br>  <b>{/<font color="blue">employees</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre></td>
-        
-        
-          <td style="vertical-align:top"><div id="padAjaxqsBnhpRm"></div>
-
-<script>
-  padAjaxqsBnhpRm = new XMLHttpRequest();
-  padAjaxqsBnhpRm.onreadystatechange=function() {
-    if (padAjaxqsBnhpRm.readyState === 4) {
-      if (padAjaxqsBnhpRm.status === 200) {
-        document.getElementById("padAjaxqsBnhpRm").innerHTML=padAjaxqsBnhpRm.responseText;
-      } else {
-        document.getElementById("padAjaxqsBnhpRm").innerHTML=padAjaxqsBnhpRm.statusText;
-      }
-    }
-  }
-  padAjaxqsBnhpRm.open("GET","http://penguin.linux.test/?classicModels/employees_2&padInclude&padSesID=DYXrxM31&padReqID=E7ZPSx1P",true);
-  padAjaxqsBnhpRm.send();
-</script></td>
-        
-      </tr>
-
-    
-
-  
-    </table>
-  
-
-
-
-
-
-
-
-  <h3>orders</h3>
- 
-
-
-
-   
-    <table border="1" cellpadding="10" cellspacing="0">
-  
-
-  
-
-      
-          <tr>
-          
-            <th bgcolor="#dddddd">
-              PHP <br><font size="-2"></font>
-            </th>
-          
-          
-            <th bgcolor="#dddddd">
-              HTML <br><font size="-2">classicModels/orders.pad</font>
-            </th>
-          
-          
-            <th bgcolor="#dddddd">
-              Result
-            </th>
-          
-        </tr>
-      
-
-      <tr>
-        
-          <td style="vertical-align:top"> </td>
-        
-        
-          <td style="vertical-align:top"><pre><code style="color: #000000"><b>{<font color="blue">set </font><font color="red"><font color="red">$</font>customerNumber = 495</font>}</b><br><br>&lt;table border=1&gt;<br> <br>  <b>{<font color="blue">customers</font><font color="red"></font>}</b><br><br>    <b>{<font color="blue">orders</font><font color="red"></font>}</b><br><br>        <b>{<font color="blue">details</font><font color="red"></font>}</b><br>    <br>          <b>{<font color="blue">products</font><font color="red"></font>}</b><br>    <br>            <b>{<font color="blue">lines</font><font color="red"></font>}</b><br><br>              &lt;tr&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>customerNumber</font>}</b>  &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>customerName</font>}</b>    &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>orderNumber</font>}</b>     &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>orderDate</font>}</b>       &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>orderLineNumber</font>}</b> &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>productName</font>}</b>     &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>productLine</font>}</b>     &lt;/td&gt;<br>              &lt;/tr&gt;<br>    <br>            <b>{/<font color="blue">lines</font><font color="red"></font>}</b><br>          <br>          <b>{/<font color="blue">products</font><font color="red"></font>}</b><br>    <br>        <b>{/<font color="blue">details</font><font color="red"></font>}</b><br>        <br>    <b>{/<font color="blue">orders</font><font color="red"></font>}</b><br>    <br>  <b>{/<font color="blue">customers</font><font color="red"></font>}</b><br><br>&lt;/table&gt;</code></pre></td>
-        
-        
-          <td style="vertical-align:top"><div id="padAjaxcHzo9ACw"></div>
-
-<script>
-  padAjaxcHzo9ACw = new XMLHttpRequest();
-  padAjaxcHzo9ACw.onreadystatechange=function() {
-    if (padAjaxcHzo9ACw.readyState === 4) {
-      if (padAjaxcHzo9ACw.status === 200) {
-        document.getElementById("padAjaxcHzo9ACw").innerHTML=padAjaxcHzo9ACw.responseText;
-      } else {
-        document.getElementById("padAjaxcHzo9ACw").innerHTML=padAjaxcHzo9ACw.statusText;
-      }
-    }
-  }
-  padAjaxcHzo9ACw.open("GET","http://penguin.linux.test/?classicModels/orders&padInclude&padSesID=DYXrxM31&padReqID=E7ZPSx1P",true);
-  padAjaxcHzo9ACw.send();
-</script></td>
-        
-      </tr>
-
-    
-
-  
-    </table>
-  
-
-
-
-
-
+  <table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+      <th bgcolor="#DDDDDD">
+        PHP<br>
+        <font size="-2">classicModels/_inits.php</font>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align:top">
+        <pre><code style="color: #000000"><span style="color: #0000BB">&lt;?php<br>  <br>  $padTables </span><span style="color: #007700">[</span><span style="color: #DD0000">'customers'</span><span style="color: #007700">] = [ </span><span style="color: #DD0000">'db' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'customers'</span><span style="color: #007700">,    </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'customerNumber'</span><span style="color: #007700">, </span><span style="color: #DD0000">'order' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'customerName'</span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padTables </span><span style="color: #007700">[</span><span style="color: #DD0000">'employees'</span><span style="color: #007700">] = [ </span><span style="color: #DD0000">'db' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'employees'</span><span style="color: #007700">,    </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'employeeNumber'</span><span style="color: #007700">, </span><span style="color: #DD0000">'order' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'lastName,firstName'</span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padTables </span><span style="color: #007700">[</span><span style="color: #DD0000">'offices'</span><span style="color: #007700">]   = [ </span><span style="color: #DD0000">'db' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'offices'</span><span style="color: #007700">,      </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'officeCode'</span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padTables </span><span style="color: #007700">[</span><span style="color: #DD0000">'details'</span><span style="color: #007700">]   = [ </span><span style="color: #DD0000">'db' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'orderdetails'</span><span style="color: #007700">, </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'orderNumber,productCode'</span><span style="color: #007700">, </span><span style="color: #DD0000">'order' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'orderLineNumber'</span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padTables </span><span style="color: #007700">[</span><span style="color: #DD0000">'orders'</span><span style="color: #007700">]    = [ </span><span style="color: #DD0000">'db' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'orders'</span><span style="color: #007700">,       </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'orderNumber'</span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padTables </span><span style="color: #007700">[</span><span style="color: #DD0000">'payments'</span><span style="color: #007700">]  = [ </span><span style="color: #DD0000">'db' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'payments'</span><span style="color: #007700">,     </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'customerNumber,checkNumber'</span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padTables </span><span style="color: #007700">[</span><span style="color: #DD0000">'lines'</span><span style="color: #007700">]     = [ </span><span style="color: #DD0000">'db' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'productlines'</span><span style="color: #007700">, </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'productLine'</span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padTables </span><span style="color: #007700">[</span><span style="color: #DD0000">'products'</span><span style="color: #007700">]  = [ </span><span style="color: #DD0000">'db' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'products'</span><span style="color: #007700">,     </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'productCode'</span><span style="color: #007700">];<br><br>  </span><span style="color: #FF8000">// Relations between PAD tables, the key of *relation* must be in $padTables<br>  // $padRelations [*base*]  [*relation*]    = [];<br><br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'products'</span><span style="color: #007700">]  [</span><span style="color: #DD0000">'lines'</span><span style="color: #007700">]      = [];<br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'payments'</span><span style="color: #007700">]  [</span><span style="color: #DD0000">'customers'</span><span style="color: #007700">]  = [];<br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'orders'</span><span style="color: #007700">]    [</span><span style="color: #DD0000">'customers'</span><span style="color: #007700">]  = [];<br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'details'</span><span style="color: #007700">]   [</span><span style="color: #DD0000">'orders'</span><span style="color: #007700">]     = [];<br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'details'</span><span style="color: #007700">]   [</span><span style="color: #DD0000">'products'</span><span style="color: #007700">]   = [];<br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'employees'</span><span style="color: #007700">] [</span><span style="color: #DD0000">'offices'</span><span style="color: #007700">]    = [];<br><br>  </span><span style="color: #FF8000">// Relations between PAD tables, the key of *relation* is an other field in *base*<br>  // $padRelations [*base*]  [*relation*] = [ 'key' =&gt; *keyField*];<br>  //<br>  // All keys of *relation* must be given, use 'n/a' if it does not exists in *base* for a partly relation<br><br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'customers'</span><span style="color: #007700">] [</span><span style="color: #DD0000">'employees'</span><span style="color: #007700">]  = [ </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'salesRepEmployeeNumber'</span><span style="color: #007700">];<br>  <br>  </span><span style="color: #FF8000">// Virtual tables<br>  <br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'customers'</span><span style="color: #007700">] [</span><span style="color: #DD0000">'sales'</span><span style="color: #007700">]      = [ </span><span style="color: #DD0000">'table' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'employees'</span><span style="color: #007700">, </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'salesRepEmployeeNumber' </span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'employees'</span><span style="color: #007700">] [</span><span style="color: #DD0000">'managers'</span><span style="color: #007700">]   = [ </span><span style="color: #DD0000">'table' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'employees'</span><span style="color: #007700">, </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'reportsTo'              </span><span style="color: #007700">];<br>  </span><span style="color: #0000BB">$padRelations </span><span style="color: #007700">[</span><span style="color: #DD0000">'managers'</span><span style="color: #007700">]  [</span><span style="color: #DD0000">'bosses'</span><span style="color: #007700">]     = [ </span><span style="color: #DD0000">'table' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'employees'</span><span style="color: #007700">, </span><span style="color: #DD0000">'key' </span><span style="color: #007700">=&gt; </span><span style="color: #DD0000">'reportsTo'              </span><span style="color: #007700">];<br> <br> </span><span style="color: #0000BB">?&gt;</span></code></pre>
+      </td>
+    </tr>
+  </table>
+  <h3>
+    offices
+  </h3>
+  <table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+      <th bgcolor="#DDDDDD">
+        PHP<br>
+        <font size="-2"></font>
+      </th>
+      <th bgcolor="#DDDDDD">
+        HTML<br>
+        <font size="-2">classicModels/offices.pad</font>
+      </th>
+      <th bgcolor="#DDDDDD">
+        Result
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align:top"></td>
+      <td style="vertical-align:top">
+        <pre><code style="color: #000000">&lt;table&gt;<br>  &lt;tr&gt;<br>    &lt;td&gt;<br>      <br>      &lt;table border=1&gt;<br>        <b>{<font color="blue">offices </font><font color="red">sort</font>}</b><br>          <b>{<font color="blue">employees</font><font color="red"></font>}</b><br>            &lt;tr&gt;<br>              &lt;td&gt; <b>{<font color="green"><font color="red">$</font>city</font>}</b> &lt;/td&gt;<br>              &lt;td&gt; <b>{<font color="green"><font color="red">$</font>lastName</font>}</b>, <b>{<font color="green"><font color="red">$</font>firstName</font>}</b> &lt;/td&gt;<br>            &lt;/tr<br>&gt;          <b>{/<font color="blue">employees</font><font color="red"></font>}</b><br>        <b>{/<font color="blue">offices</font><font color="red"></font>}</b><br>      &lt;/table&gt;<br>      <br>    &lt;/td&gt; &lt;td&gt; &amp;nbsp; &lt;/td&gt; &lt;td&gt;<br><br>      &lt;table border=1&gt;<br>        <b>{<font color="blue">employees</font><font color="red"></font>}</b><br>          <b>{<font color="blue">offices</font><font color="red"></font>}</b><br>            &lt;tr&gt;<br>              &lt;td&gt; <b>{<font color="green"><font color="red">$</font>lastName</font>}</b>, <b>{<font color="green"><font color="red">$</font>firstName</font>}</b> &lt;/td&gt;<br>              &lt;td&gt; <b>{<font color="green"><font color="red">$</font>city</font>}</b> &lt;/td&gt;<br>            &lt;/tr&gt;<br>          <b>{/<font color="blue">offices</font><font color="red"></font>}</b><br>        <b>{/<font color="blue">employees</font><font color="red"></font>}</b><br>      &lt;/table&gt;<br><br>    &lt;/td&gt;<br>  &lt;/tr&gt;<br>&lt;/table&gt;</code></pre>
+      </td>
+      <td style="vertical-align:top">
+        <div id="padAjaxgHQIkBJu"></div>
+        <script>
+        padAjaxgHQIkBJu = new XMLHttpRequest();
+        padAjaxgHQIkBJu.onreadystatechange=function() {
+        if (padAjaxgHQIkBJu.readyState === 4) {
+        if (padAjaxgHQIkBJu.status === 200) {
+        document.getElementById("padAjaxgHQIkBJu").innerHTML=padAjaxgHQIkBJu.responseText;
+        } else {
+        document.getElementById("padAjaxgHQIkBJu").innerHTML=padAjaxgHQIkBJu.statusText;
+        }
+        }
+        }
+        padAjaxgHQIkBJu.open("GET","http://penguin.linux.test/?classicModels/offices&padInclude&padSesID=DYXrxM31&padReqID=h6FvOSlZ",true);
+        padAjaxgHQIkBJu.send();
+        </script>
+      </td>
+    </tr>
+  </table>
+  <h3>
+    employees_1
+  </h3>
+  <table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+      <th bgcolor="#DDDDDD">
+        PHP<br>
+        <font size="-2"></font>
+      </th>
+      <th bgcolor="#DDDDDD">
+        HTML<br>
+        <font size="-2">classicModels/employees_1.pad</font>
+      </th>
+      <th bgcolor="#DDDDDD">
+        Result
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align:top"></td>
+      <td style="vertical-align:top">
+        <pre><code style="color: #000000">&lt;table border=1&gt;<br>  &lt;tr&gt; <br>    &lt;td&gt; employee &lt;/td&gt;<br>    &lt;td&gt; manager &lt;/td&gt;<br>    &lt;td&gt; boss &lt;/td&gt;<br>  &lt;/tr&gt;<br>  <b>{<font color="blue">employees</font><font color="red"></font>}</b> <br>    &lt;tr&gt;<br>      &lt;td&gt; <b>{<font color="purple"><font color="red">$</font>employees<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>lastName</font>}</b>, <br>           <b>{<font color="purple"><font color="red">$</font>employees<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>firstName</font>}</b>  <br>           (<b>{<font color="purple"><font color="red">$</font>employees<font color="black"></font><b><font color="black">:</font></b><font color="green"></font>employeeNumber</font>}</b>) <br>      &lt;/td&gt;<br>      &lt;td&gt; <b>{<font color="purple">$managers</font><font color="black">:</font><font color="green">lastName</font> <font color="black">|</font> <font color="blue">optional</font>}</b>,  <br>           <b>{<font color="purple">$managers</font><font color="black">:</font><font color="green">firstName</font> <font color="black">|</font> <font color="blue">optional</font>}</b>   <br>           (<b>{<font color="purple">$managers</font><font color="black">:</font><font color="green">employeeNumber</font> <font color="black">|</font> <font color="blue">optional</font>}</b>)  <br>      &lt;/td&gt;<br>      &lt;td&gt; <b>{<font color="purple">$bosses</font><font color="black">:</font><font color="green">lastName</font> <font color="black">|</font> <font color="blue">optional</font>}</b>,    <br>           <b>{<font color="purple">$bosses</font><font color="black">:</font><font color="green">firstName</font> <font color="black">|</font> <font color="blue">optional</font>}</b>     <br>           (<b>{<font color="purple">$bosses</font><font color="black">:</font><font color="green">employeeNumber</font> <font color="black">|</font> <font color="blue">optional</font>}</b>)   <br>     &lt;/td&gt;<br>    &lt;/tr&gt;<br>  <b>{/<font color="blue">employees</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre>
+      </td>
+      <td style="vertical-align:top">
+        <div id="padAjaxwzkFmnlQ"></div>
+        <script>
+        padAjaxwzkFmnlQ = new XMLHttpRequest();
+        padAjaxwzkFmnlQ.onreadystatechange=function() {
+        if (padAjaxwzkFmnlQ.readyState === 4) {
+        if (padAjaxwzkFmnlQ.status === 200) {
+        document.getElementById("padAjaxwzkFmnlQ").innerHTML=padAjaxwzkFmnlQ.responseText;
+        } else {
+        document.getElementById("padAjaxwzkFmnlQ").innerHTML=padAjaxwzkFmnlQ.statusText;
+        }
+        }
+        }
+        padAjaxwzkFmnlQ.open("GET","http://penguin.linux.test/?classicModels/employees_1&padInclude&padSesID=DYXrxM31&padReqID=h6FvOSlZ",true);
+        padAjaxwzkFmnlQ.send();
+        </script>
+      </td>
+    </tr>
+  </table>
+  <h3>
+    employees_2
+  </h3>
+  <table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+      <th bgcolor="#DDDDDD">
+        PHP<br>
+        <font size="-2"></font>
+      </th>
+      <th bgcolor="#DDDDDD">
+        HTML<br>
+        <font size="-2">classicModels/employees_2.pad</font>
+      </th>
+      <th bgcolor="#DDDDDD">
+        Result
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align:top"></td>
+      <td style="vertical-align:top">
+        <pre><code style="color: #000000">&lt;table border=1&gt; <br>  &lt;tr&gt;<br>    &lt;td&gt; employee &lt;/td&gt;<br>    &lt;td&gt; manager &lt;/td&gt;<br>    &lt;td&gt; boss &lt;/td&gt;<br>  &lt;/tr&gt;<br>  <b>{<font color="blue">employees</font><font color="red"></font>}</b><br>    &lt;tr&gt;<br>      &lt;td&gt; <b>{<font color="green"><font color="red">$</font>lastName</font>}</b>, <b>{<font color="green"><font color="red">$</font>firstName</font>}</b> (<b>{<font color="green"><font color="red">$</font>employeeNumber</font>}</b>) &lt;/td&gt;<br>      <b>{<font color="blue">managers</font><font color="red"></font>}</b><br>        &lt;td&gt; <b>{<font color="green"><font color="red">$</font>lastName</font>}</b>, <b>{<font color="green"><font color="red">$</font>firstName</font>}</b> (<b>{<font color="green"><font color="red">$</font>employeeNumber</font>}</b>) &lt;/td&gt;<br>          <b>{<font color="blue">bosses</font><font color="red"></font>}</b><br>            &lt;td&gt; <b>{<font color="green"><font color="red">$</font>lastName</font>}</b>, <b>{<font color="green"><font color="red">$</font>firstName</font>}</b> (<b>{<font color="green"><font color="red">$</font>employeeNumber</font>}</b>) &lt;/td&gt;<br>          <b>{/<font color="blue">bosses</font><font color="red"></font>}</b><br>      <b>{/<font color="blue">managers</font><font color="red"></font>}</b><br>    &lt;/tr&gt;<br>  <b>{/<font color="blue">employees</font><font color="red"></font>}</b><br>&lt;/table&gt;</code></pre>
+      </td>
+      <td style="vertical-align:top">
+        <div id="padAjax1AXrK0Ke"></div>
+        <script>
+        padAjax1AXrK0Ke = new XMLHttpRequest();
+        padAjax1AXrK0Ke.onreadystatechange=function() {
+        if (padAjax1AXrK0Ke.readyState === 4) {
+        if (padAjax1AXrK0Ke.status === 200) {
+        document.getElementById("padAjax1AXrK0Ke").innerHTML=padAjax1AXrK0Ke.responseText;
+        } else {
+        document.getElementById("padAjax1AXrK0Ke").innerHTML=padAjax1AXrK0Ke.statusText;
+        }
+        }
+        }
+        padAjax1AXrK0Ke.open("GET","http://penguin.linux.test/?classicModels/employees_2&padInclude&padSesID=DYXrxM31&padReqID=h6FvOSlZ",true);
+        padAjax1AXrK0Ke.send();
+        </script>
+      </td>
+    </tr>
+  </table>
+  <h3>
+    orders
+  </h3>
+  <table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+      <th bgcolor="#DDDDDD">
+        PHP<br>
+        <font size="-2"></font>
+      </th>
+      <th bgcolor="#DDDDDD">
+        HTML<br>
+        <font size="-2">classicModels/orders.pad</font>
+      </th>
+      <th bgcolor="#DDDDDD">
+        Result
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align:top"></td>
+      <td style="vertical-align:top">
+        <pre><code style="color: #000000"><b>{<font color="blue">set </font><font color="red"><font color="red">$</font>customerNumber = 495</font>}</b><br><br>&lt;table border=1&gt;<br> <br>  <b>{<font color="blue">customers</font><font color="red"></font>}</b><br><br>    <b>{<font color="blue">orders</font><font color="red"></font>}</b><br><br>        <b>{<font color="blue">details</font><font color="red"></font>}</b><br>    <br>          <b>{<font color="blue">products</font><font color="red"></font>}</b><br>    <br>            <b>{<font color="blue">lines</font><font color="red"></font>}</b><br><br>              &lt;tr&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>customerNumber</font>}</b>  &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>customerName</font>}</b>    &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>orderNumber</font>}</b>     &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>orderDate</font>}</b>       &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>orderLineNumber</font>}</b> &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>productName</font>}</b>     &lt;/td&gt;<br>                &lt;td&gt; <b>{<font color="green"><font color="red">$</font>productLine</font>}</b>     &lt;/td&gt;<br>              &lt;/tr&gt;<br>    <br>            <b>{/<font color="blue">lines</font><font color="red"></font>}</b><br>          <br>          <b>{/<font color="blue">products</font><font color="red"></font>}</b><br>    <br>        <b>{/<font color="blue">details</font><font color="red"></font>}</b><br>        <br>    <b>{/<font color="blue">orders</font><font color="red"></font>}</b><br>    <br>  <b>{/<font color="blue">customers</font><font color="red"></font>}</b><br><br>&lt;/table&gt;</code></pre>
+      </td>
+      <td style="vertical-align:top">
+        <div id="padAjaxzlm94Vjw"></div>
+        <script>
+        padAjaxzlm94Vjw = new XMLHttpRequest();
+        padAjaxzlm94Vjw.onreadystatechange=function() {
+        if (padAjaxzlm94Vjw.readyState === 4) {
+        if (padAjaxzlm94Vjw.status === 200) {
+        document.getElementById("padAjaxzlm94Vjw").innerHTML=padAjaxzlm94Vjw.responseText;
+        } else {
+        document.getElementById("padAjaxzlm94Vjw").innerHTML=padAjaxzlm94Vjw.statusText;
+        }
+        }
+        }
+        padAjaxzlm94Vjw.open("GET","http://penguin.linux.test/?classicModels/orders&padInclude&padSesID=DYXrxM31&padReqID=h6FvOSlZ",true);
+        padAjaxzlm94Vjw.send();
+        </script>
+      </td>
+    </tr>
+  </table>
 </center>

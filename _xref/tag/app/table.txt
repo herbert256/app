@@ -11,6 +11,7 @@ content/7
 data/1
 data/2
 data/3
+eval
 miscellaneous/level_and_occurrence_variables
 miscellaneous/options_variables_parameters
 miscellaneous/pad
@@ -145,13 +146,11 @@ sequence/keepRemove/identity
 sequence/keepRemove/kaprekar
 sequence/keepRemove/kolakoski
 sequence/keepRemove/kynea
-sequence/keepRemove/loop
 sequence/keepRemove/lucky
 sequence/keepRemove/mersenne
 sequence/keepRemove/moserdebruijn
 sequence/keepRemove/negation
 sequence/keepRemove/newmanConway
-sequence/keepRemove/not
 sequence/keepRemove/octagonal
 sequence/keepRemove/octahedral
 sequence/keepRemove/odd
@@ -358,11 +357,9 @@ tag_return_values/2
 tag_return_values/3
 tags/redirect
 tags/restart
-test
 vars/at/10
 vars/at/3
 vars/at/4
 vars/at/6
 walk/1
 walk/2
-eval
