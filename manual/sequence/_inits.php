@@ -1,4 +1,4 @@
-  <?php
+<?php
 
   $nows ['index'] ['text'] = 'Introduction';
   $nows ['index'] ['now']  = 'index';

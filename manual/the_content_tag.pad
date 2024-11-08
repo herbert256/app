@@ -23,18 +23,12 @@
 
 <hr><h4>Merge content with content - part 3</h4>
 
-If not given, 'replace' will be used for 'merge'
-
 {page 'content/5'}
 
 <hr><h4>Merge content with content - part 4</h4>
 
-If not given, 'replace' will be used for 'merge'
-
 {page 'content/6'}
 
 <hr><h4>Merge content with content - part 5</h4>
-
-Combine {at 'else'} with {at 'content'}
 
 {page 'content/7'}

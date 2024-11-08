@@ -1,4 +1,3 @@
 sequence/basic/round
 sequence/operation/double/round
 sequence/operation/single/round
-sequence/specials/arithmetic

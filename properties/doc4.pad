@@ -1,23 +1,8 @@
-{content 'myContent'}
-    <table border=1>
-      <tr>
-        <th>         </th>
-        <th> name    </th>
-        <th> count   </th>
-        <th> key     </th>
-        <th> current </th>
-        <th> done    </th>
-        <th> remain  </th>
-      </tr>
-    @content@
-  </table>
-{/content}
-
 {table}
 
 {demo}
 
-{myContent}
+{myContent2}
   {staff}
       <tr>
         <td> {$name}      </td>
@@ -29,11 +14,11 @@
         <td> {&remaining} </td>   
       </tr>
   {/staff}
-{/myContent}
+{/myContent2}
 
 {/demo}{demo}
 
-{myContent}
+{myContent2}
   {staff}
     {true}
       {true}
@@ -49,11 +34,11 @@
       {/true}
     {/true}
   {/staff}
-{/myContent}
+{/myContent2}
 
 {/demo}{demo}
 
-{myContent}
+{myContent2}
   {staff}
     {true}
       {true}
@@ -69,7 +54,7 @@
       {/true}
     {/true}
   {/staff}
-{/myContent}
+{/myContent2}
 
 {/demo}
 

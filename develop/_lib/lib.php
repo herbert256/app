@@ -7,6 +7,7 @@
 
   }
   
+  
   function padCut (&$content, $start, $end) {
 
     $cut = '';

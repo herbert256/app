@@ -6,7 +6,7 @@
 
   foreach ( padTypes () as $type ) {
 
-    $parm = include '/app/develop/sequence/parm.php';
+    include '/app/develop/sequence/parm.php';
 
     if     ( $type == 'pull'      ) continue;
     elseif ( $type == 'oeis'      ) $go = "15, oeis=87";

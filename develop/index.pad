@@ -10,7 +10,7 @@
 </ul>
 
 <ul>
-  <li><a href="{$padGo}develop/build">Build all</a></li>
+  <li><a href="{$padGo}develop/build">Build</a></li>
 </ul>
 
 {/block}

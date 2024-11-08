@@ -1,4 +1,3 @@
 sequence/basic/exponentiation
 sequence/operation/double/exponentiation
 sequence/operation/single/exponentiation
-sequence/specials/arithmetic

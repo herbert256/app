@@ -10,6 +10,7 @@
   $old   = padFileGetContents ( "/app/_regression/$item.html" );
  
   $oldRes = $newRes = $newSrc = [];
+  
   $check = $old;
   while ( strpos($check, '<!-- START DEMO RESULT -->') ) 
     $oldRes [] = trim ( padCut ( $check, '<!-- START DEMO RESULT -->', '<!-- END DEMO RESULT -->' ) );

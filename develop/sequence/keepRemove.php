@@ -8,6 +8,9 @@
        ! file_exists ("/pad/sequence/types/$type/fixed.php") )
     return; 
  
+   if ( in_array ( $type, ['loop','not','negatation'] ) )
+     return;
+
   $one = "{table}\n\n"
        . "{demo}{sequence loop, from=1, to=10}\n  {\$sequence}\n{/sequence}{/demo}\n\n"
        . "{demo}{sequence loop, from=1, to=10, keep, $type}\n  {\$sequence}\n{/sequence}{/demo}\n\n"

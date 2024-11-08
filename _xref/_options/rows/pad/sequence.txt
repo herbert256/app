@@ -1,7 +1,6 @@
 sequence/actions/double/intersection
 sequence/actions/single/dedup
 sequence/actions/single/trim
-sequence/specials/arithmetic
 sequence/specials/dedup
 sequence/specials/eval
 sequence/specials/even_odd

@@ -23,3 +23,5 @@ Or with a level number down the level stack.
 <p>todo-1
 
 {page 'properties/doc4'}
+
+{fragment 'properties/_lib/lib'}

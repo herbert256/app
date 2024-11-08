@@ -2,6 +2,7 @@
    
   foreach ( glob ( '/app/sequence/basic/*'                  ) as $file ) unlink($file);
   foreach ( glob ( '/app/sequence/keepRemove/*'             ) as $file ) unlink($file);
+  foreach ( glob ( '/app/sequence/make/*'             ) as $file ) unlink($file);
   foreach ( glob ( '/app/sequence/one/*'                 ) as $file ) unlink($file);
 
   foreach ( glob ( '/app/sequence/operation/single/*'       ) as $file ) unlink($file);

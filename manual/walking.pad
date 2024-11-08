@@ -18,3 +18,5 @@ The below example with the {tag 'sequence'} tag does do that:
 {/block}
 
 {page 'walk/2'}
+
+{fragment 'walk/_lib/lib'}

@@ -1,4 +1,3 @@
 sequence/basic/divide
 sequence/operation/double/divide
 sequence/operation/single/divide
-sequence/specials/arithmetic

@@ -1,23 +1,8 @@
-{content 'myContent'}
-  <table border=1 valign=center>
-    <tr>
-      <th>        </th>
-      <th> first  </th>
-      <th> border </th>
-      <th> middle </th>
-      <th> last   </th>
-      <th> even   </th>
-      <th> odd    </th>
-    </tr>
-    @content@
-  </table>
-{/content}
-
 {table}
 
 {demo}
 
-{myContent}
+{myContent1}
   {staff}
     <tr>
       <td> {$name}              </td>
@@ -29,11 +14,11 @@
       <td> {odd}    X {/odd}    </td>
     </tr>
   {/staff}
-{/myContent}
+{/myContent1}
 
 {/demo}{demo}
 
-{myContent}
+{myContent1}
   {staff}
     <tr>
       <td> {$name}              </td>
@@ -45,7 +30,7 @@
       <td> {if &odd}    X {/if} </td>
     </tr>
   {/staff}
-{/myContent}
+{/myContent1}
 
 {/demo}
 

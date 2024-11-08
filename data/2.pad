@@ -1,6 +1,6 @@
 {table}{demo}
 
-{data 'abc'}
+{data 'myXML'}
   <data>
     <row name="bob"   phone="555-1111" />
     <row name="jim"   phone="555-2222" />
@@ -9,14 +9,14 @@
   </data>
 {/data}
 
-{data 'def'}
+{data 'myJSON'}
   [ { "name": "bob",   "phone": "555-5555" },
     { "name": "jim",   "phone": "555-6666" },
     { "name": "joe",   "phone": "555-7777" },      
     { "name": "jerry", "phone": "555-8888" } ]
 {/data}
 
-{data 'klm'}
+{data 'myYAML'}
   ---
   - name: bob
     phone: 555-3425
@@ -28,7 +28,7 @@
     phone: 555-4973
 {/data}
 
-{data 'xyz'}
+{data 'myCSV'}
   name,phone
   bob,555-3425
   jim,555-4364
@@ -37,7 +37,7 @@
 {/data}
 
 {data 'myList'}
-  ( 'abc', 'def', 'klm', 'xyz' )
+  ( 'myXML', 'myJSON', 'myYAML', 'myCSV' )
 {/data}
 
 {myList}
