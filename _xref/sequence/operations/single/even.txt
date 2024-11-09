@@ -2,3 +2,4 @@ sequence/keepRemove/even
 sequence/operation/single/even
 sequence/specials/keepRemove
 sequence/specials/make
+test
