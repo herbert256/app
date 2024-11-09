@@ -3,3 +3,4 @@ sequence/basic/random
 sequence/one/min
 sequence/specials/dedup
 sequence/specials/random
+test

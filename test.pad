@@ -1,9 +1,5 @@
-{content 'myContent'}
-  true: This is the @content@ content. <br> @else@ false: This is the @content@ content. <br>
-{/content}
+{sequence '11..20', name='mySeq'}
 
-{false content='myContent'}
-  true
-@else@
-  false
-{/false}
+{operation add=4, mySeq} 
+  {$sequence}
+{/operation}

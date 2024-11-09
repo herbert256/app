@@ -5,3 +5,4 @@ sequence/one/random
 sequence/specials/dedup
 sequence/specials/random
 sequence/specials/random2
+test

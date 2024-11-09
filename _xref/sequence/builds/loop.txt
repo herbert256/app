@@ -97,3 +97,4 @@ sequence/specials/prime_or_not
 sequence/specials/random
 sequence/specials/step_multiple
 sequence/specials/trim
+test
