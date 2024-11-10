@@ -1,6 +1,2 @@
-sequence/actions/single/dedup
-sequence/basic/random
 sequence/one/max
-sequence/specials/dedup
-sequence/specials/random
 test
