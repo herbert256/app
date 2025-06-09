@@ -1,4 +1,4 @@
 sequence/basic/heptagonal
-sequence/keepRemove/heptagonal
-sequence/operation/single/heptagonal
+sequence/play/single/heptagonal
+sequence/random/randomly
 sequence/specials/figurate

@@ -10,7 +10,7 @@
 
       $padDemoSourcePHP = 
         '<td style="vertical-align:top" rowspan="@ROWSPAN@">' .  
-          padColorsFile ( "/app/$padPage.php" )  . 
+          padColorsFile ( APP . "$padPage.php" )  . 
         '</td>';
 
     else

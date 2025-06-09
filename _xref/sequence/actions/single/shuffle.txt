@@ -1,4 +1,5 @@
-sequence/actions/single/shuffle
-sequence/actions/single/sort
-sequence/specials/random2
-test
+sequence/manual/concepts/actions
+sequence/random/randomize_vs_shuffle
+sequence/specials/min_max
+sequence/manual/index
+sequence/manual/actions

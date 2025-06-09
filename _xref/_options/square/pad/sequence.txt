@@ -1,4 +1,4 @@
 sequence/basic/square
-sequence/keepRemove/square
-sequence/operation/single/square
+sequence/play/single/square
+sequence/random/randomly
 sequence/specials/figurate

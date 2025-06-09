@@ -1,54 +1,5 @@
-{pad:sequence '11..20', name='mySeq'}
-
-{pad:operation add=4, mySeq} 
-  {$sequence}
-{/pad:operation}
-
-<hr>
-
-{pad:store mySeq} 
-  {$sequence}
-{/pad:store}
-
-<hr>
-
-{pad:action shuffle, mySeq} 
-  {$sequence}
-{/pad:action}
-
-<hr>
-
-{pad:one max, mySeq} 
-  {$sequence}
-{/pad:one}
-
-<hr>
-
-{sequence:range '11..20', name='mySeq'}
-
-<hr>a
-
-{operation:add 4, mySeq} 
-  {$sequence}
-{/operation:add}
-
-<hr>b
-
-{store:mySeq} 
-  {$sequence}
-{/store:mySeq}
-
-<hr>c
-
-{action:shuffle mySeq} 
-  {$sequence}
-{/action:shuffle}
-
-<hr>
-
-{one:max mySeq} 
-  {$sequence}
-{/one:max}
-
-<hr>
-
+abc
+{pad ignore}
+klm
+{/pad}
+xyz

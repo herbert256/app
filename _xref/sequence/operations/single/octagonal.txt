@@ -1,2 +1,0 @@
-sequence/keepRemove/octagonal
-sequence/operation/single/octagonal

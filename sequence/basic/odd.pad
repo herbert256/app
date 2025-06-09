@@ -1,6 +1,6 @@
 {table}
 
-{demo}{sequence 15, odd}
+{demo}{sequence odd}
   {$sequence}
 {/sequence}{/demo}
 

@@ -1,6 +1,6 @@
 {table}
 
-{demo}{sequence 15, biquadratic}
+{demo}{sequence biquadratic}
   {$sequence}
 {/sequence}{/demo}
 

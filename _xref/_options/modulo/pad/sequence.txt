@@ -1,3 +1,5 @@
 sequence/basic/modulo
-sequence/operation/double/modulo
-sequence/operation/single/modulo
+sequence/keepRemoveFlag/modulo
+sequence/play/double/modulo
+sequence/play/single/modulo
+sequence/random/randomly

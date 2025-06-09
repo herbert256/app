@@ -1,4 +1,0 @@
-sequence/entry/actionDouble
-sequence/entry/actionSingle
-sequence/entry/actionSingleParm
-sequence/entry/store

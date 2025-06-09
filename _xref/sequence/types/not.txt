@@ -1,2 +1,0 @@
-sequence/basic/not
-sequence/specials/logic

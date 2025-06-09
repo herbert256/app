@@ -1,2 +1,0 @@
-sequence/keepRemove/decagonal
-sequence/operation/single/decagonal

@@ -1,6 +1,6 @@
 {table}
 
-{demo}{sequence 15, golomb}
+{demo}{sequence golomb}
   {$sequence}
 {/sequence}{/demo}
 

@@ -1,4 +1,4 @@
 sequence/basic/enneadecagonal
-sequence/keepRemove/enneadecagonal
-sequence/operation/single/enneadecagonal
+sequence/play/single/enneadecagonal
+sequence/random/randomly
 sequence/specials/figurate

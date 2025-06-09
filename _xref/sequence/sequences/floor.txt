@@ -1,0 +1,6 @@
+sequence/basic/floor
+sequence/keepRemoveFlag/floor
+sequence/play/single/floor
+sequence/random/randomly
+sequence/type/floor
+sequence/manual/sequences

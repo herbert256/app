@@ -1,2 +1,0 @@
-sequence/operation/single/divide
-sequence/specials/arithmetic

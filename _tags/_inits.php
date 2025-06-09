@@ -1,7 +1,7 @@
 <?php
 
-  $inits_php = "/app/$padDir/_inits.php";
-  $inits_pad = "/app/$padDir/_inits.pad";
+  $inits_php = APP . "$padDir/_inits.php";
+  $inits_pad = APP . "$padDir/_inits.pad";
 
   $inits = ( file_exists($inits_php) or file_exists($inits_pad) );
 

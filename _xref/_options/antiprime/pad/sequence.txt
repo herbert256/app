@@ -1,4 +1,4 @@
 sequence/basic/antiprime
-sequence/keepRemove/antiprime
-sequence/operation/single/antiprime
+sequence/play/single/antiprime
+sequence/random/randomly
 sequence/specials/prime_or_not

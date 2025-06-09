@@ -17,7 +17,7 @@
       <code><span style="color: #000000"><!-- START DEMO RESULT --></span></code>
       <h3>
         <code><span style="color: #000000">From an pad tag</span></code>
-      </h3><code><span style="color: #000000">An example PAD tag<!-- END DEMO RESULT --></span></code>
+      </h3><code><span style="color: #000000">Foo tag from pad<!-- END DEMO RESULT --></span></code>
     </td>
   </tr>
   <tr>
@@ -29,7 +29,7 @@
       <code><span style="color: #000000"><!-- START DEMO RESULT --></span></code>
       <h3>
         <code><span style="color: #000000">From an application tag</span></code>
-      </h3><code><span style="color: #000000">From a own {tag}<!-- END DEMO RESULT --></span></code>
+      </h3><code><span style="color: #000000">Foo tag from app<!-- END DEMO RESULT --></span></code>
     </td>
   </tr>
   <tr>
@@ -65,19 +65,19 @@
       <code><span style="color: #000000"><!-- START DEMO RESULT --></span></code>
       <h3>
         <code><span style="color: #000000">From an own PAD function</span></code>
-      </h3><code><span style="color: #000000">From a own function<!-- END DEMO RESULT --></span></code>
+      </h3><code><span style="color: #000000">From an own function<!-- END DEMO RESULT --></span></code>
     </td>
   </tr>
   <tr>
     <td style="vertical-align:top">
       <!-- START DEMO SOURCE -->
-      <pre><code style="color: #000000">&lt;h3&gt;From an defined flag&lt;/h3&gt;<br><br><b>{<font color="blue"><font color="purple">flag</font><font color="black"><b>:</b></font>foo</font><font color="red"></font>}</b><br>  Flag 'foo' is true<br><b><font color="black">@</font><font color="purple">else</font><font color="black">@</font></b><br>  Flag 'foo' is false<br><b>{/<font color="blue"><font color="purple">flag</font><font color="black"><b>:</b></font>foo</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+      <pre><code style="color: #000000">&lt;h3&gt;From an defined bool&lt;/h3&gt;<br><br><b>{<font color="blue"><font color="purple">bool</font><font color="black"><b>:</b></font>foo</font><font color="red"></font>}</b><br>  Bool 'foo' is true<br><b>{<font color="blue">else</font><font color="red"></font>}</b><br>  Bool 'foo' is false<br><b>{/<font color="blue"><font color="purple">bool</font><font color="black"><b>:</b></font>foo</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
     </td>
     <td style="vertical-align:top">
       <code><span style="color: #000000"><!-- START DEMO RESULT --></span></code>
       <h3>
-        <code><span style="color: #000000">From an defined flag</span></code>
-      </h3><code><span style="color: #000000">Flag 'foo' is true<!-- END DEMO RESULT --></span></code>
+        <code><span style="color: #000000">From an defined bool</span></code>
+      </h3><code><span style="color: #000000">Bool 'foo' is true<!-- END DEMO RESULT --></span></code>
     </td>
   </tr>
   <tr>
@@ -167,7 +167,7 @@
   </tr>
   <tr>
     <td style="vertical-align:top">
-      <pre><code style="color: #000000"><span style="color: #0000BB">&lt;?php<br><br>  </span><span style="color: #007700">return </span><span style="color: #DD0000">"From a own function"</span><span style="color: #007700">;<br><br></span><span style="color: #0000BB">?&gt;</span></code></pre>
+      <pre><code style="color: #000000"><span style="color: #0000BB">&lt;?php<br><br>  </span><span style="color: #007700">return </span><span style="color: #DD0000">"From an own function"</span><span style="color: #007700">;<br><br></span><span style="color: #0000BB">?&gt;</span></code></pre>
     </td>
     <td style="vertical-align:top">
       <code style="color: #000000"></code>
@@ -185,7 +185,7 @@
   </tr>
   <tr>
     <td style="vertical-align:top">
-      <pre><code style="color: #000000"><span style="color: #0000BB">&lt;?php<br><br>  </span><span style="color: #007700">return </span><span style="color: #DD0000">"From a own {open}tag{close}"</span><span style="color: #007700">;<br><br></span><span style="color: #0000BB">?&gt;</span></code></pre>
+      <pre><code style="color: #000000"><span style="color: #0000BB">&lt;?php<br><br>  </span><span style="color: #007700">return </span><span style="color: #DD0000">"Foo tag from app"</span><span style="color: #007700">;<br><br></span><span style="color: #0000BB">?&gt;</span></code></pre>
     </td>
     <td style="vertical-align:top">
       <code style="color: #000000"></code>
@@ -224,7 +224,7 @@
       <code style="color: #000000"></code>
     </td>
     <td style="vertical-align:top">
-      <pre><code style="color: #000000"><b>{<font color="blue">content </font><font color="red"><font color="black">'</font>foo<font color="black">'</font></font>}</b><br>  This is from content<br><b>{/<font color="blue">content</font><font color="red"></font>}</b><br><br><b>{<font color="blue">data </font><font color="red"><font color="black">'</font>foo<font color="black">'</font></font>}</b><br>  [ { "foo": "This is a json array - 1" },<br>    { "foo": "This is a json array - 2" },<br>    { "foo": "This is a json array - 3" } ]<br><b>{/<font color="blue">data</font><font color="red"></font>}</b><br><br><b>{<font color="blue">flag </font><font color="red"><font color="black">'</font>foo<font color="black">'</font></font>}</b>1<b>{/<font color="blue">flag</font><font color="red"></font>}</b></code></pre>
+      <pre><code style="color: #000000"><b>{<font color="blue">content </font><font color="red"><font color="black">'</font>foo<font color="black">'</font></font>}</b><br>  This is from content<br><b>{/<font color="blue">content</font><font color="red"></font>}</b><br><br><b>{<font color="blue">data </font><font color="red"><font color="black">'</font>foo<font color="black">'</font></font>}</b><br>  [ { "foo": "This is a json array - 1" },<br>    { "foo": "This is a json array - 2" },<br>    { "foo": "This is a json array - 3" } ]<br><b>{/<font color="blue">data</font><font color="red"></font>}</b><br><br><b>{<font color="blue">bool </font><font color="red"><font color="black">'</font>foo<font color="black">'</font></font>}</b>1<b>{/<font color="blue">bool</font><font color="red"></font>}</b></code></pre>
     </td>
     <td style="vertical-align:top">
       <code style="color: #000000"></code>

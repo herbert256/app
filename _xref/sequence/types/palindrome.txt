@@ -1,2 +1,0 @@
-sequence/basic/palindrome
-sequence/specials/other

@@ -2,17 +2,20 @@
     
 $curl = getPage ($item);
 
-$store = "/app/_regression/$item.html";
+$store = APP . "_regression/$item.html";
 padFileChkDir     ( $store );
 padFileChkFile    ( $store );
 file_put_contents ( $store, $curl ['data'] );
 
-$store =  "/app/_regression/$item.txt";
+$store =  APP . "_regression/$item.txt";
 $status = 'ok';
 padFileChkDir     ( $store );
 padFileChkFile    ( $store );
 file_put_contents ( $store, $status ) ;
 
-padRedirect ( "develop/regression" );
+if ( str_contains ( $item, 'sequence' ) )
+  padRedirect ( 'sequence/manual/regression', [ 'go' => 'regression' ] );
+else  
+  padRedirect ( "develop/regression" );
 
 ?>

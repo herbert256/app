@@ -1,14 +1,16 @@
 <?php
 
 
-  function seqDir ( $dir )  {
+  function sequenceDir ( $dir )  {
   
     $out = [];
 
-    foreach ( array_diff ( scandir ( $dir ), [ '.', '..' ] ) as $file )
-      $out [] = str_replace( '.pad', '', $file );
+    foreach ( array_diff ( scandir ( $dir ), [ '.', '..' ] ) as $file ) {
+      $key = str_replace( '.pad', '', str_replace( '.php', '', $file ) );
+      $out [$key] = $key;
+    }
     
-    return $out;
+    return array_values ( $out );
 
   }
 
@@ -60,7 +62,7 @@
     foreach ( $dir as $one ) {
 
       $path = padCorrectPath ( $one->getPathname() );
-      $file = str_replace ( '/app/', '', $path );
+      $file = str_replace ( APP, '', $path );
 
       if ( substr ( $path, -1   ) == '.'        ) continue;
       if (  str_ends_with ( $file, '.DS_Store') ) continue;
@@ -79,7 +81,6 @@
     $pad = ( file_exists( $file ) ) ? file_get_contents( $file ) : ''; 
 
     if ( strpos($pad, '<!-- PAD: ONLYRESULT -->') !== false ) return ',onlyResult';
-    if ( strpos($pad, '{present')                 !== false ) return ',onlyResult';
     if ( strpos($pad, '{demo')                    !== false ) return ',onlyResult';
     if ( str_ends_with($file, 'index.pad')                  ) return ',onlyResult';
 
@@ -132,7 +133,7 @@
 
     $list = [];
 
-    $dir = '/app/' . $dir;
+    $dir = APP . $dir;
 
     $directory = new DirectoryIterator ( $dir       );
     $iterator  = new IteratorIterator  ( $directory );

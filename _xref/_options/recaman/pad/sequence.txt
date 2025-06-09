@@ -1,4 +1,4 @@
 sequence/basic/recaman
-sequence/keepRemove/recaman
-sequence/operation/single/recaman
+sequence/play/single/recaman
+sequence/random/randomly
 sequence/specials/named

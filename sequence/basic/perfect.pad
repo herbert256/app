@@ -1,6 +1,6 @@
 {table}
 
-{demo}{sequence 15, perfect}
+{demo}{sequence perfect}
   {$sequence}
 {/sequence}{/demo}
 

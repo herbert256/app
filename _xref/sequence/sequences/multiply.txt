@@ -1,0 +1,6 @@
+sequence/basic/multiply
+sequence/keepRemoveFlag/multiply
+sequence/play/single/multiply
+sequence/random/randomly
+sequence/type/multiply
+sequence/manual/sequences

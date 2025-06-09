@@ -1,3 +1,6 @@
 sequence/basic/multiply
-sequence/operation/double/multiply
-sequence/operation/single/multiply
+sequence/keepRemoveFlag/multiply
+sequence/play/double/multiply
+sequence/play/single/multiply
+sequence/random/randomly
+sequence/specials/double

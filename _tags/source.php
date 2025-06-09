@@ -6,14 +6,13 @@
   }
 
   if ( ! $padContent and $padParm ) 
-    $padReturn = padColorsFile ( '/app/' . $padParm ) ;
+    $padReturn = padColorsFile ( APP . $padParm ) ;
   else {
     $padReturn = padColorsString ( $padContent ) ;
     $padReturn = substr($padReturn, 5, -6);
   }
 
-
+  $padContent = '';
 	return str_replace ( '}', '&close;', $padReturn );
-
 
 ?>

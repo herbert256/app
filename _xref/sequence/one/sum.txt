@@ -1,3 +1,0 @@
-sequence/one/sum
-sequence/specials/names
-sequence/specials/other

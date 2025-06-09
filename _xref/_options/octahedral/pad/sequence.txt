@@ -1,4 +1,4 @@
 sequence/basic/octahedral
-sequence/keepRemove/octahedral
-sequence/operation/single/octahedral
+sequence/play/single/octahedral
+sequence/random/randomly
 sequence/specials/figurate

@@ -1,2 +1,0 @@
-sequence/operation/single/substract
-sequence/specials/arithmetic

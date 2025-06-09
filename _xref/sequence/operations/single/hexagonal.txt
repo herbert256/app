@@ -1,2 +1,0 @@
-sequence/keepRemove/hexagonal
-sequence/operation/single/hexagonal

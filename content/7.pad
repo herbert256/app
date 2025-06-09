@@ -2,7 +2,7 @@
 
 {content 'myContent'}
   true: This is the @content@ content. <br>
-@else@
+{else}
   false: This is the @content@ content. <br>
 {/content}
 
@@ -10,7 +10,7 @@
 
 {true content='myContent'}
   true
-@else@
+{else}
   false
 {/true}
 
@@ -18,8 +18,35 @@
 
 {false content='myContent'}
   true
-@else@
+{else}
   false
+{/false}
+
+{/demo}{/table}
+
+
+{table}{demo}
+
+{content 'myContent'}
+  true
+{else}
+  false
+{/content}
+
+{/demo}{demo}
+
+{true content='myContent'}
+  true: This is the @content@ content. <br>
+{else}
+  false: This is the @content@ content. <br>
+{/true}
+
+{/demo}{demo}
+
+{false content='myContent'}
+  true: This is the @content@ content. <br>
+{else}
+  false: This is the @content@ content. <br>
 {/false}
 
 {/demo}{/table}

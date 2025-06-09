@@ -1,6 +1,6 @@
 {table}
 
-{demo}{sequence 15, prime}
+{demo}{sequence prime}
   {$sequence}
 {/sequence}{/demo}
 

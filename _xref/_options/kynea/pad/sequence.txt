@@ -1,4 +1,4 @@
 sequence/basic/kynea
-sequence/keepRemove/kynea
-sequence/operation/single/kynea
+sequence/play/single/kynea
+sequence/random/randomly
 sequence/specials/named

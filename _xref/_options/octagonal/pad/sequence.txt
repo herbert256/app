@@ -1,4 +1,4 @@
 sequence/basic/octagonal
-sequence/keepRemove/octagonal
-sequence/operation/single/octagonal
+sequence/play/single/octagonal
+sequence/random/randomly
 sequence/specials/figurate

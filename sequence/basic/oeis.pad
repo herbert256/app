@@ -1,10 +1,6 @@
 {table}
 
-{demo}{sequence 15}
-  {$sequence}
-{/sequence}{/demo}
-
-{demo}{sequence 15, oeis=87}
+{demo}{sequence oeis=87}
   {$sequence}
 {/sequence}{/demo}
 

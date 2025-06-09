@@ -1,4 +1,4 @@
 sequence/basic/powerful
-sequence/keepRemove/powerful
-sequence/operation/single/powerful
+sequence/play/single/powerful
+sequence/random/randomly
 sequence/specials/other

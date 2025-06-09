@@ -1,6 +1,6 @@
 {table}
 
-{demo}{sequence 15, gnomonic}
+{demo}{sequence gnomonic}
   {$sequence}
 {/sequence}{/demo}
 

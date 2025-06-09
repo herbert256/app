@@ -1,2 +1,0 @@
-sequence/basic/pronic
-sequence/specials/named

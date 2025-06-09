@@ -1,2 +1,0 @@
-sequence/basic/newmanConway
-sequence/specials/named

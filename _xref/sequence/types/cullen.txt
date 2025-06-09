@@ -1,2 +1,0 @@
-sequence/basic/cullen
-sequence/specials/named

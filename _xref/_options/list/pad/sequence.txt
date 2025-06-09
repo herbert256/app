@@ -1,2 +1,4 @@
 sequence/basic/list
-sequence/specials/loop_source
+sequence/play/double/list
+sequence/play/single/list
+sequence/random/randomly

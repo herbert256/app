@@ -17,7 +17,7 @@
     if ( $xref == '*') 
       return getXrefDir ( $type, $dir );
     
-    $directory = new DirectoryIterator ( "/pad/$dir" );
+    $directory = new DirectoryIterator ( $dir );
     $iterator  = new IteratorIterator  ( $directory );
 
     $items = [];
@@ -41,9 +41,9 @@
       $items [$item] ['dir']   = '';
       $items [$item] ['pages'] = '';
 
-      if     ( is_dir ( "/app/_xref/$xref/$item" ) )
+      if     ( is_dir ( APP . "_xref/$xref/$item" ) )
         $items [$item] ['dir'] = "$xref/$item";
-      elseif ( file_exists ( "/app/_xref/$xref/$item.txt" ) )
+      elseif ( file_exists ( APP . "_xref/$xref/$item.txt" ) )
         $items [$item] ['pages'] = "$xref/$item.txt";
 
     }
@@ -55,7 +55,10 @@
 
   function getXrefDir ( $type, $dir ) {
     
-    $base = "/app/_xref/";
+    $base = APP . "_xref/";
+
+    if ( ! file_exists ( "$base$dir" ) )
+      return [];
 
     $directory = new DirectoryIterator ( "$base$dir" );
     $iterator  = new IteratorIterator  ( $directory );

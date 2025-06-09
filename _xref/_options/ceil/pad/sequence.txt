@@ -1,3 +1,5 @@
 sequence/basic/ceil
-sequence/operation/double/ceil
-sequence/operation/single/ceil
+sequence/keepRemoveFlag/ceil
+sequence/play/double/ceil
+sequence/play/single/ceil
+sequence/random/randomly

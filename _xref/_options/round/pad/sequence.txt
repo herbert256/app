@@ -1,3 +1,5 @@
 sequence/basic/round
-sequence/operation/double/round
-sequence/operation/single/round
+sequence/keepRemoveFlag/round
+sequence/play/double/round
+sequence/play/single/round
+sequence/random/randomly

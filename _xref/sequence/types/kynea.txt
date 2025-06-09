@@ -1,2 +1,0 @@
-sequence/basic/kynea
-sequence/specials/named

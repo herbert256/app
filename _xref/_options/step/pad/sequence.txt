@@ -1,4 +1,6 @@
 sequence/basic/step
-sequence/operation/double/step
-sequence/operation/single/step
-sequence/specials/step_multiple
+sequence/keepRemoveFlag/step
+sequence/play/double/step
+sequence/play/single/step
+sequence/random/randomly
+sequence/specials/basic

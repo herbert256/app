@@ -1,4 +1,4 @@
 sequence/basic/caterer
-sequence/keepRemove/caterer
-sequence/operation/single/caterer
+sequence/play/single/caterer
+sequence/random/randomly
 sequence/specials/named

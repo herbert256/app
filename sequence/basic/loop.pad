@@ -1,6 +1,6 @@
 {table}
 
-{demo}{sequence 15, loop}
+{demo}{sequence loop=4}
   {$sequence}
 {/sequence}{/demo}
 

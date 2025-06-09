@@ -1,10 +1,6 @@
 {table}
 
-{demo}{sequence 15}
-  {$sequence}
-{/sequence}{/demo}
-
-{demo}{sequence 15, random, min=100, max=199}
+{demo}{sequence random, minimal=100, maximal=199}
   {$sequence}
 {/sequence}{/demo}
 

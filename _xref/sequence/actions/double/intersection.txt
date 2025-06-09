@@ -1,3 +1,6 @@
-sequence/actions/double/intersection
+sequence/if
 sequence/specials/double
 sequence/specials/intersection
+sequence/specials/negative
+xref/pages
+sequence/manual/actions

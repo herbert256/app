@@ -1,6 +1,6 @@
 {table}
 
-{demo}{sequence 15, fibonacci}
+{demo}{sequence fibonacci}
   {$sequence}
 {/sequence}{/demo}
 

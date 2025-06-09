@@ -1,4 +1,4 @@
 sequence/basic/lucky
-sequence/keepRemove/lucky
-sequence/operation/single/lucky
+sequence/play/single/lucky
+sequence/random/randomly
 sequence/specials/other

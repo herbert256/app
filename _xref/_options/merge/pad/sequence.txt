@@ -1,3 +1,1 @@
-sequence/actions/double/merge
-sequence/entry/actionDouble
 sequence/specials/double

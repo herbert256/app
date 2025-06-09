@@ -1,6 +1,6 @@
 {table}
 
-{demo}{sequence 15, emirp}
+{demo}{sequence emirp}
   {$sequence}
 {/sequence}{/demo}
 

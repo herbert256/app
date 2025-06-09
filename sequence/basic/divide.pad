@@ -1,10 +1,6 @@
 {table}
 
-{demo}{sequence 15}
-  {$sequence}
-{/sequence}{/demo}
-
-{demo}{sequence 15, divide=4}
+{demo}{sequence divide=4}
   {$sequence}
 {/sequence}{/demo}
 

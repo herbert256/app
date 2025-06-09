@@ -1,7 +1,7 @@
 <?php
 
-  trimFiles ( '/pad/' );
-  trimFiles ( '/app/' );
+  trimFiles ( PAD );
+  trimFiles ( APP );
 
   echo 'done';
 

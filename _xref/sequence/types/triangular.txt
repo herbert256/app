@@ -1,2 +1,0 @@
-sequence/basic/triangular
-sequence/specials/figurate

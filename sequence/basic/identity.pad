@@ -1,6 +1,6 @@
 {table}
 
-{demo}{sequence 15, identity}
+{demo}{sequence identity}
   {$sequence}
 {/sequence}{/demo}
 

@@ -1,2 +1,5 @@
-sequence/entry/actionDouble
-sequence/entry/actionSingle
+sequence/random/xxx
+sequence/regression/store
+sequence/regression/sum
+sequence/specials/shift
+xref/pages

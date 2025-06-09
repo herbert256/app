@@ -1,6 +1,6 @@
 {table}
 
-{demo}{sequence 15, enneadecagonal}
+{demo}{sequence enneadecagonal}
   {$sequence}
 {/sequence}{/demo}
 

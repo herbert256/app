@@ -7,8 +7,8 @@
   $page = $padParm ;
   $dir  = substr($page, 0, strrpos($page, '/')   );
 
-  $basePage = '/app/' . $page;
-  $baseDir  = '/app/' . $dir;
+  $basePage = APP . $page;
+  $baseDir  = APP . $dir;
 
   $html = padFileGetContents ("$basePage.pad");
 

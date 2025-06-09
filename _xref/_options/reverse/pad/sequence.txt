@@ -1,4 +1,1 @@
-sequence/actions/single/reverse
-sequence/actions/single/sort
-sequence/entry/actionSingle
-sequence/specials/random2
+sequence/random/randomize_vs_shuffle

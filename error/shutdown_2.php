@@ -1,5 +1,5 @@
 <?php
 
-  include "/app/_tags/error_shutdown.php";
+  include APP . "_tags/error_shutdown.php";
 
 ?>

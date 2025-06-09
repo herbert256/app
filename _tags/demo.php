@@ -6,7 +6,13 @@
 
     $padWalk[$pad] = 'end';
 
-    $padSourcex = padColorsString ( trim ( $padContent ) );
+    $p1 = padTagParm ('p1');
+    $p2 = padTagParm ('p2');
+
+    $padContent = trim ( $padContent );
+    $padContent = str_replace('@p1', $p1, $padContent);
+    $padContent = str_replace('@p2', $p2, $padContent);
+    $padSourcex = padColorsString ( $padContent );
 
     $padDemoCount [$padTableIdx]++;
 
@@ -24,15 +30,15 @@
 
   if ( $firstFileP ) {
     $firstFile = '<td style="vertical-align:top">';
-    if ( file_exists ( '/app/' . $firstFileP ) and ! is_dir ( '/app/' . $firstFileP ) ) 
-      $firstFile .= padColorsFile ( '/app/' . $firstFileP );
+    if ( file_exists ( APP . $firstFileP ) and ! is_dir ( APP . $firstFileP ) ) 
+      $firstFile .= padColorsFile ( APP . $firstFileP );
     $firstFile .= '</td>';
   }
 
   if ( $secondFileP ) {
     $secondFile = '<td style="vertical-align:top">';
-    if ( file_exists ( '/app/' . $secondFileP ) and ! is_dir ( '/app/' . $secondFileP ) ) 
-      $secondFile .= padColorsFile ( '/app/' . $secondFileP );
+    if ( file_exists ( APP . $secondFileP ) and ! is_dir ( APP . $secondFileP ) ) 
+      $secondFile .= padColorsFile ( APP . $secondFileP );
     $secondFile .= '</td>';
   }
 
