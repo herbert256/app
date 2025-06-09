@@ -1,6 +1,6 @@
 <?php
 
-  function padReqression ( $sequence=0 ) {
+  function padRegression ( $sequence=0 ) {
 
     set_time_limit ( 15 );
 

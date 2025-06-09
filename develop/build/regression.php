@@ -3,7 +3,7 @@
   deleteDir ( APP . '_regression' );
   deleteDir ( APP . '_xref'       );
 
-  padReqression ( 0 );
-  padReqression ( 1 );
+  padRegression ( 0 );
+  padRegression ( 1 );
 
 ?>

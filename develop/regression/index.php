@@ -1,7 +1,7 @@
 <?php
 
   if ( isset ( $regression ) )
-    padReqression ( 0 );
+    padRegression ( 0 );
 
   $title = "Regression test";
 

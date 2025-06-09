@@ -1,3 +1,2 @@
 sequence/manual/actions
 sequence/specials/trim
-develop/show/index
