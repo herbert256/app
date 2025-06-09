@@ -218,5 +218,3 @@ sequence/type/substract
 sequence/type/xnor
 sequence/type/xor
 xref/pages
-develop/show/index
-sequence/manual/sequences

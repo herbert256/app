@@ -1,6 +1,7 @@
 sequence/if
+sequence/manual/actions
 sequence/specials/double
 sequence/specials/intersection
 sequence/specials/negative
 xref/pages
-sequence/manual/actions
+develop/show/index

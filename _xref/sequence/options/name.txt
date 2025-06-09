@@ -4,6 +4,7 @@ manual/table_fun
 tableFun/fun_5_b
 vars/at/3
 sequence/if
+sequence/manual/actions
 sequence/specials/arithmetic
 sequence/specials/dedup
 sequence/specials/double
@@ -16,4 +17,4 @@ sequence/specials/reduce
 sequence/specials/slice_splice
 sequence/specials/trim
 xref/pages
-sequence/manual/actions
+develop/show/index

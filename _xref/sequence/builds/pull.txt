@@ -78,6 +78,7 @@ sequence/keepRemoveFlag/tribonacci
 sequence/keepRemoveFlag/xnor
 sequence/keepRemoveFlag/xor
 sequence/keepRemoveFlag/xpadovan
+sequence/manual/actions
 sequence/manual/concepts/actions
 sequence/manual/concepts/stores
 sequence/play/double/add
@@ -133,7 +134,4 @@ sequence/specials/shift
 sequence/specials/slice_splice
 sequence/specials/trim
 xref/pages
-sequence/manual/index
-sequence/manual/actions
-sequence/manual/examples
 develop/show/index
