@@ -1,0 +1,79 @@
+<internal size="5818">
+  <join size="1128" type="table" />
+  <occurs>
+    <occur size="71" id="1" type="table" />
+    <occur size="71" id="2" type="table" />
+    <occur size="70" id="3" type="table" />
+    <occur size="70" id="4" type="table" />
+    <occur size="71" id="5" type="table" />
+    <occur size="71" id="6" type="table" />
+    <occur size="70" id="7" type="table" />
+    <occur size="70" id="8" type="table" />
+    <occur size="71" id="9" type="table" />
+    <occur size="71" id="10" type="table" />
+    <occur size="70" id="11" type="table" />
+    <occur size="70" id="12" type="table" />
+    <occur size="71" id="13" type="table" />
+    <occur size="71" id="14" type="table" />
+    <occur size="70" id="15" type="table" />
+    <occur size="70" id="16" type="table" />
+  </occurs>
+  <natural1 size="236" type="table" />
+  <occurs>
+    <occur size="118" id="1" type="table" />
+    <occur size="118" id="2" type="table" />
+  </occurs>
+  <inner size="236" type="table" />
+  <occurs>
+    <occur size="118" id="1" type="table" />
+    <occur size="118" id="2" type="table" />
+  </occurs>
+  <left size="442" type="table" />
+  <occurs>
+    <occur size="118" id="1" type="table" />
+    <occur size="118" id="2" type="table" />
+    <occur size="103" id="3" type="table" />
+    <occur size="103" id="4" type="table" />
+  </occurs>
+  <natural2 size="442" type="table" />
+  <occurs>
+    <occur size="118" id="1" type="table" />
+    <occur size="118" id="2" type="table" />
+    <occur size="103" id="3" type="table" />
+    <occur size="103" id="4" type="table" />
+  </occurs>
+  <right size="442" type="table" />
+  <occurs>
+    <occur size="118" id="1" type="table" />
+    <occur size="118" id="2" type="table" />
+    <occur size="103" id="3" type="table" />
+    <occur size="103" id="4" type="table" />
+  </occurs>
+  <natural3 size="442" type="table" />
+  <occurs>
+    <occur size="118" id="1" type="table" />
+    <occur size="118" id="2" type="table" />
+    <occur size="103" id="3" type="table" />
+    <occur size="103" id="4" type="table" />
+  </occurs>
+  <cross size="1904" type="table" />
+  <occurs>
+    <occur size="119" id="1" type="table" />
+    <occur size="119" id="2" type="table" />
+    <occur size="118" id="3" type="table" />
+    <occur size="118" id="4" type="table" />
+    <occur size="119" id="5" type="table" />
+    <occur size="119" id="6" type="table" />
+    <occur size="118" id="7" type="table" />
+    <occur size="118" id="8" type="table" />
+    <occur size="120" id="9" type="table" />
+    <occur size="120" id="10" type="table" />
+    <occur size="119" id="11" type="table" />
+    <occur size="119" id="12" type="table" />
+    <occur size="120" id="13" type="table" />
+    <occur size="120" id="14" type="table" />
+    <occur size="119" id="15" type="table" />
+    <occur size="119" id="16" type="table" />
+  </occurs>
+  <multi size="78" type="table" />
+</internal>

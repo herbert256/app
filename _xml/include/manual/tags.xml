@@ -1,0 +1,17 @@
+<internal size="316">
+  <tag size="24" parm="'tags'" type="app" />
+  <tag size="23" parm="'tag'" type="app" />
+  <tag size="23" parm="'tag'" type="app" />
+  <tag size="24" type="app">
+    <parms>
+      <parm type="opt" name="1" value="tag" />
+      <parm type="prm" name="close" value="1" />
+    </parms>
+  </tag>
+  <tag size="24" type="app">
+    <parms>
+      <parm type="opt" name="1" value="tag" />
+      <parm type="prm" name="single" value="1" />
+    </parms>
+  </tag>
+</internal>

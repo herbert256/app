@@ -1,0 +1,33 @@
+<internal size="35031">
+  <source size="194" type="app" />
+  <source size="199" type="app" />
+  <page size="6323" parm="'properties/doc1'" />
+  <source size="124" type="app" />
+  <source size="233" type="app" />
+  <page size="7623" parm="'properties/doc2'" />
+  <page size="7221" parm="'properties/doc3'" />
+  <page size="10806" parm="'properties/doc4'" />
+  <fragment size="1765" parm="'properties/_lib/lib'" type="app">
+    <example size="1710" type="app">
+      <parms>
+        <parm type="opt" name="1" value="properties/_lib/lib" />
+        <parm type="prm" name="skipHeader" value="1" />
+        <parm type="prm" name="skipResult" value="1" />
+        <parm type="prm" name="skipPhp" value="1" />
+      </parms>
+      <if parm="#center" />
+      <if parm="#withTitle" />
+      <if size="1703" parm="#onlyResult or $exampleOnlyResult">
+        <if size="60" parm="! #skipOpen" />
+        <case size="1613" parm="$exampleLayout">
+          <if parm="! #skipHeader" />
+          <if parm="! #skipPhp" />
+          <if size="1548" parm="! #skipPad" />
+          <if parm="! #skipResult" />
+        </case>
+        <if size="16" parm="! #skipClose" />
+      </if>
+      <if parm="#center" />
+    </example>
+  </fragment>
+</internal>

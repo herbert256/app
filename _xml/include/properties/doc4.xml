@@ -1,0 +1,87 @@
+<internal size="10806">
+  <content parm="'myContent1'" />
+  <content parm="'myContent2'" />
+  <table size="10804" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="2769" type="app">
+      <myContent2 size="1303" type="content">
+        <staff size="1049" type="local" />
+        <occurs>
+          <occur size="209" id="1" type="local" />
+          <occur size="209" id="2" type="local" />
+          <occur size="210" id="3" type="local" />
+          <occur size="210" id="4" type="local" />
+          <occur size="211" id="5" type="local" />
+        </occurs>
+      </myContent2>
+    </demo>
+    <demo size="3893" type="app">
+      <myContent2 size="1518" type="content">
+        <staff size="1264" type="local">
+          <occurs>
+            <occur size="252" id="1" type="local">
+              <true size="244">
+                <true size="232" />
+              </true>
+            </occur>
+            <occur size="252" id="2" type="local">
+              <true size="244">
+                <true size="232" />
+              </true>
+            </occur>
+            <occur size="253" id="3" type="local">
+              <true size="245">
+                <true size="233" />
+              </true>
+            </occur>
+            <occur size="253" id="4" type="local">
+              <true size="245">
+                <true size="233" />
+              </true>
+            </occur>
+            <occur size="254" id="5" type="local">
+              <true size="246">
+                <true size="234" />
+              </true>
+            </occur>
+          </occurs>
+        </staff>
+      </myContent2>
+    </demo>
+    <demo size="3941" type="app">
+      <myContent2 size="1543" type="content">
+        <staff size="1289" type="local">
+          <occurs>
+            <occur size="257" id="1" type="local">
+              <true size="249">
+                <true size="237" />
+              </true>
+            </occur>
+            <occur size="257" id="2" type="local">
+              <true size="249">
+                <true size="237" />
+              </true>
+            </occur>
+            <occur size="258" id="3" type="local">
+              <true size="250">
+                <true size="238" />
+              </true>
+            </occur>
+            <occur size="258" id="4" type="local">
+              <true size="250">
+                <true size="238" />
+              </true>
+            </occur>
+            <occur size="259" id="5" type="local">
+              <true size="251">
+                <true size="239" />
+              </true>
+            </occur>
+          </occurs>
+        </staff>
+      </myContent2>
+    </demo>
+  </table>
+</internal>

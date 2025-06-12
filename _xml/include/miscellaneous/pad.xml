@@ -1,0 +1,38 @@
+<internal size="3362">
+  <table size="940" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="743" type="app">
+      <pad size="57" parm="$myColor='red'" />
+    </demo>
+  </table>
+  <block size="337" type="content">
+    <manual size="54" parm="'the_content_tag'" type="app" />
+    <manual size="48" parm="'the_data_tag'" type="app" />
+  </block>
+  <table size="2081" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="528" type="app">
+      <data parm="'myData'" />
+    </demo>
+    <demo size="668" type="app">
+      <content parm="'myContent'" />
+    </demo>
+    <demo size="688" type="app">
+      <pad size="171">
+        <parms>
+          <parm type="prm" name="data" value="myData" />
+          <parm type="prm" name="content" value="myContent" />
+        </parms>
+        <occurs>
+          <occur size="56" id="1" type="pad" />
+          <occur size="58" id="2" type="pad" />
+          <occur size="57" id="3" type="pad" />
+        </occurs>
+      </pad>
+    </demo>
+  </table>
+</internal>

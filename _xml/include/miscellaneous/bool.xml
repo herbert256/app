@@ -1,0 +1,6 @@
+<internal size="76">
+  <bool parm="'abc'" />
+  <bool parm="'xyz'" />
+  <abc size="6" type="bool" />
+  <xyz size="7" type="bool" />
+</internal>

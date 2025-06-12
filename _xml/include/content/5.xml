@@ -1,0 +1,58 @@
+<internal size="5854">
+  <table size="5854" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="668" type="app">
+      <content parm="'myContent'" />
+    </demo>
+    <demo size="806" type="app">
+      <true size="34">
+        <parms>
+          <parm type="prm" name="content" value="myContent" />
+          <parm type="prm" name="merge" value="replace" />
+        </parms>
+      </true>
+    </demo>
+    <demo size="840" type="app">
+      <true size="72">
+        <parms>
+          <parm type="prm" name="content" value="myContent" />
+          <parm type="prm" name="merge" value="top" />
+        </parms>
+      </true>
+    </demo>
+    <demo size="843" type="app">
+      <true size="72">
+        <parms>
+          <parm type="prm" name="content" value="myContent" />
+          <parm type="prm" name="merge" value="bottom" />
+        </parms>
+      </true>
+    </demo>
+    <demo size="809" type="app">
+      <false size="35">
+        <parms>
+          <parm type="prm" name="content" value="myContent" />
+          <parm type="prm" name="merge" value="replace" />
+        </parms>
+      </false>
+    </demo>
+    <demo size="844" type="app">
+      <false size="74">
+        <parms>
+          <parm type="prm" name="content" value="myContent" />
+          <parm type="prm" name="merge" value="top" />
+        </parms>
+      </false>
+    </demo>
+    <demo size="847" type="app">
+      <false size="74">
+        <parms>
+          <parm type="prm" name="content" value="myContent" />
+          <parm type="prm" name="merge" value="bottom" />
+        </parms>
+      </false>
+    </demo>
+  </table>
+</internal>

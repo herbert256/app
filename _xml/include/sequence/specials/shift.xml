@@ -1,0 +1,134 @@
+<internal size="6586">
+  <table size="6586" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="717" type="app">
+      <sequence size="8">
+        <parms>
+          <parm type="opt" name="1" value="11..40" />
+          <parm type="prm" name="action" value="shift|2" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="pad" />
+          <occur size="4" id="2" type="pad" />
+        </occurs>
+      </sequence>
+    </demo>
+    <demo size="520" type="app">
+      <sequence>
+        <parms>
+          <parm type="opt" name="1" value="11..40" />
+          <parm type="prm" name="push" value="mySequence" />
+        </parms>
+        <occurs>
+          <occur id="1" type="pad" />
+          <occur id="2" type="pad" />
+          <occur id="3" type="pad" />
+          <occur id="4" type="pad" />
+          <occur id="5" type="pad" />
+          <occur id="6" type="pad" />
+          <occur id="7" type="pad" />
+          <occur id="8" type="pad" />
+          <occur id="9" type="pad" />
+          <occur id="10" type="pad" />
+          <occur id="11" type="pad" />
+          <occur id="12" type="pad" />
+          <occur id="13" type="pad" />
+          <occur id="14" type="pad" />
+          <occur id="15" type="pad" />
+          <occur id="16" type="pad" />
+          <occur id="17" type="pad" />
+          <occur id="18" type="pad" />
+          <occur id="19" type="pad" />
+          <occur id="20" type="pad" />
+          <occur id="21" type="pad" />
+          <occur id="22" type="pad" />
+          <occur id="23" type="pad" />
+          <occur id="24" type="pad" />
+          <occur id="25" type="pad" />
+          <occur id="26" type="pad" />
+          <occur id="27" type="pad" />
+          <occur id="28" type="pad" />
+          <occur id="29" type="pad" />
+        </occurs>
+      </sequence>
+    </demo>
+    <demo size="638" type="app">
+      <mySequence size="8" parm="action='shift|2'" type="pull" />
+      <occurs>
+        <occur size="4" id="1" type="pull" />
+        <occur size="4" id="2" type="pull" />
+      </occurs>
+    </demo>
+    <demo size="575" type="app">
+      <action size="8">
+        <parms>
+          <parm type="prm" name="shift" value="2" />
+          <parm type="prm" name="mySequence" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="pad" />
+          <occur size="4" id="2" type="pad" />
+        </occurs>
+      </action>
+    </demo>
+    <demo size="575" type="app">
+      <action size="8">
+        <parms>
+          <parm type="prm" name="mySequence" value="1" />
+          <parm type="prm" name="shift" value="2" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="pad" />
+          <occur size="4" id="2" type="pad" />
+        </occurs>
+      </action>
+    </demo>
+    <demo size="687" type="app">
+      <shift size="8" parm="2" type="action" />
+      <occurs>
+        <occur size="4" id="1" type="action" />
+        <occur size="4" id="2" type="action" />
+      </occurs>
+    </demo>
+    <demo size="708" type="app">
+      <shift size="8" type="action">
+        <parms>
+          <parm type="opt" name="1" value="2" />
+          <parm type="prm" name="mySequence" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="action" />
+          <occur size="4" id="2" type="action" />
+        </occurs>
+      </shift>
+    </demo>
+    <demo size="577" type="app">
+      <shift size="8" type="action">
+        <parms>
+          <parm type="opt" name="1" value="2" />
+          <parm type="prm" name="mySequence" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="action" />
+          <occur size="4" id="2" type="action" />
+        </occurs>
+      </shift>
+    </demo>
+    <demo size="687" type="app">
+      <mySequence size="8" parm="2" type="action" />
+      <occurs>
+        <occur size="4" id="1" type="action" />
+        <occur size="4" id="2" type="action" />
+      </occurs>
+    </demo>
+    <demo size="685" type="app">
+      <mySequence size="8" parm="shift=2" type="action" />
+      <occurs>
+        <occur size="4" id="1" type="action" />
+        <occur size="4" id="2" type="action" />
+      </occurs>
+    </demo>
+  </table>
+</internal>

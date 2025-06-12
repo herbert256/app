@@ -1,0 +1,81 @@
+<internal size="5543">
+  <menu size="618" type="content">
+    <lineOpen size="169" type="content" />
+    <if size="35" parm="$padPage == 'index'" />
+    <if size="38" parm="$padPage == 'manual/index'" />
+    <if size="39" parm="$padPage == 'xref/index'" />
+    <if size="24" parm="str_starts_with ( $padPage, 'sequence/manual/' )" />
+    <if size="40" parm="$padPage == 'develop/develop'" />
+    <parts type="php" />
+    <lineClose size="125" type="content" />
+  </menu>
+  <block size="3839" type="content">
+    <showTitle size="41" type="field" />
+    <menuSeq size="596" type="content">
+      <nows size="596" type="array">
+        <occurs>
+          <occur size="44" id="1" type="array">
+            <if size="27" parm="$go eq $now" />
+          </occur>
+          <occur size="96" id="2" type="array">
+            <if size="79" parm="$go eq $now" />
+          </occur>
+          <occur size="90" id="3" type="array">
+            <if size="73" parm="$go eq $now" />
+          </occur>
+          <occur size="93" id="4" type="array">
+            <if size="76" parm="$go eq $now" />
+          </occur>
+          <occur size="81" id="5" type="array">
+            <if size="64" parm="$go eq $now" />
+          </occur>
+          <occur size="99" id="6" type="array">
+            <if size="82" parm="$go eq $now" />
+          </occur>
+          <occur size="93" id="7" type="array">
+            <if size="76" parm="$go eq $now" />
+          </occur>
+        </occurs>
+      </nows>
+    </menuSeq>
+    <block size="569" type="content">
+      <concepts size="410" type="array">
+        <occurs>
+          <occur size="54" id="1" type="array">
+            <if size="33" parm="&amp;concepts:key NE $concept" />
+          </occur>
+          <occur size="88" id="2" type="array">
+            <if size="67" parm="&amp;concepts:key NE $concept" />
+          </occur>
+          <occur size="90" id="3" type="array">
+            <if size="69" parm="&amp;concepts:key NE $concept" />
+          </occur>
+          <occur size="86" id="4" type="array">
+            <if size="65" parm="&amp;concepts:key NE $concept" />
+          </occur>
+          <occur size="92" id="5" type="array">
+            <if size="71" parm="&amp;concepts:key NE $concept" />
+          </occur>
+        </occurs>
+      </concepts>
+    </block>
+    <block size="2316" type="content">
+      <page size="2157">
+        <parms>
+          <parm type="opt" name="1" value="sequence/manual/concepts/sequences" />
+          <parm type="prm" name="include" value="1" />
+        </parms>
+      </page>
+    </block>
+  </block>
+  <menu size="618" type="content">
+    <lineOpen size="169" type="content" />
+    <if size="35" parm="$padPage == 'index'" />
+    <if size="38" parm="$padPage == 'manual/index'" />
+    <if size="39" parm="$padPage == 'xref/index'" />
+    <if size="24" parm="str_starts_with ( $padPage, 'sequence/manual/' )" />
+    <if size="40" parm="$padPage == 'develop/develop'" />
+    <parts type="array" />
+    <lineClose size="125" type="content" />
+  </menu>
+</internal>

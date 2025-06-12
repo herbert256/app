@@ -1,0 +1,46 @@
+<internal size="2364">
+  <content parm="'myTable'" />
+  <table size="2364" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="2163" type="app">
+      <myTable size="682" type="content">
+        <sequence size="519" parm="'1..5'">
+          <occurs>
+            <occur size="106" id="1" type="pad">
+              <first size="4" type="tag" />
+              <middle type="tag" />
+              <last type="tag" />
+              <border size="3" type="tag" />
+            </occur>
+            <occur size="102" id="2" type="pad">
+              <first type="tag" />
+              <middle size="3" type="tag" />
+              <last type="tag" />
+              <border type="tag" />
+            </occur>
+            <occur size="102" id="3" type="pad">
+              <first type="tag" />
+              <middle size="3" type="tag" />
+              <last type="tag" />
+              <border type="tag" />
+            </occur>
+            <occur size="102" id="4" type="pad">
+              <first type="tag" />
+              <middle size="3" type="tag" />
+              <last type="tag" />
+              <border type="tag" />
+            </occur>
+            <occur size="107" id="5" type="pad">
+              <first type="tag" />
+              <middle type="tag" />
+              <last size="5" type="tag" />
+              <border size="3" type="tag" />
+            </occur>
+          </occurs>
+        </sequence>
+      </myTable>
+    </demo>
+  </table>
+</internal>

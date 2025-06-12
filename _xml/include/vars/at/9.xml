@@ -1,0 +1,14 @@
+<internal size="102">
+  <country.id size="102" type="array">
+    <border size="58" type="level">
+      <occurs>
+        <occur size="29" id="1" type="level">
+          <country.id size="7" type="field" />
+        </occur>
+        <occur size="29" id="2" type="level">
+          <country.id size="7" type="field" />
+        </occur>
+      </occurs>
+    </border>
+  </country.id>
+</internal>

@@ -1,0 +1,34 @@
+<internal size="1355">
+  <plays size="323" type="array" />
+  <occurs>
+    <occur size="105" id="1" type="array" />
+    <occur size="105" id="2" type="array" />
+    <occur size="113" id="3" type="array" />
+  </occurs>
+  <block size="155" type="content" />
+  <table size="726" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="525" type="app">
+      <sequence>
+        <parms>
+          <parm type="prm" name="range" value="20..30" />
+          <parm type="prm" name="push" value="mySequence" />
+        </parms>
+        <occurs>
+          <occur id="1" type="pad" />
+          <occur id="2" type="pad" />
+          <occur id="3" type="pad" />
+          <occur id="4" type="pad" />
+          <occur id="5" type="pad" />
+          <occur id="6" type="pad" />
+          <occur id="7" type="pad" />
+          <occur id="8" type="pad" />
+          <occur id="9" type="pad" />
+          <occur id="10" type="pad" />
+        </occurs>
+      </sequence>
+    </demo>
+  </table>
+</internal>

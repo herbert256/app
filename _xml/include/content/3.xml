@@ -1,0 +1,24 @@
+<internal size="2788">
+  <table size="1393" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="659" type="app">
+      <content parm="'myContent'" />
+    </demo>
+    <demo size="537" type="app">
+      <myContent size="61" type="content" />
+    </demo>
+  </table>
+  <table size="1393" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="542" type="app">
+      <content parm="'myContent'" />
+    </demo>
+    <demo size="654" type="app">
+      <myContent size="61" type="content" />
+    </demo>
+  </table>
+</internal>

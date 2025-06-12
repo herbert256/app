@@ -1,0 +1,41 @@
+<internal size="9443">
+  <table size="9443" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="745" parm="pre" type="app">
+      <echo size="3" parm="50 * 4 * 2" />
+      <echo size="3" parm="50 | * 4 | * 2" />
+      <echo size="3" parm="50 | @ * 4 | @ * 2" />
+    </demo>
+    <demo size="1191" parm="pre" type="app">
+      <echo size="3" parm="50 | '&quot;' ." />
+      <echo size="3" parm="50 | . '&quot;'" />
+      <echo size="4" parm="50 | '&quot;' . @ . '&quot;'" />
+      <echo size="4" parm="50 | '&quot;' . $$ . '&quot;'" />
+    </demo>
+    <demo size="1149" parm="pre" type="app">
+      <echo size="2" parm="50 | '&quot;' . '&quot;'" />
+      <echo size="6" parm="50 | '&quot;' . . '&quot;'" />
+      <echo size="6" parm="50 | . @ ." />
+      <echo size="4" parm="50 | ." />
+      <echo size="6" parm="50 | . ." />
+    </demo>
+    <demo size="386" type="app">
+      <set parm="$abc = 50" />
+    </demo>
+    <demo size="1004" parm="pre" type="app" />
+    <demo size="443" type="app">
+      <set parm="$abc = 'abc'" />
+    </demo>
+    <demo size="1103" parm="pre" type="app" />
+    <demo size="460" type="app">
+      <set parm="$line = 'a &lt;test&gt; LiNe'" />
+    </demo>
+    <demo size="1063" parm="pre" type="app" />
+    <demo size="393" type="app">
+      <set parm="$nbr = 12345.678" />
+    </demo>
+    <demo size="1285" parm="pre" type="app" />
+  </table>
+</internal>

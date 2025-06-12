@@ -1,0 +1,38 @@
+<internal size="356">
+  <users size="326" type="array">
+    <occurs>
+      <occur size="80" id="1" type="array">
+        <switch size="4">
+          <parms>
+            <parm type="opt" name="1" value="pink" />
+            <parm type="opt" name="2" value="orange" />
+          </parms>
+        </switch>
+      </occur>
+      <occur size="82" id="2" type="array">
+        <switch size="6">
+          <parms>
+            <parm type="opt" name="1" value="pink" />
+            <parm type="opt" name="2" value="orange" />
+          </parms>
+        </switch>
+      </occur>
+      <occur size="80" id="3" type="array">
+        <switch size="4">
+          <parms>
+            <parm type="opt" name="1" value="pink" />
+            <parm type="opt" name="2" value="orange" />
+          </parms>
+        </switch>
+      </occur>
+      <occur size="84" id="4" type="array">
+        <switch size="6">
+          <parms>
+            <parm type="opt" name="1" value="pink" />
+            <parm type="opt" name="2" value="orange" />
+          </parms>
+        </switch>
+      </occur>
+    </occurs>
+  </users>
+</internal>

@@ -1,0 +1,167 @@
+<internal size="5945">
+  <table size="1545" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="659" type="app">
+      <sequence size="40">
+        <parms>
+          <parm type="opt" name="1" value="randomrows=25" />
+          <parm type="prm" name="minimal" value="10" />
+          <parm type="prm" name="maximal" value="50" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="pad" />
+          <occur size="4" id="2" type="pad" />
+          <occur size="4" id="3" type="pad" />
+          <occur size="4" id="4" type="pad" />
+          <occur size="4" id="5" type="pad" />
+          <occur size="4" id="6" type="pad" />
+          <occur size="4" id="7" type="pad" />
+          <occur size="4" id="8" type="pad" />
+          <occur size="4" id="9" type="pad" />
+          <occur size="4" id="10" type="pad" />
+        </occurs>
+      </sequence>
+    </demo>
+    <demo size="686" type="app">
+      <sequence size="40">
+        <parms>
+          <parm type="opt" name="1" value="randomrows=25" />
+          <parm type="prm" name="minimal" value="10" />
+          <parm type="prm" name="maximal" value="50" />
+          <parm type="prm" name="unique" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="pad" />
+          <occur size="4" id="2" type="pad" />
+          <occur size="4" id="3" type="pad" />
+          <occur size="4" id="4" type="pad" />
+          <occur size="4" id="5" type="pad" />
+          <occur size="4" id="6" type="pad" />
+          <occur size="4" id="7" type="pad" />
+          <occur size="4" id="8" type="pad" />
+          <occur size="4" id="9" type="pad" />
+          <occur size="4" id="10" type="pad" />
+        </occurs>
+      </sequence>
+    </demo>
+  </table>
+  <table size="1607" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="718" type="app">
+      <sequence size="51">
+        <parms>
+          <parm type="prm" name="power" value="2" />
+          <parm type="prm" name="rows" value="10" />
+          <parm type="prm" name="randomly" value="1" />
+          <parm type="prm" name="from" value="8" />
+          <parm type="prm" name="to" value="16" />
+        </parms>
+        <occurs>
+          <occur size="5" id="1" type="pad" />
+          <occur size="5" id="2" type="pad" />
+          <occur size="7" id="3" type="pad" />
+          <occur size="5" id="4" type="pad" />
+          <occur size="5" id="5" type="pad" />
+          <occur size="7" id="6" type="pad" />
+          <occur size="5" id="7" type="pad" />
+          <occur size="6" id="8" type="pad" />
+          <occur size="6" id="9" type="pad" />
+        </occurs>
+      </sequence>
+    </demo>
+    <demo size="689" type="app">
+      <sequence size="49">
+        <parms>
+          <parm type="prm" name="prime" value="1" />
+          <parm type="prm" name="rows" value="10" />
+          <parm type="prm" name="randomly" value="1" />
+          <parm type="prm" name="to" value="1000" />
+        </parms>
+        <occurs>
+          <occur size="5" id="1" type="pad" />
+          <occur size="5" id="2" type="pad" />
+          <occur size="5" id="3" type="pad" />
+          <occur size="5" id="4" type="pad" />
+          <occur size="5" id="5" type="pad" />
+          <occur size="5" id="6" type="pad" />
+          <occur size="5" id="7" type="pad" />
+          <occur size="4" id="8" type="pad" />
+          <occur size="5" id="9" type="pad" />
+          <occur size="5" id="10" type="pad" />
+        </occurs>
+      </sequence>
+    </demo>
+  </table>
+  <table size="2493" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="493" type="app">
+      <sequence>
+        <parms>
+          <parm type="prm" name="from" value="10" />
+          <parm type="prm" name="to" value="20" />
+          <parm type="prm" name="push" value="mySeq" />
+        </parms>
+        <occurs>
+          <occur id="1" type="pad" />
+          <occur id="2" type="pad" />
+          <occur id="3" type="pad" />
+          <occur id="4" type="pad" />
+          <occur id="5" type="pad" />
+          <occur id="6" type="pad" />
+          <occur id="7" type="pad" />
+          <occur id="8" type="pad" />
+          <occur id="9" type="pad" />
+          <occur id="10" type="pad" />
+        </occurs>
+      </sequence>
+    </demo>
+    <demo size="687" type="app">
+      <mySeq size="176" type="pull" />
+      <occurs>
+        <occur size="16" id="1" type="pull" />
+        <occur size="16" id="2" type="pull" />
+        <occur size="16" id="3" type="pull" />
+        <occur size="16" id="4" type="pull" />
+        <occur size="16" id="5" type="pull" />
+        <occur size="16" id="6" type="pull" />
+        <occur size="16" id="7" type="pull" />
+        <occur size="16" id="8" type="pull" />
+        <occur size="16" id="9" type="pull" />
+        <occur size="16" id="10" type="pull" />
+        <occur size="16" id="11" type="pull" />
+      </occurs>
+    </demo>
+    <demo size="567" type="app">
+      <mySeq size="44" parm="randomize" type="pull" />
+      <occurs>
+        <occur size="4" id="1" type="pull" />
+        <occur size="4" id="2" type="pull" />
+        <occur size="4" id="3" type="pull" />
+        <occur size="4" id="4" type="pull" />
+        <occur size="4" id="5" type="pull" />
+        <occur size="4" id="6" type="pull" />
+        <occur size="4" id="7" type="pull" />
+        <occur size="4" id="8" type="pull" />
+        <occur size="4" id="9" type="pull" />
+        <occur size="4" id="10" type="pull" />
+        <occur size="4" id="11" type="pull" />
+      </occurs>
+    </demo>
+    <demo size="543" type="app">
+      <mySeq size="20" parm="randomize=5" type="pull" />
+      <occurs>
+        <occur size="4" id="1" type="pull" />
+        <occur size="4" id="2" type="pull" />
+        <occur size="4" id="3" type="pull" />
+        <occur size="4" id="4" type="pull" />
+        <occur size="4" id="5" type="pull" />
+      </occurs>
+    </demo>
+  </table>
+</internal>

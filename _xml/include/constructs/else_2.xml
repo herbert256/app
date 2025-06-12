@@ -1,0 +1,24 @@
+<internal size="2585">
+  <table size="2585" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="510" type="app">
+      <data parm="'myArray1'" />
+    </demo>
+    <demo size="702" type="app">
+      <myArray1 size="60" type="data" />
+      <occurs>
+        <occur size="20" id="1" type="data" />
+        <occur size="20" id="2" type="data" />
+        <occur size="20" id="3" type="data" />
+      </occurs>
+    </demo>
+    <demo size="505" type="app">
+      <data parm="'myArray2'" />
+    </demo>
+    <demo size="671" type="app">
+      <myArray2 size="23" type="data" />
+    </demo>
+  </table>
+</internal>

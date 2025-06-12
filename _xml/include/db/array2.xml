@@ -1,0 +1,10 @@
+<internal size="447">
+  <array size="266" parm="&quot;name&amp;comma; phone from staff where phone like '%4%'&quot;" />
+  <occurs>
+    <occur size="66" id="1" type="pad" />
+    <occur size="66" id="2" type="pad" />
+    <occur size="66" id="3" type="pad" />
+    <occur size="68" id="4" type="pad" />
+  </occurs>
+  <array size="66" parm="&quot;* from staff where name like '%x%'&quot;" />
+</internal>

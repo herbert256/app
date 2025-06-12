@@ -1,0 +1,100 @@
+<internal size="792">
+  <content parm="'cell'" />
+  <rows size="762" type="array">
+    <occurs>
+      <occur size="249" id="1" type="array">
+        <cols size="220" type="level">
+          <occurs>
+            <occur size="44" id="1" type="level">
+              <cell size="26" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+            </occur>
+            <occur size="44" id="2" type="level">
+              <cell size="26" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+            </occur>
+            <occur size="44" id="3" type="level">
+              <cell size="26" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+            </occur>
+            <occur size="44" id="4" type="level">
+              <cell size="26" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+            </occur>
+            <occur size="44" id="5" type="level">
+              <cell size="26" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+            </occur>
+          </occurs>
+        </cols>
+      </occur>
+      <occur size="264" id="2" type="array">
+        <cols size="235" type="level">
+          <occurs>
+            <occur size="44" id="1" type="level">
+              <cell size="26" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+            </occur>
+            <occur size="44" id="2" type="level">
+              <cell size="26" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+            </occur>
+            <occur size="59" id="3" type="level">
+              <cell size="41" type="content">
+                <if size="15" parm="$cell EQ 23" />
+              </cell>
+            </occur>
+            <occur size="44" id="4" type="level">
+              <cell size="26" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+            </occur>
+            <occur size="44" id="5" type="level">
+              <cell size="26" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+            </occur>
+          </occurs>
+        </cols>
+      </occur>
+      <occur size="249" id="3" type="array">
+        <cols size="220" type="level">
+          <occurs>
+            <occur size="44" id="1" type="level">
+              <cell size="26" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+            </occur>
+            <occur size="44" id="2" type="level">
+              <cell size="26" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+            </occur>
+            <occur size="44" id="3" type="level">
+              <cell size="26" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+            </occur>
+            <occur size="44" id="4" type="level">
+              <cell size="26" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+            </occur>
+            <occur size="44" id="5" type="level">
+              <cell size="26" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+            </occur>
+          </occurs>
+        </cols>
+      </occur>
+    </occurs>
+  </rows>
+</internal>

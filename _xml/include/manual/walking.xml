@@ -1,0 +1,39 @@
+<internal size="10364">
+  <block size="459" type="content">
+    <tag size="28" parm="'sequence'" type="app" />
+  </block>
+  <page size="2364" parm="'walk/1'" />
+  <block size="633" type="content">
+    <tag size="25" parm="'while'" type="app" />
+    <tag size="25" parm="'until'" type="app" />
+    <tag size="24" parm="'last'" type="app" />
+    <tag size="26" parm="'border'" type="app" />
+    <tag size="23" parm="'tag'" type="app" />
+  </block>
+  <page size="2629" parm="'walk/2'" />
+  <block size="272" type="content" />
+  <page size="3076" parm="'walk/3'" />
+  <fragment size="919" parm="'walk/_lib/lib'" type="app">
+    <example size="864" type="app">
+      <parms>
+        <parm type="opt" name="1" value="walk/_lib/lib" />
+        <parm type="prm" name="skipHeader" value="1" />
+        <parm type="prm" name="skipResult" value="1" />
+        <parm type="prm" name="skipPhp" value="1" />
+      </parms>
+      <if parm="#center" />
+      <if parm="#withTitle" />
+      <if size="857" parm="#onlyResult or $exampleOnlyResult">
+        <if size="60" parm="! #skipOpen" />
+        <case size="767" parm="$exampleLayout">
+          <if parm="! #skipHeader" />
+          <if parm="! #skipPhp" />
+          <if size="702" parm="! #skipPad" />
+          <if parm="! #skipResult" />
+        </case>
+        <if size="16" parm="! #skipClose" />
+      </if>
+      <if parm="#center" />
+    </example>
+  </fragment>
+</internal>

@@ -17,7 +17,7 @@
 
       $store  = APP . "_regression/$item.html";
       $check  = APP . "$item.pad";
-      $source = padFileGetContents($check);
+      $source = padFileGet($check);
 
       file_put_contents ( APP . "_regression.txt", $item ) ;
 
@@ -32,7 +32,7 @@
 
       if ( $status == 'go' ) {
 
-        $old  = padFileGetContents($store);
+        $old  = padFileGet($store);
         $curl = getPage ($item, 1, 1);
         $good = str_starts_with ( $curl ['result'], '2');
         $new  = $curl ['data'] ?? '';
@@ -164,7 +164,7 @@
       if ( str_contains ( $one ['path'], 'xref')        ) continue;
 
       if ( padFileContains ( $one ['path'], '{example') ) continue;
-      if ( padFileContains ( $one ['path'], '{page')     ) continue;
+      if ( padFileContains ( $one ['path'], '{page')    ) continue;
       if ( padFileContains ( $one ['path'], '{ajax')    ) continue;
 
       $list [] = $one;

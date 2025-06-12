@@ -1,0 +1,93 @@
+<internal size="4219">
+  <content parm="'myContent'" />
+  <pad size="698">
+    <parms>
+      <parm type="prm" name="data" value="departments/departments" />
+      <parm type="prm" name="content" value="myContent" />
+    </parms>
+    <occurs>
+      <occur size="158" id="1" type="pad" />
+      <occur size="101" id="2" type="pad" />
+      <occur size="106" id="3" type="pad" />
+      <occur size="107" id="4" type="pad" />
+      <occur size="106" id="5" type="pad" />
+      <occur size="106" id="6" type="pad" />
+      <occur size="14" id="7" type="pad" />
+    </occurs>
+  </pad>
+  <pad size="702">
+    <parms>
+      <parm type="prm" name="data" value="departments/departments.php" />
+      <parm type="prm" name="content" value="myContent" />
+    </parms>
+    <occurs>
+      <occur size="162" id="1" type="pad" />
+      <occur size="101" id="2" type="pad" />
+      <occur size="106" id="3" type="pad" />
+      <occur size="107" id="4" type="pad" />
+      <occur size="106" id="5" type="pad" />
+      <occur size="106" id="6" type="pad" />
+      <occur size="14" id="7" type="pad" />
+    </occurs>
+  </pad>
+  <pad size="702">
+    <parms>
+      <parm type="prm" name="data" value="departments/departments.csv" />
+      <parm type="prm" name="content" value="myContent" />
+    </parms>
+    <occurs>
+      <occur size="162" id="1" type="pad" />
+      <occur size="101" id="2" type="pad" />
+      <occur size="106" id="3" type="pad" />
+      <occur size="107" id="4" type="pad" />
+      <occur size="106" id="5" type="pad" />
+      <occur size="106" id="6" type="pad" />
+      <occur size="14" id="7" type="pad" />
+    </occurs>
+  </pad>
+  <pad size="702">
+    <parms>
+      <parm type="prm" name="data" value="departments/departments.xml" />
+      <parm type="prm" name="content" value="myContent" />
+    </parms>
+    <occurs>
+      <occur size="162" id="1" type="pad" />
+      <occur size="101" id="2" type="pad" />
+      <occur size="106" id="3" type="pad" />
+      <occur size="107" id="4" type="pad" />
+      <occur size="106" id="5" type="pad" />
+      <occur size="106" id="6" type="pad" />
+      <occur size="14" id="7" type="pad" />
+    </occurs>
+  </pad>
+  <pad size="705">
+    <parms>
+      <parm type="prm" name="data" value="departments/departments.json" />
+      <parm type="prm" name="content" value="myContent" />
+    </parms>
+    <occurs>
+      <occur size="163" id="1" type="pad" />
+      <occur size="101" id="2" type="pad" />
+      <occur size="106" id="3" type="pad" />
+      <occur size="107" id="4" type="pad" />
+      <occur size="106" id="5" type="pad" />
+      <occur size="108" id="6" type="pad" />
+      <occur size="14" id="7" type="pad" />
+    </occurs>
+  </pad>
+  <pad size="703">
+    <parms>
+      <parm type="prm" name="data" value="departments/departments.yaml" />
+      <parm type="prm" name="content" value="myContent" />
+    </parms>
+    <occurs>
+      <occur size="163" id="1" type="pad" />
+      <occur size="101" id="2" type="pad" />
+      <occur size="106" id="3" type="pad" />
+      <occur size="107" id="4" type="pad" />
+      <occur size="106" id="5" type="pad" />
+      <occur size="106" id="6" type="pad" />
+      <occur size="14" id="7" type="pad" />
+    </occurs>
+  </pad>
+</internal>

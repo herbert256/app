@@ -1,0 +1,9 @@
+<internal size="80">
+  <set parm="$abc=0" />
+  <page size="72">
+    <parms>
+      <parm type="opt" name="1" value="start/page/3/page1" />
+      <parm type="prm" name="reset" value="1" />
+    </parms>
+  </page>
+</internal>

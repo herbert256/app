@@ -1,0 +1,22 @@
+<internal size="784">
+  <table size="784" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="583" type="app">
+      <sequence size="50" parm="kolakoski" />
+      <occurs>
+        <occur size="5" id="1" type="pad" />
+        <occur size="5" id="2" type="pad" />
+        <occur size="5" id="3" type="pad" />
+        <occur size="5" id="4" type="pad" />
+        <occur size="5" id="5" type="pad" />
+        <occur size="5" id="6" type="pad" />
+        <occur size="5" id="7" type="pad" />
+        <occur size="5" id="8" type="pad" />
+        <occur size="5" id="9" type="pad" />
+        <occur size="5" id="10" type="pad" />
+      </occurs>
+    </demo>
+  </table>
+</internal>

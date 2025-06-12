@@ -1,0 +1,18 @@
+<internal size="829">
+  <table size="829" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="628" type="app">
+      <sequence size="31" parm="list='1;8;5;2;9;66'" />
+      <occurs>
+        <occur size="5" id="1" type="pad" />
+        <occur size="5" id="2" type="pad" />
+        <occur size="5" id="3" type="pad" />
+        <occur size="5" id="4" type="pad" />
+        <occur size="5" id="5" type="pad" />
+        <occur size="6" id="6" type="pad" />
+      </occurs>
+    </demo>
+  </table>
+</internal>

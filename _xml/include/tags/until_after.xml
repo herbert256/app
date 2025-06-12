@@ -1,0 +1,6 @@
+<internal size="10">
+  <set parm="$abc = 11" />
+  <until size="9" parm="$abc GT 10">
+    <set parm="$abc = $abc + 1" />
+  </until>
+</internal>

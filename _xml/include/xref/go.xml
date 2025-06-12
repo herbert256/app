@@ -1,0 +1,41 @@
+<internal size="1410">
+  <showPage size="1410" type="field">
+    <example size="1406" type="app">
+      <parms>
+        <parm type="opt" name="1" value="tags/if_1" />
+        <parm type="prm" name="type" value="ajax" />
+      </parms>
+      <if parm="#center" />
+      <if parm="#withTitle" />
+      <if size="1399" parm="#onlyResult or $exampleOnlyResult">
+        <if size="60" parm="! #skipOpen" />
+        <case size="1309" parm="$exampleLayout">
+          <if size="388" parm="! #skipHeader">
+            <if size="110" parm="! #skipPhp">
+              <if size="27" parm="! #skipNames" />
+            </if>
+            <if size="124" parm="! #skipPad">
+              <if size="40" parm="! #skipNames" />
+            </if>
+            <if size="85" parm="! #skipResult">
+              <if parm="#withLink" />
+              <if parm="#withLink" />
+            </if>
+          </if>
+          <if size="57" parm="! #skipPhp" />
+          <if size="692" parm="! #skipPad" />
+          <if size="107" parm="! #skipResult">
+            <page size="51">
+              <parms>
+                <parm type="opt" name="1" value="tags/if_1" />
+                <parm type="prm" name="sandbox" value="1" />
+              </parms>
+            </page>
+          </if>
+        </case>
+        <if size="16" parm="! #skipClose" />
+      </if>
+      <if parm="#center" />
+    </example>
+  </showPage>
+</internal>

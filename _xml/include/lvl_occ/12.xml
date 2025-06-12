@@ -1,0 +1,42 @@
+<internal size="524">
+  <data>
+    <parms>
+      <parm type="opt" name="1" value="myXml" />
+      <parm type="opt" name="2" value="level_demo.xml" />
+    </parms>
+  </data>
+  <myXml size="492" type="data">
+    <occurs>
+      <occur size="164" id="1" type="data">
+        <column size="135" type="level" />
+        <occurs>
+          <occur size="27" id="1" type="level" />
+          <occur size="27" id="2" type="level" />
+          <occur size="27" id="3" type="level" />
+          <occur size="27" id="4" type="level" />
+          <occur size="27" id="5" type="level" />
+        </occurs>
+      </occur>
+      <occur size="164" id="2" type="data">
+        <column size="135" type="level" />
+        <occurs>
+          <occur size="27" id="1" type="level" />
+          <occur size="27" id="2" type="level" />
+          <occur size="27" id="3" type="level" />
+          <occur size="27" id="4" type="level" />
+          <occur size="27" id="5" type="level" />
+        </occurs>
+      </occur>
+      <occur size="164" id="3" type="data">
+        <column size="135" type="level" />
+        <occurs>
+          <occur size="27" id="1" type="level" />
+          <occur size="27" id="2" type="level" />
+          <occur size="27" id="3" type="level" />
+          <occur size="27" id="4" type="level" />
+          <occur size="27" id="5" type="level" />
+        </occurs>
+      </occur>
+    </occurs>
+  </myXml>
+</internal>

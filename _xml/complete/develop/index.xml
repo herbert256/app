@@ -1,0 +1,26 @@
+<internal size="2445">
+  <menu size="650" type="content">
+    <lineOpen size="169" type="content" />
+    <if size="35" parm="$padPage == 'index'" />
+    <if size="38" parm="$padPage == 'manual/index'" />
+    <if size="39" parm="$padPage == 'xref/index'" />
+    <if size="56" parm="str_starts_with ( $padPage, 'sequence/manual/' )" />
+    <if size="40" parm="$padPage == 'develop/develop'" />
+    <parts type="php" />
+    <lineClose size="125" type="content" />
+  </menu>
+  <block size="702" type="content">
+    <showTitle size="16" type="field" />
+    <block size="477" type="content" />
+  </block>
+  <menu size="650" type="content">
+    <lineOpen size="169" type="content" />
+    <if size="35" parm="$padPage == 'index'" />
+    <if size="38" parm="$padPage == 'manual/index'" />
+    <if size="39" parm="$padPage == 'xref/index'" />
+    <if size="56" parm="str_starts_with ( $padPage, 'sequence/manual/' )" />
+    <if size="40" parm="$padPage == 'develop/develop'" />
+    <parts type="array" />
+    <lineClose size="125" type="content" />
+  </menu>
+</internal>

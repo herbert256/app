@@ -1,0 +1,19 @@
+<internal size="2424">
+  <table size="2424" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="504" type="app">
+      <data parm="'myArray'" />
+    </demo>
+    <demo size="527" type="app">
+      <content parm="'nothing'" />
+    </demo>
+    <demo size="633" type="app">
+      <myArray size="23" parm="else='nothing'" type="data" />
+    </demo>
+    <demo size="563" type="app">
+      <if size="23" parm="1 &gt; 2, else='nothing'" />
+    </demo>
+  </table>
+</internal>

@@ -1,0 +1,30 @@
+<internal size="6384">
+  <block size="1027" type="content">
+    <tag size="23" parm="'pad'" type="app" />
+    <tag size="23" parm="'pad'" type="app" />
+    <example size="491" type="app">
+      <parms>
+        <parm type="opt" name="1" value="miscellaneous/true" />
+        <parm type="prm" name="skipHeader" value="1" />
+        <parm type="prm" name="skipPad" value="1" />
+        <parm type="prm" name="skipResult" value="1" />
+      </parms>
+      <if parm="#center" />
+      <if parm="#withTitle" />
+      <if size="484" parm="#onlyResult or $exampleOnlyResult">
+        <if size="60" parm="! #skipOpen" />
+        <case size="394" parm="$exampleLayout">
+          <if parm="! #skipHeader" />
+          <if size="329" parm="! #skipPhp" />
+          <if parm="! #skipPad" />
+          <if parm="! #skipResult" />
+        </case>
+        <if size="16" parm="! #skipClose" />
+      </if>
+      <if parm="#center" />
+    </example>
+    <tag size="23" parm="'pad'" type="app" />
+  </block>
+  <page size="3362" parm="'miscellaneous/pad'" />
+  <page size="1991" parm="'manual/staff'" />
+</internal>

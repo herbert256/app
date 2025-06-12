@@ -1,0 +1,40 @@
+<internal size="8001">
+  <tag size="24" parm="'else'" type="app" />
+  <page size="1280" parm="'constructs/else_1'" />
+  <example size="1336" parm="'constructs/else_4'" type="app">
+    <if parm="#center" />
+    <if parm="#withTitle" />
+    <if size="1329" parm="#onlyResult or $exampleOnlyResult">
+      <if size="60" parm="! #skipOpen" />
+      <case size="1239" parm="$exampleLayout">
+        <if size="417" parm="! #skipHeader">
+          <if size="131" parm="! #skipPhp">
+            <if size="48" parm="! #skipNames" />
+          </if>
+          <if size="132" parm="! #skipPad">
+            <if size="48" parm="! #skipNames" />
+          </if>
+          <if size="85" parm="! #skipResult">
+            <if parm="#withLink" />
+            <if parm="#withLink" />
+          </if>
+        </if>
+        <if size="332" parm="! #skipPhp" />
+        <if size="360" parm="! #skipPad" />
+        <if size="65" parm="! #skipResult">
+          <page size="9">
+            <parms>
+              <parm type="opt" name="1" value="constructs/else_4" />
+              <parm type="prm" name="sandbox" value="1" />
+            </parms>
+          </page>
+        </if>
+      </case>
+      <if size="16" parm="! #skipClose" />
+    </if>
+    <if parm="#center" />
+  </example>
+  <at size="33" parm="'else'" type="app" />
+  <page size="2585" parm="'constructs/else_2'" />
+  <page size="2424" parm="'constructs/else_3'" />
+</internal>

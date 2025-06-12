@@ -13,7 +13,7 @@
     $item = $one ['item'];
 
     $store = APP . "_regression/$item.txt";
-    $status = padFileGetContents ($store);
+    $status = padFileGet ($store);
 
     if ( $status <> 'ok' )
       continue;

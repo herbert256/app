@@ -1,0 +1,8 @@
+<internal size="9982">
+  <block size="597" type="content">
+    <tag size="29" parm="'variables'" type="app" />
+    <tag size="27" parm="'options'" type="app" />
+    <tag size="30" parm="'parameters'" type="app" />
+  </block>
+  <page size="9383" parm="'miscellaneous/options_variables_parameters'" />
+</internal>

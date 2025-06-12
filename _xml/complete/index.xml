@@ -1,0 +1,64 @@
+<internal size="3979">
+  <menu size="634" type="content">
+    <lineOpen size="169" type="content" />
+    <if size="19" parm="$padPage == 'index'" />
+    <if size="38" parm="$padPage == 'manual/index'" />
+    <if size="39" parm="$padPage == 'xref/index'" />
+    <if size="56" parm="str_starts_with ( $padPage, 'sequence/manual/' )" />
+    <if size="40" parm="$padPage == 'develop/develop'" />
+    <parts type="php" />
+    <lineClose size="125" type="content" />
+  </menu>
+  <block size="2271" type="content">
+    <showTitle size="13" type="field" />
+    <block size="2049" type="content">
+      <example size="1115" type="app">
+        <parms>
+          <parm type="opt" name="1" value="hello/hello" />
+          <parm type="prm" name="skipNames" value="1" />
+        </parms>
+        <if parm="#center" />
+        <if parm="#withTitle" />
+        <if size="1108" parm="#onlyResult or $exampleOnlyResult">
+          <if size="60" parm="! #skipOpen" />
+          <case size="1018" parm="$exampleLayout">
+            <if size="321" parm="! #skipHeader">
+              <if size="83" parm="! #skipPhp">
+                <if parm="! #skipNames" />
+              </if>
+              <if size="84" parm="! #skipPad">
+                <if parm="! #skipNames" />
+              </if>
+              <if size="85" parm="! #skipResult">
+                <if parm="#withLink" />
+                <if parm="#withLink" />
+              </if>
+            </if>
+            <if size="341" parm="! #skipPhp" />
+            <if size="209" parm="! #skipPad" />
+            <if size="82" parm="! #skipResult">
+              <page size="26">
+                <parms>
+                  <parm type="opt" name="1" value="hello/hello" />
+                  <parm type="prm" name="sandbox" value="1" />
+                </parms>
+              </page>
+            </if>
+          </case>
+          <if size="16" parm="! #skipClose" />
+        </if>
+        <if parm="#center" />
+      </example>
+    </block>
+  </block>
+  <menu size="634" type="content">
+    <lineOpen size="169" type="content" />
+    <if size="19" parm="$padPage == 'index'" />
+    <if size="38" parm="$padPage == 'manual/index'" />
+    <if size="39" parm="$padPage == 'xref/index'" />
+    <if size="56" parm="str_starts_with ( $padPage, 'sequence/manual/' )" />
+    <if size="40" parm="$padPage == 'develop/develop'" />
+    <parts type="array" />
+    <lineClose size="125" type="content" />
+  </menu>
+</internal>

@@ -1,0 +1,9 @@
+<internal size="12">
+  <set parm="$abc=8" />
+  <page size="3">
+    <parms>
+      <parm type="opt" name="1" value="start/page/2/page9" />
+      <parm type="prm" name="sandbox" value="1" />
+    </parms>
+  </page>
+</internal>

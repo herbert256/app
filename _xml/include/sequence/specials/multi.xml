@@ -1,0 +1,46 @@
+<internal size="1613">
+  <table size="1613" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="519" type="app">
+      <sequence>
+        <parms>
+          <parm type="opt" name="1" value="1..10" />
+          <parm type="prm" name="push" value="mySequence" />
+        </parms>
+        <occurs>
+          <occur id="1" type="pad" />
+          <occur id="2" type="pad" />
+          <occur id="3" type="pad" />
+          <occur id="4" type="pad" />
+          <occur id="5" type="pad" />
+          <occur id="6" type="pad" />
+          <occur id="7" type="pad" />
+          <occur id="8" type="pad" />
+          <occur id="9" type="pad" />
+        </occurs>
+      </sequence>
+    </demo>
+    <demo size="894" type="app">
+      <add size="81" type="make">
+        <parms>
+          <parm type="opt" name="1" value="1000" />
+          <parm type="prm" name="add" value="10" />
+        </parms>
+        <occurs>
+          <occur size="8" id="1" type="make" />
+          <occur size="8" id="2" type="make" />
+          <occur size="8" id="3" type="make" />
+          <occur size="8" id="4" type="make" />
+          <occur size="8" id="5" type="make" />
+          <occur size="8" id="6" type="make" />
+          <occur size="8" id="7" type="make" />
+          <occur size="8" id="8" type="make" />
+          <occur size="8" id="9" type="make" />
+          <occur size="9" id="10" type="make" />
+        </occurs>
+      </add>
+    </demo>
+  </table>
+</internal>

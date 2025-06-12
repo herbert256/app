@@ -6,7 +6,7 @@
 
     $item   = $one ['item'];
     $store  = APP . "_regression/$item.txt";
-    $status = padFileGetContents ($store, 'todo' );
+    $status = padFileGet ($store, 'todo' );
 
     if ( $status == 'ok' and ! str_contains ($item, 'manual') )
       $list [$item] ['item'] = $item;

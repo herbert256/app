@@ -1,0 +1,2117 @@
+<internal size="69439">
+  <table size="3184" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="1264" type="app">
+      <myArray size="750" type="array" />
+      <occurs>
+        <occur size="25" id="1" type="array" />
+        <occur size="25" id="2" type="array" />
+        <occur size="25" id="3" type="array" />
+        <occur size="25" id="4" type="array" />
+        <occur size="25" id="5" type="array" />
+        <occur size="25" id="6" type="array" />
+        <occur size="25" id="7" type="array" />
+        <occur size="25" id="8" type="array" />
+        <occur size="25" id="9" type="array" />
+        <occur size="25" id="10" type="array" />
+        <occur size="25" id="11" type="array" />
+        <occur size="25" id="12" type="array" />
+        <occur size="25" id="13" type="array" />
+        <occur size="25" id="14" type="array" />
+        <occur size="25" id="15" type="array" />
+        <occur size="25" id="16" type="array" />
+        <occur size="25" id="17" type="array" />
+        <occur size="25" id="18" type="array" />
+        <occur size="25" id="19" type="array" />
+        <occur size="25" id="20" type="array" />
+        <occur size="25" id="21" type="array" />
+        <occur size="25" id="22" type="array" />
+        <occur size="25" id="23" type="array" />
+        <occur size="25" id="24" type="array" />
+        <occur size="25" id="25" type="array" />
+        <occur size="25" id="26" type="array" />
+        <occur size="25" id="27" type="array" />
+        <occur size="25" id="28" type="array" />
+        <occur size="25" id="29" type="array" />
+        <occur size="25" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="539" type="app">
+      <myArray size="4" parm="row = 10" type="array" />
+    </demo>
+    <demo size="575" type="app">
+      <myArray size="40" parm="rows = 10" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+      </occurs>
+    </demo>
+    <demo size="602" type="app">
+      <myArray size="40" type="array">
+        <parms>
+          <parm type="prm" name="rows" value="10" />
+          <parm type="prm" name="page" value="2" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+          <occur size="4" id="6" type="array" />
+          <occur size="4" id="7" type="array" />
+          <occur size="4" id="8" type="array" />
+          <occur size="4" id="9" type="array" />
+          <occur size="4" id="10" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+  </table>
+  <table size="3341" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="1294" type="app">
+      <myArray size="780" type="array" />
+      <occurs>
+        <occur size="26" id="1" type="array" />
+        <occur size="26" id="2" type="array" />
+        <occur size="26" id="3" type="array" />
+        <occur size="26" id="4" type="array" />
+        <occur size="26" id="5" type="array" />
+        <occur size="26" id="6" type="array" />
+        <occur size="26" id="7" type="array" />
+        <occur size="26" id="8" type="array" />
+        <occur size="26" id="9" type="array" />
+        <occur size="26" id="10" type="array" />
+        <occur size="26" id="11" type="array" />
+        <occur size="26" id="12" type="array" />
+        <occur size="26" id="13" type="array" />
+        <occur size="26" id="14" type="array" />
+        <occur size="26" id="15" type="array" />
+        <occur size="26" id="16" type="array" />
+        <occur size="26" id="17" type="array" />
+        <occur size="26" id="18" type="array" />
+        <occur size="26" id="19" type="array" />
+        <occur size="26" id="20" type="array" />
+        <occur size="26" id="21" type="array" />
+        <occur size="26" id="22" type="array" />
+        <occur size="26" id="23" type="array" />
+        <occur size="26" id="24" type="array" />
+        <occur size="26" id="25" type="array" />
+        <occur size="26" id="26" type="array" />
+        <occur size="26" id="27" type="array" />
+        <occur size="26" id="28" type="array" />
+        <occur size="26" id="29" type="array" />
+        <occur size="26" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="620" type="app">
+      <myArray size="84" parm="start = 10" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+        <occur size="4" id="11" type="array" />
+        <occur size="4" id="12" type="array" />
+        <occur size="4" id="13" type="array" />
+        <occur size="4" id="14" type="array" />
+        <occur size="4" id="15" type="array" />
+        <occur size="4" id="16" type="array" />
+        <occur size="4" id="17" type="array" />
+        <occur size="4" id="18" type="array" />
+        <occur size="4" id="19" type="array" />
+        <occur size="4" id="20" type="array" />
+        <occur size="4" id="21" type="array" />
+      </occurs>
+    </demo>
+    <demo size="616" type="app">
+      <myArray size="80" parm="end = 20" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+        <occur size="4" id="11" type="array" />
+        <occur size="4" id="12" type="array" />
+        <occur size="4" id="13" type="array" />
+        <occur size="4" id="14" type="array" />
+        <occur size="4" id="15" type="array" />
+        <occur size="4" id="16" type="array" />
+        <occur size="4" id="17" type="array" />
+        <occur size="4" id="18" type="array" />
+        <occur size="4" id="19" type="array" />
+        <occur size="4" id="20" type="array" />
+      </occurs>
+    </demo>
+    <demo size="607" type="app">
+      <myArray size="44" type="array">
+        <parms>
+          <parm type="prm" name="start" value="10" />
+          <parm type="prm" name="end" value="20" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+          <occur size="4" id="6" type="array" />
+          <occur size="4" id="7" type="array" />
+          <occur size="4" id="8" type="array" />
+          <occur size="4" id="9" type="array" />
+          <occur size="4" id="10" type="array" />
+          <occur size="4" id="11" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+  </table>
+  <table size="4005" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="1354" type="app">
+      <myArray size="840" type="array" />
+      <occurs>
+        <occur size="28" id="1" type="array" />
+        <occur size="28" id="2" type="array" />
+        <occur size="28" id="3" type="array" />
+        <occur size="28" id="4" type="array" />
+        <occur size="28" id="5" type="array" />
+        <occur size="28" id="6" type="array" />
+        <occur size="28" id="7" type="array" />
+        <occur size="28" id="8" type="array" />
+        <occur size="28" id="9" type="array" />
+        <occur size="28" id="10" type="array" />
+        <occur size="28" id="11" type="array" />
+        <occur size="28" id="12" type="array" />
+        <occur size="28" id="13" type="array" />
+        <occur size="28" id="14" type="array" />
+        <occur size="28" id="15" type="array" />
+        <occur size="28" id="16" type="array" />
+        <occur size="28" id="17" type="array" />
+        <occur size="28" id="18" type="array" />
+        <occur size="28" id="19" type="array" />
+        <occur size="28" id="20" type="array" />
+        <occur size="28" id="21" type="array" />
+        <occur size="28" id="22" type="array" />
+        <occur size="28" id="23" type="array" />
+        <occur size="28" id="24" type="array" />
+        <occur size="28" id="25" type="array" />
+        <occur size="28" id="26" type="array" />
+        <occur size="28" id="27" type="array" />
+        <occur size="28" id="28" type="array" />
+        <occur size="28" id="29" type="array" />
+        <occur size="28" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="618" type="app">
+      <myArray size="80" parm="start = -20" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+        <occur size="4" id="11" type="array" />
+        <occur size="4" id="12" type="array" />
+        <occur size="4" id="13" type="array" />
+        <occur size="4" id="14" type="array" />
+        <occur size="4" id="15" type="array" />
+        <occur size="4" id="16" type="array" />
+        <occur size="4" id="17" type="array" />
+        <occur size="4" id="18" type="array" />
+        <occur size="4" id="19" type="array" />
+        <occur size="4" id="20" type="array" />
+      </occurs>
+    </demo>
+    <demo size="618" type="app">
+      <myArray size="80" parm="end = -10" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+        <occur size="4" id="11" type="array" />
+        <occur size="4" id="12" type="array" />
+        <occur size="4" id="13" type="array" />
+        <occur size="4" id="14" type="array" />
+        <occur size="4" id="15" type="array" />
+        <occur size="4" id="16" type="array" />
+        <occur size="4" id="17" type="array" />
+        <occur size="4" id="18" type="array" />
+        <occur size="4" id="19" type="array" />
+        <occur size="4" id="20" type="array" />
+      </occurs>
+    </demo>
+    <demo size="605" type="app">
+      <myArray size="40" type="array">
+        <parms>
+          <parm type="prm" name="start" value="-20" />
+          <parm type="prm" name="end" value="20" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+          <occur size="4" id="6" type="array" />
+          <occur size="4" id="7" type="array" />
+          <occur size="4" id="8" type="array" />
+          <occur size="4" id="9" type="array" />
+          <occur size="4" id="10" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+    <demo size="605" type="app">
+      <myArray size="40" type="array">
+        <parms>
+          <parm type="prm" name="start" value="-20" />
+          <parm type="prm" name="end" value="-10" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+          <occur size="4" id="6" type="array" />
+          <occur size="4" id="7" type="array" />
+          <occur size="4" id="8" type="array" />
+          <occur size="4" id="9" type="array" />
+          <occur size="4" id="10" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+  </table>
+  <table size="3865" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="1324" type="app">
+      <myArray size="810" type="array" />
+      <occurs>
+        <occur size="27" id="1" type="array" />
+        <occur size="27" id="2" type="array" />
+        <occur size="27" id="3" type="array" />
+        <occur size="27" id="4" type="array" />
+        <occur size="27" id="5" type="array" />
+        <occur size="27" id="6" type="array" />
+        <occur size="27" id="7" type="array" />
+        <occur size="27" id="8" type="array" />
+        <occur size="27" id="9" type="array" />
+        <occur size="27" id="10" type="array" />
+        <occur size="27" id="11" type="array" />
+        <occur size="27" id="12" type="array" />
+        <occur size="27" id="13" type="array" />
+        <occur size="27" id="14" type="array" />
+        <occur size="27" id="15" type="array" />
+        <occur size="27" id="16" type="array" />
+        <occur size="27" id="17" type="array" />
+        <occur size="27" id="18" type="array" />
+        <occur size="27" id="19" type="array" />
+        <occur size="27" id="20" type="array" />
+        <occur size="27" id="21" type="array" />
+        <occur size="27" id="22" type="array" />
+        <occur size="27" id="23" type="array" />
+        <occur size="27" id="24" type="array" />
+        <occur size="27" id="25" type="array" />
+        <occur size="27" id="26" type="array" />
+        <occur size="27" id="27" type="array" />
+        <occur size="27" id="28" type="array" />
+        <occur size="27" id="29" type="array" />
+        <occur size="27" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="584" type="app">
+      <myArray size="20" type="array">
+        <parms>
+          <parm type="prm" name="start" value="20" />
+          <parm type="prm" name="rows" value="5" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+    <demo size="584" type="app">
+      <myArray size="20" type="array">
+        <parms>
+          <parm type="prm" name="end" value="10" />
+          <parm type="prm" name="rows" value="5" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+    <demo size="584" type="app">
+      <myArray size="20" type="array">
+        <parms>
+          <parm type="prm" name="start" value="-20" />
+          <parm type="prm" name="rows" value="5" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+    <demo size="584" type="app">
+      <myArray size="20" type="array">
+        <parms>
+          <parm type="prm" name="end" value="-10" />
+          <parm type="prm" name="rows" value="5" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+  </table>
+  <table size="3298" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="904" type="app">
+      <myArray size="390" type="array" />
+      <occurs>
+        <occur size="13" id="1" type="array" />
+        <occur size="13" id="2" type="array" />
+        <occur size="13" id="3" type="array" />
+        <occur size="13" id="4" type="array" />
+        <occur size="13" id="5" type="array" />
+        <occur size="13" id="6" type="array" />
+        <occur size="13" id="7" type="array" />
+        <occur size="13" id="8" type="array" />
+        <occur size="13" id="9" type="array" />
+        <occur size="13" id="10" type="array" />
+        <occur size="13" id="11" type="array" />
+        <occur size="13" id="12" type="array" />
+        <occur size="13" id="13" type="array" />
+        <occur size="13" id="14" type="array" />
+        <occur size="13" id="15" type="array" />
+        <occur size="13" id="16" type="array" />
+        <occur size="13" id="17" type="array" />
+        <occur size="13" id="18" type="array" />
+        <occur size="13" id="19" type="array" />
+        <occur size="13" id="20" type="array" />
+        <occur size="13" id="21" type="array" />
+        <occur size="13" id="22" type="array" />
+        <occur size="13" id="23" type="array" />
+        <occur size="13" id="24" type="array" />
+        <occur size="13" id="25" type="array" />
+        <occur size="13" id="26" type="array" />
+        <occur size="13" id="27" type="array" />
+        <occur size="13" id="28" type="array" />
+        <occur size="13" id="29" type="array" />
+        <occur size="13" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="527" type="app">
+      <myArray size="7" parm="first" type="array" />
+    </demo>
+    <demo size="563" type="app">
+      <myArray size="40" parm="first=10" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+      </occurs>
+    </demo>
+    <demo size="527" type="app">
+      <myArray size="8" parm="last" type="array" />
+    </demo>
+    <demo size="572" type="app">
+      <myArray size="50" parm="last=10" type="array" />
+      <occurs>
+        <occur size="5" id="1" type="array" />
+        <occur size="5" id="2" type="array" />
+        <occur size="5" id="3" type="array" />
+        <occur size="5" id="4" type="array" />
+        <occur size="5" id="5" type="array" />
+        <occur size="5" id="6" type="array" />
+        <occur size="5" id="7" type="array" />
+        <occur size="5" id="8" type="array" />
+        <occur size="5" id="9" type="array" />
+        <occur size="5" id="10" type="array" />
+      </occurs>
+    </demo>
+  </table>
+  <table size="4729" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="1084" type="app">
+      <myArray size="570" type="array" />
+      <occurs>
+        <occur size="19" id="1" type="array" />
+        <occur size="19" id="2" type="array" />
+        <occur size="19" id="3" type="array" />
+        <occur size="19" id="4" type="array" />
+        <occur size="19" id="5" type="array" />
+        <occur size="19" id="6" type="array" />
+        <occur size="19" id="7" type="array" />
+        <occur size="19" id="8" type="array" />
+        <occur size="19" id="9" type="array" />
+        <occur size="19" id="10" type="array" />
+        <occur size="19" id="11" type="array" />
+        <occur size="19" id="12" type="array" />
+        <occur size="19" id="13" type="array" />
+        <occur size="19" id="14" type="array" />
+        <occur size="19" id="15" type="array" />
+        <occur size="19" id="16" type="array" />
+        <occur size="19" id="17" type="array" />
+        <occur size="19" id="18" type="array" />
+        <occur size="19" id="19" type="array" />
+        <occur size="19" id="20" type="array" />
+        <occur size="19" id="21" type="array" />
+        <occur size="19" id="22" type="array" />
+        <occur size="19" id="23" type="array" />
+        <occur size="19" id="24" type="array" />
+        <occur size="19" id="25" type="array" />
+        <occur size="19" id="26" type="array" />
+        <occur size="19" id="27" type="array" />
+        <occur size="19" id="28" type="array" />
+        <occur size="19" id="29" type="array" />
+        <occur size="19" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="911" type="app">
+      <myArray size="392" parm="trim" type="array" />
+      <occurs>
+        <occur size="14" id="1" type="array" />
+        <occur size="14" id="2" type="array" />
+        <occur size="14" id="3" type="array" />
+        <occur size="14" id="4" type="array" />
+        <occur size="14" id="5" type="array" />
+        <occur size="14" id="6" type="array" />
+        <occur size="14" id="7" type="array" />
+        <occur size="14" id="8" type="array" />
+        <occur size="14" id="9" type="array" />
+        <occur size="14" id="10" type="array" />
+        <occur size="14" id="11" type="array" />
+        <occur size="14" id="12" type="array" />
+        <occur size="14" id="13" type="array" />
+        <occur size="14" id="14" type="array" />
+        <occur size="14" id="15" type="array" />
+        <occur size="14" id="16" type="array" />
+        <occur size="14" id="17" type="array" />
+        <occur size="14" id="18" type="array" />
+        <occur size="14" id="19" type="array" />
+        <occur size="14" id="20" type="array" />
+        <occur size="14" id="21" type="array" />
+        <occur size="14" id="22" type="array" />
+        <occur size="14" id="23" type="array" />
+        <occur size="14" id="24" type="array" />
+        <occur size="14" id="25" type="array" />
+        <occur size="14" id="26" type="array" />
+        <occur size="14" id="27" type="array" />
+        <occur size="14" id="28" type="array" />
+      </occurs>
+    </demo>
+    <demo size="632" type="app">
+      <myArray size="110" parm="trim=10" type="array" />
+      <occurs>
+        <occur size="11" id="1" type="array" />
+        <occur size="11" id="2" type="array" />
+        <occur size="11" id="3" type="array" />
+        <occur size="11" id="4" type="array" />
+        <occur size="11" id="5" type="array" />
+        <occur size="11" id="6" type="array" />
+        <occur size="11" id="7" type="array" />
+        <occur size="11" id="8" type="array" />
+        <occur size="11" id="9" type="array" />
+        <occur size="11" id="10" type="array" />
+      </occurs>
+    </demo>
+    <demo size="655" type="app">
+      <myArray size="100" type="array">
+        <parms>
+          <parm type="prm" name="trim" value="10" />
+          <parm type="prm" name="left" value="1" />
+        </parms>
+        <occurs>
+          <occur size="5" id="1" type="array" />
+          <occur size="5" id="2" type="array" />
+          <occur size="5" id="3" type="array" />
+          <occur size="5" id="4" type="array" />
+          <occur size="5" id="5" type="array" />
+          <occur size="5" id="6" type="array" />
+          <occur size="5" id="7" type="array" />
+          <occur size="5" id="8" type="array" />
+          <occur size="5" id="9" type="array" />
+          <occur size="5" id="10" type="array" />
+          <occur size="5" id="11" type="array" />
+          <occur size="5" id="12" type="array" />
+          <occur size="5" id="13" type="array" />
+          <occur size="5" id="14" type="array" />
+          <occur size="5" id="15" type="array" />
+          <occur size="5" id="16" type="array" />
+          <occur size="5" id="17" type="array" />
+          <occur size="5" id="18" type="array" />
+          <occur size="5" id="19" type="array" />
+          <occur size="5" id="20" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+    <demo size="636" type="app">
+      <myArray size="80" type="array">
+        <parms>
+          <parm type="prm" name="trim" value="10" />
+          <parm type="prm" name="right" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+          <occur size="4" id="6" type="array" />
+          <occur size="4" id="7" type="array" />
+          <occur size="4" id="8" type="array" />
+          <occur size="4" id="9" type="array" />
+          <occur size="4" id="10" type="array" />
+          <occur size="4" id="11" type="array" />
+          <occur size="4" id="12" type="array" />
+          <occur size="4" id="13" type="array" />
+          <occur size="4" id="14" type="array" />
+          <occur size="4" id="15" type="array" />
+          <occur size="4" id="16" type="array" />
+          <occur size="4" id="17" type="array" />
+          <occur size="4" id="18" type="array" />
+          <occur size="4" id="19" type="array" />
+          <occur size="4" id="20" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+    <demo size="605" type="app">
+      <myArray size="50" type="array">
+        <parms>
+          <parm type="prm" name="trim" value="10" />
+          <parm type="prm" name="both" value="1" />
+        </parms>
+        <occurs>
+          <occur size="5" id="1" type="array" />
+          <occur size="5" id="2" type="array" />
+          <occur size="5" id="3" type="array" />
+          <occur size="5" id="4" type="array" />
+          <occur size="5" id="5" type="array" />
+          <occur size="5" id="6" type="array" />
+          <occur size="5" id="7" type="array" />
+          <occur size="5" id="8" type="array" />
+          <occur size="5" id="9" type="array" />
+          <occur size="5" id="10" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+  </table>
+  <table size="9559" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="1174" type="app">
+      <myArray size="660" type="array" />
+      <occurs>
+        <occur size="22" id="1" type="array" />
+        <occur size="22" id="2" type="array" />
+        <occur size="22" id="3" type="array" />
+        <occur size="22" id="4" type="array" />
+        <occur size="22" id="5" type="array" />
+        <occur size="22" id="6" type="array" />
+        <occur size="22" id="7" type="array" />
+        <occur size="22" id="8" type="array" />
+        <occur size="22" id="9" type="array" />
+        <occur size="22" id="10" type="array" />
+        <occur size="22" id="11" type="array" />
+        <occur size="22" id="12" type="array" />
+        <occur size="22" id="13" type="array" />
+        <occur size="22" id="14" type="array" />
+        <occur size="22" id="15" type="array" />
+        <occur size="22" id="16" type="array" />
+        <occur size="22" id="17" type="array" />
+        <occur size="22" id="18" type="array" />
+        <occur size="22" id="19" type="array" />
+        <occur size="22" id="20" type="array" />
+        <occur size="22" id="21" type="array" />
+        <occur size="22" id="22" type="array" />
+        <occur size="22" id="23" type="array" />
+        <occur size="22" id="24" type="array" />
+        <occur size="22" id="25" type="array" />
+        <occur size="22" id="26" type="array" />
+        <occur size="22" id="27" type="array" />
+        <occur size="22" id="28" type="array" />
+        <occur size="22" id="29" type="array" />
+        <occur size="22" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="626" type="app">
+      <myArray size="100" parm="slice = 10" type="array" />
+      <occurs>
+        <occur size="10" id="1" type="array" />
+        <occur size="10" id="2" type="array" />
+        <occur size="10" id="3" type="array" />
+        <occur size="10" id="4" type="array" />
+        <occur size="10" id="5" type="array" />
+        <occur size="10" id="6" type="array" />
+        <occur size="10" id="7" type="array" />
+        <occur size="10" id="8" type="array" />
+        <occur size="10" id="9" type="array" />
+        <occur size="10" id="10" type="array" />
+      </occurs>
+    </demo>
+    <demo size="726" type="app">
+      <myArray size="200" parm="splice = 10" type="array" />
+      <occurs>
+        <occur size="10" id="1" type="array" />
+        <occur size="10" id="2" type="array" />
+        <occur size="10" id="3" type="array" />
+        <occur size="10" id="4" type="array" />
+        <occur size="10" id="5" type="array" />
+        <occur size="10" id="6" type="array" />
+        <occur size="10" id="7" type="array" />
+        <occur size="10" id="8" type="array" />
+        <occur size="10" id="9" type="array" />
+        <occur size="10" id="10" type="array" />
+        <occur size="10" id="11" type="array" />
+        <occur size="10" id="12" type="array" />
+        <occur size="10" id="13" type="array" />
+        <occur size="10" id="14" type="array" />
+        <occur size="10" id="15" type="array" />
+        <occur size="10" id="16" type="array" />
+        <occur size="10" id="17" type="array" />
+        <occur size="10" id="18" type="array" />
+        <occur size="10" id="19" type="array" />
+        <occur size="10" id="20" type="array" />
+      </occurs>
+    </demo>
+    <demo size="617" type="app">
+      <myArray size="90" parm="slice = -10" type="array" />
+      <occurs>
+        <occur size="9" id="1" type="array" />
+        <occur size="9" id="2" type="array" />
+        <occur size="9" id="3" type="array" />
+        <occur size="9" id="4" type="array" />
+        <occur size="9" id="5" type="array" />
+        <occur size="9" id="6" type="array" />
+        <occur size="9" id="7" type="array" />
+        <occur size="9" id="8" type="array" />
+        <occur size="9" id="9" type="array" />
+        <occur size="9" id="10" type="array" />
+      </occurs>
+    </demo>
+    <demo size="707" type="app">
+      <myArray size="180" parm="splice = -10" type="array" />
+      <occurs>
+        <occur size="9" id="1" type="array" />
+        <occur size="9" id="2" type="array" />
+        <occur size="9" id="3" type="array" />
+        <occur size="9" id="4" type="array" />
+        <occur size="9" id="5" type="array" />
+        <occur size="9" id="6" type="array" />
+        <occur size="9" id="7" type="array" />
+        <occur size="9" id="8" type="array" />
+        <occur size="9" id="9" type="array" />
+        <occur size="9" id="10" type="array" />
+        <occur size="9" id="11" type="array" />
+        <occur size="9" id="12" type="array" />
+        <occur size="9" id="13" type="array" />
+        <occur size="9" id="14" type="array" />
+        <occur size="9" id="15" type="array" />
+        <occur size="9" id="16" type="array" />
+        <occur size="9" id="17" type="array" />
+        <occur size="9" id="18" type="array" />
+        <occur size="9" id="19" type="array" />
+        <occur size="9" id="20" type="array" />
+      </occurs>
+    </demo>
+    <demo size="641" type="app">
+      <myArray size="30" parm="slice = '10|5'" type="array" />
+      <occurs>
+        <occur size="6" id="1" type="array" />
+        <occur size="6" id="2" type="array" />
+        <occur size="6" id="3" type="array" />
+        <occur size="6" id="4" type="array" />
+        <occur size="6" id="5" type="array" />
+      </occurs>
+    </demo>
+    <demo size="761" type="app">
+      <myArray size="150" parm="splice = '10|5'" type="array" />
+      <occurs>
+        <occur size="6" id="1" type="array" />
+        <occur size="6" id="2" type="array" />
+        <occur size="6" id="3" type="array" />
+        <occur size="6" id="4" type="array" />
+        <occur size="6" id="5" type="array" />
+        <occur size="6" id="6" type="array" />
+        <occur size="6" id="7" type="array" />
+        <occur size="6" id="8" type="array" />
+        <occur size="6" id="9" type="array" />
+        <occur size="6" id="10" type="array" />
+        <occur size="6" id="11" type="array" />
+        <occur size="6" id="12" type="array" />
+        <occur size="6" id="13" type="array" />
+        <occur size="6" id="14" type="array" />
+        <occur size="6" id="15" type="array" />
+        <occur size="6" id="16" type="array" />
+        <occur size="6" id="17" type="array" />
+        <occur size="6" id="18" type="array" />
+        <occur size="6" id="19" type="array" />
+        <occur size="6" id="20" type="array" />
+        <occur size="6" id="21" type="array" />
+        <occur size="6" id="22" type="array" />
+        <occur size="6" id="23" type="array" />
+        <occur size="6" id="24" type="array" />
+        <occur size="6" id="25" type="array" />
+      </occurs>
+    </demo>
+    <demo size="687" type="app">
+      <myArray size="75" parm="slice = '10|-5'" type="array" />
+      <occurs>
+        <occur size="5" id="1" type="array" />
+        <occur size="5" id="2" type="array" />
+        <occur size="5" id="3" type="array" />
+        <occur size="5" id="4" type="array" />
+        <occur size="5" id="5" type="array" />
+        <occur size="5" id="6" type="array" />
+        <occur size="5" id="7" type="array" />
+        <occur size="5" id="8" type="array" />
+        <occur size="5" id="9" type="array" />
+        <occur size="5" id="10" type="array" />
+        <occur size="5" id="11" type="array" />
+        <occur size="5" id="12" type="array" />
+        <occur size="5" id="13" type="array" />
+        <occur size="5" id="14" type="array" />
+        <occur size="5" id="15" type="array" />
+      </occurs>
+    </demo>
+    <demo size="687" type="app">
+      <myArray size="75" parm="splice = '10|-5'" type="array" />
+      <occurs>
+        <occur size="5" id="1" type="array" />
+        <occur size="5" id="2" type="array" />
+        <occur size="5" id="3" type="array" />
+        <occur size="5" id="4" type="array" />
+        <occur size="5" id="5" type="array" />
+        <occur size="5" id="6" type="array" />
+        <occur size="5" id="7" type="array" />
+        <occur size="5" id="8" type="array" />
+        <occur size="5" id="9" type="array" />
+        <occur size="5" id="10" type="array" />
+        <occur size="5" id="11" type="array" />
+        <occur size="5" id="12" type="array" />
+        <occur size="5" id="13" type="array" />
+        <occur size="5" id="14" type="array" />
+        <occur size="5" id="15" type="array" />
+      </occurs>
+    </demo>
+    <demo size="637" type="app">
+      <myArray size="25" parm="slice = '-20|5'" type="array" />
+      <occurs>
+        <occur size="5" id="1" type="array" />
+        <occur size="5" id="2" type="array" />
+        <occur size="5" id="3" type="array" />
+        <occur size="5" id="4" type="array" />
+        <occur size="5" id="5" type="array" />
+      </occurs>
+    </demo>
+    <demo size="737" type="app">
+      <myArray size="125" parm="splice = '-20|5'" type="array" />
+      <occurs>
+        <occur size="5" id="1" type="array" />
+        <occur size="5" id="2" type="array" />
+        <occur size="5" id="3" type="array" />
+        <occur size="5" id="4" type="array" />
+        <occur size="5" id="5" type="array" />
+        <occur size="5" id="6" type="array" />
+        <occur size="5" id="7" type="array" />
+        <occur size="5" id="8" type="array" />
+        <occur size="5" id="9" type="array" />
+        <occur size="5" id="10" type="array" />
+        <occur size="5" id="11" type="array" />
+        <occur size="5" id="12" type="array" />
+        <occur size="5" id="13" type="array" />
+        <occur size="5" id="14" type="array" />
+        <occur size="5" id="15" type="array" />
+        <occur size="5" id="16" type="array" />
+        <occur size="5" id="17" type="array" />
+        <occur size="5" id="18" type="array" />
+        <occur size="5" id="19" type="array" />
+        <occur size="5" id="20" type="array" />
+        <occur size="5" id="21" type="array" />
+        <occur size="5" id="22" type="array" />
+        <occur size="5" id="23" type="array" />
+        <occur size="5" id="24" type="array" />
+        <occur size="5" id="25" type="array" />
+      </occurs>
+    </demo>
+    <demo size="673" type="app">
+      <myArray size="60" parm="slice = '-20|-5'" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+        <occur size="4" id="11" type="array" />
+        <occur size="4" id="12" type="array" />
+        <occur size="4" id="13" type="array" />
+        <occur size="4" id="14" type="array" />
+        <occur size="4" id="15" type="array" />
+      </occurs>
+    </demo>
+    <demo size="673" type="app">
+      <myArray size="60" parm="splice = '-20|-5'" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+        <occur size="4" id="11" type="array" />
+        <occur size="4" id="12" type="array" />
+        <occur size="4" id="13" type="array" />
+        <occur size="4" id="14" type="array" />
+        <occur size="4" id="15" type="array" />
+      </occurs>
+    </demo>
+  </table>
+  <table size="3033" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="874" type="app">
+      <myArray size="360" type="array" />
+      <occurs>
+        <occur size="12" id="1" type="array" />
+        <occur size="12" id="2" type="array" />
+        <occur size="12" id="3" type="array" />
+        <occur size="12" id="4" type="array" />
+        <occur size="12" id="5" type="array" />
+        <occur size="12" id="6" type="array" />
+        <occur size="12" id="7" type="array" />
+        <occur size="12" id="8" type="array" />
+        <occur size="12" id="9" type="array" />
+        <occur size="12" id="10" type="array" />
+        <occur size="12" id="11" type="array" />
+        <occur size="12" id="12" type="array" />
+        <occur size="12" id="13" type="array" />
+        <occur size="12" id="14" type="array" />
+        <occur size="12" id="15" type="array" />
+        <occur size="12" id="16" type="array" />
+        <occur size="12" id="17" type="array" />
+        <occur size="12" id="18" type="array" />
+        <occur size="12" id="19" type="array" />
+        <occur size="12" id="20" type="array" />
+        <occur size="12" id="21" type="array" />
+        <occur size="12" id="22" type="array" />
+        <occur size="12" id="23" type="array" />
+        <occur size="12" id="24" type="array" />
+        <occur size="12" id="25" type="array" />
+        <occur size="12" id="26" type="array" />
+        <occur size="12" id="27" type="array" />
+        <occur size="12" id="28" type="array" />
+        <occur size="12" id="29" type="array" />
+        <occur size="12" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="642" type="app">
+      <myArray size="120" parm="reverse" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+        <occur size="4" id="11" type="array" />
+        <occur size="4" id="12" type="array" />
+        <occur size="4" id="13" type="array" />
+        <occur size="4" id="14" type="array" />
+        <occur size="4" id="15" type="array" />
+        <occur size="4" id="16" type="array" />
+        <occur size="4" id="17" type="array" />
+        <occur size="4" id="18" type="array" />
+        <occur size="4" id="19" type="array" />
+        <occur size="4" id="20" type="array" />
+        <occur size="4" id="21" type="array" />
+        <occur size="4" id="22" type="array" />
+        <occur size="4" id="23" type="array" />
+        <occur size="4" id="24" type="array" />
+        <occur size="4" id="25" type="array" />
+        <occur size="4" id="26" type="array" />
+        <occur size="4" id="27" type="array" />
+        <occur size="4" id="28" type="array" />
+        <occur size="4" id="29" type="array" />
+        <occur size="4" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="642" type="app">
+      <myArray size="120" parm="shuffle" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+        <occur size="4" id="11" type="array" />
+        <occur size="4" id="12" type="array" />
+        <occur size="4" id="13" type="array" />
+        <occur size="4" id="14" type="array" />
+        <occur size="4" id="15" type="array" />
+        <occur size="4" id="16" type="array" />
+        <occur size="4" id="17" type="array" />
+        <occur size="4" id="18" type="array" />
+        <occur size="4" id="19" type="array" />
+        <occur size="4" id="20" type="array" />
+        <occur size="4" id="21" type="array" />
+        <occur size="4" id="22" type="array" />
+        <occur size="4" id="23" type="array" />
+        <occur size="4" id="24" type="array" />
+        <occur size="4" id="25" type="array" />
+        <occur size="4" id="26" type="array" />
+        <occur size="4" id="27" type="array" />
+        <occur size="4" id="28" type="array" />
+        <occur size="4" id="29" type="array" />
+        <occur size="4" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="671" type="app">
+      <myArray size="150" parm="random" type="array" />
+      <occurs>
+        <occur size="5" id="1" type="array" />
+        <occur size="5" id="2" type="array" />
+        <occur size="5" id="3" type="array" />
+        <occur size="5" id="4" type="array" />
+        <occur size="5" id="5" type="array" />
+        <occur size="5" id="6" type="array" />
+        <occur size="5" id="7" type="array" />
+        <occur size="5" id="8" type="array" />
+        <occur size="5" id="9" type="array" />
+        <occur size="5" id="10" type="array" />
+        <occur size="5" id="11" type="array" />
+        <occur size="5" id="12" type="array" />
+        <occur size="5" id="13" type="array" />
+        <occur size="5" id="14" type="array" />
+        <occur size="5" id="15" type="array" />
+        <occur size="5" id="16" type="array" />
+        <occur size="5" id="17" type="array" />
+        <occur size="5" id="18" type="array" />
+        <occur size="5" id="19" type="array" />
+        <occur size="5" id="20" type="array" />
+        <occur size="5" id="21" type="array" />
+        <occur size="5" id="22" type="array" />
+        <occur size="5" id="23" type="array" />
+        <occur size="5" id="24" type="array" />
+        <occur size="5" id="25" type="array" />
+        <occur size="5" id="26" type="array" />
+        <occur size="5" id="27" type="array" />
+        <occur size="5" id="28" type="array" />
+        <occur size="5" id="29" type="array" />
+        <occur size="5" id="30" type="array" />
+      </occurs>
+    </demo>
+  </table>
+  <table size="5175" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="1564" type="app">
+      <myArray size="1050" type="array" />
+      <occurs>
+        <occur size="35" id="1" type="array" />
+        <occur size="35" id="2" type="array" />
+        <occur size="35" id="3" type="array" />
+        <occur size="35" id="4" type="array" />
+        <occur size="35" id="5" type="array" />
+        <occur size="35" id="6" type="array" />
+        <occur size="35" id="7" type="array" />
+        <occur size="35" id="8" type="array" />
+        <occur size="35" id="9" type="array" />
+        <occur size="35" id="10" type="array" />
+        <occur size="35" id="11" type="array" />
+        <occur size="35" id="12" type="array" />
+        <occur size="35" id="13" type="array" />
+        <occur size="35" id="14" type="array" />
+        <occur size="35" id="15" type="array" />
+        <occur size="35" id="16" type="array" />
+        <occur size="35" id="17" type="array" />
+        <occur size="35" id="18" type="array" />
+        <occur size="35" id="19" type="array" />
+        <occur size="35" id="20" type="array" />
+        <occur size="35" id="21" type="array" />
+        <occur size="35" id="22" type="array" />
+        <occur size="35" id="23" type="array" />
+        <occur size="35" id="24" type="array" />
+        <occur size="35" id="25" type="array" />
+        <occur size="35" id="26" type="array" />
+        <occur size="35" id="27" type="array" />
+        <occur size="35" id="28" type="array" />
+        <occur size="35" id="29" type="array" />
+        <occur size="35" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="1024" type="app">
+      <myArray size="500" parm="random=20" type="array" />
+      <occurs>
+        <occur size="25" id="1" type="array" />
+        <occur size="25" id="2" type="array" />
+        <occur size="25" id="3" type="array" />
+        <occur size="25" id="4" type="array" />
+        <occur size="25" id="5" type="array" />
+        <occur size="25" id="6" type="array" />
+        <occur size="25" id="7" type="array" />
+        <occur size="25" id="8" type="array" />
+        <occur size="25" id="9" type="array" />
+        <occur size="25" id="10" type="array" />
+        <occur size="25" id="11" type="array" />
+        <occur size="25" id="12" type="array" />
+        <occur size="25" id="13" type="array" />
+        <occur size="25" id="14" type="array" />
+        <occur size="25" id="15" type="array" />
+        <occur size="25" id="16" type="array" />
+        <occur size="25" id="17" type="array" />
+        <occur size="25" id="18" type="array" />
+        <occur size="25" id="19" type="array" />
+        <occur size="25" id="20" type="array" />
+      </occurs>
+    </demo>
+    <demo size="880" type="app">
+      <myArray size="320" type="array">
+        <parms>
+          <parm type="prm" name="random" value="20" />
+          <parm type="prm" name="orderly" value="1" />
+        </parms>
+        <occurs>
+          <occur size="16" id="1" type="array" />
+          <occur size="16" id="2" type="array" />
+          <occur size="16" id="3" type="array" />
+          <occur size="16" id="4" type="array" />
+          <occur size="16" id="5" type="array" />
+          <occur size="16" id="6" type="array" />
+          <occur size="16" id="7" type="array" />
+          <occur size="16" id="8" type="array" />
+          <occur size="16" id="9" type="array" />
+          <occur size="16" id="10" type="array" />
+          <occur size="16" id="11" type="array" />
+          <occur size="16" id="12" type="array" />
+          <occur size="16" id="13" type="array" />
+          <occur size="16" id="14" type="array" />
+          <occur size="16" id="15" type="array" />
+          <occur size="16" id="16" type="array" />
+          <occur size="16" id="17" type="array" />
+          <occur size="16" id="18" type="array" />
+          <occur size="16" id="19" type="array" />
+          <occur size="16" id="20" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+    <demo size="823" type="app">
+      <myArray size="260" type="array">
+        <parms>
+          <parm type="prm" name="random" value="20" />
+          <parm type="prm" name="duplicates" value="1" />
+        </parms>
+        <occurs>
+          <occur size="13" id="1" type="array" />
+          <occur size="13" id="2" type="array" />
+          <occur size="13" id="3" type="array" />
+          <occur size="13" id="4" type="array" />
+          <occur size="13" id="5" type="array" />
+          <occur size="13" id="6" type="array" />
+          <occur size="13" id="7" type="array" />
+          <occur size="13" id="8" type="array" />
+          <occur size="13" id="9" type="array" />
+          <occur size="13" id="10" type="array" />
+          <occur size="13" id="11" type="array" />
+          <occur size="13" id="12" type="array" />
+          <occur size="13" id="13" type="array" />
+          <occur size="13" id="14" type="array" />
+          <occur size="13" id="15" type="array" />
+          <occur size="13" id="16" type="array" />
+          <occur size="13" id="17" type="array" />
+          <occur size="13" id="18" type="array" />
+          <occur size="13" id="19" type="array" />
+          <occur size="13" id="20" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+    <demo size="679" type="app">
+      <myArray size="80" type="array">
+        <parms>
+          <parm type="prm" name="random" value="20" />
+          <parm type="prm" name="orderly" value="1" />
+          <parm type="prm" name="duplicates" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+          <occur size="4" id="6" type="array" />
+          <occur size="4" id="7" type="array" />
+          <occur size="4" id="8" type="array" />
+          <occur size="4" id="9" type="array" />
+          <occur size="4" id="10" type="array" />
+          <occur size="4" id="11" type="array" />
+          <occur size="4" id="12" type="array" />
+          <occur size="4" id="13" type="array" />
+          <occur size="4" id="14" type="array" />
+          <occur size="4" id="15" type="array" />
+          <occur size="4" id="16" type="array" />
+          <occur size="4" id="17" type="array" />
+          <occur size="4" id="18" type="array" />
+          <occur size="4" id="19" type="array" />
+          <occur size="4" id="20" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+  </table>
+  <table size="2620" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="1204" type="app">
+      <myArray size="690" type="array" />
+      <occurs>
+        <occur size="23" id="1" type="array" />
+        <occur size="23" id="2" type="array" />
+        <occur size="23" id="3" type="array" />
+        <occur size="23" id="4" type="array" />
+        <occur size="23" id="5" type="array" />
+        <occur size="23" id="6" type="array" />
+        <occur size="23" id="7" type="array" />
+        <occur size="23" id="8" type="array" />
+        <occur size="23" id="9" type="array" />
+        <occur size="23" id="10" type="array" />
+        <occur size="23" id="11" type="array" />
+        <occur size="23" id="12" type="array" />
+        <occur size="23" id="13" type="array" />
+        <occur size="23" id="14" type="array" />
+        <occur size="23" id="15" type="array" />
+        <occur size="23" id="16" type="array" />
+        <occur size="23" id="17" type="array" />
+        <occur size="23" id="18" type="array" />
+        <occur size="23" id="19" type="array" />
+        <occur size="23" id="20" type="array" />
+        <occur size="23" id="21" type="array" />
+        <occur size="23" id="22" type="array" />
+        <occur size="23" id="23" type="array" />
+        <occur size="23" id="24" type="array" />
+        <occur size="23" id="25" type="array" />
+        <occur size="23" id="26" type="array" />
+        <occur size="23" id="27" type="array" />
+        <occur size="23" id="28" type="array" />
+        <occur size="23" id="29" type="array" />
+        <occur size="23" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="553" type="app">
+      <myArray size="20" parm="first=5" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+      </occurs>
+    </demo>
+    <demo size="660" type="app">
+      <myArray size="100" type="array">
+        <parms>
+          <parm type="prm" name="first" value="5" />
+          <parm type="prm" name="negative" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+          <occur size="4" id="6" type="array" />
+          <occur size="4" id="7" type="array" />
+          <occur size="4" id="8" type="array" />
+          <occur size="4" id="9" type="array" />
+          <occur size="4" id="10" type="array" />
+          <occur size="4" id="11" type="array" />
+          <occur size="4" id="12" type="array" />
+          <occur size="4" id="13" type="array" />
+          <occur size="4" id="14" type="array" />
+          <occur size="4" id="15" type="array" />
+          <occur size="4" id="16" type="array" />
+          <occur size="4" id="17" type="array" />
+          <occur size="4" id="18" type="array" />
+          <occur size="4" id="19" type="array" />
+          <occur size="4" id="20" type="array" />
+          <occur size="4" id="21" type="array" />
+          <occur size="4" id="22" type="array" />
+          <occur size="4" id="23" type="array" />
+          <occur size="4" id="24" type="array" />
+          <occur size="4" id="25" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+  </table>
+  <table size="4175" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="1504" type="app">
+      <myArray size="990" type="array" />
+      <occurs>
+        <occur size="33" id="1" type="array" />
+        <occur size="33" id="2" type="array" />
+        <occur size="33" id="3" type="array" />
+        <occur size="33" id="4" type="array" />
+        <occur size="33" id="5" type="array" />
+        <occur size="33" id="6" type="array" />
+        <occur size="33" id="7" type="array" />
+        <occur size="33" id="8" type="array" />
+        <occur size="33" id="9" type="array" />
+        <occur size="33" id="10" type="array" />
+        <occur size="33" id="11" type="array" />
+        <occur size="33" id="12" type="array" />
+        <occur size="33" id="13" type="array" />
+        <occur size="33" id="14" type="array" />
+        <occur size="33" id="15" type="array" />
+        <occur size="33" id="16" type="array" />
+        <occur size="33" id="17" type="array" />
+        <occur size="33" id="18" type="array" />
+        <occur size="33" id="19" type="array" />
+        <occur size="33" id="20" type="array" />
+        <occur size="33" id="21" type="array" />
+        <occur size="33" id="22" type="array" />
+        <occur size="33" id="23" type="array" />
+        <occur size="33" id="24" type="array" />
+        <occur size="33" id="25" type="array" />
+        <occur size="33" id="26" type="array" />
+        <occur size="33" id="27" type="array" />
+        <occur size="33" id="28" type="array" />
+        <occur size="33" id="29" type="array" />
+        <occur size="33" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="583" type="app">
+      <myArray size="40" parm="slice = 10" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+      </occurs>
+    </demo>
+    <demo size="650" type="app">
+      <myArray size="80" type="array">
+        <parms>
+          <parm type="prm" name="slice" value="10" />
+          <parm type="prm" name="negative" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+          <occur size="4" id="6" type="array" />
+          <occur size="4" id="7" type="array" />
+          <occur size="4" id="8" type="array" />
+          <occur size="4" id="9" type="array" />
+          <occur size="4" id="10" type="array" />
+          <occur size="4" id="11" type="array" />
+          <occur size="4" id="12" type="array" />
+          <occur size="4" id="13" type="array" />
+          <occur size="4" id="14" type="array" />
+          <occur size="4" id="15" type="array" />
+          <occur size="4" id="16" type="array" />
+          <occur size="4" id="17" type="array" />
+          <occur size="4" id="18" type="array" />
+          <occur size="4" id="19" type="array" />
+          <occur size="4" id="20" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+    <demo size="623" type="app">
+      <myArray size="80" parm="splice = 10" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+        <occur size="4" id="11" type="array" />
+        <occur size="4" id="12" type="array" />
+        <occur size="4" id="13" type="array" />
+        <occur size="4" id="14" type="array" />
+        <occur size="4" id="15" type="array" />
+        <occur size="4" id="16" type="array" />
+        <occur size="4" id="17" type="array" />
+        <occur size="4" id="18" type="array" />
+        <occur size="4" id="19" type="array" />
+        <occur size="4" id="20" type="array" />
+      </occurs>
+    </demo>
+    <demo size="610" type="app">
+      <myArray size="40" type="array">
+        <parms>
+          <parm type="prm" name="splice" value="10" />
+          <parm type="prm" name="negative" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+          <occur size="4" id="6" type="array" />
+          <occur size="4" id="7" type="array" />
+          <occur size="4" id="8" type="array" />
+          <occur size="4" id="9" type="array" />
+          <occur size="4" id="10" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+  </table>
+  <table size="4175" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="1504" type="app">
+      <myArray size="990" type="array" />
+      <occurs>
+        <occur size="33" id="1" type="array" />
+        <occur size="33" id="2" type="array" />
+        <occur size="33" id="3" type="array" />
+        <occur size="33" id="4" type="array" />
+        <occur size="33" id="5" type="array" />
+        <occur size="33" id="6" type="array" />
+        <occur size="33" id="7" type="array" />
+        <occur size="33" id="8" type="array" />
+        <occur size="33" id="9" type="array" />
+        <occur size="33" id="10" type="array" />
+        <occur size="33" id="11" type="array" />
+        <occur size="33" id="12" type="array" />
+        <occur size="33" id="13" type="array" />
+        <occur size="33" id="14" type="array" />
+        <occur size="33" id="15" type="array" />
+        <occur size="33" id="16" type="array" />
+        <occur size="33" id="17" type="array" />
+        <occur size="33" id="18" type="array" />
+        <occur size="33" id="19" type="array" />
+        <occur size="33" id="20" type="array" />
+        <occur size="33" id="21" type="array" />
+        <occur size="33" id="22" type="array" />
+        <occur size="33" id="23" type="array" />
+        <occur size="33" id="24" type="array" />
+        <occur size="33" id="25" type="array" />
+        <occur size="33" id="26" type="array" />
+        <occur size="33" id="27" type="array" />
+        <occur size="33" id="28" type="array" />
+        <occur size="33" id="29" type="array" />
+        <occur size="33" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="583" type="app">
+      <myArray size="40" parm="slice = -10" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+      </occurs>
+    </demo>
+    <demo size="650" type="app">
+      <myArray size="80" type="array">
+        <parms>
+          <parm type="prm" name="slice" value="-10" />
+          <parm type="prm" name="negative" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+          <occur size="4" id="6" type="array" />
+          <occur size="4" id="7" type="array" />
+          <occur size="4" id="8" type="array" />
+          <occur size="4" id="9" type="array" />
+          <occur size="4" id="10" type="array" />
+          <occur size="4" id="11" type="array" />
+          <occur size="4" id="12" type="array" />
+          <occur size="4" id="13" type="array" />
+          <occur size="4" id="14" type="array" />
+          <occur size="4" id="15" type="array" />
+          <occur size="4" id="16" type="array" />
+          <occur size="4" id="17" type="array" />
+          <occur size="4" id="18" type="array" />
+          <occur size="4" id="19" type="array" />
+          <occur size="4" id="20" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+    <demo size="623" type="app">
+      <myArray size="80" parm="splice = -10" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+        <occur size="4" id="11" type="array" />
+        <occur size="4" id="12" type="array" />
+        <occur size="4" id="13" type="array" />
+        <occur size="4" id="14" type="array" />
+        <occur size="4" id="15" type="array" />
+        <occur size="4" id="16" type="array" />
+        <occur size="4" id="17" type="array" />
+        <occur size="4" id="18" type="array" />
+        <occur size="4" id="19" type="array" />
+        <occur size="4" id="20" type="array" />
+      </occurs>
+    </demo>
+    <demo size="610" type="app">
+      <myArray size="40" type="array">
+        <parms>
+          <parm type="prm" name="splice" value="-10" />
+          <parm type="prm" name="negative" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+          <occur size="4" id="6" type="array" />
+          <occur size="4" id="7" type="array" />
+          <occur size="4" id="8" type="array" />
+          <occur size="4" id="9" type="array" />
+          <occur size="4" id="10" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+  </table>
+  <table size="4499" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="1504" type="app">
+      <myArray size="990" type="array" />
+      <occurs>
+        <occur size="33" id="1" type="array" />
+        <occur size="33" id="2" type="array" />
+        <occur size="33" id="3" type="array" />
+        <occur size="33" id="4" type="array" />
+        <occur size="33" id="5" type="array" />
+        <occur size="33" id="6" type="array" />
+        <occur size="33" id="7" type="array" />
+        <occur size="33" id="8" type="array" />
+        <occur size="33" id="9" type="array" />
+        <occur size="33" id="10" type="array" />
+        <occur size="33" id="11" type="array" />
+        <occur size="33" id="12" type="array" />
+        <occur size="33" id="13" type="array" />
+        <occur size="33" id="14" type="array" />
+        <occur size="33" id="15" type="array" />
+        <occur size="33" id="16" type="array" />
+        <occur size="33" id="17" type="array" />
+        <occur size="33" id="18" type="array" />
+        <occur size="33" id="19" type="array" />
+        <occur size="33" id="20" type="array" />
+        <occur size="33" id="21" type="array" />
+        <occur size="33" id="22" type="array" />
+        <occur size="33" id="23" type="array" />
+        <occur size="33" id="24" type="array" />
+        <occur size="33" id="25" type="array" />
+        <occur size="33" id="26" type="array" />
+        <occur size="33" id="27" type="array" />
+        <occur size="33" id="28" type="array" />
+        <occur size="33" id="29" type="array" />
+        <occur size="33" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="644" type="app">
+      <myArray size="20" parm="slice = '10|5'" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+      </occurs>
+    </demo>
+    <demo size="751" type="app">
+      <myArray size="100" type="array">
+        <parms>
+          <parm type="prm" name="slice" value="10|5" />
+          <parm type="prm" name="negative" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+          <occur size="4" id="6" type="array" />
+          <occur size="4" id="7" type="array" />
+          <occur size="4" id="8" type="array" />
+          <occur size="4" id="9" type="array" />
+          <occur size="4" id="10" type="array" />
+          <occur size="4" id="11" type="array" />
+          <occur size="4" id="12" type="array" />
+          <occur size="4" id="13" type="array" />
+          <occur size="4" id="14" type="array" />
+          <occur size="4" id="15" type="array" />
+          <occur size="4" id="16" type="array" />
+          <occur size="4" id="17" type="array" />
+          <occur size="4" id="18" type="array" />
+          <occur size="4" id="19" type="array" />
+          <occur size="4" id="20" type="array" />
+          <occur size="4" id="21" type="array" />
+          <occur size="4" id="22" type="array" />
+          <occur size="4" id="23" type="array" />
+          <occur size="4" id="24" type="array" />
+          <occur size="4" id="25" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+    <demo size="724" type="app">
+      <myArray size="100" parm="splice = '10|5'" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+        <occur size="4" id="11" type="array" />
+        <occur size="4" id="12" type="array" />
+        <occur size="4" id="13" type="array" />
+        <occur size="4" id="14" type="array" />
+        <occur size="4" id="15" type="array" />
+        <occur size="4" id="16" type="array" />
+        <occur size="4" id="17" type="array" />
+        <occur size="4" id="18" type="array" />
+        <occur size="4" id="19" type="array" />
+        <occur size="4" id="20" type="array" />
+        <occur size="4" id="21" type="array" />
+        <occur size="4" id="22" type="array" />
+        <occur size="4" id="23" type="array" />
+        <occur size="4" id="24" type="array" />
+        <occur size="4" id="25" type="array" />
+      </occurs>
+    </demo>
+    <demo size="671" type="app">
+      <myArray size="20" type="array">
+        <parms>
+          <parm type="prm" name="splice" value="10|5" />
+          <parm type="prm" name="negative" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+  </table>
+  <table size="4499" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="1504" type="app">
+      <myArray size="990" type="array" />
+      <occurs>
+        <occur size="33" id="1" type="array" />
+        <occur size="33" id="2" type="array" />
+        <occur size="33" id="3" type="array" />
+        <occur size="33" id="4" type="array" />
+        <occur size="33" id="5" type="array" />
+        <occur size="33" id="6" type="array" />
+        <occur size="33" id="7" type="array" />
+        <occur size="33" id="8" type="array" />
+        <occur size="33" id="9" type="array" />
+        <occur size="33" id="10" type="array" />
+        <occur size="33" id="11" type="array" />
+        <occur size="33" id="12" type="array" />
+        <occur size="33" id="13" type="array" />
+        <occur size="33" id="14" type="array" />
+        <occur size="33" id="15" type="array" />
+        <occur size="33" id="16" type="array" />
+        <occur size="33" id="17" type="array" />
+        <occur size="33" id="18" type="array" />
+        <occur size="33" id="19" type="array" />
+        <occur size="33" id="20" type="array" />
+        <occur size="33" id="21" type="array" />
+        <occur size="33" id="22" type="array" />
+        <occur size="33" id="23" type="array" />
+        <occur size="33" id="24" type="array" />
+        <occur size="33" id="25" type="array" />
+        <occur size="33" id="26" type="array" />
+        <occur size="33" id="27" type="array" />
+        <occur size="33" id="28" type="array" />
+        <occur size="33" id="29" type="array" />
+        <occur size="33" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="684" type="app">
+      <myArray size="60" parm="slice = '10|-5'" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+        <occur size="4" id="11" type="array" />
+        <occur size="4" id="12" type="array" />
+        <occur size="4" id="13" type="array" />
+        <occur size="4" id="14" type="array" />
+        <occur size="4" id="15" type="array" />
+      </occurs>
+    </demo>
+    <demo size="711" type="app">
+      <myArray size="60" type="array">
+        <parms>
+          <parm type="prm" name="slice" value="10|-5" />
+          <parm type="prm" name="negative" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+          <occur size="4" id="6" type="array" />
+          <occur size="4" id="7" type="array" />
+          <occur size="4" id="8" type="array" />
+          <occur size="4" id="9" type="array" />
+          <occur size="4" id="10" type="array" />
+          <occur size="4" id="11" type="array" />
+          <occur size="4" id="12" type="array" />
+          <occur size="4" id="13" type="array" />
+          <occur size="4" id="14" type="array" />
+          <occur size="4" id="15" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+    <demo size="684" type="app">
+      <myArray size="60" parm="splice = '10|-5'" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+        <occur size="4" id="11" type="array" />
+        <occur size="4" id="12" type="array" />
+        <occur size="4" id="13" type="array" />
+        <occur size="4" id="14" type="array" />
+        <occur size="4" id="15" type="array" />
+      </occurs>
+    </demo>
+    <demo size="711" type="app">
+      <myArray size="60" type="array">
+        <parms>
+          <parm type="prm" name="splice" value="10|-5" />
+          <parm type="prm" name="negative" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+          <occur size="4" id="6" type="array" />
+          <occur size="4" id="7" type="array" />
+          <occur size="4" id="8" type="array" />
+          <occur size="4" id="9" type="array" />
+          <occur size="4" id="10" type="array" />
+          <occur size="4" id="11" type="array" />
+          <occur size="4" id="12" type="array" />
+          <occur size="4" id="13" type="array" />
+          <occur size="4" id="14" type="array" />
+          <occur size="4" id="15" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+  </table>
+  <table size="4499" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="1504" type="app">
+      <myArray size="990" type="array" />
+      <occurs>
+        <occur size="33" id="1" type="array" />
+        <occur size="33" id="2" type="array" />
+        <occur size="33" id="3" type="array" />
+        <occur size="33" id="4" type="array" />
+        <occur size="33" id="5" type="array" />
+        <occur size="33" id="6" type="array" />
+        <occur size="33" id="7" type="array" />
+        <occur size="33" id="8" type="array" />
+        <occur size="33" id="9" type="array" />
+        <occur size="33" id="10" type="array" />
+        <occur size="33" id="11" type="array" />
+        <occur size="33" id="12" type="array" />
+        <occur size="33" id="13" type="array" />
+        <occur size="33" id="14" type="array" />
+        <occur size="33" id="15" type="array" />
+        <occur size="33" id="16" type="array" />
+        <occur size="33" id="17" type="array" />
+        <occur size="33" id="18" type="array" />
+        <occur size="33" id="19" type="array" />
+        <occur size="33" id="20" type="array" />
+        <occur size="33" id="21" type="array" />
+        <occur size="33" id="22" type="array" />
+        <occur size="33" id="23" type="array" />
+        <occur size="33" id="24" type="array" />
+        <occur size="33" id="25" type="array" />
+        <occur size="33" id="26" type="array" />
+        <occur size="33" id="27" type="array" />
+        <occur size="33" id="28" type="array" />
+        <occur size="33" id="29" type="array" />
+        <occur size="33" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="644" type="app">
+      <myArray size="20" parm="slice = '-20|5'" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+      </occurs>
+    </demo>
+    <demo size="751" type="app">
+      <myArray size="100" type="array">
+        <parms>
+          <parm type="prm" name="slice" value="-20|5" />
+          <parm type="prm" name="negative" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+          <occur size="4" id="6" type="array" />
+          <occur size="4" id="7" type="array" />
+          <occur size="4" id="8" type="array" />
+          <occur size="4" id="9" type="array" />
+          <occur size="4" id="10" type="array" />
+          <occur size="4" id="11" type="array" />
+          <occur size="4" id="12" type="array" />
+          <occur size="4" id="13" type="array" />
+          <occur size="4" id="14" type="array" />
+          <occur size="4" id="15" type="array" />
+          <occur size="4" id="16" type="array" />
+          <occur size="4" id="17" type="array" />
+          <occur size="4" id="18" type="array" />
+          <occur size="4" id="19" type="array" />
+          <occur size="4" id="20" type="array" />
+          <occur size="4" id="21" type="array" />
+          <occur size="4" id="22" type="array" />
+          <occur size="4" id="23" type="array" />
+          <occur size="4" id="24" type="array" />
+          <occur size="4" id="25" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+    <demo size="724" type="app">
+      <myArray size="100" parm="splice = '-20|5'" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+        <occur size="4" id="11" type="array" />
+        <occur size="4" id="12" type="array" />
+        <occur size="4" id="13" type="array" />
+        <occur size="4" id="14" type="array" />
+        <occur size="4" id="15" type="array" />
+        <occur size="4" id="16" type="array" />
+        <occur size="4" id="17" type="array" />
+        <occur size="4" id="18" type="array" />
+        <occur size="4" id="19" type="array" />
+        <occur size="4" id="20" type="array" />
+        <occur size="4" id="21" type="array" />
+        <occur size="4" id="22" type="array" />
+        <occur size="4" id="23" type="array" />
+        <occur size="4" id="24" type="array" />
+        <occur size="4" id="25" type="array" />
+      </occurs>
+    </demo>
+    <demo size="671" type="app">
+      <myArray size="20" type="array">
+        <parms>
+          <parm type="prm" name="splice" value="-20|5" />
+          <parm type="prm" name="negative" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+  </table>
+  <table size="4499" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="1504" type="app">
+      <myArray size="990" type="array" />
+      <occurs>
+        <occur size="33" id="1" type="array" />
+        <occur size="33" id="2" type="array" />
+        <occur size="33" id="3" type="array" />
+        <occur size="33" id="4" type="array" />
+        <occur size="33" id="5" type="array" />
+        <occur size="33" id="6" type="array" />
+        <occur size="33" id="7" type="array" />
+        <occur size="33" id="8" type="array" />
+        <occur size="33" id="9" type="array" />
+        <occur size="33" id="10" type="array" />
+        <occur size="33" id="11" type="array" />
+        <occur size="33" id="12" type="array" />
+        <occur size="33" id="13" type="array" />
+        <occur size="33" id="14" type="array" />
+        <occur size="33" id="15" type="array" />
+        <occur size="33" id="16" type="array" />
+        <occur size="33" id="17" type="array" />
+        <occur size="33" id="18" type="array" />
+        <occur size="33" id="19" type="array" />
+        <occur size="33" id="20" type="array" />
+        <occur size="33" id="21" type="array" />
+        <occur size="33" id="22" type="array" />
+        <occur size="33" id="23" type="array" />
+        <occur size="33" id="24" type="array" />
+        <occur size="33" id="25" type="array" />
+        <occur size="33" id="26" type="array" />
+        <occur size="33" id="27" type="array" />
+        <occur size="33" id="28" type="array" />
+        <occur size="33" id="29" type="array" />
+        <occur size="33" id="30" type="array" />
+      </occurs>
+    </demo>
+    <demo size="684" type="app">
+      <myArray size="60" parm="slice = '-20|-5'" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+        <occur size="4" id="11" type="array" />
+        <occur size="4" id="12" type="array" />
+        <occur size="4" id="13" type="array" />
+        <occur size="4" id="14" type="array" />
+        <occur size="4" id="15" type="array" />
+      </occurs>
+    </demo>
+    <demo size="711" type="app">
+      <myArray size="60" type="array">
+        <parms>
+          <parm type="prm" name="slice" value="-20|-5" />
+          <parm type="prm" name="negative" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+          <occur size="4" id="6" type="array" />
+          <occur size="4" id="7" type="array" />
+          <occur size="4" id="8" type="array" />
+          <occur size="4" id="9" type="array" />
+          <occur size="4" id="10" type="array" />
+          <occur size="4" id="11" type="array" />
+          <occur size="4" id="12" type="array" />
+          <occur size="4" id="13" type="array" />
+          <occur size="4" id="14" type="array" />
+          <occur size="4" id="15" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+    <demo size="684" type="app">
+      <myArray size="60" parm="splice = '-20|-5'" type="array" />
+      <occurs>
+        <occur size="4" id="1" type="array" />
+        <occur size="4" id="2" type="array" />
+        <occur size="4" id="3" type="array" />
+        <occur size="4" id="4" type="array" />
+        <occur size="4" id="5" type="array" />
+        <occur size="4" id="6" type="array" />
+        <occur size="4" id="7" type="array" />
+        <occur size="4" id="8" type="array" />
+        <occur size="4" id="9" type="array" />
+        <occur size="4" id="10" type="array" />
+        <occur size="4" id="11" type="array" />
+        <occur size="4" id="12" type="array" />
+        <occur size="4" id="13" type="array" />
+        <occur size="4" id="14" type="array" />
+        <occur size="4" id="15" type="array" />
+      </occurs>
+    </demo>
+    <demo size="711" type="app">
+      <myArray size="60" type="array">
+        <parms>
+          <parm type="prm" name="splice" value="-20|-5" />
+          <parm type="prm" name="negative" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="array" />
+          <occur size="4" id="2" type="array" />
+          <occur size="4" id="3" type="array" />
+          <occur size="4" id="4" type="array" />
+          <occur size="4" id="5" type="array" />
+          <occur size="4" id="6" type="array" />
+          <occur size="4" id="7" type="array" />
+          <occur size="4" id="8" type="array" />
+          <occur size="4" id="9" type="array" />
+          <occur size="4" id="10" type="array" />
+          <occur size="4" id="11" type="array" />
+          <occur size="4" id="12" type="array" />
+          <occur size="4" id="13" type="array" />
+          <occur size="4" id="14" type="array" />
+          <occur size="4" id="15" type="array" />
+        </occurs>
+      </myArray>
+    </demo>
+  </table>
+  <table size="199" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+  </table>
+</internal>

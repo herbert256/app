@@ -15,7 +15,7 @@
     $store = APP . "_regression/$item.txt";
 
     $list [$item] ['item']   = $item;
-    $list [$item] ['status'] = padFileGetContents ($store, 'todo' );
+    $list [$item] ['status'] = padFileGet ($store, 'todo' );
 
   }
 

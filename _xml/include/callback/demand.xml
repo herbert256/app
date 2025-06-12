@@ -1,0 +1,50 @@
+<internal size="1046">
+  <staff size="820" type="local">
+    <parms>
+      <parm type="prm" name="callback" value="demand.php" />
+      <parm type="prm" name="demand" value="1" />
+    </parms>
+    <occurs>
+      <occur size="164" id="1" type="local">
+        <switch size="6">
+          <parms>
+            <parm type="opt" name="1" value="yellow" />
+            <parm type="opt" name="2" value="pink" />
+          </parms>
+        </switch>
+      </occur>
+      <occur size="162" id="2" type="local">
+        <switch size="4">
+          <parms>
+            <parm type="opt" name="1" value="yellow" />
+            <parm type="opt" name="2" value="pink" />
+          </parms>
+        </switch>
+      </occur>
+      <occur size="165" id="3" type="local">
+        <switch size="6">
+          <parms>
+            <parm type="opt" name="1" value="yellow" />
+            <parm type="opt" name="2" value="pink" />
+          </parms>
+        </switch>
+      </occur>
+      <occur size="163" id="4" type="local">
+        <switch size="4">
+          <parms>
+            <parm type="opt" name="1" value="yellow" />
+            <parm type="opt" name="2" value="pink" />
+          </parms>
+        </switch>
+      </occur>
+      <occur size="166" id="5" type="local">
+        <switch size="6">
+          <parms>
+            <parm type="opt" name="1" value="yellow" />
+            <parm type="opt" name="2" value="pink" />
+          </parms>
+        </switch>
+      </occur>
+    </occurs>
+  </staff>
+</internal>

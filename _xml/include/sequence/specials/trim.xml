@@ -1,0 +1,204 @@
+<internal size="5062">
+  <table size="5062" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="454" type="app">
+      <sequence>
+        <parms>
+          <parm type="opt" name="1" value="25" />
+          <parm type="prm" name="name" value="mySeq" />
+        </parms>
+        <occurs>
+          <occur id="1" type="pad" />
+          <occur id="2" type="pad" />
+          <occur id="3" type="pad" />
+          <occur id="4" type="pad" />
+          <occur id="5" type="pad" />
+          <occur id="6" type="pad" />
+          <occur id="7" type="pad" />
+          <occur id="8" type="pad" />
+          <occur id="9" type="pad" />
+          <occur id="10" type="pad" />
+          <occur id="11" type="pad" />
+          <occur id="12" type="pad" />
+          <occur id="13" type="pad" />
+          <occur id="14" type="pad" />
+          <occur id="15" type="pad" />
+          <occur id="16" type="pad" />
+          <occur id="17" type="pad" />
+          <occur id="18" type="pad" />
+          <occur id="19" type="pad" />
+          <occur id="20" type="pad" />
+          <occur id="21" type="pad" />
+          <occur id="22" type="pad" />
+          <occur id="23" type="pad" />
+          <occur id="24" type="pad" />
+        </occurs>
+      </sequence>
+    </demo>
+    <demo size="720" type="app">
+      <sequence size="191" parm="mySeq" />
+      <occurs>
+        <occur size="7" id="1" type="pad" />
+        <occur size="7" id="2" type="pad" />
+        <occur size="7" id="3" type="pad" />
+        <occur size="7" id="4" type="pad" />
+        <occur size="7" id="5" type="pad" />
+        <occur size="7" id="6" type="pad" />
+        <occur size="7" id="7" type="pad" />
+        <occur size="7" id="8" type="pad" />
+        <occur size="7" id="9" type="pad" />
+        <occur size="8" id="10" type="pad" />
+        <occur size="8" id="11" type="pad" />
+        <occur size="8" id="12" type="pad" />
+        <occur size="8" id="13" type="pad" />
+        <occur size="8" id="14" type="pad" />
+        <occur size="8" id="15" type="pad" />
+        <occur size="8" id="16" type="pad" />
+        <occur size="8" id="17" type="pad" />
+        <occur size="8" id="18" type="pad" />
+        <occur size="8" id="19" type="pad" />
+        <occur size="8" id="20" type="pad" />
+        <occur size="8" id="21" type="pad" />
+        <occur size="8" id="22" type="pad" />
+        <occur size="8" id="23" type="pad" />
+        <occur size="8" id="24" type="pad" />
+        <occur size="8" id="25" type="pad" />
+      </occurs>
+    </demo>
+    <demo size="713" type="app">
+      <sequence size="116">
+        <parms>
+          <parm type="prm" name="mySeq" value="1" />
+          <parm type="prm" name="trim" value="1" />
+          <parm type="prm" name="both" value="5" />
+        </parms>
+        <occurs>
+          <occur size="7" id="1" type="pad" />
+          <occur size="7" id="2" type="pad" />
+          <occur size="7" id="3" type="pad" />
+          <occur size="7" id="4" type="pad" />
+          <occur size="8" id="5" type="pad" />
+          <occur size="8" id="6" type="pad" />
+          <occur size="8" id="7" type="pad" />
+          <occur size="8" id="8" type="pad" />
+          <occur size="8" id="9" type="pad" />
+          <occur size="8" id="10" type="pad" />
+          <occur size="8" id="11" type="pad" />
+          <occur size="8" id="12" type="pad" />
+          <occur size="8" id="13" type="pad" />
+          <occur size="8" id="14" type="pad" />
+          <occur size="8" id="15" type="pad" />
+        </occurs>
+      </sequence>
+    </demo>
+    <demo size="753" type="app">
+      <sequence size="156">
+        <parms>
+          <parm type="prm" name="mySeq" value="1" />
+          <parm type="prm" name="trim" value="1" />
+          <parm type="prm" name="left" value="5" />
+        </parms>
+        <occurs>
+          <occur size="7" id="1" type="pad" />
+          <occur size="7" id="2" type="pad" />
+          <occur size="7" id="3" type="pad" />
+          <occur size="7" id="4" type="pad" />
+          <occur size="8" id="5" type="pad" />
+          <occur size="8" id="6" type="pad" />
+          <occur size="8" id="7" type="pad" />
+          <occur size="8" id="8" type="pad" />
+          <occur size="8" id="9" type="pad" />
+          <occur size="8" id="10" type="pad" />
+          <occur size="8" id="11" type="pad" />
+          <occur size="8" id="12" type="pad" />
+          <occur size="8" id="13" type="pad" />
+          <occur size="8" id="14" type="pad" />
+          <occur size="8" id="15" type="pad" />
+          <occur size="8" id="16" type="pad" />
+          <occur size="8" id="17" type="pad" />
+          <occur size="8" id="18" type="pad" />
+          <occur size="8" id="19" type="pad" />
+          <occur size="8" id="20" type="pad" />
+        </occurs>
+      </sequence>
+    </demo>
+    <demo size="749" type="app">
+      <sequence size="151">
+        <parms>
+          <parm type="prm" name="mySeq" value="1" />
+          <parm type="prm" name="trim" value="1" />
+          <parm type="prm" name="right" value="5" />
+        </parms>
+        <occurs>
+          <occur size="7" id="1" type="pad" />
+          <occur size="7" id="2" type="pad" />
+          <occur size="7" id="3" type="pad" />
+          <occur size="7" id="4" type="pad" />
+          <occur size="7" id="5" type="pad" />
+          <occur size="7" id="6" type="pad" />
+          <occur size="7" id="7" type="pad" />
+          <occur size="7" id="8" type="pad" />
+          <occur size="7" id="9" type="pad" />
+          <occur size="8" id="10" type="pad" />
+          <occur size="8" id="11" type="pad" />
+          <occur size="8" id="12" type="pad" />
+          <occur size="8" id="13" type="pad" />
+          <occur size="8" id="14" type="pad" />
+          <occur size="8" id="15" type="pad" />
+          <occur size="8" id="16" type="pad" />
+          <occur size="8" id="17" type="pad" />
+          <occur size="8" id="18" type="pad" />
+          <occur size="8" id="19" type="pad" />
+          <occur size="8" id="20" type="pad" />
+        </occurs>
+      </sequence>
+    </demo>
+    <demo size="714" type="app">
+      <sequence size="80">
+        <parms>
+          <parm type="prm" name="mySeq" value="1" />
+          <parm type="prm" name="trim" value="1" />
+          <parm type="prm" name="left" value="10" />
+          <parm type="prm" name="right" value="5" />
+        </parms>
+        <occurs>
+          <occur size="8" id="1" type="pad" />
+          <occur size="8" id="2" type="pad" />
+          <occur size="8" id="3" type="pad" />
+          <occur size="8" id="4" type="pad" />
+          <occur size="8" id="5" type="pad" />
+          <occur size="8" id="6" type="pad" />
+          <occur size="8" id="7" type="pad" />
+          <occur size="8" id="8" type="pad" />
+          <occur size="8" id="9" type="pad" />
+          <occur size="8" id="10" type="pad" />
+        </occurs>
+      </sequence>
+    </demo>
+    <demo size="746" type="app">
+      <sequence size="78">
+        <parms>
+          <parm type="prm" name="mySeq" value="1" />
+          <parm type="prm" name="trim" value="1" />
+          <parm type="prm" name="both" value="5" />
+          <parm type="prm" name="left" value="2" />
+          <parm type="prm" name="right" value="3" />
+        </parms>
+        <occurs>
+          <occur size="7" id="1" type="pad" />
+          <occur size="7" id="2" type="pad" />
+          <occur size="8" id="3" type="pad" />
+          <occur size="8" id="4" type="pad" />
+          <occur size="8" id="5" type="pad" />
+          <occur size="8" id="6" type="pad" />
+          <occur size="8" id="7" type="pad" />
+          <occur size="8" id="8" type="pad" />
+          <occur size="8" id="9" type="pad" />
+          <occur size="8" id="10" type="pad" />
+        </occurs>
+      </sequence>
+    </demo>
+  </table>
+</internal>

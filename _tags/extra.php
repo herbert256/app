@@ -10,7 +10,7 @@
   $basePage = APP . $page;
   $baseDir  = APP . $dir;
 
-  $html = padFileGetContents ("$basePage.pad");
+  $html = padFileGet ("$basePage.pad");
 
   if ( strpos($html, '{staff')       !== FALSE ) $extraFiles ['x1'] ['php'] = '_data/staff.xml';
   if ( strpos($html, '{files')       !== FALSE ) $extraFiles ['x2'] ['php'] = '_data/files.json';

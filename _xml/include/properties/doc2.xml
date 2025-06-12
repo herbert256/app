@@ -1,0 +1,125 @@
+<internal size="7623">
+  <content parm="'myContent1'" />
+  <content parm="'myContent2'" />
+  <table size="7621" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="3813" type="app">
+      <myContent1 size="1337" type="content">
+        <staff size="1096" type="local">
+          <occurs>
+            <occur size="221" id="1" type="local">
+              <true size="213">
+                <first size="4" parm="'staff'" type="tag" />
+                <border size="3" parm="'staff'" type="tag" />
+                <middle parm="'staff'" type="tag" />
+                <last parm="'staff'" type="tag" />
+                <even parm="'staff'" type="tag" />
+                <odd size="6" parm="'staff'" type="tag" />
+              </true>
+            </occur>
+            <occur size="216" id="2" type="local">
+              <true size="208">
+                <first parm="'staff'" type="tag" />
+                <border parm="'staff'" type="tag" />
+                <middle size="3" parm="'staff'" type="tag" />
+                <last parm="'staff'" type="tag" />
+                <even size="5" parm="'staff'" type="tag" />
+                <odd parm="'staff'" type="tag" />
+              </true>
+            </occur>
+            <occur size="218" id="3" type="local">
+              <true size="210">
+                <first parm="'staff'" type="tag" />
+                <border parm="'staff'" type="tag" />
+                <middle size="3" parm="'staff'" type="tag" />
+                <last parm="'staff'" type="tag" />
+                <even parm="'staff'" type="tag" />
+                <odd size="6" parm="'staff'" type="tag" />
+              </true>
+            </occur>
+            <occur size="217" id="4" type="local">
+              <true size="209">
+                <first parm="'staff'" type="tag" />
+                <border parm="'staff'" type="tag" />
+                <middle size="3" parm="'staff'" type="tag" />
+                <last parm="'staff'" type="tag" />
+                <even size="5" parm="'staff'" type="tag" />
+                <odd parm="'staff'" type="tag" />
+              </true>
+            </occur>
+            <occur size="224" id="5" type="local">
+              <true size="216">
+                <first parm="'staff'" type="tag" />
+                <border size="3" parm="'staff'" type="tag" />
+                <middle parm="'staff'" type="tag" />
+                <last size="5" parm="'staff'" type="tag" />
+                <even parm="'staff'" type="tag" />
+                <odd size="6" parm="'staff'" type="tag" />
+              </true>
+            </occur>
+          </occurs>
+        </staff>
+      </myContent1>
+    </demo>
+    <demo size="3611" type="app">
+      <myContent1 size="1287" type="content">
+        <staff size="1046" type="local">
+          <occurs>
+            <occur size="211" id="1" type="local">
+              <true size="203">
+                <if size="4" parm="&amp;staff:first" />
+                <if size="3" parm="&amp;staff:border" />
+                <if parm="&amp;staff:middle" />
+                <if parm="&amp;staff:last" />
+                <if parm="&amp;staff:even" />
+                <if size="6" parm="&amp;staff:odd" />
+              </true>
+            </occur>
+            <occur size="206" id="2" type="local">
+              <true size="198">
+                <if parm="&amp;staff:first" />
+                <if parm="&amp;staff:border" />
+                <if size="3" parm="&amp;staff:middle" />
+                <if parm="&amp;staff:last" />
+                <if size="5" parm="&amp;staff:even" />
+                <if parm="&amp;staff:odd" />
+              </true>
+            </occur>
+            <occur size="208" id="3" type="local">
+              <true size="200">
+                <if parm="&amp;staff:first" />
+                <if parm="&amp;staff:border" />
+                <if size="3" parm="&amp;staff:middle" />
+                <if parm="&amp;staff:last" />
+                <if parm="&amp;staff:even" />
+                <if size="6" parm="&amp;staff:odd" />
+              </true>
+            </occur>
+            <occur size="207" id="4" type="local">
+              <true size="199">
+                <if parm="&amp;staff:first" />
+                <if parm="&amp;staff:border" />
+                <if size="3" parm="&amp;staff:middle" />
+                <if parm="&amp;staff:last" />
+                <if size="5" parm="&amp;staff:even" />
+                <if parm="&amp;staff:odd" />
+              </true>
+            </occur>
+            <occur size="214" id="5" type="local">
+              <true size="206">
+                <if parm="&amp;staff:first" />
+                <if size="3" parm="&amp;staff:border" />
+                <if parm="&amp;staff:middle" />
+                <if size="5" parm="&amp;staff:last" />
+                <if parm="&amp;staff:even" />
+                <if size="6" parm="&amp;staff:odd" />
+              </true>
+            </occur>
+          </occurs>
+        </staff>
+      </myContent1>
+    </demo>
+  </table>
+</internal>

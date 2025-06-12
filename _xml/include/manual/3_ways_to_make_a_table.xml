@@ -1,0 +1,76 @@
+<internal size="9947">
+  <block size="466" type="content">
+    <at size="34" parm="'start'" type="app" />
+    <at size="32" parm="'end'" type="app" />
+    <at size="33" parm="'else'" type="app" />
+    <tag size="25" parm="'first'" type="app" />
+    <tag size="24" parm="'last'" type="app" />
+    <manual size="44" parm="'properties'" type="app" />
+  </block>
+  <table size="4979" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="509" type="app">
+      <data parm="'myArray'" />
+    </demo>
+    <demo size="1382" type="app">
+      <myArray size="305" type="data" />
+      <occurs>
+        <occur size="81" id="1" type="data" />
+        <occur size="53" id="2" type="data" />
+        <occur size="53" id="3" type="data" />
+        <occur size="53" id="4" type="data" />
+        <occur size="65" id="5" type="data" />
+      </occurs>
+    </demo>
+    <demo size="1510" type="app">
+      <myArray size="323" type="data">
+        <occurs>
+          <occur size="139" id="1" type="data">
+            <first size="82" type="tag" />
+            <last type="tag" />
+          </occur>
+          <occur size="57" id="2" type="data">
+            <first type="tag" />
+            <last type="tag" />
+          </occur>
+          <occur size="127" id="3" type="data">
+            <first type="tag" />
+            <last size="70" type="tag" />
+          </occur>
+        </occurs>
+      </myArray>
+    </demo>
+    <demo size="1377" type="app">
+      <count size="291" parm="'myArray'">
+        <myArray size="147" type="data" />
+        <occurs>
+          <occur size="49" id="1" type="data" />
+          <occur size="49" id="2" type="data" />
+          <occur size="49" id="3" type="data" />
+        </occurs>
+      </count>
+    </demo>
+  </table>
+  <block size="315" type="content">
+    <at size="33" parm="'else'" type="app" />
+  </block>
+  <table size="4167" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="503" type="app">
+      <data parm="'myArray'" />
+    </demo>
+    <demo size="1112" type="app">
+      <myArray size="35" type="data" />
+    </demo>
+    <demo size="1230" type="app">
+      <myArray size="35" type="data" />
+    </demo>
+    <demo size="1121" type="app">
+      <count size="35" parm="'myArray'" />
+    </demo>
+  </table>
+</internal>

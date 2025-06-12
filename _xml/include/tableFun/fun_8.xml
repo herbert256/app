@@ -1,0 +1,122 @@
+<internal size="936">
+  <content parm="'cell'" />
+  <set parm="$row = 10" />
+  <while size="903" parm="$row LE 30">
+    <occurs>
+      <occur size="296" id="1" type="pad">
+        <set parm="$col = 1" />
+        <while size="255" parm="$col LE 5">
+          <occurs>
+            <occur size="51" id="1" type="pad">
+              <cell size="26" parm="$row + $col" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+              <increment parm="$col" />
+            </occur>
+            <occur size="51" id="2" type="pad">
+              <cell size="26" parm="$row + $col" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+              <increment parm="$col" />
+            </occur>
+            <occur size="51" id="3" type="pad">
+              <cell size="26" parm="$row + $col" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+              <increment parm="$col" />
+            </occur>
+            <occur size="51" id="4" type="pad">
+              <cell size="26" parm="$row + $col" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+              <increment parm="$col" />
+            </occur>
+            <occur size="51" id="5" type="pad">
+              <cell size="26" parm="$row + $col" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+              <increment parm="$col" />
+            </occur>
+          </occurs>
+        </while>
+        <set parm="$row = $row + 10" />
+      </occur>
+      <occur size="311" id="2" type="pad">
+        <set parm="$col = 1" />
+        <while size="270" parm="$col LE 5">
+          <occurs>
+            <occur size="51" id="1" type="pad">
+              <cell size="26" parm="$row + $col" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+              <increment parm="$col" />
+            </occur>
+            <occur size="51" id="2" type="pad">
+              <cell size="26" parm="$row + $col" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+              <increment parm="$col" />
+            </occur>
+            <occur size="66" id="3" type="pad">
+              <cell size="41" parm="$row + $col" type="content">
+                <if size="15" parm="$cell EQ 23" />
+              </cell>
+              <increment parm="$col" />
+            </occur>
+            <occur size="51" id="4" type="pad">
+              <cell size="26" parm="$row + $col" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+              <increment parm="$col" />
+            </occur>
+            <occur size="51" id="5" type="pad">
+              <cell size="26" parm="$row + $col" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+              <increment parm="$col" />
+            </occur>
+          </occurs>
+        </while>
+        <set parm="$row = $row + 10" />
+      </occur>
+      <occur size="296" id="3" type="pad">
+        <set parm="$col = 1" />
+        <while size="255" parm="$col LE 5">
+          <occurs>
+            <occur size="51" id="1" type="pad">
+              <cell size="26" parm="$row + $col" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+              <increment parm="$col" />
+            </occur>
+            <occur size="51" id="2" type="pad">
+              <cell size="26" parm="$row + $col" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+              <increment parm="$col" />
+            </occur>
+            <occur size="51" id="3" type="pad">
+              <cell size="26" parm="$row + $col" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+              <increment parm="$col" />
+            </occur>
+            <occur size="51" id="4" type="pad">
+              <cell size="26" parm="$row + $col" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+              <increment parm="$col" />
+            </occur>
+            <occur size="51" id="5" type="pad">
+              <cell size="26" parm="$row + $col" type="content">
+                <if parm="$cell EQ 23" />
+              </cell>
+              <increment parm="$col" />
+            </occur>
+          </occurs>
+        </while>
+        <set parm="$row = $row + 10" />
+      </occur>
+    </occurs>
+  </while>
+</internal>

@@ -1,0 +1,37 @@
+<internal size="82">
+  <set parm="$abc = 1" />
+  <while size="81" parm="$abc LE 10">
+    <occurs>
+      <occur size="8" id="1" type="pad">
+        <set parm="$abc = $abc + 1" />
+      </occur>
+      <occur size="8" id="2" type="pad">
+        <set parm="$abc = $abc + 1" />
+      </occur>
+      <occur size="8" id="3" type="pad">
+        <set parm="$abc = $abc + 1" />
+      </occur>
+      <occur size="8" id="4" type="pad">
+        <set parm="$abc = $abc + 1" />
+      </occur>
+      <occur size="8" id="5" type="pad">
+        <set parm="$abc = $abc + 1" />
+      </occur>
+      <occur size="8" id="6" type="pad">
+        <set parm="$abc = $abc + 1" />
+      </occur>
+      <occur size="8" id="7" type="pad">
+        <set parm="$abc = $abc + 1" />
+      </occur>
+      <occur size="8" id="8" type="pad">
+        <set parm="$abc = $abc + 1" />
+      </occur>
+      <occur size="8" id="9" type="pad">
+        <set parm="$abc = $abc + 1" />
+      </occur>
+      <occur size="9" id="10" type="pad">
+        <set parm="$abc = $abc + 1" />
+      </occur>
+    </occurs>
+  </while>
+</internal>

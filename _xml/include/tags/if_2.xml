@@ -1,0 +1,5 @@
+<internal size="56">
+  <if size="45" parm="$fruit eq 'banana'">
+    <if size="37" parm="$color eq 'green'" />
+  </if>
+</internal>

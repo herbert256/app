@@ -1,0 +1,107 @@
+<internal size="2812">
+  <table size="2780" type="app">
+    <if parm="#firstFile" />
+    <if parm="#secondFile" />
+    <if parm="#withPHP" />
+    <demo size="855" type="app">
+      <random size="100" type="sequence">
+        <parms>
+          <parm type="prm" name="rows" value="25" />
+          <parm type="prm" name="minimal" value="10" />
+          <parm type="prm" name="maximal" value="50" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="sequence" />
+          <occur size="4" id="2" type="sequence" />
+          <occur size="4" id="3" type="sequence" />
+          <occur size="4" id="4" type="sequence" />
+          <occur size="4" id="5" type="sequence" />
+          <occur size="4" id="6" type="sequence" />
+          <occur size="4" id="7" type="sequence" />
+          <occur size="4" id="8" type="sequence" />
+          <occur size="4" id="9" type="sequence" />
+          <occur size="4" id="10" type="sequence" />
+          <occur size="4" id="11" type="sequence" />
+          <occur size="4" id="12" type="sequence" />
+          <occur size="4" id="13" type="sequence" />
+          <occur size="4" id="14" type="sequence" />
+          <occur size="4" id="15" type="sequence" />
+          <occur size="4" id="16" type="sequence" />
+          <occur size="4" id="17" type="sequence" />
+          <occur size="4" id="18" type="sequence" />
+          <occur size="4" id="19" type="sequence" />
+          <occur size="4" id="20" type="sequence" />
+          <occur size="4" id="21" type="sequence" />
+          <occur size="4" id="22" type="sequence" />
+          <occur size="4" id="23" type="sequence" />
+          <occur size="4" id="24" type="sequence" />
+          <occur size="4" id="25" type="sequence" />
+        </occurs>
+      </random>
+    </demo>
+    <demo size="882" type="app">
+      <random size="100" type="sequence">
+        <parms>
+          <parm type="prm" name="rows" value="25" />
+          <parm type="prm" name="minimal" value="10" />
+          <parm type="prm" name="maximal" value="50" />
+          <parm type="prm" name="unique" value="1" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="sequence" />
+          <occur size="4" id="2" type="sequence" />
+          <occur size="4" id="3" type="sequence" />
+          <occur size="4" id="4" type="sequence" />
+          <occur size="4" id="5" type="sequence" />
+          <occur size="4" id="6" type="sequence" />
+          <occur size="4" id="7" type="sequence" />
+          <occur size="4" id="8" type="sequence" />
+          <occur size="4" id="9" type="sequence" />
+          <occur size="4" id="10" type="sequence" />
+          <occur size="4" id="11" type="sequence" />
+          <occur size="4" id="12" type="sequence" />
+          <occur size="4" id="13" type="sequence" />
+          <occur size="4" id="14" type="sequence" />
+          <occur size="4" id="15" type="sequence" />
+          <occur size="4" id="16" type="sequence" />
+          <occur size="4" id="17" type="sequence" />
+          <occur size="4" id="18" type="sequence" />
+          <occur size="4" id="19" type="sequence" />
+          <occur size="4" id="20" type="sequence" />
+          <occur size="4" id="21" type="sequence" />
+          <occur size="4" id="22" type="sequence" />
+          <occur size="4" id="23" type="sequence" />
+          <occur size="4" id="24" type="sequence" />
+          <occur size="4" id="25" type="sequence" />
+        </occurs>
+      </random>
+    </demo>
+    <demo size="842" type="app">
+      <random size="60" type="sequence">
+        <parms>
+          <parm type="prm" name="rows" value="15" />
+          <parm type="prm" name="minimal" value="10" />
+          <parm type="prm" name="maximal" value="50" />
+          <parm type="prm" name="increment" value="5" />
+        </parms>
+        <occurs>
+          <occur size="4" id="1" type="sequence" />
+          <occur size="4" id="2" type="sequence" />
+          <occur size="4" id="3" type="sequence" />
+          <occur size="4" id="4" type="sequence" />
+          <occur size="4" id="5" type="sequence" />
+          <occur size="4" id="6" type="sequence" />
+          <occur size="4" id="7" type="sequence" />
+          <occur size="4" id="8" type="sequence" />
+          <occur size="4" id="9" type="sequence" />
+          <occur size="4" id="10" type="sequence" />
+          <occur size="4" id="11" type="sequence" />
+          <occur size="4" id="12" type="sequence" />
+          <occur size="4" id="13" type="sequence" />
+          <occur size="4" id="14" type="sequence" />
+          <occur size="4" id="15" type="sequence" />
+        </occurs>
+      </random>
+    </demo>
+  </table>
+</internal>

@@ -1,0 +1,10 @@
+<internal size="127">
+  <padBuild size="127" parm="for=&quot;php_and_html/z12&quot;" type="array" />
+  <occurs>
+    <occur size="24" id="1" type="array" />
+    <occur size="26" id="2" type="array" />
+    <occur size="26" id="3" type="array" />
+    <occur size="26" id="4" type="array" />
+    <occur size="25" id="5" type="array" />
+  </occurs>
+</internal>

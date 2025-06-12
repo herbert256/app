@@ -4,9 +4,9 @@
   function padColorsFile ( $file ) {
 
     if (substr($file, -4) == '.pad')
-      return padColorsString    ( padFileGetContents ($file) ) ;
+      return padColorsString    ( padFileGet ($file) ) ;
     else
-      return padColorsHighLight ( padFileGetContents ($file) ) ;
+      return padColorsHighLight ( padFileGet ($file) ) ;
   
   }  
 
