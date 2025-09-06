@@ -1,8 +1,0 @@
-<internal size="69">
-  <functionArray size="69" parm="name='line'" type="php" />
-  <occurs>
-    <occur size="23" id="1" type="php" />
-    <occur size="23" id="2" type="php" />
-    <occur size="23" id="3" type="php" />
-  </occurs>
-</internal>

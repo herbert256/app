@@ -10,7 +10,7 @@
 
     if ( ! str_starts_with ( $padPage, 'index') and 
          ! str_starts_with ( $padPage, 'manual/') and 
-         ! str_starts_with ( $padPage, 'xapp/') and 
+         ! str_starts_with ( $padPage, 'Xref/') and 
          ! str_starts_with ( $padPage, 'develop/') ) {
 
       $parts ['dev'] ['part'] = $padPage;
@@ -39,7 +39,7 @@
 
     }
 
-    if ( $padPage == 'xapp/xref' or $padPage == 'xapp/go' ) {
+    if ( $padPage == 'Xref/xref' or $padPage == 'Xref/go' ) {
 
       $parts ['f'] ['part'] = strtolower ( $GLOBALS ['for'] );
       $parts ['f'] ['link'] = '';
@@ -84,7 +84,7 @@
 
   function forLink () {
 
-    return 'xapp/xref'
+    return 'Xref/xref'
     . '&first='  . ($GLOBALS ['first'] )
     . '&for='    . urlencode(($GLOBALS ['for'] ))
     . '&xitem='  . ($GLOBALS ['xitem'] );

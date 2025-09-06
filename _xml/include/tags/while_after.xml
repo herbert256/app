@@ -1,6 +1,0 @@
-<internal size="10">
-  <set parm="$abc = 11" />
-  <while size="9" parm="$abc LE 10">
-    <set parm="$abc = $abc + 1" />
-  </while>
-</internal>

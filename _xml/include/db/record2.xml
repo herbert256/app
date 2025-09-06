@@ -1,4 +1,0 @@
-<internal size="156">
-  <record size="64" parm="&quot;* from staff where name = 'jim'&quot;" />
-  <record size="34" parm="&quot;* from staff where name = 'john'&quot;" />
-</internal>

@@ -1,30 +1,34 @@
 <?php
 
-  $padCurlStats = [];
-  $list         = [];
+  $padCurlStats = TRUE;
+
+  $list = [];
 
   if ( ! $padInfo      ) return TRUE;
   if ( ! $padInfoStats ) return TRUE; 
 
   $title = "Benchmark";
 
-  foreach ( padList ( 0 ) as $one ) {
+  foreach ( padList () as $one ) {
 
     $item = $one ['item'];
 
     $store = APP . "_regression/$item.txt";
-    $status = padFileGet ($store);
+    $bm    = APP . "_benchmark/$item.json";
 
+    $status = padFileGet ( $store );
     if ( $status <> 'ok' )
       continue;
 
     $curl = getPage ( $one ['item'], 1, 1 );
 
     if ( ! str_starts_with ( $curl ['result'], '2') ) continue;
-    if ( ! isset ( $padCurlStats ['curl'] )         ) continue;
+    if ( ! isset           ( $curl ['stats'] )      ) continue;
 
-    $list [$item] = $padCurlStats;
+    $list [$item] = $curl ['stats'];
     $list [$item] ['item'] = $item;
+
+    padFilePut ( $bm, $curl ['stats']  );
 
   }
 

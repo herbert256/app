@@ -1,6 +1,0 @@
-<internal size="34">
-  <set parm="$abc = 123" />
-  <pad size="22" parm="$abc = 456">
-    <set parm="$abc = 789" />
-  </pad>
-</internal>

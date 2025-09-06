@@ -1,4 +1,0 @@
-<internal size="111">
-  <check size="25" parm="&quot;staff where name = 'jim'&quot;" />
-  <check size="34" parm="&quot;staff where name = 'john'&quot;" />
-</internal>
