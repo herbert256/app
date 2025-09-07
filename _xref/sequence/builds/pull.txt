@@ -134,3 +134,5 @@ sequence/specials/shift
 sequence/specials/slice_splice
 sequence/specials/trim
 xref/pages
+sequence/manual/index
+sequence/manual/examples

@@ -107,3 +107,6 @@ sequence/specials/reduce
 sequence/specials/trim
 sequence/type/loop
 xref/pages
+sequence/manual/sequences
+sequence/manual/generate
+sequence/manual/index

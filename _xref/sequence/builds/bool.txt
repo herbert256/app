@@ -39,3 +39,5 @@ sequence/type/pronic
 sequence/type/semiprime
 sequence/type/strong
 sequence/type/triangular
+sequence/manual/sequences
+sequence/manual/generate

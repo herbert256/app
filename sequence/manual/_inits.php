@@ -18,9 +18,6 @@
   $nows ['regression'] ['text'] = 'Regression';
   $nows ['regression'] ['now']  = 'regression';
 
-  $nows ['generate'] ['text'] = 'Generate';
-  $nows ['generate'] ['now']  = 'generate';
-
   if ( ! isset ( $go ) or ! $go )
     $go = 'index';
 

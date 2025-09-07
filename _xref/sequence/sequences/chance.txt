@@ -3,3 +3,5 @@ sequence/keepRemoveFlag/chance
 sequence/play/single/chance
 sequence/random/randomly
 sequence/type/chance
+sequence/manual/sequences
+sequence/manual/generate
